@@ -1,0 +1,2 @@
+probe retry HTTPSConnectionPool(host='asc-pds-services.s3.us-west-2.amazonaws.com', port=443): Max retries exceeded with url: /mosaic/Charon_NewHorizons_Global_Mosaic_300m_Jul2017_8bit.tif (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
+901 probe Charon_NewHorizons_Global_Mosaic_300m_Jul2017_8bit.tif True 80613890

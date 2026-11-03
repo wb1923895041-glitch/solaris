@@ -1,0 +1,78 @@
+{
+  "bodyId": "799",
+  "name": "Uranus",
+  "version": "2.0.0-uranus",
+  "kind": "uranus-methane-haze-reconstruction",
+  "photometry": "gas",
+  "minnaert": 0.94,
+  "albedo": {
+    "provider": "Voyager 2 / Irwin et al. / University of Oxford",
+    "title": "2024 true-color recalibration of Voyager 2 uranus",
+    "sourceUrl": "https://ras.ac.uk/media/1488",
+    "observationEpoch": "Voyager 2: 1986 Uranus / 1989 Neptune; reprocessed 2024",
+    "credit": "Patrick Irwin / University of Oxford / NASA; Irwin et al. MNRAS 527, 11521 (2024)",
+    "rights": "CC BY 4.0 per Royal Astronomical Society media item; source credit retained",
+    "processing": "Lower scientifically reprocessed disk only; orthographic inverse, radial color/limb removal, mirrored unknown hemisphere; observed residual contrast reduced. Native disk ~580px, not 4K measured detail.",
+    "primeMeridianOrOrientationNotes": "Absolute longitude not certified; IAU pole and rotation from NAIF PCK",
+    "rawFile": "data/phase-2/raw/ice-true.jpg",
+    "sha256": "2f7d106d547adde83f356a3bd5f97053cd314a199fd6fb2c7d8d9c470df55ec7",
+    "nativeSize": [
+      2334,
+      1640
+    ],
+    "sourceDisk": [
+      1115,
+      1200,
+      290
+    ],
+    "researchUrl": "https://academic.oup.com/mnras/article/527/4/11521/7511973",
+    "acquisitionDate": "2026-10-28T19:08:23.009993+00:00",
+    "projection": "equirectangular",
+    "longitudeConvention": "east-positive after processing",
+    "licenseNotes": "https://creativecommons.org/licenses/by/4.0/",
+    "processingCategory": "reconstruction"
+  },
+  "lods": [
+    {
+      "width": 1024,
+      "height": 512,
+      "url": "/assets/celestial/uranus/albedo-1024.jpg",
+      "sha256": "f2fb83e49960f418a0763be55a7dcda9ade610d52e54be296033f478200fc569"
+    },
+    {
+      "width": 2048,
+      "height": 1024,
+      "url": "/assets/celestial/uranus/albedo-2048.jpg",
+      "sha256": "8c2aa9b843a5631f65c43aa8ddffb2b38c240970ed80a63fb5f1124fac4be3cc"
+    },
+    {
+      "width": 4096,
+      "height": 2048,
+      "url": "/assets/celestial/uranus/albedo-4096.jpg",
+      "sha256": "3ae4990725ebbe1a0525dac73b9e58a61194b83d259de629cf2c058d1544f18a"
+    }
+  ],
+  "atmosphere": {
+    "radius": 1.003,
+    "tint": "#92c3cc",
+    "strength": 0.22
+  },
+  "axisVerified": true,
+  "hasVerifiedOrientation": false,
+  "visualEnhancements": [
+    "VISUAL_ENHANCEMENT: approximate Minnaert limb photometry; analytic methane-haze edge",
+    "RECONSTRUCTED: apparent disk structures mapped with unknown absolute longitude; not a cartographic observation"
+  ],
+  "limitations": [
+    "Native published disk is about 580px; 4K derivatives add no observed resolution",
+    "Disk sub-observer registration is unavailable; cloud feature latitude/longitude NOT certified",
+    "RECONSTRUCTED mirrored unknown hemisphere; historical weather only, no permanent invented dark spot",
+    "No new winds, current weather, rings or satellites; near-natural color intentionally pale cyan",
+    "Uranus IAU north-pole axis and retrograde rotation distinct from 98-degree angular-momentum obliquity"
+  ],
+  "description": "\u4f4e\u5bf9\u6bd4\u9752\u7eff\u8272\u7532\u70f7\u5927\u6c14\u91cd\u5efa\uff0cIAU \u81ea\u8f6c\u8f74\u8868\u8fbe\u4fa7\u8eba\u59ff\u6001\u3002\u4fdd\u6301\u89c2\u6d4b\u652f\u6301\u7684\u514b\u5236\u7ec6\u8282\u3002",
+  "referenceLinks": [
+    "https://ras.ac.uk/media/1488",
+    "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+  ]
+}

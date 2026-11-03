@@ -1,0 +1,10 @@
+PASS Archived NASA NSSDCA pages match their SHA-256 
+PASS Every band is a row of the archived table (name and radius text present in the page) 
+PASS All bands lie outside the planet and inside the innermost key moon orbit {"599":5,"799":12,"899":5}
+PASS Adams arcs are not placed (no longitudes in the source) and assumptions are flagged {"flagged":["Halo","Amalthea Ring","Thebe Ring","Thebe Extension","R/2003 U 2","R/2003 U 1","Lassell (1989N4R*)","Arago (1989N4R*)"]}
+PASS Uranus ε ring: τ range 0.5–2.3 → midpoint, width 20–96 km → midpoint, albedo 0.018 
+PASS Physical display (enhancement off): Jupiter rings ≲1e-6 opacity, Uranus ε clearly visible, Neptune Adams faint {"jupiterMain":1.5000000000000002e-7,"uranusEpsilon":0.0504,"neptuneAdams":0.00165}
+PASS Enhanced display keeps every system faint (brightest band opacity 0.12) and reports one gain per planet {"599":1599999.9999999998,"799":4.761904761904762,"899":145.45454545454544}
+7 ring checks passed
+(node:35008) ExperimentalWarning: Transform Types is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)

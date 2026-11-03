@@ -1,0 +1,56 @@
+{
+  "checks": 7,
+  "results": [
+    {
+      "name": "Archived NASA NSSDCA pages match their SHA-256",
+      "detail": null
+    },
+    {
+      "name": "Every band is a row of the archived table (name and radius text present in the page)",
+      "detail": null
+    },
+    {
+      "name": "All bands lie outside the planet and inside the innermost key moon orbit",
+      "detail": {
+        "599": 5,
+        "799": 12,
+        "899": 5
+      }
+    },
+    {
+      "name": "Adams arcs are not placed (no longitudes in the source) and assumptions are flagged",
+      "detail": {
+        "flagged": [
+          "Halo",
+          "Amalthea Ring",
+          "Thebe Ring",
+          "Thebe Extension",
+          "R/2003 U 2",
+          "R/2003 U 1",
+          "Lassell (1989N4R*)",
+          "Arago (1989N4R*)"
+        ]
+      }
+    },
+    {
+      "name": "Uranus ε ring: τ range 0.5–2.3 → midpoint, width 20–96 km → midpoint, albedo 0.018",
+      "detail": null
+    },
+    {
+      "name": "Physical display (enhancement off): Jupiter rings ≲1e-6 opacity, Uranus ε clearly visible, Neptune Adams faint",
+      "detail": {
+        "jupiterMain": 1.5000000000000002e-7,
+        "uranusEpsilon": 0.0504,
+        "neptuneAdams": 0.00165
+      }
+    },
+    {
+      "name": "Enhanced display keeps every system faint (brightest band opacity 0.12) and reports one gain per planet",
+      "detail": {
+        "599": 1599999.9999999998,
+        "799": 4.761904761904762,
+        "899": 145.45454545454544
+      }
+    }
+  ]
+}

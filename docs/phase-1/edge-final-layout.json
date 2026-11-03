@@ -1,0 +1,41 @@
+{
+  "prefix": "edge",
+  "layouts": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "noPageOverflow": true,
+      "noCatalogNoteOverlap": true,
+      "focusButtonFullyVisible": true
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "noPageOverflow": true,
+      "noCatalogNoteOverlap": true,
+      "focusButtonFullyVisible": true
+    },
+    {
+      "width": 3840,
+      "height": 2160,
+      "noPageOverflow": true,
+      "noCatalogNoteOverlap": true,
+      "focusButtonFullyVisible": true
+    }
+  ],
+  "resourceUrls": [
+    "http://127.0.0.1:4173/assets/index-BB9YMYFa.js",
+    "http://127.0.0.1:4173/assets/index-pv2tK_Xj.css",
+    "http://127.0.0.1:4173/data/10.f64",
+    "http://127.0.0.1:4173/data/199.f64",
+    "http://127.0.0.1:4173/data/299.f64",
+    "http://127.0.0.1:4173/data/399.f64",
+    "http://127.0.0.1:4173/data/499.f64",
+    "http://127.0.0.1:4173/data/599.f64",
+    "http://127.0.0.1:4173/data/699.f64",
+    "http://127.0.0.1:4173/data/799.f64",
+    "http://127.0.0.1:4173/data/899.f64",
+    "http://127.0.0.1:4173/assets/earth-blue-marble.png",
+    "http://127.0.0.1:4173/assets/earth-blue-marble.png"
+  ]
+}

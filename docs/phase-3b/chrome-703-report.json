@@ -1,0 +1,687 @@
+{
+  "browser": "156.0.8078.79",
+  "viewport": {
+    "width": 2560,
+    "height": 1440
+  },
+  "checks": [
+    "Asset loaded with no fallback",
+    "Solar-only illumination and non-emissive material",
+    "Same original TDB instant",
+    "Body orientation is a unit quaternion",
+    "Satellite absolute position available",
+    "Light points to Sun from the actual satellite centre",
+    "standard camera rendered without error",
+    "side camera rendered without error",
+    "detail camera rendered without error",
+    "parent camera rendered without error",
+    "Actual mouse drag rotates inspection camera",
+    "Camera does not alter physical orientation",
+    "Optional fill is explicit and reversible",
+    "Close restores unchanged main scene and camera",
+    "No browser console/runtime errors"
+  ],
+  "errors": [],
+  "captures": [
+    {
+      "view": "standard",
+      "file": "output/playwright/phase-3b/chrome-703-standard-2560.png",
+      "snapshot": {
+        "id": "703",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "standard",
+        "bodyToIcrfQuaternion": [
+          0.7177553613528271,
+          0.33653409998726397,
+          -0.37423385946441007,
+          0.48116635296475924
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.008394582481801693,
+          -0.12818940059520856,
+          -0.48669668131075927,
+          0.864073694172604
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          -0.45432524596299867,
+          0.0024582714199245666,
+          0.8908324914271407
+        ],
+        "camera": [
+          -2.3170588455874706,
+          0.012537184734952687,
+          4.54324588505497
+        ],
+        "modelRadius": 1.0000000393499633,
+        "cameraFov": 38,
+        "viewport": {
+          "width": 1507,
+          "height": 982
+        },
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "703",
+          "displayNameZh": "天卫三",
+          "displayNameEn": "Titania",
+          "parentPlanetId": "799",
+          "version": "3b-703-mosaic-v1",
+          "kind": "voyager-partial",
+          "shapeType": "pck-ellipsoid",
+          "meanRadiusKm": 788.9,
+          "meshFrame": "sphere-y-up",
+          "geometry": {
+            "axesKm": [
+              788.9,
+              788.9,
+              788.9
+            ],
+            "source": "NAIF pck00011.tpc BODY703_RADII; retained physical catalog radius"
+          },
+          "geometrySource": {
+            "provider": "NASA/NAIF",
+            "title": "IAU generic PCK triaxial radii",
+            "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+          },
+          "albedo": {
+            "title": "Titania Voyager 2 grayscale mosaic",
+            "provider": "NASA Voyager 2 / Caltech-JPL-USGS",
+            "uri": "https://space.jpl.nasa.gov/tmaps/uranus.html",
+            "downloadUrl": "https://space.jpl.nasa.gov/tmaps/pix/ura3vuu2.tif",
+            "rawPath": "data/phase-3b/raw/uranus-moon-3.tif",
+            "rawSha256": "7a99a4a12ecbf765ed3dc55d07fe62b795236d2a01bbd1171b4143cc9f8f922a",
+            "observationEpoch": "Voyager 2 January 1986",
+            "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+            "colorProcessing": "保留 Voyager 灰度；未测区使用独立蓝灰标识，不填充虚构坑纹。",
+            "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+            "processingCategory": "OBSERVED_MONOCHROME",
+            "nativeDimensions": [
+              1440,
+              720
+            ]
+          },
+          "lods": [
+            {
+              "width": 1024,
+              "height": 512,
+              "url": "/assets/moons/703/albedo-1024.jpg",
+              "sha256": "d5e8c49ca10bcb46042a2fbf9550f390fe7843de6225a99b0f6fcc4628ebb672"
+            },
+            {
+              "width": 1440,
+              "height": 720,
+              "url": "/assets/moons/703/albedo-1440.jpg",
+              "sha256": "b08dc87caca92b01f2434b84bf89d14b10607ac54af715196ab10db5d27507ae"
+            }
+          ],
+          "coverage": {
+            "file": "/assets/moons/703/coverage.png",
+            "sha256": "585ed1a4f4748af52b5d4dc6e3259c6caf237a5a859f3c9e20902d4ae4ac6855",
+            "missingSurfaceFraction": 0.6816788587419973,
+            "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+          },
+          "georeferencing": {
+            "method": "audited equirectangular image grid",
+            "centralLongitudeEast": 0,
+            "sourceMetadataPage": "jpl-uranus.html",
+            "longitudeConvention": "east positive; zero centred on derived map",
+            "verification": "IAU Miranda coronae and Umbriel Wunda landmark comparison"
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+          "reconstructionNotes": "源图仅 1440×720，主要覆盖南半球；不放大文件冒充高分辨率。已保留原图缺测掩膜。 蓝灰色区域为未测，未加入虚构地貌。",
+          "visualEnhancements": [
+            "未测区蓝灰色分类标识",
+            "固定观察曝光；可选补光默认关闭"
+          ],
+          "limitations": [
+            "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+            "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+            "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标",
+            "仅 1440 像素源地图；近景细节受原始 Voyager 覆盖限制，北部未测"
+          ],
+          "verifiedAt": "2026-11-01T08:36:28.283934+00:00"
+        },
+        "loadedWidth": 1440,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 2,
+            "textures": 5
+          },
+          "drawCalls": 1,
+          "triangles": 48768
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 5,
+          "geometryCount": 2,
+          "textureCount": 5
+        }
+      }
+    },
+    {
+      "view": "side",
+      "file": "output/playwright/phase-3b/chrome-703-side-2560.png",
+      "snapshot": {
+        "id": "703",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "side",
+        "bodyToIcrfQuaternion": [
+          0.7177553613528271,
+          0.33653409998726397,
+          -0.37423385946441007,
+          0.48116635296475924
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.008394582481801693,
+          -0.12818940059520856,
+          -0.48669668131075927,
+          0.864073694172604
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          -0.45432524596299867,
+          0.0024582714199245666,
+          0.8908324914271407
+        ],
+        "camera": [
+          2.846260198317135,
+          0.0060885951434107985,
+          4.231875217852012
+        ],
+        "modelRadius": 1.0000000393499633,
+        "cameraFov": 38,
+        "viewport": {
+          "width": 1507,
+          "height": 982
+        },
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "703",
+          "displayNameZh": "天卫三",
+          "displayNameEn": "Titania",
+          "parentPlanetId": "799",
+          "version": "3b-703-mosaic-v1",
+          "kind": "voyager-partial",
+          "shapeType": "pck-ellipsoid",
+          "meanRadiusKm": 788.9,
+          "meshFrame": "sphere-y-up",
+          "geometry": {
+            "axesKm": [
+              788.9,
+              788.9,
+              788.9
+            ],
+            "source": "NAIF pck00011.tpc BODY703_RADII; retained physical catalog radius"
+          },
+          "geometrySource": {
+            "provider": "NASA/NAIF",
+            "title": "IAU generic PCK triaxial radii",
+            "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+          },
+          "albedo": {
+            "title": "Titania Voyager 2 grayscale mosaic",
+            "provider": "NASA Voyager 2 / Caltech-JPL-USGS",
+            "uri": "https://space.jpl.nasa.gov/tmaps/uranus.html",
+            "downloadUrl": "https://space.jpl.nasa.gov/tmaps/pix/ura3vuu2.tif",
+            "rawPath": "data/phase-3b/raw/uranus-moon-3.tif",
+            "rawSha256": "7a99a4a12ecbf765ed3dc55d07fe62b795236d2a01bbd1171b4143cc9f8f922a",
+            "observationEpoch": "Voyager 2 January 1986",
+            "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+            "colorProcessing": "保留 Voyager 灰度；未测区使用独立蓝灰标识，不填充虚构坑纹。",
+            "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+            "processingCategory": "OBSERVED_MONOCHROME",
+            "nativeDimensions": [
+              1440,
+              720
+            ]
+          },
+          "lods": [
+            {
+              "width": 1024,
+              "height": 512,
+              "url": "/assets/moons/703/albedo-1024.jpg",
+              "sha256": "d5e8c49ca10bcb46042a2fbf9550f390fe7843de6225a99b0f6fcc4628ebb672"
+            },
+            {
+              "width": 1440,
+              "height": 720,
+              "url": "/assets/moons/703/albedo-1440.jpg",
+              "sha256": "b08dc87caca92b01f2434b84bf89d14b10607ac54af715196ab10db5d27507ae"
+            }
+          ],
+          "coverage": {
+            "file": "/assets/moons/703/coverage.png",
+            "sha256": "585ed1a4f4748af52b5d4dc6e3259c6caf237a5a859f3c9e20902d4ae4ac6855",
+            "missingSurfaceFraction": 0.6816788587419973,
+            "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+          },
+          "georeferencing": {
+            "method": "audited equirectangular image grid",
+            "centralLongitudeEast": 0,
+            "sourceMetadataPage": "jpl-uranus.html",
+            "longitudeConvention": "east positive; zero centred on derived map",
+            "verification": "IAU Miranda coronae and Umbriel Wunda landmark comparison"
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+          "reconstructionNotes": "源图仅 1440×720，主要覆盖南半球；不放大文件冒充高分辨率。已保留原图缺测掩膜。 蓝灰色区域为未测，未加入虚构地貌。",
+          "visualEnhancements": [
+            "未测区蓝灰色分类标识",
+            "固定观察曝光；可选补光默认关闭"
+          ],
+          "limitations": [
+            "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+            "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+            "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标",
+            "仅 1440 像素源地图；近景细节受原始 Voyager 覆盖限制，北部未测"
+          ],
+          "verifiedAt": "2026-11-01T08:36:28.283934+00:00"
+        },
+        "loadedWidth": 1440,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 2,
+            "textures": 5
+          },
+          "drawCalls": 1,
+          "triangles": 48768
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 5,
+          "geometryCount": 2,
+          "textureCount": 5
+        }
+      }
+    },
+    {
+      "view": "detail",
+      "file": "output/playwright/phase-3b/chrome-703-detail-2560.png",
+      "snapshot": {
+        "id": "703",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "detail",
+        "bodyToIcrfQuaternion": [
+          0.7177553613528271,
+          0.33653409998726397,
+          -0.37423385946441007,
+          0.48116635296475924
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.008394582481801693,
+          -0.12818940059520856,
+          -0.48669668131075927,
+          0.864073694172604
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          -0.45432524596299867,
+          0.0024582714199245666,
+          0.8908324914271407
+        ],
+        "camera": [
+          -1.3175432651379735,
+          0.007128987398306429,
+          2.5834143267959635
+        ],
+        "modelRadius": 1.0000000393499633,
+        "cameraFov": 38,
+        "viewport": {
+          "width": 1507,
+          "height": 982
+        },
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "703",
+          "displayNameZh": "天卫三",
+          "displayNameEn": "Titania",
+          "parentPlanetId": "799",
+          "version": "3b-703-mosaic-v1",
+          "kind": "voyager-partial",
+          "shapeType": "pck-ellipsoid",
+          "meanRadiusKm": 788.9,
+          "meshFrame": "sphere-y-up",
+          "geometry": {
+            "axesKm": [
+              788.9,
+              788.9,
+              788.9
+            ],
+            "source": "NAIF pck00011.tpc BODY703_RADII; retained physical catalog radius"
+          },
+          "geometrySource": {
+            "provider": "NASA/NAIF",
+            "title": "IAU generic PCK triaxial radii",
+            "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+          },
+          "albedo": {
+            "title": "Titania Voyager 2 grayscale mosaic",
+            "provider": "NASA Voyager 2 / Caltech-JPL-USGS",
+            "uri": "https://space.jpl.nasa.gov/tmaps/uranus.html",
+            "downloadUrl": "https://space.jpl.nasa.gov/tmaps/pix/ura3vuu2.tif",
+            "rawPath": "data/phase-3b/raw/uranus-moon-3.tif",
+            "rawSha256": "7a99a4a12ecbf765ed3dc55d07fe62b795236d2a01bbd1171b4143cc9f8f922a",
+            "observationEpoch": "Voyager 2 January 1986",
+            "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+            "colorProcessing": "保留 Voyager 灰度；未测区使用独立蓝灰标识，不填充虚构坑纹。",
+            "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+            "processingCategory": "OBSERVED_MONOCHROME",
+            "nativeDimensions": [
+              1440,
+              720
+            ]
+          },
+          "lods": [
+            {
+              "width": 1024,
+              "height": 512,
+              "url": "/assets/moons/703/albedo-1024.jpg",
+              "sha256": "d5e8c49ca10bcb46042a2fbf9550f390fe7843de6225a99b0f6fcc4628ebb672"
+            },
+            {
+              "width": 1440,
+              "height": 720,
+              "url": "/assets/moons/703/albedo-1440.jpg",
+              "sha256": "b08dc87caca92b01f2434b84bf89d14b10607ac54af715196ab10db5d27507ae"
+            }
+          ],
+          "coverage": {
+            "file": "/assets/moons/703/coverage.png",
+            "sha256": "585ed1a4f4748af52b5d4dc6e3259c6caf237a5a859f3c9e20902d4ae4ac6855",
+            "missingSurfaceFraction": 0.6816788587419973,
+            "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+          },
+          "georeferencing": {
+            "method": "audited equirectangular image grid",
+            "centralLongitudeEast": 0,
+            "sourceMetadataPage": "jpl-uranus.html",
+            "longitudeConvention": "east positive; zero centred on derived map",
+            "verification": "IAU Miranda coronae and Umbriel Wunda landmark comparison"
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+          "reconstructionNotes": "源图仅 1440×720，主要覆盖南半球；不放大文件冒充高分辨率。已保留原图缺测掩膜。 蓝灰色区域为未测，未加入虚构地貌。",
+          "visualEnhancements": [
+            "未测区蓝灰色分类标识",
+            "固定观察曝光；可选补光默认关闭"
+          ],
+          "limitations": [
+            "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+            "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+            "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标",
+            "仅 1440 像素源地图；近景细节受原始 Voyager 覆盖限制，北部未测"
+          ],
+          "verifiedAt": "2026-11-01T08:36:28.283934+00:00"
+        },
+        "loadedWidth": 1440,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 2,
+            "textures": 5
+          },
+          "drawCalls": 1,
+          "triangles": 48768
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 5,
+          "geometryCount": 2,
+          "textureCount": 5
+        }
+      }
+    },
+    {
+      "view": "parent",
+      "file": "output/playwright/phase-3b/chrome-703-parent-2560.png",
+      "snapshot": {
+        "id": "703",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "parent",
+        "bodyToIcrfQuaternion": [
+          0.7177553613528271,
+          0.33653409998726397,
+          -0.37423385946441007,
+          0.48116635296475924
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.008394582481801693,
+          -0.12818940059520856,
+          -0.48669668131075927,
+          0.864073694172604
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          -0.45432524596299867,
+          0.0024582714199245666,
+          0.8908324914271407
+        ],
+        "camera": [
+          2.5783202808659396,
+          -4.24536576544993,
+          1.1572104794747746
+        ],
+        "modelRadius": 1.0000000393499633,
+        "cameraFov": 38,
+        "viewport": {
+          "width": 1507,
+          "height": 982
+        },
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "703",
+          "displayNameZh": "天卫三",
+          "displayNameEn": "Titania",
+          "parentPlanetId": "799",
+          "version": "3b-703-mosaic-v1",
+          "kind": "voyager-partial",
+          "shapeType": "pck-ellipsoid",
+          "meanRadiusKm": 788.9,
+          "meshFrame": "sphere-y-up",
+          "geometry": {
+            "axesKm": [
+              788.9,
+              788.9,
+              788.9
+            ],
+            "source": "NAIF pck00011.tpc BODY703_RADII; retained physical catalog radius"
+          },
+          "geometrySource": {
+            "provider": "NASA/NAIF",
+            "title": "IAU generic PCK triaxial radii",
+            "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+          },
+          "albedo": {
+            "title": "Titania Voyager 2 grayscale mosaic",
+            "provider": "NASA Voyager 2 / Caltech-JPL-USGS",
+            "uri": "https://space.jpl.nasa.gov/tmaps/uranus.html",
+            "downloadUrl": "https://space.jpl.nasa.gov/tmaps/pix/ura3vuu2.tif",
+            "rawPath": "data/phase-3b/raw/uranus-moon-3.tif",
+            "rawSha256": "7a99a4a12ecbf765ed3dc55d07fe62b795236d2a01bbd1171b4143cc9f8f922a",
+            "observationEpoch": "Voyager 2 January 1986",
+            "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+            "colorProcessing": "保留 Voyager 灰度；未测区使用独立蓝灰标识，不填充虚构坑纹。",
+            "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+            "processingCategory": "OBSERVED_MONOCHROME",
+            "nativeDimensions": [
+              1440,
+              720
+            ]
+          },
+          "lods": [
+            {
+              "width": 1024,
+              "height": 512,
+              "url": "/assets/moons/703/albedo-1024.jpg",
+              "sha256": "d5e8c49ca10bcb46042a2fbf9550f390fe7843de6225a99b0f6fcc4628ebb672"
+            },
+            {
+              "width": 1440,
+              "height": 720,
+              "url": "/assets/moons/703/albedo-1440.jpg",
+              "sha256": "b08dc87caca92b01f2434b84bf89d14b10607ac54af715196ab10db5d27507ae"
+            }
+          ],
+          "coverage": {
+            "file": "/assets/moons/703/coverage.png",
+            "sha256": "585ed1a4f4748af52b5d4dc6e3259c6caf237a5a859f3c9e20902d4ae4ac6855",
+            "missingSurfaceFraction": 0.6816788587419973,
+            "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+          },
+          "georeferencing": {
+            "method": "audited equirectangular image grid",
+            "centralLongitudeEast": 0,
+            "sourceMetadataPage": "jpl-uranus.html",
+            "longitudeConvention": "east positive; zero centred on derived map",
+            "verification": "IAU Miranda coronae and Umbriel Wunda landmark comparison"
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+          "reconstructionNotes": "源图仅 1440×720，主要覆盖南半球；不放大文件冒充高分辨率。已保留原图缺测掩膜。 蓝灰色区域为未测，未加入虚构地貌。",
+          "visualEnhancements": [
+            "未测区蓝灰色分类标识",
+            "固定观察曝光；可选补光默认关闭"
+          ],
+          "limitations": [
+            "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+            "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+            "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标",
+            "仅 1440 像素源地图；近景细节受原始 Voyager 覆盖限制，北部未测"
+          ],
+          "verifiedAt": "2026-11-01T08:36:28.283934+00:00"
+        },
+        "loadedWidth": 1440,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 2,
+            "textures": 5
+          },
+          "drawCalls": 1,
+          "triangles": 48768
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 5,
+          "geometryCount": 2,
+          "textureCount": 5
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "SOLARIS_phase1_reference/01_第1期_Codex提示词.md",
+    "sha256": "00c1c8bca2ec99ba71e421149a8a1470d5877ae37126e62ed939b0d1cc509e7c",
+    "role": "user-provided visual/scope reference; never runtime science/texture"
+  },
+  {
+    "path": "SOLARIS_phase1_reference/02_桌面端效果参考.png",
+    "sha256": "a46cb02a31467e2b955b15f9b82dd997a6104e1df44eb5d0b17a3dda515d4e85",
+    "role": "user-provided visual/scope reference; never runtime science/texture"
+  },
+  {
+    "path": "SOLARIS_phase1_reference/03_总览与资产方向参考.png",
+    "sha256": "84268f0556fc23ff397697d4e137182979fd1a807c44170f30840c61ee0b1a82",
+    "role": "user-provided visual/scope reference; never runtime science/texture"
+  },
+  {
+    "path": "SOLARIS_phase1_reference/README_科学边界与阶段范围.txt",
+    "sha256": "33ef60cee5a9c94f93997c7f893c4635eea045239ce413cbcba3cbbce5e46617",
+    "role": "user-provided visual/scope reference; never runtime science/texture"
+  }
+]

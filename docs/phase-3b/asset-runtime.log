@@ -1,0 +1,21 @@
+(node:41068) ExperimentalWarning: Transform Types is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS 401 hashes, source, physical binding, geometry and UV 0
+PASS 402 hashes, source, physical binding, geometry and UV 0
+PASS 501 hashes, source, physical binding, geometry and UV 2.9800866108153912e-8
+PASS 502 hashes, source, physical binding, geometry and UV 2.9677913016001867e-8
+PASS 503 hashes, source, physical binding, geometry and UV 2.3246511049457297e-8
+PASS 504 hashes, source, physical binding, geometry and UV 2.3246511049457297e-8
+PASS 601 hashes, source, physical binding, geometry and UV 2.9498913090009182e-8
+PASS 602 hashes, source, physical binding, geometry and UV 2.9716252125666642e-8
+PASS 605 hashes, source, physical binding, geometry and UV 2.9800458767326177e-8
+PASS 606 hashes, source, physical binding, geometry and UV 2.5305170625600226e-8
+PASS 608 hashes, source, physical binding, geometry and UV 2.9227859132952005e-8
+PASS 705 hashes, source, physical binding, geometry and UV 2.9792072142598158e-8
+PASS 701 hashes, source, physical binding, geometry and UV 2.9727978967386548e-8
+PASS 702 hashes, source, physical binding, geometry and UV 2.3246511049457297e-8
+PASS 703 hashes, source, physical binding, geometry and UV 2.3246511049457297e-8
+PASS 704 hashes, source, physical binding, geometry and UV 2.3246511049457297e-8
+PASS 801 hashes, source, physical binding, geometry and UV 2.3246511049457297e-8
+PASS 301 hashes, source, physical binding, geometry and UV 2.140316363030692e-8
+ALL PASS 18 independent asset configurations

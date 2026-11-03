@@ -1,0 +1,16 @@
+chrome 606 PASS Asset loaded with no fallback
+chrome 606 PASS Solar-only illumination and non-emissive material
+chrome 606 PASS Same original TDB instant
+chrome 606 PASS Body orientation is a unit quaternion
+chrome 606 PASS Satellite absolute position available
+chrome 606 PASS Light points to Sun from the actual satellite centre
+chrome 606 PASS standard camera rendered without error
+chrome 606 PASS side camera rendered without error
+chrome 606 PASS detail camera rendered without error
+chrome 606 PASS parent camera rendered without error
+chrome 606 PASS Actual mouse drag rotates inspection camera
+chrome 606 PASS Camera does not alter physical orientation
+chrome 606 PASS Optional fill is explicit and reversible
+chrome 606 PASS Close restores unchanged main scene and camera
+chrome 606 PASS No browser console/runtime errors
+ALL PASS 15

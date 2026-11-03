@@ -1,0 +1,48 @@
+{
+  "bodyId": "799",
+  "utcMs": 1793232000000,
+  "physicsUnchanged": true,
+  "matchedCamera": [
+    76.46108537386544,
+    24.49014747261814,
+    -141.58435986013342
+  ],
+  "baselineCamera": [
+    76.46108537386544,
+    24.49014747261814,
+    -141.58435986013342
+  ],
+  "visual": {
+    "id": "799",
+    "status": "ready",
+    "error": null,
+    "loadedWidth": 4096,
+    "material": "uranus-methane-haze-reconstruction",
+    "layers": [
+      "IAU-pole",
+      "atmosphere"
+    ]
+  },
+  "performance": {
+    "meanMs": 3.6364000000000014,
+    "p50": 3.600000000000364,
+    "p95": 3.7999999999992724,
+    "headlessRafFps": 274.9972500274996
+  },
+  "gpuMemory": {
+    "geometries": 13,
+    "textures": 18
+  },
+  "errors": [],
+  "gate": "accepted-with-declared-limitations",
+  "checkedAt": "2026-10-28T19:03:34.161595+00:00",
+  "visualInspection": "Standard / detail / terminator / backlight browser PNGs reviewed by agent; see screenshots",
+  "limitations": [
+    "Native published disk is about 580px; 4K derivatives add no observed resolution",
+    "Disk sub-observer registration is unavailable; cloud feature latitude/longitude NOT certified",
+    "RECONSTRUCTED mirrored unknown hemisphere; historical weather only, no permanent invented dark spot",
+    "No new winds, current weather, rings or satellites; near-natural color intentionally pale cyan",
+    "Uranus IAU north-pole axis and retrograde rotation distinct from 98-degree angular-momentum obliquity"
+  ],
+  "independentAcceptanceOrder": 8
+}

@@ -1,0 +1,353 @@
+{
+  "machine": {
+    "cpu": {
+      "Name": "AMD Ryzen 9 8945HX with Radeon Graphics        ",
+      "NumberOfCores": 16,
+      "NumberOfLogicalProcessors": 32
+    },
+    "gpu": [
+      {
+        "Name": "OrayIddDriver Device",
+        "DriverVersion": "17.50.19.949",
+        "CurrentRefreshRate": null
+      },
+      {
+        "Name": "Todesk Virtual Display Adapter",
+        "DriverVersion": "16.44.2.509",
+        "CurrentRefreshRate": 60
+      },
+      {
+        "Name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+        "DriverVersion": "32.0.15.9636",
+        "CurrentRefreshRate": 60
+      }
+    ]
+  },
+  "results": [
+    {
+      "viewport": "1920×1080",
+      "scenario": "总览 · 探索比例（含 8.3 万统计样本）",
+      "p50": 16.699999999999818,
+      "p95": 16.80000000000109,
+      "max": 17.199999999999818,
+      "hidden": 0,
+      "heapMB": 35.10087203979492,
+      "rejectedAttempts": [],
+      "gpuP95Ms": 6.009888,
+      "cpuP95Ms": 0.5,
+      "drawCalls": 39,
+      "triangles": 488448,
+      "gpuObjects": {
+        "geometries": 25,
+        "textures": 17
+      }
+    },
+    {
+      "viewport": "1920×1080",
+      "scenario": "总览 · 科学比例",
+      "p50": 16.69999999999891,
+      "p95": 16.899999999999636,
+      "max": 17.299999999999272,
+      "hidden": 0,
+      "heapMB": 34.43348503112793,
+      "rejectedAttempts": [],
+      "gpuP95Ms": 3.67696,
+      "cpuP95Ms": 0.5,
+      "drawCalls": 39,
+      "triangles": 488448,
+      "gpuObjects": {
+        "geometries": 25,
+        "textures": 17
+      }
+    },
+    {
+      "viewport": "1920×1080",
+      "scenario": "地球 Hero 聚焦",
+      "p50": 16.700000000000728,
+      "p95": 16.899999999997817,
+      "max": 17.19999999999709,
+      "hidden": 0,
+      "heapMB": 39.20447826385498,
+      "rejectedAttempts": [],
+      "gpuP95Ms": 4.079648,
+      "cpuP95Ms": 0.39999999944120646,
+      "drawCalls": 18,
+      "triangles": 298624,
+      "gpuObjects": {
+        "geometries": 25,
+        "textures": 29
+      }
+    },
+    {
+      "viewport": "1920×1080",
+      "scenario": "木星局部系统",
+      "p50": 16.69999999999709,
+      "p95": 16.80000000000291,
+      "max": 17.19999999999709,
+      "hidden": 0,
+      "heapMB": 95.69396495819092,
+      "rejectedAttempts": [],
+      "gpuP95Ms": 0.630656,
+      "cpuP95Ms": 0.30000000074505806,
+      "drawCalls": 11,
+      "triangles": 249856,
+      "gpuObjects": {
+        "geometries": 12,
+        "textures": 7
+      }
+    },
+    {
+      "viewport": "1920×1080",
+      "scenario": "土星局部系统 · Titan 近景",
+      "p50": 16.69999999999709,
+      "p95": 16.80000000000291,
+      "max": 17,
+      "hidden": 0,
+      "heapMB": 106.09425258636475,
+      "rejectedAttempts": [],
+      "gpuP95Ms": 0.138112,
+      "cpuP95Ms": 0.20000000018626451,
+      "drawCalls": 7,
+      "triangles": 73088,
+      "gpuObjects": {
+        "geometries": 20,
+        "textures": 11
+      }
+    },
+    {
+      "viewport": "1920×1080",
+      "scenario": "物理实验室运行中（6 体）",
+      "p50": 16.69999999999709,
+      "p95": 16.80000000000291,
+      "max": 17,
+      "hidden": 0,
+      "heapMB": 107.4756669998169,
+      "rejectedAttempts": [],
+      "gpuP95Ms": null,
+      "cpuP95Ms": null,
+      "drawCalls": 39,
+      "triangles": 488448,
+      "gpuObjects": {
+        "geometries": 25,
+        "textures": 34
+      }
+    },
+    {
+      "viewport": "2560×1440",
+      "scenario": "总览 · 探索比例（含 8.3 万统计样本）",
+      "p50": 16.699999999999818,
+      "p95": 16.80000000000109,
+      "max": 17.099999999999454,
+      "hidden": 0,
+      "heapMB": 39.854044914245605,
+      "rejectedAttempts": [],
+      "gpuP95Ms": 5.578976,
+      "cpuP95Ms": 0.5,
+      "drawCalls": 39,
+      "triangles": 532224,
+      "gpuObjects": {
+        "geometries": 25,
+        "textures": 17
+      }
+    },
+    {
+      "viewport": "2560×1440",
+      "scenario": "总览 · 科学比例",
+      "p50": 16.69999999999891,
+      "p95": 16.80000000000109,
+      "max": 17,
+      "hidden": 0,
+      "heapMB": 35.68413257598877,
+      "rejectedAttempts": [],
+      "gpuP95Ms": 3.810272,
+      "cpuP95Ms": 0.5,
+      "drawCalls": 39,
+      "triangles": 488448,
+      "gpuObjects": {
+        "geometries": 25,
+        "textures": 17
+      }
+    },
+    {
+      "viewport": "2560×1440",
+      "scenario": "地球 Hero 聚焦",
+      "p50": 16.700000000000728,
+      "p95": 16.80000000000291,
+      "max": 17,
+      "hidden": 0,
+      "heapMB": 39.15029716491699,
+      "rejectedAttempts": [],
+      "gpuP95Ms": 3.883456,
+      "cpuP95Ms": 0.39999999944120646,
+      "drawCalls": 18,
+      "triangles": 298624,
+      "gpuObjects": {
+        "geometries": 25,
+        "textures": 34
+      }
+    },
+    {
+      "viewport": "2560×1440",
+      "scenario": "木星局部系统",
+      "p50": 16.69999999999709,
+      "p95": 16.80000000000291,
+      "max": 17.099999999998545,
+      "hidden": 0,
+      "heapMB": 91.02181053161621,
+      "rejectedAttempts": [],
+      "gpuP95Ms": 0.40048,
+      "cpuP95Ms": 0.30000000074505806,
+      "drawCalls": 11,
+      "triangles": 249856,
+      "gpuObjects": {
+        "geometries": 12,
+        "textures": 8
+      }
+    },
+    {
+      "viewport": "2560×1440",
+      "scenario": "土星局部系统 · Titan 近景",
+      "p50": 16.69999999999709,
+      "p95": 16.80000000000291,
+      "max": 17,
+      "hidden": 0,
+      "heapMB": 104.44660568237305,
+      "rejectedAttempts": [],
+      "gpuP95Ms": 0.277024,
+      "cpuP95Ms": 0.2999999998137355,
+      "drawCalls": 7,
+      "triangles": 73088,
+      "gpuObjects": {
+        "geometries": 20,
+        "textures": 12
+      }
+    },
+    {
+      "viewport": "2560×1440",
+      "scenario": "物理实验室运行中（6 体）",
+      "p50": 16.69999999999709,
+      "p95": 16.80000000000291,
+      "max": 17,
+      "hidden": 0,
+      "heapMB": 110.41576671600342,
+      "rejectedAttempts": [],
+      "gpuP95Ms": null,
+      "cpuP95Ms": null,
+      "drawCalls": 39,
+      "triangles": 532224,
+      "gpuObjects": {
+        "geometries": 25,
+        "textures": 38
+      }
+    },
+    {
+      "viewport": "3840×2160",
+      "scenario": "总览 · 探索比例（含 8.3 万统计样本）",
+      "p50": 16.699999999999818,
+      "p95": 16.80000000000109,
+      "max": 17.399999999999636,
+      "hidden": 0,
+      "heapMB": 36.087185859680176,
+      "rejectedAttempts": [],
+      "gpuP95Ms": 4.116224,
+      "cpuP95Ms": 0.5,
+      "drawCalls": 39,
+      "triangles": 532224,
+      "gpuObjects": {
+        "geometries": 25,
+        "textures": 17
+      }
+    },
+    {
+      "viewport": "3840×2160",
+      "scenario": "总览 · 科学比例",
+      "p50": 16.69999999999891,
+      "p95": 16.80000000000291,
+      "max": 16.899999999999636,
+      "hidden": 0,
+      "heapMB": 36.15804576873779,
+      "rejectedAttempts": [],
+      "gpuP95Ms": 4.634144,
+      "cpuP95Ms": 0.5,
+      "drawCalls": 39,
+      "triangles": 488448,
+      "gpuObjects": {
+        "geometries": 25,
+        "textures": 17
+      }
+    },
+    {
+      "viewport": "3840×2160",
+      "scenario": "地球 Hero 聚焦",
+      "p50": 16.700000000000728,
+      "p95": 16.80000000000291,
+      "max": 17.30000000000291,
+      "hidden": 0,
+      "heapMB": 40.29247760772705,
+      "rejectedAttempts": [],
+      "gpuP95Ms": 3.842976,
+      "cpuP95Ms": 0.5,
+      "drawCalls": 18,
+      "triangles": 342400,
+      "gpuObjects": {
+        "geometries": 25,
+        "textures": 34
+      }
+    },
+    {
+      "viewport": "3840×2160",
+      "scenario": "木星局部系统",
+      "p50": 16.69999999999709,
+      "p95": 16.80000000000291,
+      "max": 16.900000000001455,
+      "hidden": 0,
+      "heapMB": 93.63315963745117,
+      "rejectedAttempts": [],
+      "gpuP95Ms": 2.377536,
+      "cpuP95Ms": 0.40000000037252903,
+      "drawCalls": 11,
+      "triangles": 293632,
+      "gpuObjects": {
+        "geometries": 11,
+        "textures": 7
+      }
+    },
+    {
+      "viewport": "3840×2160",
+      "scenario": "土星局部系统 · Titan 近景",
+      "p50": 16.69999999999709,
+      "p95": 16.89999999999418,
+      "max": 17.099999999998545,
+      "hidden": 0,
+      "heapMB": 109.78085708618164,
+      "rejectedAttempts": [],
+      "gpuP95Ms": 0.814976,
+      "cpuP95Ms": 0.2999999998137355,
+      "drawCalls": 7,
+      "triangles": 73088,
+      "gpuObjects": {
+        "geometries": 19,
+        "textures": 11
+      }
+    },
+    {
+      "viewport": "3840×2160",
+      "scenario": "物理实验室运行中（6 体）",
+      "p50": 16.69999999999709,
+      "p95": 16.80000000000291,
+      "max": 17.099999999998545,
+      "hidden": 0,
+      "heapMB": 110.86149501800537,
+      "rejectedAttempts": [],
+      "gpuP95Ms": null,
+      "cpuP95Ms": null,
+      "drawCalls": 39,
+      "triangles": 532224,
+      "gpuObjects": {
+        "geometries": 25,
+        "textures": 38
+      }
+    }
+  ],
+  "errors": []
+}

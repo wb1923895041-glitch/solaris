@@ -1,0 +1,2926 @@
+{
+  "checks": [
+    "Baseline JPL states identical",
+    "Nine bodies and eight paths",
+    "Desktop layout 1920",
+    "Desktop layout 2560",
+    "Desktop layout 3840",
+    "Trail state isolation history",
+    "Trail mode history",
+    "Trail state isolation off",
+    "Trail mode off",
+    "Trail state isolation recent",
+    "Trail mode recent",
+    "Static vertex buffers during playback",
+    "Sun options preserve physics",
+    "Earth Hero still retains full context",
+    "Mouse orbit changes camera",
+    "Scientific mode preserves states",
+    "Date 2024-01-01T00:00",
+    "Clipped path ranges 2024-01-01T00:00",
+    "Date 2031-01-01T00:00",
+    "Clipped path ranges 2031-01-01T00:00",
+    "Date 2026-10-29T00:00",
+    "Clipped path ranges 2026-10-29T00:00",
+    "No browser errors or missing resources"
+  ],
+  "layouts": [
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "layout": {
+        "overflow": false,
+        "labelOverlap": false,
+        "descriptionFont": "14px"
+      },
+      "rAF": {
+        "p50": 3.600000000000364,
+        "p95": 3.7999999999992724
+      },
+      "performance": {
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 600,
+            "p50Ms": 0.19999992847442627,
+            "p95Ms": 0.30000007152557373
+          },
+          "gpuRender": {
+            "samples": 241,
+            "p50Ms": 0.111392,
+            "p95Ms": 0.125856
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 14,
+            "textures": 16
+          },
+          "drawCalls": 28,
+          "triangles": 485376
+        },
+        "loading": {
+          "cachedRequests": 16,
+          "completed": 16,
+          "decodedMipBudgetMiB": 48.04166666666665,
+          "textures": {
+            "/assets/celestial/sun/photosphere-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 410.7999999523163,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/mercury/mdis-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 410.5,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/venus/cloudtops-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 410.39999997615814,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/earth/albedo-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 410.10000002384186,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/mars/albedo-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 409.89999997615814,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/jupiter/albedo-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 409.90000009536743,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/saturn/albedo-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 402.60000002384186,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/uranus/albedo-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 402.3000000715256,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/neptune/albedo-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 402.2999999523163,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/sun/photosphere-2048.jpg|true": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 359.89999997615814,
+              "decodedMipBudgetMiB": 10.666666666666666
+            },
+            "/assets/celestial/venus/radar-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 192.29999995231628,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/saturn/ring-optical-depth.png|false": {
+              "width": 8192,
+              "height": 1,
+              "loadMs": 191.79999995231628,
+              "decodedMipBudgetMiB": 0.041666666666666664
+            },
+            "/assets/celestial/mars/mola-height-1024.png|false": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 192,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/earth/clouds-1024.jpg|false": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 192.10000002384186,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/earth/night-1024.jpg|false": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 80.79999995231628,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/earth/roughness-1024.jpg|false": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 4.700000047683716,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            }
+          }
+        }
+      }
+    },
+    {
+      "size": [
+        2560,
+        1440
+      ],
+      "layout": {
+        "overflow": false,
+        "labelOverlap": false,
+        "descriptionFont": "14px"
+      },
+      "rAF": {
+        "p50": 3.600000000000364,
+        "p95": 3.7000000000007276
+      },
+      "performance": {
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 600,
+            "p50Ms": 0.19999992847442627,
+            "p95Ms": 0.30000007152557373
+          },
+          "gpuRender": {
+            "samples": 239,
+            "p50Ms": 0.207904,
+            "p95Ms": 2.821856
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 14,
+            "textures": 18
+          },
+          "drawCalls": 26,
+          "triangles": 475392
+        },
+        "loading": {
+          "cachedRequests": 19,
+          "completed": 19,
+          "decodedMipBudgetMiB": 80.04166666666666,
+          "textures": {
+            "/assets/celestial/sun/photosphere-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 410.7999999523163,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/mercury/mdis-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 410.5,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/venus/cloudtops-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 410.39999997615814,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/earth/albedo-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 410.10000002384186,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/mars/albedo-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 409.89999997615814,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/jupiter/albedo-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 409.90000009536743,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/saturn/albedo-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 402.60000002384186,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/uranus/albedo-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 402.3000000715256,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/neptune/albedo-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 402.2999999523163,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/sun/photosphere-2048.jpg|true": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 359.89999997615814,
+              "decodedMipBudgetMiB": 10.666666666666666
+            },
+            "/assets/celestial/venus/radar-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 192.29999995231628,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/saturn/ring-optical-depth.png|false": {
+              "width": 8192,
+              "height": 1,
+              "loadMs": 191.79999995231628,
+              "decodedMipBudgetMiB": 0.041666666666666664
+            },
+            "/assets/celestial/mars/mola-height-1024.png|false": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 192,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/earth/clouds-1024.jpg|false": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 192.10000002384186,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/earth/night-1024.jpg|false": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 80.79999995231628,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/earth/roughness-1024.jpg|false": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 4.700000047683716,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/jupiter/albedo-2048.jpg|true": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 5.5,
+              "decodedMipBudgetMiB": 10.666666666666666
+            },
+            "/assets/celestial/saturn/albedo-2048.jpg|true": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 4.899999976158142,
+              "decodedMipBudgetMiB": 10.666666666666666
+            },
+            "/assets/celestial/neptune/albedo-2048.jpg|true": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 4.700000047683716,
+              "decodedMipBudgetMiB": 10.666666666666666
+            }
+          }
+        }
+      }
+    },
+    {
+      "size": [
+        3840,
+        2160
+      ],
+      "layout": {
+        "overflow": false,
+        "labelOverlap": false,
+        "descriptionFont": "14px"
+      },
+      "rAF": {
+        "p50": 3.600000000000364,
+        "p95": 3.7000000000007276
+      },
+      "performance": {
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 600,
+            "p50Ms": 0.19999992847442627,
+            "p95Ms": 0.30000007152557373
+          },
+          "gpuRender": {
+            "samples": 233,
+            "p50Ms": 2.348608,
+            "p95Ms": 3.249472
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 14,
+            "textures": 30
+          },
+          "drawCalls": 26,
+          "triangles": 519168
+        },
+        "loading": {
+          "cachedRequests": 32,
+          "completed": 32,
+          "decodedMipBudgetMiB": 314.7083333333333,
+          "textures": {
+            "/assets/celestial/sun/photosphere-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 410.7999999523163,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/mercury/mdis-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 410.5,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/venus/cloudtops-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 410.39999997615814,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/earth/albedo-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 410.10000002384186,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/mars/albedo-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 409.89999997615814,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/jupiter/albedo-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 409.90000009536743,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/saturn/albedo-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 402.60000002384186,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/uranus/albedo-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 402.3000000715256,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/neptune/albedo-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 402.2999999523163,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/sun/photosphere-2048.jpg|true": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 359.89999997615814,
+              "decodedMipBudgetMiB": 10.666666666666666
+            },
+            "/assets/celestial/venus/radar-1024.jpg|true": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 192.29999995231628,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/saturn/ring-optical-depth.png|false": {
+              "width": 8192,
+              "height": 1,
+              "loadMs": 191.79999995231628,
+              "decodedMipBudgetMiB": 0.041666666666666664
+            },
+            "/assets/celestial/mars/mola-height-1024.png|false": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 192,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/earth/clouds-1024.jpg|false": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 192.10000002384186,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/earth/night-1024.jpg|false": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 80.79999995231628,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/earth/roughness-1024.jpg|false": {
+              "width": 1024,
+              "height": 512,
+              "loadMs": 4.700000047683716,
+              "decodedMipBudgetMiB": 2.6666666666666665
+            },
+            "/assets/celestial/jupiter/albedo-2048.jpg|true": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 5.5,
+              "decodedMipBudgetMiB": 10.666666666666666
+            },
+            "/assets/celestial/saturn/albedo-2048.jpg|true": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 4.899999976158142,
+              "decodedMipBudgetMiB": 10.666666666666666
+            },
+            "/assets/celestial/neptune/albedo-2048.jpg|true": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 4.700000047683716,
+              "decodedMipBudgetMiB": 10.666666666666666
+            },
+            "/assets/celestial/venus/cloudtops-2048.jpg|true": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 23.800000071525574,
+              "decodedMipBudgetMiB": 10.666666666666666
+            },
+            "/assets/celestial/earth/albedo-2048.jpg|true": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 24,
+              "decodedMipBudgetMiB": 10.666666666666666
+            },
+            "/assets/celestial/mercury/mdis-2048.jpg|true": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 24.200000047683716,
+              "decodedMipBudgetMiB": 10.666666666666666
+            },
+            "/assets/celestial/uranus/albedo-2048.jpg|true": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 24.200000047683716,
+              "decodedMipBudgetMiB": 10.666666666666666
+            },
+            "/assets/celestial/sun/photosphere-4096.jpg|true": {
+              "width": 4096,
+              "height": 2048,
+              "loadMs": 90.69999992847443,
+              "decodedMipBudgetMiB": 42.666666666666664
+            },
+            "/assets/celestial/earth/clouds-2048.jpg|false": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 66.5,
+              "decodedMipBudgetMiB": 10.666666666666666
+            },
+            "/assets/celestial/venus/radar-2048.jpg|true": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 66.89999997615814,
+              "decodedMipBudgetMiB": 10.666666666666666
+            },
+            "/assets/celestial/earth/night-2048.jpg|false": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 95.20000004768372,
+              "decodedMipBudgetMiB": 10.666666666666666
+            },
+            "/assets/celestial/earth/roughness-2048.jpg|false": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 14.5,
+              "decodedMipBudgetMiB": 10.666666666666666
+            },
+            "/assets/celestial/saturn/albedo-4096.jpg|true": {
+              "width": 4096,
+              "height": 2048,
+              "loadMs": 16.399999976158142,
+              "decodedMipBudgetMiB": 42.666666666666664
+            },
+            "/assets/celestial/neptune/albedo-4096.jpg|true": {
+              "width": 4096,
+              "height": 2048,
+              "loadMs": 9.100000023841858,
+              "decodedMipBudgetMiB": 42.666666666666664
+            },
+            "/assets/celestial/mars/albedo-2048.jpg|true": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 9.399999976158142,
+              "decodedMipBudgetMiB": 10.666666666666666
+            },
+            "/assets/celestial/mars/mola-height-2048.png|false": {
+              "width": 2048,
+              "height": 1024,
+              "loadMs": 25.799999952316284,
+              "decodedMipBudgetMiB": 10.666666666666666
+            }
+          }
+        }
+      }
+    }
+  ],
+  "initial": {
+    "utcMs": 1793232000000,
+    "tdb": 846504069.1824756,
+    "playing": false,
+    "rate": 86400,
+    "selected": "399",
+    "mode": "exploration",
+    "states": [
+      {
+        "id": "10",
+        "positionKm": [
+          -161123.7237936709,
+          -700889.7584253926,
+          -289028.72220659663
+        ],
+        "velocityKmPerSec": [
+          0.010325407378508877,
+          0.004434763951619257,
+          0.0016781825367836085
+        ]
+      },
+      {
+        "id": "199",
+        "positionKm": [
+          51488688.239742495,
+          5946233.09858955,
+          -2090946.762860871
+        ],
+        "velocityKmPerSec": [
+          -14.449095106898858,
+          44.28126274579042,
+          25.15312190850162
+        ]
+      },
+      {
+        "id": "299",
+        "positionKm": [
+          84932320.21788178,
+          62167287.21236347,
+          22616679.716455463
+        ],
+        "velocityKmPerSec": [
+          -21.719457539194018,
+          24.49400758559299,
+          12.396146346926939
+        ]
+      },
+      {
+        "id": "399",
+        "positionKm": [
+          121269361.26619138,
+          77917422.39024983,
+          33789241.80688798
+        ],
+        "velocityKmPerSec": [
+          -17.636040634063793,
+          22.228938808250035,
+          9.63600180961912
+        ]
+      },
+      {
+        "id": "499",
+        "positionKm": [
+          -37338234.8959717,
+          212610135.07566607,
+          98554465.96457238
+        ],
+        "velocityKmPerSec": [
+          -23.003938465659278,
+          -1.79102277117938,
+          -0.20115718679925496
+        ]
+      },
+      {
+        "id": "599",
+        "positionKm": [
+          -546110458.9875596,
+          525850964.07272947,
+          238694920.8908576
+        ],
+        "velocityKmPerSec": [
+          -9.648659186595166,
+          -7.7741254981578924,
+          -3.0973214646959946
+        ]
+      },
+      {
+        "id": "699",
+        "positionKm": [
+          1379121455.3627825,
+          286585616.5385981,
+          58972136.91591096
+        ],
+        "velocityKmPerSec": [
+          -2.495047747412883,
+          8.683293942891533,
+          3.6943854308501587
+        ]
+      },
+      {
+        "id": "799",
+        "positionKm": [
+          1321056295.6482625,
+          2378644394.8835516,
+          1023096133.8946462
+        ],
+        "velocityKmPerSec": [
+          -6.116213992610299,
+          2.512674418432107,
+          1.1868511368121202
+        ]
+      },
+      {
+        "id": "899",
+        "positionKm": [
+          4462739361.121505,
+          243551227.86513066,
+          -11419759.225402255
+        ],
+        "velocityKmPerSec": [
+          -0.30279732302008394,
+          5.051933635900218,
+          2.07577502701072
+        ]
+      }
+    ],
+    "scene": {
+      "mode": "exploration",
+      "focus": null,
+      "lastPick": null,
+      "visiblePaths": 8,
+      "trails": {
+        "mode": "recent",
+        "visible": 8,
+        "paths": [
+          {
+            "id": "199",
+            "count": 2559,
+            "range": {
+              "start": 988,
+              "count": 89
+            },
+            "positionBufferVersion": 0
+          },
+          {
+            "id": "299",
+            "count": 1280,
+            "range": {
+              "start": 459,
+              "count": 115
+            },
+            "positionBufferVersion": 0
+          },
+          {
+            "id": "399",
+            "count": 1280,
+            "range": {
+              "start": 424,
+              "count": 185
+            },
+            "positionBufferVersion": 0
+          },
+          {
+            "id": "499",
+            "count": 641,
+            "range": {
+              "start": 172,
+              "count": 173
+            },
+            "positionBufferVersion": 0
+          },
+          {
+            "id": "599",
+            "count": 641,
+            "range": {
+              "start": 0,
+              "count": 641
+            },
+            "positionBufferVersion": 0
+          },
+          {
+            "id": "699",
+            "count": 641,
+            "range": {
+              "start": 0,
+              "count": 641
+            },
+            "positionBufferVersion": 0
+          },
+          {
+            "id": "799",
+            "count": 641,
+            "range": {
+              "start": 0,
+              "count": 641
+            },
+            "positionBufferVersion": 0
+          },
+          {
+            "id": "899",
+            "count": 641,
+            "range": {
+              "start": 0,
+              "count": 641
+            },
+            "positionBufferVersion": 0
+          }
+        ]
+      },
+      "sky": "ready",
+      "sunInFrontOfCamera": true,
+      "camera": [
+        -100,
+        200.00000000000003,
+        340
+      ],
+      "target": [
+        40,
+        0,
+        -35
+      ],
+      "objects": [
+        {
+          "id": "10",
+          "radius": 24,
+          "visible": true,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "quaternion": [
+            -0.05923223523747373,
+            -0.8200597309630866,
+            0.02215783895280804,
+            -0.5687728985583476
+          ],
+          "pole": [
+            0.1223534983603253,
+            0.992001144963428,
+            0.03103787734748932
+          ]
+        },
+        {
+          "id": "199",
+          "radius": 5.843809268102516,
+          "visible": true,
+          "position": [
+            35.60310234018771,
+            -2.962203446728067,
+            -3.7098044867559614
+          ],
+          "quaternion": [
+            0.04151319197775766,
+            0.01357859746974414,
+            -0.04518037569884549,
+            0.9980235519436824
+          ],
+          "pole": [
+            0.091309539913324,
+            0.992470777087058,
+            0.08163531435003049
+          ]
+        },
+        {
+          "id": "299",
+          "radius": 6.789120113429595,
+          "visible": true,
+          "position": [
+            45.81609127133321,
+            -2.149348369064384,
+            -35.96209891148894
+          ],
+          "quaternion": [
+            -0.001068929159691201,
+            0.41487596186873255,
+            -0.010759215614056544,
+            0.9098137352960307
+          ],
+          "pole": [
+            0.018690818266767478,
+            0.9997661933396437,
+            -0.010872532716760587
+          ]
+        },
+        {
+          "id": "399",
+          "radius": 6.856525590495314,
+          "visible": true,
+          "position": [
+            57.14803771682327,
+            -0.002996315646346486,
+            -40.32605487164892
+          ],
+          "quaternion": [
+            0.19226880635889393,
+            -0.30971209010046763,
+            0.06551090287639019,
+            -0.9288807506624551
+          ],
+          "pole": [
+            0.002607685523722786,
+            0.9174820554112926,
+            -0.39776862366767834
+          ]
+        },
+        {
+          "id": "499",
+          "radius": 6.137660714384827,
+          "visible": true,
+          "position": [
+            -13.913532109715378,
+            2.1844522678667424,
+            -87.95874008894229
+          ],
+          "quaternion": [
+            0.1736195101924652,
+            0.6455210093812012,
+            -0.1524642014053679,
+            0.7279516188716298
+          ],
+          "pole": [
+            0.4461232074014353,
+            0.8932218659407037,
+            0.05593551665322524
+          ]
+        },
+        {
+          "id": "599",
+          "radius": 13,
+          "visible": true,
+          "position": [
+            -99.39504803442452,
+            1.7865802412313665,
+            -105.26006414856097
+          ],
+          "quaternion": [
+            0.015304392593002841,
+            -0.8643814776637672,
+            -0.011805985597175495,
+            0.5024649792206821
+          ],
+          "pole": [
+            -0.014593478353043504,
+            0.999252788542877,
+            0.035789593163984085
+          ]
+        },
+        {
+          "id": "699",
+          "radius": 12.231390974035236,
+          "visible": true,
+          "position": [
+            169.36017131093215,
+            -7.3556450649612195,
+            -35.259108061495986
+          ],
+          "quaternion": [
+            0.007002800768606418,
+            0.9587126720721986,
+            -0.2422635106805161,
+            0.1487594184659622
+          ],
+          "pole": [
+            0.0855053056024318,
+            0.8825187043482934,
+            -0.46243873020027665
+          ]
+        },
+        {
+          "id": "799",
+          "radius": 9.500314797914193,
+          "visible": true,
+          "position": [
+            95.33748190177602,
+            -0.5420332710247929,
+            -186.8975234101126
+          ],
+          "quaternion": [
+            -0.1988633404562794,
+            -0.6525604706300908,
+            -0.6271138571364647,
+            -0.3759606550970854
+          ],
+          "pole": [
+            -0.2119995630205273,
+            0.13436316401999127,
+            0.967989011008721
+          ]
+        },
+        {
+          "id": "899",
+          "radius": 9.422417385324598,
+          "visible": true,
+          "position": [
+            231.49849790109116,
+            -5.5694789609107715,
+            -11.394637437522936
+          ],
+          "quaternion": [
+            -0.18023871984130263,
+            -0.10170784510678463,
+            0.16794888963640325,
+            -0.9638271051301691
+          ],
+          "pole": [
+            0.3604107678158903,
+            0.8786143486797353,
+            0.313274487848029
+          ]
+        }
+      ],
+      "labels": [
+        "10",
+        "199",
+        "299",
+        "399",
+        "499",
+        "599",
+        "699",
+        "799",
+        "899"
+      ],
+      "visuals": [
+        {
+          "id": "10",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 2048,
+          "actualAlbedoWidth": 2048,
+          "material": "solar-photosphere",
+          "layers": [
+            "IAU-pole",
+            "corona",
+            "illustrative-prominences"
+          ],
+          "sunLocal": [
+            0,
+            0,
+            0
+          ],
+          "cloudAngle": null
+        },
+        {
+          "id": "199",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 1024,
+          "actualAlbedoWidth": 1024,
+          "material": "mdis-airless-regolith",
+          "layers": [
+            "IAU-pole"
+          ],
+          "sunLocal": [
+            -0.9973459281699337,
+            -0.00022694563105627092,
+            0.07280829663255366
+          ],
+          "cloudAngle": null
+        },
+        {
+          "id": "299",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 1024,
+          "actualAlbedoWidth": 1024,
+          "material": "opaque-acid-cloudtops",
+          "layers": [
+            "IAU-pole",
+            "atmosphere"
+          ],
+          "sunLocal": [
+            -0.9818367313359609,
+            0.01546751967627163,
+            -0.18909624225399208
+          ],
+          "cloudAngle": null
+        },
+        {
+          "id": "399",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 1024,
+          "actualAlbedoWidth": 1024,
+          "material": "layered-earth-ocean-cloud-night",
+          "layers": [
+            "IAU-pole",
+            "clouds",
+            "atmosphere"
+          ],
+          "sunLocal": [
+            -0.97051745030408,
+            -0.23142567140747733,
+            -0.06736495579206203
+          ],
+          "cloudAngle": 0
+        },
+        {
+          "id": "499",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 1024,
+          "actualAlbedoWidth": 1024,
+          "material": "viking-mola-rock",
+          "layers": [
+            "IAU-pole",
+            "atmosphere"
+          ],
+          "sunLocal": [
+            -0.9615631930377242,
+            0.10300911897663881,
+            0.25452965878803235
+          ],
+          "cloudAngle": null
+        },
+        {
+          "id": "599",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 1024,
+          "actualAlbedoWidth": 1024,
+          "material": "cassini-ammonia-cloudtops",
+          "layers": [
+            "IAU-pole",
+            "atmosphere"
+          ],
+          "sunLocal": [
+            0.29218868959678934,
+            0.003670654952448303,
+            -0.9563536458674322
+          ],
+          "cloudAngle": null
+        },
+        {
+          "id": "699",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 1024,
+          "actualAlbedoWidth": 1024,
+          "material": "cassini-clouds-voyager-optical-rings",
+          "layers": [
+            "IAU-pole",
+            "measured-ABC-rings",
+            "atmosphere"
+          ],
+          "sunLocal": [
+            0.8734714969903652,
+            -0.1403128947891859,
+            -0.4662186563204946
+          ],
+          "cloudAngle": null
+        },
+        {
+          "id": "799",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 1024,
+          "actualAlbedoWidth": 1024,
+          "material": "uranus-methane-haze-reconstruction",
+          "layers": [
+            "IAU-pole",
+            "atmosphere"
+          ],
+          "sunLocal": [
+            0.07698473566980946,
+            0.958958744928702,
+            -0.272894624349064
+          ],
+          "cloudAngle": null
+        },
+        {
+          "id": "899",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 1024,
+          "actualAlbedoWidth": 1024,
+          "material": "neptune-methane-haze-reconstruction",
+          "layers": [
+            "IAU-pole",
+            "atmosphere"
+          ],
+          "sunLocal": [
+            -0.9410230789304304,
+            -0.3233680419705125,
+            -0.0995423244276019
+          ],
+          "cloudAngle": null
+        }
+      ],
+      "visualOptions": {
+        "enhancements": true,
+        "atmosphere": true,
+        "clouds": true,
+        "cloudMotion": true,
+        "night": true,
+        "terrain": true,
+        "radar": false,
+        "axis": false,
+        "fill": false,
+        "activity": false
+      },
+      "gpuMemory": {
+        "geometries": 14,
+        "textures": 16
+      }
+    },
+    "frameTimes": [
+      375.4100000000001,
+      43.59999999999991,
+      196.29999999999995,
+      80,
+      7.300000000000182,
+      43.59999999999991,
+      3.7000000000000455,
+      3.599999999999909,
+      3.7000000000000455,
+      3.599999999999909,
+      3.7000000000000455,
+      3.6000000000001364,
+      3.5,
+      3.699999999999818,
+      3.7000000000000455,
+      3.6000000000001364,
+      3.599999999999909,
+      3.7000000000000455,
+      3.599999999999909,
+      3.6000000000001364,
+      3.599999999999909,
+      3.7999999999999545,
+      3.6000000000001364,
+      3.699999999999818,
+      3.5,
+      3.800000000000182,
+      3.5,
+      3.599999999999909,
+      3.7000000000000455,
+      3.599999999999909,
+      3.6000000000001364,
+      3.599999999999909,
+      3.7000000000000455,
+      3.599999999999909,
+      3.6000000000001364,
+      3.7999999999999545,
+      3.7999999999999545,
+      3.400000000000091,
+      3.599999999999909,
+      3.7000000000000455,
+      3.5,
+      3.7000000000000455,
+      3.699999999999818,
+      3.6000000000001364,
+      3.7000000000000455,
+      3.599999999999909,
+      3.599999999999909,
+      3.7000000000000455,
+      3.7000000000000455,
+      3.5,
+      3.7000000000000455,
+      3.599999999999909,
+      3.6000000000001364,
+      3.599999999999909,
+      3.7000000000000455,
+      3.599999999999909,
+      3.7000000000000455,
+      3.599999999999909,
+      3.6000000000001364,
+      3.7000000000000455,
+      3.599999999999909,
+      3.599999999999909,
+      3.7000000000000455,
+      3.7000000000000455,
+      3.5,
+      3.7000000000000455,
+      3.599999999999909,
+      3.6000000000001364,
+      3.7999999999999545,
+      3.599999999999909,
+      3.6000000000001364,
+      3.599999999999909,
+      3.7000000000000455,
+      3.599999999999909,
+      3.6000000000001364,
+      3.599999999999909,
+      3.7000000000000455,
+      3.7000000000000455,
+      3.599999999999909,
+      3.599999999999909,
+      3.6000000000001364,
+      3.599999999999909,
+      3.7000000000000455,
+      3.7000000000000455,
+      3.7000000000000455,
+      3.5,
+      3.699999999999818,
+      3.800000000000182,
+      3.3999999999998636,
+      3.7000000000000455,
+      3.7000000000000455,
+      3.5,
+      3.7000000000000455,
+      3.699999999999818,
+      3.5,
+      3.7000000000000455,
+      3.6000000000001364,
+      3.599999999999909,
+      3.7000000000000455,
+      3.599999999999909,
+      3.7000000000000455,
+      3.599999999999909,
+      3.6000000000001364,
+      3.7000000000000455,
+      3.599999999999909,
+      3.7000000000000455,
+      3.5,
+      3.7000000000000455,
+      3.699999999999818,
+      3.7000000000000455,
+      3.6000000000001364,
+      3.599999999999909,
+      3.599999999999909,
+      3.6000000000001364,
+      3.599999999999909,
+      3.7000000000000455,
+      3.599999999999909,
+      3.800000000000182,
+      3.5,
+      3.699999999999818,
+      3.6000000000001364,
+      3.599999999999909,
+      3.6000000000001364,
+      3.699999999999818,
+      3.6000000000001364,
+      3.7999999999999545,
+      3.5,
+      3.599999999999909,
+      3.7000000000000455,
+      3.6000000000001364,
+      3.599999999999909,
+      3.599999999999909,
+      3.7000000000000455,
+      3.6000000000001364,
+      3.699999999999818,
+      3.6000000000001364,
+      3.599999999999909,
+      3.7000000000000455,
+      3.7000000000000455,
+      3.599999999999909,
+      3.6000000000001364,
+      3.599999999999909,
+      3.7000000000000455,
+      3.599999999999909,
+      3.6000000000001364,
+      3.699999999999818,
+      3.6000000000001364,
+      3.599999999999909,
+      3.7999999999999545,
+      3.6000000000001364,
+      3.599999999999909,
+      3.6000000000001364,
+      3.699999999999818,
+      3.5,
+      3.7000000000000455,
+      3.7000000000000455,
+      3.599999999999909,
+      3.7000000000000455,
+      3.6000000000001364,
+      3.599999999999909,
+      3.599999999999909,
+      3.6000000000001364,
+      3.7000000000000455,
+      3.599999999999909,
+      3.7000000000000455,
+      3.599999999999909,
+      3.6000000000001364,
+      3.7999999999999545,
+      3.599999999999909,
+      3.5,
+      3.7000000000000455,
+      3.7000000000000455,
+      3.599999999999909,
+      3.7000000000000455,
+      3.599999999999909,
+      3.6000000000001364,
+      3.7000000000000455,
+      3.5,
+      3.599999999999909,
+      3.7000000000000455,
+      3.7000000000000455,
+      3.599999999999909,
+      3.7000000000000455,
+      3.599999999999909,
+      3.6000000000001364,
+      3.699999999999818,
+      3.6000000000001364,
+      3.7000000000000455,
+      3.599999999999909,
+      3.599999999999909,
+      3.6000000000001364,
+      3.7000000000000455,
+      3.599999999999909,
+      3.599999999999909,
+      3.7000000000000455,
+      3.6000000000001364,
+      3.699999999999818,
+      3.6000000000001364,
+      3.5,
+      3.7000000000000455,
+      3.699999999999818,
+      3.6000000000001364,
+      3.7000000000000455,
+      3.599999999999909,
+      3.599999999999909,
+      3.7000000000000455,
+      3.7000000000000455,
+      3.599999999999909,
+      3.6000000000001364,
+      3.599999999999909,
+      3.6000000000001364,
+      3.699999999999818,
+      3.7000000000000455,
+      3.6000000000001364,
+      3.599999999999909,
+      3.7000000000000455,
+      3.599999999999909,
+      3.6000000000001364,
+      3.699999999999818,
+      3.6000000000001364,
+      3.599999999999909,
+      3.6000000000001364,
+      3.699999999999818,
+      3.599999999999909,
+      3.600000000000364,
+      3.699999999999818,
+      3.599999999999909,
+      3.599999999999909,
+      3.700000000000273,
+      3.599999999999909,
+      3.699999999999818,
+      3.600000000000364,
+      3.699999999999818,
+      3.699999999999818,
+      3.5,
+      3.700000000000273,
+      3.699999999999818,
+      3.5,
+      3.700000000000273,
+      3.599999999999909,
+      3.599999999999909,
+      3.699999999999818,
+      3.600000000000364,
+      3.599999999999909,
+      3.699999999999818,
+      3.700000000000273,
+      3.5,
+      3.699999999999818,
+      3.699999999999818,
+      3.5,
+      3.700000000000273,
+      3.599999999999909,
+      3.699999999999818,
+      3.600000000000364,
+      3.599999999999909,
+      3.699999999999818,
+      3.700000000000273,
+      3.599999999999909,
+      3.799999999999727,
+      3.400000000000091,
+      3.700000000000273,
+      3.599999999999909,
+      3.599999999999909,
+      3.699999999999818,
+      3.600000000000364,
+      3.599999999999909,
+      3.699999999999818,
+      3.599999999999909,
+      3.700000000000273,
+      3.699999999999818,
+      3.5,
+      3.900000000000091,
+      3.5,
+      3.599999999999909,
+      3.5,
+      3.800000000000182,
+      3.5,
+      3.699999999999818,
+      3.599999999999909,
+      3.600000000000364,
+      3.799999999999727,
+      3.5,
+      3.700000000000273,
+      3.599999999999909,
+      3.599999999999909,
+      3.599999999999909,
+      3.700000000000273,
+      3.699999999999818,
+      3.599999999999909,
+      3.599999999999909,
+      3.600000000000364,
+      3.699999999999818,
+      3.599999999999909,
+      3.700000000000273,
+      3.599999999999909,
+      3.699999999999818,
+      3.599999999999909,
+      3.600000000000364,
+      3.699999999999818,
+      3.599999999999909,
+      3.700000000000273,
+      3.599999999999909,
+      3.599999999999909,
+      3.599999999999909,
+      3.700000000000273,
+      3.699999999999818
+    ],
+    "renderer": "WebKit WebGL"
+  },
+  "trailResults": [
+    {
+      "mode": "history",
+      "visible": 8,
+      "paths": [
+        {
+          "id": "199",
+          "count": 2559,
+          "range": {
+            "start": 0,
+            "count": 2559
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "299",
+          "count": 1280,
+          "range": {
+            "start": 0,
+            "count": 1280
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "399",
+          "count": 1280,
+          "range": {
+            "start": 0,
+            "count": 1280
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "499",
+          "count": 641,
+          "range": {
+            "start": 0,
+            "count": 641
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "599",
+          "count": 641,
+          "range": {
+            "start": 0,
+            "count": 641
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "699",
+          "count": 641,
+          "range": {
+            "start": 0,
+            "count": 641
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "799",
+          "count": 641,
+          "range": {
+            "start": 0,
+            "count": 641
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "899",
+          "count": 641,
+          "range": {
+            "start": 0,
+            "count": 641
+          },
+          "positionBufferVersion": 0
+        }
+      ]
+    },
+    {
+      "mode": "off",
+      "visible": 0,
+      "paths": [
+        {
+          "id": "199",
+          "count": 2559,
+          "range": {
+            "start": 988,
+            "count": 89
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "299",
+          "count": 1280,
+          "range": {
+            "start": 459,
+            "count": 115
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "399",
+          "count": 1280,
+          "range": {
+            "start": 424,
+            "count": 185
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "499",
+          "count": 641,
+          "range": {
+            "start": 172,
+            "count": 173
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "599",
+          "count": 641,
+          "range": {
+            "start": 0,
+            "count": 641
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "699",
+          "count": 641,
+          "range": {
+            "start": 0,
+            "count": 641
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "799",
+          "count": 641,
+          "range": {
+            "start": 0,
+            "count": 641
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "899",
+          "count": 641,
+          "range": {
+            "start": 0,
+            "count": 641
+          },
+          "positionBufferVersion": 0
+        }
+      ]
+    },
+    {
+      "mode": "recent",
+      "visible": 8,
+      "paths": [
+        {
+          "id": "199",
+          "count": 2559,
+          "range": {
+            "start": 988,
+            "count": 89
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "299",
+          "count": 1280,
+          "range": {
+            "start": 459,
+            "count": 115
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "399",
+          "count": 1280,
+          "range": {
+            "start": 424,
+            "count": 185
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "499",
+          "count": 641,
+          "range": {
+            "start": 172,
+            "count": 173
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "599",
+          "count": 641,
+          "range": {
+            "start": 0,
+            "count": 641
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "699",
+          "count": 641,
+          "range": {
+            "start": 0,
+            "count": 641
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "799",
+          "count": 641,
+          "range": {
+            "start": 0,
+            "count": 641
+          },
+          "positionBufferVersion": 0
+        },
+        {
+          "id": "899",
+          "count": 641,
+          "range": {
+            "start": 0,
+            "count": 641
+          },
+          "positionBufferVersion": 0
+        }
+      ]
+    }
+  ],
+  "earth": {
+    "utcMs": 1793232000000,
+    "tdb": 846504069.1824756,
+    "playing": false,
+    "rate": 86400,
+    "selected": "399",
+    "mode": "exploration",
+    "states": [
+      {
+        "id": "10",
+        "positionKm": [
+          -161123.7237936709,
+          -700889.7584253926,
+          -289028.72220659663
+        ],
+        "velocityKmPerSec": [
+          0.010325407378508877,
+          0.004434763951619257,
+          0.0016781825367836085
+        ]
+      },
+      {
+        "id": "199",
+        "positionKm": [
+          51488688.239742495,
+          5946233.09858955,
+          -2090946.762860871
+        ],
+        "velocityKmPerSec": [
+          -14.449095106898858,
+          44.28126274579042,
+          25.15312190850162
+        ]
+      },
+      {
+        "id": "299",
+        "positionKm": [
+          84932320.21788178,
+          62167287.21236347,
+          22616679.716455463
+        ],
+        "velocityKmPerSec": [
+          -21.719457539194018,
+          24.49400758559299,
+          12.396146346926939
+        ]
+      },
+      {
+        "id": "399",
+        "positionKm": [
+          121269361.26619138,
+          77917422.39024983,
+          33789241.80688798
+        ],
+        "velocityKmPerSec": [
+          -17.636040634063793,
+          22.228938808250035,
+          9.63600180961912
+        ]
+      },
+      {
+        "id": "499",
+        "positionKm": [
+          -37338234.8959717,
+          212610135.07566607,
+          98554465.96457238
+        ],
+        "velocityKmPerSec": [
+          -23.003938465659278,
+          -1.79102277117938,
+          -0.20115718679925496
+        ]
+      },
+      {
+        "id": "599",
+        "positionKm": [
+          -546110458.9875596,
+          525850964.07272947,
+          238694920.8908576
+        ],
+        "velocityKmPerSec": [
+          -9.648659186595166,
+          -7.7741254981578924,
+          -3.0973214646959946
+        ]
+      },
+      {
+        "id": "699",
+        "positionKm": [
+          1379121455.3627825,
+          286585616.5385981,
+          58972136.91591096
+        ],
+        "velocityKmPerSec": [
+          -2.495047747412883,
+          8.683293942891533,
+          3.6943854308501587
+        ]
+      },
+      {
+        "id": "799",
+        "positionKm": [
+          1321056295.6482625,
+          2378644394.8835516,
+          1023096133.8946462
+        ],
+        "velocityKmPerSec": [
+          -6.116213992610299,
+          2.512674418432107,
+          1.1868511368121202
+        ]
+      },
+      {
+        "id": "899",
+        "positionKm": [
+          4462739361.121505,
+          243551227.86513066,
+          -11419759.225402255
+        ],
+        "velocityKmPerSec": [
+          -0.30279732302008394,
+          5.051933635900218,
+          2.07577502701072
+        ]
+      }
+    ],
+    "scene": {
+      "mode": "exploration",
+      "focus": "399",
+      "lastPick": null,
+      "visiblePaths": 8,
+      "trails": {
+        "mode": "recent",
+        "visible": 8,
+        "paths": [
+          {
+            "id": "199",
+            "count": 2559,
+            "range": {
+              "start": 988,
+              "count": 89
+            },
+            "positionBufferVersion": 0
+          },
+          {
+            "id": "299",
+            "count": 1280,
+            "range": {
+              "start": 459,
+              "count": 115
+            },
+            "positionBufferVersion": 0
+          },
+          {
+            "id": "399",
+            "count": 1280,
+            "range": {
+              "start": 424,
+              "count": 185
+            },
+            "positionBufferVersion": 0
+          },
+          {
+            "id": "499",
+            "count": 641,
+            "range": {
+              "start": 172,
+              "count": 173
+            },
+            "positionBufferVersion": 0
+          },
+          {
+            "id": "599",
+            "count": 641,
+            "range": {
+              "start": 0,
+              "count": 641
+            },
+            "positionBufferVersion": 0
+          },
+          {
+            "id": "699",
+            "count": 641,
+            "range": {
+              "start": 0,
+              "count": 641
+            },
+            "positionBufferVersion": 0
+          },
+          {
+            "id": "799",
+            "count": 641,
+            "range": {
+              "start": 0,
+              "count": 641
+            },
+            "positionBufferVersion": 0
+          },
+          {
+            "id": "899",
+            "count": 641,
+            "range": {
+              "start": 0,
+              "count": 641
+            },
+            "positionBufferVersion": 0
+          }
+        ]
+      },
+      "sky": "ready",
+      "sunInFrontOfCamera": false,
+      "camera": [
+        52.17983645153282,
+        12.152967379301481,
+        -12.405786748110074
+      ],
+      "target": [
+        57.14803771682327,
+        -0.002996315646346486,
+        -40.326054871648914
+      ],
+      "objects": [
+        {
+          "id": "10",
+          "radius": 24,
+          "visible": true,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "quaternion": [
+            -0.05923223523747373,
+            -0.8200597309630866,
+            0.02215783895280804,
+            -0.5687728985583476
+          ],
+          "pole": [
+            0.1223534983603253,
+            0.992001144963428,
+            0.03103787734748932
+          ]
+        },
+        {
+          "id": "199",
+          "radius": 5.843809268102516,
+          "visible": true,
+          "position": [
+            35.60310234018771,
+            -2.962203446728067,
+            -3.7098044867559614
+          ],
+          "quaternion": [
+            0.04151319197775766,
+            0.01357859746974414,
+            -0.04518037569884549,
+            0.9980235519436824
+          ],
+          "pole": [
+            0.091309539913324,
+            0.992470777087058,
+            0.08163531435003049
+          ]
+        },
+        {
+          "id": "299",
+          "radius": 6.789120113429595,
+          "visible": true,
+          "position": [
+            45.81609127133321,
+            -2.149348369064384,
+            -35.96209891148894
+          ],
+          "quaternion": [
+            -0.001068929159691201,
+            0.41487596186873255,
+            -0.010759215614056544,
+            0.9098137352960307
+          ],
+          "pole": [
+            0.018690818266767478,
+            0.9997661933396437,
+            -0.010872532716760587
+          ]
+        },
+        {
+          "id": "399",
+          "radius": 6.856525590495314,
+          "visible": true,
+          "position": [
+            57.14803771682327,
+            -0.002996315646346486,
+            -40.32605487164892
+          ],
+          "quaternion": [
+            0.19226880635889393,
+            -0.30971209010046763,
+            0.06551090287639019,
+            -0.9288807506624551
+          ],
+          "pole": [
+            0.002607685523722786,
+            0.9174820554112926,
+            -0.39776862366767834
+          ]
+        },
+        {
+          "id": "499",
+          "radius": 6.137660714384827,
+          "visible": true,
+          "position": [
+            -13.913532109715378,
+            2.1844522678667424,
+            -87.95874008894229
+          ],
+          "quaternion": [
+            0.1736195101924652,
+            0.6455210093812012,
+            -0.1524642014053679,
+            0.7279516188716298
+          ],
+          "pole": [
+            0.4461232074014353,
+            0.8932218659407037,
+            0.05593551665322524
+          ]
+        },
+        {
+          "id": "599",
+          "radius": 13,
+          "visible": true,
+          "position": [
+            -99.39504803442452,
+            1.7865802412313665,
+            -105.26006414856097
+          ],
+          "quaternion": [
+            0.015304392593002841,
+            -0.8643814776637672,
+            -0.011805985597175495,
+            0.5024649792206821
+          ],
+          "pole": [
+            -0.014593478353043504,
+            0.999252788542877,
+            0.035789593163984085
+          ]
+        },
+        {
+          "id": "699",
+          "radius": 12.231390974035236,
+          "visible": true,
+          "position": [
+            169.36017131093215,
+            -7.3556450649612195,
+            -35.259108061495986
+          ],
+          "quaternion": [
+            0.007002800768606418,
+            0.9587126720721986,
+            -0.2422635106805161,
+            0.1487594184659622
+          ],
+          "pole": [
+            0.0855053056024318,
+            0.8825187043482934,
+            -0.46243873020027665
+          ]
+        },
+        {
+          "id": "799",
+          "radius": 9.500314797914193,
+          "visible": true,
+          "position": [
+            95.33748190177602,
+            -0.5420332710247929,
+            -186.8975234101126
+          ],
+          "quaternion": [
+            -0.1988633404562794,
+            -0.6525604706300908,
+            -0.6271138571364647,
+            -0.3759606550970854
+          ],
+          "pole": [
+            -0.2119995630205273,
+            0.13436316401999127,
+            0.967989011008721
+          ]
+        },
+        {
+          "id": "899",
+          "radius": 9.422417385324598,
+          "visible": true,
+          "position": [
+            231.49849790109116,
+            -5.5694789609107715,
+            -11.394637437522936
+          ],
+          "quaternion": [
+            -0.18023871984130263,
+            -0.10170784510678463,
+            0.16794888963640325,
+            -0.9638271051301691
+          ],
+          "pole": [
+            0.3604107678158903,
+            0.8786143486797353,
+            0.313274487848029
+          ]
+        }
+      ],
+      "labels": [],
+      "visuals": [
+        {
+          "id": "10",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 4096,
+          "actualAlbedoWidth": 4096,
+          "material": "solar-photosphere",
+          "layers": [
+            "IAU-pole",
+            "corona",
+            "illustrative-prominences"
+          ],
+          "sunLocal": [
+            0,
+            0,
+            0
+          ],
+          "cloudAngle": null
+        },
+        {
+          "id": "199",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 4096,
+          "actualAlbedoWidth": 4096,
+          "material": "mdis-airless-regolith",
+          "layers": [
+            "IAU-pole"
+          ],
+          "sunLocal": [
+            -0.9973459281699337,
+            -0.00022694563105627092,
+            0.07280829663255366
+          ],
+          "cloudAngle": null
+        },
+        {
+          "id": "299",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 4096,
+          "actualAlbedoWidth": 4096,
+          "material": "opaque-acid-cloudtops",
+          "layers": [
+            "IAU-pole",
+            "atmosphere"
+          ],
+          "sunLocal": [
+            -0.9818367313359609,
+            0.01546751967627163,
+            -0.18909624225399208
+          ],
+          "cloudAngle": null
+        },
+        {
+          "id": "399",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 4096,
+          "actualAlbedoWidth": 4096,
+          "material": "layered-earth-ocean-cloud-night",
+          "layers": [
+            "IAU-pole",
+            "clouds",
+            "atmosphere"
+          ],
+          "sunLocal": [
+            -0.97051745030408,
+            -0.23142567140747733,
+            -0.06736495579206203
+          ],
+          "cloudAngle": 0
+        },
+        {
+          "id": "499",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 2048,
+          "actualAlbedoWidth": 2048,
+          "material": "viking-mola-rock",
+          "layers": [
+            "IAU-pole",
+            "atmosphere"
+          ],
+          "sunLocal": [
+            -0.9615631930377242,
+            0.10300911897663881,
+            0.25452965878803235
+          ],
+          "cloudAngle": null
+        },
+        {
+          "id": "599",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 2048,
+          "actualAlbedoWidth": 2048,
+          "material": "cassini-ammonia-cloudtops",
+          "layers": [
+            "IAU-pole",
+            "atmosphere"
+          ],
+          "sunLocal": [
+            0.29218868959678934,
+            0.003670654952448303,
+            -0.9563536458674322
+          ],
+          "cloudAngle": null
+        },
+        {
+          "id": "699",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 4096,
+          "actualAlbedoWidth": 4096,
+          "material": "cassini-clouds-voyager-optical-rings",
+          "layers": [
+            "IAU-pole",
+            "measured-ABC-rings",
+            "atmosphere"
+          ],
+          "sunLocal": [
+            0.8734714969903652,
+            -0.1403128947891859,
+            -0.4662186563204946
+          ],
+          "cloudAngle": null
+        },
+        {
+          "id": "799",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 2048,
+          "actualAlbedoWidth": 2048,
+          "material": "uranus-methane-haze-reconstruction",
+          "layers": [
+            "IAU-pole",
+            "atmosphere"
+          ],
+          "sunLocal": [
+            0.07698473566980946,
+            0.958958744928702,
+            -0.272894624349064
+          ],
+          "cloudAngle": null
+        },
+        {
+          "id": "899",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 4096,
+          "actualAlbedoWidth": 4096,
+          "material": "neptune-methane-haze-reconstruction",
+          "layers": [
+            "IAU-pole",
+            "atmosphere"
+          ],
+          "sunLocal": [
+            -0.9410230789304304,
+            -0.3233680419705125,
+            -0.0995423244276019
+          ],
+          "cloudAngle": null
+        }
+      ],
+      "visualOptions": {
+        "enhancements": true,
+        "atmosphere": true,
+        "clouds": true,
+        "cloudMotion": true,
+        "night": true,
+        "terrain": true,
+        "radar": false,
+        "axis": false,
+        "fill": false,
+        "activity": false
+      },
+      "gpuMemory": {
+        "geometries": 14,
+        "textures": 35
+      }
+    },
+    "frameTimes": [
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.5,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.599999999998545,
+      3.600000000002183,
+      3.7000000000007276,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.599999999998545,
+      3.600000000002183,
+      3.7999999999992724,
+      3.5,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.7000000000007276,
+      3.5,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.5,
+      3.8000000000029104,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.5,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.7000000000007276,
+      3.599999999998545,
+      4,
+      3.2000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.6999999999970896,
+      3.7000000000007276,
+      3.5,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.6999999999970896,
+      3.5,
+      3.7000000000007276,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.7999999999992724,
+      3.5,
+      3.600000000002183,
+      3.7000000000007276,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.6999999999970896,
+      3.5,
+      3.7000000000007276,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.600000000002183,
+      3.6999999999970896,
+      3.7000000000007276,
+      3.5,
+      3.900000000001455,
+      3.399999999997817,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.7000000000007276,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.5,
+      3.7999999999992724,
+      3.5,
+      3.7000000000007276,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.600000000002183,
+      3.6999999999970896,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.599999999998545,
+      3.600000000002183,
+      3.7999999999992724,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.5,
+      3.7999999999992724,
+      3.599999999998545,
+      3.600000000002183,
+      3.7000000000007276,
+      3.5,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      4,
+      3.399999999997817,
+      3.5,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.7000000000007276,
+      3.5,
+      3.6999999999970896,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.5,
+      3.7000000000007276,
+      141.79999999999927,
+      10.899999999997817,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.5,
+      3.7000000000007276,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.600000000002183,
+      3.6999999999970896,
+      3.7000000000007276,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.7000000000007276,
+      3.5,
+      3.7999999999992724,
+      3.5,
+      3.7999999999992724,
+      3.5,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.5,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.7000000000007276,
+      3.5,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.599999999998545,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.7999999999992724,
+      3.5,
+      7.299999999999272,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.5,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.599999999998545,
+      3.599999999998545,
+      3.8000000000029104,
+      3.5,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      3.7999999999992724,
+      3.599999999998545,
+      3.5,
+      3.7000000000007276,
+      3.7000000000007276,
+      3.599999999998545,
+      3.600000000002183,
+      80,
+      8.19999999999709,
+      2.8000000000029104,
+      3.5,
+      3.6999999999970896,
+      3.600000000002183,
+      69.09999999999854,
+      3.600000000002183,
+      3.599999999998545,
+      3.599999999998545,
+      72.80000000000291,
+      3.6999999999970896,
+      76.30000000000291,
+      3.599999999998545,
+      61.900000000001455,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.599999999998545,
+      3.599999999998545,
+      3.7000000000007276,
+      3.600000000002183,
+      3.6999999999970896,
+      3.600000000002183,
+      3.7000000000007276,
+      3.5
+    ],
+    "renderer": "WebKit WebGL"
+  },
+  "recording": null,
+  "errors": [],
+  "failures": [],
+  "headless": false,
+  "benchmarkFlags": [
+    "disable native-window occlusion throttling; vsync unchanged"
+  ],
+  "browser": "156.0.4314.50"
+}

@@ -1,0 +1,64 @@
+FETCH 301 Moon validation-00
+FETCH 301 Moon validation-01
+FETCH 301 Moon validation-02
+FETCH 301 Moon validation-03
+FETCH 301 Moon global-validation
+READY Moon 10237 states DE441 mean period 27.321317 d
+FETCH 401 Phobos grid-20m-00
+FETCH 401 Phobos grid-20m-01
+FETCH 401 Phobos grid-20m-02
+FETCH 401 Phobos grid-20m-03
+FETCH 401 Phobos grid-20m-04
+FETCH 401 Phobos grid-20m-05
+FETCH 401 Phobos grid-20m-06
+FETCH 401 Phobos validation-00
+FETCH 401 Phobos validation-01
+FETCH 401 Phobos validation-02
+FETCH 401 Phobos validation-03
+FETCH 401 Phobos global-validation
+READY Phobos 184249 states mar099 mean period 0.31891 d
+FETCH 402 Deimos grid-60m-00
+FETCH 402 Deimos grid-60m-01
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\19238\Documents\ChatGPT\前端\.venv-phase1\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\19238\Documents\ChatGPT\前端\.venv-phase1\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\19238\Documents\ChatGPT\前端\.venv-phase1\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='ssd.jpl.nasa.gov', port=443): Max retries exceeded with url: /api/horizons.api?COMMAND=%27402%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%40499%27&REF_SYSTEM=%27ICRF%27&REF_PLANE=%27FRAME%27&OUT_UNITS=%27KM-S%27&TIME_TYPE=%27TDB%27&VEC_TABLE=%272%27&VEC_CORR=%27NONE%27&CSV_FORMAT=%27YES%27&VEC_LABELS=%27YES%27&OBJ_DATA=%27YES%27&CAL_TYPE=%27GREGORIAN%27&START_TIME=%272027-06-03+00%3A00%3A00%27&STOP_TIME=%272030-11-04+00%3A00%3A00%27&STEP_SIZE=%2760+m%27&format=json (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\19238\Documents\ChatGPT\前端\scripts\build-satellites.py", line 108, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\19238\Documents\ChatGPT\前端\scripts\build-satellites.py", line 73, in main
+    a,source,header=query(id,name,parent,f'grid-{minutes}m-{index:02d}',dict(START_TIME=a_time.isoformat(' '),STOP_TIME=b_time.isoformat(' '),STEP_SIZE=f'{minutes} m'))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\19238\Documents\ChatGPT\前端\scripts\build-satellites.py", line 32, in query
+    response=requests.get(API,params=params,timeout=180);response.raise_for_status()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\19238\Documents\ChatGPT\前端\.venv-phase1\Lib\site-packages\requests\api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\19238\Documents\ChatGPT\前端\.venv-phase1\Lib\site-packages\requests\api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\19238\Documents\ChatGPT\前端\.venv-phase1\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\19238\Documents\ChatGPT\前端\.venv-phase1\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\19238\Documents\ChatGPT\前端\.venv-phase1\Lib\site-packages\requests\adapters.py", line 727, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='ssd.jpl.nasa.gov', port=443): Max retries exceeded with url: /api/horizons.api?COMMAND=%27402%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%40499%27&REF_SYSTEM=%27ICRF%27&REF_PLANE=%27FRAME%27&OUT_UNITS=%27KM-S%27&TIME_TYPE=%27TDB%27&VEC_TABLE=%272%27&VEC_CORR=%27NONE%27&CSV_FORMAT=%27YES%27&VEC_LABELS=%27YES%27&OBJ_DATA=%27YES%27&CAL_TYPE=%27GREGORIAN%27&START_TIME=%272027-06-03+00%3A00%3A00%27&STOP_TIME=%272030-11-04+00%3A00%3A00%27&STEP_SIZE=%2760+m%27&format=json (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))

@@ -1,0 +1,980 @@
+{
+  "version": "2.0.0",
+  "bodies": [
+    {
+      "bodyId": "10",
+      "name": "Sun",
+      "version": "2.0.0-sun",
+      "kind": "solar-photosphere",
+      "albedo": {
+        "sourceUrl": "https://sdo.gsfc.nasa.gov/assets/img/browse/2025/09/07/20250907_000000_4096_HMIIF.jpg",
+        "provider": "NASA/SDO HMI",
+        "title": "HMI flattened continuum intensity 2025-09-07 00:00 UTC",
+        "observationEpoch": "2025-09-07T00:00:00Z",
+        "acquisitionDate": "2026-10-28T18:18:18.732602+00:00",
+        "processing": "reconstruction",
+        "rights": "NASA media usage guidelines; credit NASA/SDO and HMI science team; no endorsement",
+        "credit": "Courtesy NASA/SDO and the AIA, EVE, and HMI science teams",
+        "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "referenceUrl": "https://sdo.gsfc.nasa.gov/data/channels.php",
+        "projection": "orthographic full disk source; derived equirectangular",
+        "longitudeConvention": "east-positive",
+        "primeMeridianOrOrientationNotes": "Visual reprojection; JPEG browse disk lacks full WCS. Texture prime-meridian registration unverified; backside mirrored reconstruction.",
+        "sha256": "b0f51d42d2e2cd1cfb571a19bd85bbd6c9436f9b9c05e9593e0c235a7e7b405b",
+        "rawPath": "data/phase-2/raw/sun-HMIIF-20250907.jpg",
+        "derivedProjection": "equirectangular 4096x2048; orthographic inverse x=R*cos(lat)*sin(lon), y=-R*sin(lat); mirrored unseen hemisphere",
+        "sourceDiskCenter": [
+          2046.5,
+          2048.0
+        ],
+        "sourceDiskRadius": 1884.5,
+        "lods": [
+          {
+            "width": 1024,
+            "height": 512,
+            "url": "/assets/celestial/sun/photosphere-1024.jpg",
+            "sha256": "e48c1fa31905b805ad900f84fab706f2b3d42d2904e39df894bf5ca9eecad2b4"
+          },
+          {
+            "width": 2048,
+            "height": 1024,
+            "url": "/assets/celestial/sun/photosphere-2048.jpg",
+            "sha256": "4577cc9595306f8339658c519ec6fd5c9671ea7110df40b5ed864a9c1910634a"
+          },
+          {
+            "width": 4096,
+            "height": 2048,
+            "url": "/assets/celestial/sun/photosphere-4096.jpg",
+            "sha256": "c4241889f9eea2c17a8f8cf920f0722e8d5e9adbc1b8f582b2d2440f827a8c9d"
+          }
+        ],
+        "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "processingCategory": "reconstruction"
+      },
+      "hasVerifiedOrientation": false,
+      "axisVerified": true,
+      "referenceLinks": [
+        "https://sdo.gsfc.nasa.gov/data/channels.php"
+      ],
+      "visualEnhancements": [
+        "VISUAL_ENHANCEMENT: optional warm display grading",
+        "VISUAL_ENHANCEMENT: opt-in analytic corona and prominences, not event observations",
+        "VISUAL_ENHANCEMENT: restrained analytic corona to 1.18R, alpha peak 0.14, no Bloom; not an observed coronal shape"
+      ],
+      "limitations": [
+        "RECONSTRUCTED: mirrored unseen hemisphere",
+        "HMI browse image is colorized continuum, not full radiometric spectrum",
+        "No absolute heliographic registration from JPEG WCS; spots represent 2025-09-07 only"
+      ],
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/celestial/sun/photosphere-1024.jpg",
+          "sha256": "e48c1fa31905b805ad900f84fab706f2b3d42d2904e39df894bf5ca9eecad2b4"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/celestial/sun/photosphere-2048.jpg",
+          "sha256": "4577cc9595306f8339658c519ec6fd5c9671ea7110df40b5ed864a9c1910634a"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/celestial/sun/photosphere-4096.jpg",
+          "sha256": "c4241889f9eea2c17a8f8cf920f0722e8d5e9adbc1b8f582b2d2440f827a8c9d"
+        }
+      ],
+      "description": "SDO/HMI \u5149\u7403\u89c2\u6d4b\u5feb\u7167\uff0c\u4fdd\u7559\u6697\u6591\u548c\u7c73\u7c92\u7ec4\u7ec7\u3002\u65e5\u5195\u3001\u65e5\u73e5\u4e3a\u53ef\u5173\u95ed\u7684\u89c2\u5bdf\u589e\u5f3a\u3002"
+    },
+    {
+      "bodyId": "199",
+      "name": "Mercury",
+      "version": "2.0.0-mercury",
+      "kind": "mdis-airless-regolith",
+      "roughness": 0.98,
+      "albedo": {
+        "provider": "NASA / MESSENGER MDIS",
+        "title": "PIA17386 enhanced-color global map: luminance reconstruction",
+        "sourceUrl": "https://science.nasa.gov/photojournal/enhanced-color-mercury-map/",
+        "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/p/i/a/1/PIA17386-1.jpg",
+        "observationEpoch": "MESSENGER orbital mosaic, released 2013-07-18",
+        "credit": "NASA / Johns Hopkins University Applied Physics Laboratory / Carnegie Institution of Washington",
+        "rights": "NASA mission imagery; credit retained",
+        "processing": "4096x2048 observed enhanced-color map converted to luminance; restrained gray-brown display tint; no fabricated elevation",
+        "primeMeridianOrOrientationNotes": "180-degree wrap from 0..360 to -180..180. Cross-check with USGS MDIS reference has correlation 0.256; absolute feature longitude NOT certified.",
+        "sha256": "5e1c8607693605d18ae11c0401f925759762d3affa4a5f057ab9a611a125fdb1",
+        "lods": [
+          {
+            "width": 1024,
+            "height": 512,
+            "url": "/assets/celestial/mercury/mdis-1024.jpg",
+            "sha256": "04f0b49ce2951d852995b409feeaac10c422081ebbd2f5798cab2a9f46f7d4b6"
+          },
+          {
+            "width": 2048,
+            "height": 1024,
+            "url": "/assets/celestial/mercury/mdis-2048.jpg",
+            "sha256": "126b9e2535c96b8bd2142dbd944ce5849ae0433451ffce567da9ce0daded7966"
+          },
+          {
+            "width": 4096,
+            "height": 2048,
+            "url": "/assets/celestial/mercury/mdis-4096.jpg",
+            "sha256": "7fbeaba44362b40a9a9f3f2d36c9ad76a858c079ecf24a6b0aca8519d7c8efe2"
+          }
+        ],
+        "acquisitionDate": "2026-10-28T19:08:23.005578+00:00",
+        "projection": "equirectangular",
+        "longitudeConvention": "east-positive after processing",
+        "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "processingCategory": "reconstruction"
+      },
+      "hasVerifiedOrientation": false,
+      "axisVerified": true,
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/celestial/mercury/mdis-1024.jpg",
+          "sha256": "04f0b49ce2951d852995b409feeaac10c422081ebbd2f5798cab2a9f46f7d4b6"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/celestial/mercury/mdis-2048.jpg",
+          "sha256": "126b9e2535c96b8bd2142dbd944ce5849ae0433451ffce567da9ce0daded7966"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/celestial/mercury/mdis-4096.jpg",
+          "sha256": "7fbeaba44362b40a9a9f3f2d36c9ad76a858c079ecf24a6b0aca8519d7c8efe2"
+        }
+      ],
+      "referenceLinks": [
+        "https://astrogeology.usgs.gov/search/map/mercury_messenger_mdis_global_mosaic_250m"
+      ],
+      "visualEnhancements": [
+        "VISUAL_ENHANCEMENT: restrained gray-brown tint, not calibrated natural RGB"
+      ],
+      "limitations": [
+        "RECONSTRUCTED: luminance of enhanced-color MDIS map, not a monochromatic photometric albedo map",
+        "Source mosaic contains baked illumination; no DEM/bump has been fabricated",
+        "Absolute longitude registration remains unverified; pole and rotation use IAU PCK"
+      ],
+      "description": "MESSENGER \u5b9e\u6d4b\u5168\u7403\u62fc\u63a5\u5448\u73b0\u649e\u51fb\u5751\u4e0e\u55b7\u5c04\u7eb9\u3002\u9ed8\u8ba4\u7070\u8910\u8272\u4eae\u5ea6\u91cd\u5efa\uff0c\u65e0\u53ef\u89c1\u539a\u5927\u6c14\u3002"
+    },
+    {
+      "bodyId": "299",
+      "name": "Venus",
+      "version": "2.0.0-venus",
+      "kind": "opaque-acid-cloudtops",
+      "roughness": 1,
+      "albedo": {
+        "provider": "NASA / JPL-Caltech / Mariner 10",
+        "title": "PIA23791 cloud structure reconstruction",
+        "sourceUrl": "https://science.nasa.gov/photojournal/venus-from-mariner-10/",
+        "observationEpoch": "1974-02-07 / 08",
+        "credit": "NASA/JPL-Caltech; processing Kevin M. Gill",
+        "rights": "NASA mission imagery; original credit retained",
+        "processing": "Inverse orthographic of LEFT unenhanced disk; radial median illumination removal; reduced-contrast cream display reconstruction; unknown hemisphere mirrored. Source orange+UV false color, not calibrated visible RGB.",
+        "primeMeridianOrOrientationNotes": "Absolute longitude not certified; IAU pole and rotation from NAIF PCK",
+        "rawFile": "data/phase-2/raw/venus-cloud.jpg",
+        "sha256": "853268f7922ea572a0966df4a378e6b54221102d6740bdc78f4011708ee71007",
+        "nativeSize": [
+          2245,
+          1096
+        ],
+        "acquisitionDate": "2026-10-28T19:08:23.006581+00:00",
+        "projection": "equirectangular",
+        "longitudeConvention": "east-positive after processing",
+        "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "processingCategory": "reconstruction"
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/celestial/venus/cloudtops-1024.jpg",
+          "sha256": "5c5c3a029dd1d307d7c4c3166cf8b7fe6e7f0a5fcc3dbf3a51a4612f9c5dfa62"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/celestial/venus/cloudtops-2048.jpg",
+          "sha256": "90930e314500bbec4e88f9fd6ee65de7fa9817465cf88d1f47cbc4aee3553682"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/celestial/venus/cloudtops-4096.jpg",
+          "sha256": "4374737ca4b81b621602532aafe1bf06f76f73e22ddd140f937f12b70c9dc5c3"
+        }
+      ],
+      "radarLods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/celestial/venus/radar-1024.jpg",
+          "sha256": "72921ec628c41271640e443db70cbe0b2debfab32ac4140ac9ab7bf2d225cce2"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/celestial/venus/radar-2048.jpg",
+          "sha256": "10c91e8f11c1d8852e22de9f463853bd1618e133943e6f515c73fec1b73d9072"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/celestial/venus/radar-4096.jpg",
+          "sha256": "5f746558cfe329ccddd99bec80c6e0d20cf3aca5a9a89016fe101131b72a4bca"
+        }
+      ],
+      "radarSource": {
+        "provider": "NASA / JPL Magellan via NASA 3D Resources",
+        "title": "Venus radar representative global texture",
+        "sourceUrl": "https://science.nasa.gov/3d-resources/venus/",
+        "observationEpoch": "Magellan era; exact mosaic epoch not documented on download page",
+        "credit": "NASA/JPL-Caltech",
+        "rights": "NASA mission imagery; original credit retained",
+        "processing": "Unmodified radar appearance resampled; not optical color or a DEM",
+        "primeMeridianOrOrientationNotes": "Absolute longitude not certified; IAU pole and rotation from NAIF PCK",
+        "rawFile": "data/phase-2/raw/venus-radar.jpg",
+        "sha256": "e395bced59e95339efbdd002d4a0bbbf81fe323a6694f3a4039120560c80e789",
+        "nativeSize": [
+          1440,
+          720
+        ],
+        "acquisitionDate": "2026-10-28T19:08:23.006581+00:00",
+        "projection": "see processing notes",
+        "longitudeConvention": "east-positive after processing",
+        "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "processingCategory": "reconstruction"
+      },
+      "atmosphere": {
+        "radius": 1.012,
+        "tint": "#e8dbb3",
+        "strength": 0.38
+      },
+      "axisVerified": true,
+      "hasVerifiedOrientation": false,
+      "visualEnhancements": [
+        "RECONSTRUCTED: low-contrast cream cloudtops from orange/UV structure",
+        "VISUAL_ENHANCEMENT: analytic cloudtop limb scattering; radar mode explicitly labeled"
+      ],
+      "limitations": [
+        "Static 1974 snapshot, not current clouds or simulated superrotation",
+        "RECONSTRUCTED unseen hemisphere; sub-view geometry and prime meridian not certified",
+        "4K derivative; source disk is about 900 pixels across, no 4K observation detail claimed",
+        "Radar source is a representative NASA texture, not calibrated backscatter or height"
+      ],
+      "description": "\u9ed8\u8ba4\u663e\u793a\u4e0d\u900f\u660e\u7684\u6de1\u8272\u9178\u4e91\u9876\u91cd\u5efa\u3002\u96f7\u8fbe\u6a21\u5f0f\u4e3a\u72ec\u7acb\u7684\u975e\u53ef\u89c1\u5149\u5730\u8868\u793a\u610f\u3002",
+      "referenceLinks": [
+        "https://science.nasa.gov/photojournal/venus-from-mariner-10/",
+        "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      ]
+    },
+    {
+      "bodyId": "499",
+      "name": "Mars",
+      "version": "2.0.0-mars",
+      "kind": "viking-mola-rock",
+      "roughness": 0.98,
+      "albedo": {
+        "provider": "NASA Viking / USGS Astrogeology",
+        "title": "Viking MDIM 2.1 colorized global mosaic",
+        "sourceUrl": "https://astrogeology.usgs.gov/search/map/mars_viking_colorized_global_mosaic_232m",
+        "observationEpoch": "Viking era; colorized product 2009-02-02",
+        "credit": "NASA Ames / USGS Astrogeology",
+        "rights": "NASA mission imagery; original credit retained",
+        "processing": "1km JPEG downsampled to 4K; preserved low-saturation scientific colorization, no noise detail",
+        "primeMeridianOrOrientationNotes": "USGS planetocentric east-positive -180..180, north up; MOLA 0..360 shifted by 180 deg",
+        "rawFile": "data/phase-2/raw/mars-viking.jpg",
+        "sha256": "fdfcd335559c3dc67052b7e8a9565d850e336ac0d1f3ea7f5eb7826ffb44ecb2",
+        "nativeSize": [
+          21339,
+          10670
+        ],
+        "acquisitionDate": "2026-10-28T19:08:23.007994+00:00",
+        "projection": "equirectangular",
+        "longitudeConvention": "east-positive after processing",
+        "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "processingCategory": "approx-natural-color"
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/celestial/mars/albedo-1024.jpg",
+          "sha256": "8b8bac66fe177f1f294f913397ba07262c763f5c195cbe6ad98bcd1fd0c80c7b"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/celestial/mars/albedo-2048.jpg",
+          "sha256": "75e391f872ca63ece28476198bd499c55b472e09b7f10ffe4990618623c44782"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/celestial/mars/albedo-4096.jpg",
+          "sha256": "8ecc433a5b29bf20b7f047cb42c57866ea18bc3eea25cd2f16a094a19ef2b2d8"
+        }
+      ],
+      "heightLods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/celestial/mars/mola-height-1024.png",
+          "sha256": "0a4790aa2024ad2113623185904987030f5652882e8d78e679268ae7f9f9bed0"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/celestial/mars/mola-height-2048.png",
+          "sha256": "3e869fa5d471937ca4ec1cd7745280314e948b1947eae6ab37bff9af1c8ea259"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/celestial/mars/mola-height-4096.png",
+          "sha256": "9589286fcbee05a4b7e0783bbba42d23370e549ef4daaf939d4ef9aee7c5254e"
+        }
+      ],
+      "bumpScale": 0.008658504204159905,
+      "additionalSources": [
+        {
+          "provider": "NASA / MGS MOLA / PDS Geosciences",
+          "title": "MOLA MEGDR median topography 16 pixels/degree",
+          "sourceUrl": "https://pds-geosciences.wustl.edu/mgs/mgs-m-mola-5-megdr-l3-v1/mgsl_300x/meg016/megt90n000eb.img",
+          "observationEpoch": "1999-02 through 2001-06; polar observations from 1998",
+          "credit": "MGS MOLA Team / David E. Smith, GSFC",
+          "rights": "NASA PDS science data",
+          "processing": "MSB int16 meters, 5760x2880, east-positive 0..360; 180deg wrap; 8-bit display height maps -8177..21171m; physical bump range / 3389.5km",
+          "sha256": "d18d9b9ab8c5516d02e157dd2cde0f1d0d160c21940e953ba22391269a545e7b",
+          "label": "data/phase-2/raw/mars-height.lbl",
+          "acquisitionDate": "2026-10-28T19:08:23.007994+00:00",
+          "projection": "see processing notes",
+          "longitudeConvention": "east-positive after processing",
+          "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "processingCategory": "approx-natural-color"
+        }
+      ],
+      "atmosphere": {
+        "radius": 1.007,
+        "tint": "#af7856",
+        "strength": 0.23
+      },
+      "hasVerifiedOrientation": true,
+      "axisVerified": true,
+      "visualEnhancements": [
+        "VISUAL_ENHANCEMENT: thin approximate dust scattering; not selected-date dust weather"
+      ],
+      "limitations": [
+        "Viking imagery is a colorized composite, not calibrated surface reflectance",
+        "MOLA bump mapping affects normals only; no mesh displacement or crater detail below 3.705km sampling",
+        "Height display quantization about 115m; reference IAU2000 grid attached to current generic IAU attitude",
+        "Fixed observed polar caps and atmosphere, no seasonal frost simulation"
+      ],
+      "description": "USGS Viking \u5168\u7403\u5f71\u50cf\u4e0e MOLA \u6d4b\u7ed8\u5730\u5f62\u6cd5\u7ebf\uff0c\u5448\u73b0\u4f4e\u9971\u548c\u5730\u8c8c\u3001\u6781\u51a0\u4e0e\u8584\u96fe\u3002",
+      "referenceLinks": [
+        "https://astrogeology.usgs.gov/search/map/mars_viking_colorized_global_mosaic_232m",
+        "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      ]
+    },
+    {
+      "bodyId": "599",
+      "name": "Jupiter",
+      "version": "2.0.0-jupiter",
+      "kind": "cassini-ammonia-cloudtops",
+      "photometry": "gas",
+      "minnaert": 0.85,
+      "albedo": {
+        "provider": "NASA / JPL / Cassini ISS",
+        "title": "PIA07782 cylindrical cloud mosaic",
+        "sourceUrl": "https://science.nasa.gov/photojournal/cassinis-best-maps-of-jupiter-cylindrical-map/",
+        "observationEpoch": "2000-12-11 / 12",
+        "credit": "NASA/JPL/Space Science Institute",
+        "rights": "NASA mission imagery; original credit retained",
+        "processing": "3601x1801 TIFF to three LODs; no generated storms, bump, or noise; 750nm+451nm near-natural-color scientific reconstruction",
+        "primeMeridianOrOrientationNotes": "North up, west-positive graticule 180 at left, 0 at center, 180 right => east-positive -180..180; System III features fixed at source epoch",
+        "rawFile": "data/phase-2/raw/jupiter-main.tif",
+        "sha256": "f92ffc7a2fa0235c47ec8f1f168dd36bffeb6acc318292b237878a00a48cf7d9",
+        "nativeSize": [
+          3601,
+          1801
+        ],
+        "acquisitionDate": "2026-10-28T19:08:23.008994+00:00",
+        "projection": "equirectangular",
+        "longitudeConvention": "east-positive after processing",
+        "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "processingCategory": "approx-natural-color"
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/celestial/jupiter/albedo-1024.jpg",
+          "sha256": "7983d0972a2447dbd32f66dbf188b202b93e598322677e7ad49d6a35db236605"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/celestial/jupiter/albedo-2048.jpg",
+          "sha256": "b7d179554b3a957fd67851215ee88a8afb8820f92dda302f481ad78df0d03e0d"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/celestial/jupiter/albedo-4096.jpg",
+          "sha256": "d2a79b74c4917f323794dbc4d48331e0a42704ccc5558a079729c4dcb05a7fb1"
+        }
+      ],
+      "atmosphere": {
+        "radius": 1.003,
+        "tint": "#b8ced6",
+        "strength": 0.2
+      },
+      "axisVerified": true,
+      "hasVerifiedOrientation": true,
+      "visualEnhancements": [
+        "VISUAL_ENHANCEMENT: approximate Minnaert cloud-top photometry k=0.85; switchable to Lambert, not a fitted radiance model",
+        "VISUAL_ENHANCEMENT: restrained analytic haze limb"
+      ],
+      "limitations": [
+        "GRS and vortices represent December 2000, not the selected date",
+        "Near-natural color synthesized from blue and near-IR, not calibrated full visible spectrum",
+        "Smallest source features about 120km; 4096 derivative does not add detail",
+        "No fictional cloud height or differential atmospheric wind animation"
+      ],
+      "description": "Cassini 2000 \u5e74\u4e91\u9876\u5feb\u7167\uff0c\u4e91\u5e26\u4e0e\u5927\u7ea2\u6591\u5747\u6709\u89c2\u6d4b\u6765\u6e90\uff1b\u4e0d\u4ee3\u8868\u5f53\u524d\u98ce\u66b4\u4f4d\u7f6e\u3002",
+      "referenceLinks": [
+        "https://science.nasa.gov/photojournal/cassinis-best-maps-of-jupiter-cylindrical-map/",
+        "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      ]
+    },
+    {
+      "bodyId": "699",
+      "name": "Saturn",
+      "version": "2.0.0-saturn",
+      "kind": "cassini-clouds-voyager-optical-rings",
+      "photometry": "gas",
+      "minnaert": 0.78,
+      "albedo": {
+        "provider": "NASA PDS / Cassini ISS",
+        "title": "Original RGB Saturn global map",
+        "sourceUrl": "https://atmos.nmsu.edu/data_and_services/atmospheres_data/Cassini/sat_global_map.html",
+        "observationEpoch": "2011-08-11",
+        "credit": "Li, West, Jiang, Knowles (2023), DOI 10.17189/rkkb-6y30; NASA/JPL/Cassini ISS",
+        "rights": "NASA PDS science data; attribution retained",
+        "processing": "Original RGB FITS 3601x1801; black ring-shadow and polar gaps linearly filled in latitude, with reconstruction mask retained; no generated turbulence",
+        "primeMeridianOrOrientationNotes": "North-up verified against PDS browse graticule. West 360..0 converted to east -180..180 by 180-degree wrap. Not current cloud longitude.",
+        "sha256": "32a62eca9b82255c7dd763ba0752cee1664ae73d5ec4d5d5260227deecd422af",
+        "nativeSize": [
+          3601,
+          1801
+        ],
+        "acquisitionDate": "2026-10-28T19:08:23.009993+00:00",
+        "projection": "equirectangular",
+        "longitudeConvention": "east-positive after processing",
+        "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "processingCategory": "approx-natural-color"
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/celestial/saturn/albedo-1024.jpg",
+          "sha256": "0712cfed4779d89d11513d5be6fce73da77437d7bbdcaa9aee58ccf557808ff5"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/celestial/saturn/albedo-2048.jpg",
+          "sha256": "8f64b5f84f5f62e88214ed68ea040f3661d316aec60e6a663ee03b91840c5845"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/celestial/saturn/albedo-4096.jpg",
+          "sha256": "b69e62181368a82156051885f28136425fb44e17dc28fc8af52caad79b4d38c4"
+        }
+      ],
+      "ringProfile": {
+        "sourceUrl": "https://pds-rings.seti.org/voyager/uvs/profiles.html",
+        "downloadUrl": "https://opus.pds-rings.seti.org/holdings/volumes/VG_28xx/VG_2802/EASYDATA/KM005/US1P01.TAB",
+        "provider": "NASA PDS Ring-Moon Systems Node / Voyager 2 UVS",
+        "title": "US1P01 normal optical depth, delta Sco egress",
+        "observationEpoch": "1981-08-26",
+        "credit": "NASA Voyager UVS / PDS Ring-Moon Systems Node",
+        "rights": "NASA PDS science data",
+        "rawSha256": "3ba9cb653ac3d2ecfc8baef4acbb76450fbc4cf91873be9886ce0e0bc0ad4951",
+        "processing": "Column 4 normal optical depth. Original 5km grid; negative estimates clipped to zero; opaque flag 99 capped at tau 6; interpolated onto 8192 radial texels. UV optical depth is an approximate visible-opacity proxy, not measured visible reflectance.",
+        "radiusKm": [
+          74658.0,
+          136775.0
+        ],
+        "planetRadiusKm": 58232,
+        "innerRatio": 1.2820785822228329,
+        "outerRatio": 2.34879447726336,
+        "url": "/assets/celestial/saturn/ring-optical-depth.png",
+        "sha256": "35cd0d9d4969f9566a0a975b4f7880b13ade07464e448d7534f4837da8c717d0",
+        "tauMax": 6,
+        "reconstructionFraction": 0.17656857301499168
+      },
+      "additionalSources": [
+        {
+          "sourceUrl": "https://pds-rings.seti.org/voyager/uvs/profiles.html",
+          "downloadUrl": "https://opus.pds-rings.seti.org/holdings/volumes/VG_28xx/VG_2802/EASYDATA/KM005/US1P01.TAB",
+          "provider": "NASA PDS Ring-Moon Systems Node / Voyager 2 UVS",
+          "title": "US1P01 normal optical depth, delta Sco egress",
+          "observationEpoch": "1981-08-26",
+          "credit": "NASA Voyager UVS / PDS Ring-Moon Systems Node",
+          "rights": "NASA PDS science data",
+          "rawSha256": "3ba9cb653ac3d2ecfc8baef4acbb76450fbc4cf91873be9886ce0e0bc0ad4951",
+          "processing": "Column 4 normal optical depth. Original 5km grid; negative estimates clipped to zero; opaque flag 99 capped at tau 6; interpolated onto 8192 radial texels. UV optical depth is an approximate visible-opacity proxy, not measured visible reflectance.",
+          "radiusKm": [
+            74658.0,
+            136775.0
+          ],
+          "planetRadiusKm": 58232,
+          "innerRatio": 1.2820785822228329,
+          "outerRatio": 2.34879447726336,
+          "url": "/assets/celestial/saturn/ring-optical-depth.png",
+          "sha256": "35cd0d9d4969f9566a0a975b4f7880b13ade07464e448d7534f4837da8c717d0",
+          "tauMax": 6,
+          "reconstructionFraction": 0.17656857301499168,
+          "acquisitionDate": "2026-10-28T19:08:23.009993+00:00",
+          "projection": "see processing notes",
+          "longitudeConvention": "east-positive after processing",
+          "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "processingCategory": "approx-natural-color"
+        }
+      ],
+      "atmosphere": {
+        "radius": 1.003,
+        "tint": "#e1c69c",
+        "strength": 0.18
+      },
+      "axisVerified": true,
+      "hasVerifiedOrientation": true,
+      "visualEnhancements": [
+        "VISUAL_ENHANCEMENT: neutral warm ice color and approximate single-scattering ring photometry, no Bloom",
+        "VISUAL_ENHANCEMENT: ring brightness inspection gain switch, analytic sphere/plane mutual shadows"
+      ],
+      "limitations": [
+        "2011 Saturn storm/cloud snapshot and 1981 ring occultation, not current weather",
+        "RECONSTRUCTED black-image gaps: 17.66% of map, latitude interpolation and constant polar extension",
+        "UVS tau is a proxy for visible optical opacity; opaque limits capped at 6, no particle-scale model",
+        "A/B/C main rings only, radial structures azimuthally averaged; no satellites or ring dynamics",
+        "Oblate ring shadows use analytic ellipsoid / infinitesimal plane; finite Sun penumbra is an approximate smoothing, not a full radiative-transfer model"
+      ],
+      "description": "Cassini \u4e91\u56fe\u4e0e Voyager \u73af\u5149\u5b66\u539a\u5ea6\u6570\u636e\u3002\u4e3b\u73af\u4e0e\u8d64\u9053\u540c\u9762\uff0c\u9634\u5f71\u968f\u771f\u5b9e\u592a\u9633\u65b9\u5411\u53d8\u5316\u3002",
+      "referenceLinks": [
+        "https://atmos.nmsu.edu/data_and_services/atmospheres_data/Cassini/sat_global_map.html",
+        "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      ],
+      "shapeRatios": [
+        1.034963593900261,
+        0.9335760406649265,
+        1.034963593900261
+      ],
+      "shapeSource": {
+        "sourceUrl": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "iauRadiiKm": [
+          60268.0,
+          60268.0,
+          54364.0
+        ],
+        "physicalMeanRadiusKm": 58232,
+        "processing": "Visual-only planetocentric ellipsoid geometry; frozen mean radius and positions untouched; analytic ellipsoidal shadow intersection"
+      }
+    },
+    {
+      "bodyId": "799",
+      "name": "Uranus",
+      "version": "2.0.0-uranus",
+      "kind": "uranus-methane-haze-reconstruction",
+      "photometry": "gas",
+      "minnaert": 0.94,
+      "albedo": {
+        "provider": "Voyager 2 / Irwin et al. / University of Oxford",
+        "title": "2024 true-color recalibration of Voyager 2 uranus",
+        "sourceUrl": "https://ras.ac.uk/media/1488",
+        "observationEpoch": "Voyager 2: 1986 Uranus / 1989 Neptune; reprocessed 2024",
+        "credit": "Patrick Irwin / University of Oxford / NASA; Irwin et al. MNRAS 527, 11521 (2024)",
+        "rights": "CC BY 4.0 per Royal Astronomical Society media item; source credit retained",
+        "processing": "Lower scientifically reprocessed disk only; orthographic inverse, radial color/limb removal, mirrored unknown hemisphere; observed residual contrast reduced. Native disk ~580px, not 4K measured detail.",
+        "primeMeridianOrOrientationNotes": "Absolute longitude not certified; IAU pole and rotation from NAIF PCK",
+        "rawFile": "data/phase-2/raw/ice-true.jpg",
+        "sha256": "2f7d106d547adde83f356a3bd5f97053cd314a199fd6fb2c7d8d9c470df55ec7",
+        "nativeSize": [
+          2334,
+          1640
+        ],
+        "sourceDisk": [
+          1115,
+          1200,
+          290
+        ],
+        "researchUrl": "https://academic.oup.com/mnras/article/527/4/11521/7511973",
+        "acquisitionDate": "2026-10-28T19:08:23.009993+00:00",
+        "projection": "equirectangular",
+        "longitudeConvention": "east-positive after processing",
+        "licenseNotes": "https://creativecommons.org/licenses/by/4.0/",
+        "processingCategory": "reconstruction"
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/celestial/uranus/albedo-1024.jpg",
+          "sha256": "f2fb83e49960f418a0763be55a7dcda9ade610d52e54be296033f478200fc569"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/celestial/uranus/albedo-2048.jpg",
+          "sha256": "8c2aa9b843a5631f65c43aa8ddffb2b38c240970ed80a63fb5f1124fac4be3cc"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/celestial/uranus/albedo-4096.jpg",
+          "sha256": "3ae4990725ebbe1a0525dac73b9e58a61194b83d259de629cf2c058d1544f18a"
+        }
+      ],
+      "atmosphere": {
+        "radius": 1.003,
+        "tint": "#92c3cc",
+        "strength": 0.22
+      },
+      "axisVerified": true,
+      "hasVerifiedOrientation": false,
+      "visualEnhancements": [
+        "VISUAL_ENHANCEMENT: approximate Minnaert limb photometry; analytic methane-haze edge",
+        "RECONSTRUCTED: apparent disk structures mapped with unknown absolute longitude; not a cartographic observation"
+      ],
+      "limitations": [
+        "Native published disk is about 580px; 4K derivatives add no observed resolution",
+        "Disk sub-observer registration is unavailable; cloud feature latitude/longitude NOT certified",
+        "RECONSTRUCTED mirrored unknown hemisphere; historical weather only, no permanent invented dark spot",
+        "No new winds, current weather, rings or satellites; near-natural color intentionally pale cyan",
+        "Uranus IAU north-pole axis and retrograde rotation distinct from 98-degree angular-momentum obliquity"
+      ],
+      "description": "\u4f4e\u5bf9\u6bd4\u9752\u7eff\u8272\u7532\u70f7\u5927\u6c14\u91cd\u5efa\uff0cIAU \u81ea\u8f6c\u8f74\u8868\u8fbe\u4fa7\u8eba\u59ff\u6001\u3002\u4fdd\u6301\u89c2\u6d4b\u652f\u6301\u7684\u514b\u5236\u7ec6\u8282\u3002",
+      "referenceLinks": [
+        "https://ras.ac.uk/media/1488",
+        "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      ]
+    },
+    {
+      "bodyId": "899",
+      "name": "Neptune",
+      "version": "2.0.0-neptune",
+      "kind": "neptune-methane-haze-reconstruction",
+      "photometry": "gas",
+      "minnaert": 0.9,
+      "albedo": {
+        "provider": "Voyager 2 / Irwin et al. / University of Oxford",
+        "title": "2024 true-color recalibration of Voyager 2 neptune",
+        "sourceUrl": "https://ras.ac.uk/media/1488",
+        "observationEpoch": "Voyager 2: 1986 Uranus / 1989 Neptune; reprocessed 2024",
+        "credit": "Patrick Irwin / University of Oxford / NASA; Irwin et al. MNRAS 527, 11521 (2024)",
+        "rights": "CC BY 4.0 per Royal Astronomical Society media item; source credit retained",
+        "processing": "Lower scientifically reprocessed disk only; orthographic inverse, radial color/limb removal, mirrored unknown hemisphere; observed residual contrast reduced. Native disk ~556px, not 4K measured detail.",
+        "primeMeridianOrOrientationNotes": "Absolute longitude not certified; IAU pole and rotation from NAIF PCK",
+        "rawFile": "data/phase-2/raw/ice-true.jpg",
+        "sha256": "2f7d106d547adde83f356a3bd5f97053cd314a199fd6fb2c7d8d9c470df55ec7",
+        "nativeSize": [
+          2334,
+          1640
+        ],
+        "sourceDisk": [
+          1898,
+          1195,
+          278
+        ],
+        "researchUrl": "https://academic.oup.com/mnras/article/527/4/11521/7511973",
+        "acquisitionDate": "2026-10-28T19:08:23.010995+00:00",
+        "projection": "equirectangular",
+        "longitudeConvention": "east-positive after processing",
+        "licenseNotes": "https://creativecommons.org/licenses/by/4.0/",
+        "processingCategory": "reconstruction"
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/celestial/neptune/albedo-1024.jpg",
+          "sha256": "a5fda4bab50770d69c2ca2a79109cff2933efefac99969cb6aad4438c7fc8d40"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/celestial/neptune/albedo-2048.jpg",
+          "sha256": "86d3f10b63fea8de53d632140dfdf78c4ca100950bd385eade5639d6bb429ba9"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/celestial/neptune/albedo-4096.jpg",
+          "sha256": "d42a80ce3974885561a5ff0f6ce759592031d2e47c572341f4e89fcf6994b391"
+        }
+      ],
+      "atmosphere": {
+        "radius": 1.004,
+        "tint": "#7bb5ca",
+        "strength": 0.22
+      },
+      "axisVerified": true,
+      "hasVerifiedOrientation": false,
+      "visualEnhancements": [
+        "VISUAL_ENHANCEMENT: approximate Minnaert limb photometry; analytic methane-haze edge",
+        "RECONSTRUCTED: apparent disk structures mapped with unknown absolute longitude; not a cartographic observation"
+      ],
+      "limitations": [
+        "Native published disk is about 556px; 4K derivatives add no observed resolution",
+        "Disk sub-observer registration is unavailable; cloud feature latitude/longitude NOT certified",
+        "RECONSTRUCTED mirrored unknown hemisphere; historical weather only, no permanent invented dark spot",
+        "No new winds, current weather, rings or satellites; near-natural color intentionally pale cyan",
+        "Neptune color follows 2024 spectral recalibration, not legacy saturated blue"
+      ],
+      "description": "\u4f9d\u636e 2024 \u5e74\u5149\u8c31\u6821\u6b63\u7684\u8fd1\u81ea\u7136\u8272\u91cd\u5efa\u3002\u7ec6\u5fae\u4e91\u7eb9\u662f\u5386\u53f2\u5f71\u50cf\uff0c\u4e0d\u663e\u793a\u865a\u6784\u6c38\u4e45\u6697\u6591\u3002",
+      "referenceLinks": [
+        "https://ras.ac.uk/media/1488",
+        "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      ]
+    },
+    {
+      "bodyId": "399",
+      "name": "Earth",
+      "version": "2.0.0-earth",
+      "kind": "layered-earth-ocean-cloud-night",
+      "roughness": 1,
+      "albedo": {
+        "provider": "NASA / GSFC Blue Marble Next Generation",
+        "title": "July cloud-free land and ocean color",
+        "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/",
+        "observationEpoch": "2004-07 monthly composite",
+        "credit": "NASA Earth Observatory / Reto St\u00f6ckli, NASA GSFC",
+        "rights": "NASA mission imagery; original credit retained",
+        "processing": "5400x2700 to 4K/2K/1K; no invented detail; water roughness mask inferred from observed blue water colors, not a measured mask; black water of BMNG filled with Blue Marble 2001 ocean color; derivative is a mixed-epoch visual composite",
+        "primeMeridianOrOrientationNotes": "Equirectangular -180..180 east-positive; Greenwich at image center",
+        "rawFile": "data/phase-2/raw/earth-bmng-july.jpg",
+        "sha256": "f55226d46d27e05511f2118dc6aa24f5dbf9b6b2cddc87cc6e0e7dd067c00b11",
+        "nativeSize": [
+          5400,
+          2700
+        ],
+        "oceanSource": {
+          "provider": "NASA GSFC Blue Marble",
+          "title": "2001 ocean composite",
+          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/the-blue-marble-true-color-global-imagery-at-1km-resolution/",
+          "observationEpoch": "2001",
+          "credit": "NASA/GSFC Reto Stockli, Robert Simmon",
+          "rights": "NASA mission imagery; original credit retained",
+          "processing": "Fills black water pixels of July BMNG with observed ocean color; native 2048px ocean image",
+          "primeMeridianOrOrientationNotes": "Absolute longitude not certified; IAU pole and rotation from NAIF PCK",
+          "rawFile": "data/phase-2/raw/earth-ocean-2001.jpg",
+          "sha256": "d4dc80a6ef571939d0abe04a9bed3d3d1e6cd63e59514be1c5e43a6b069e6f1e",
+          "nativeSize": [
+            2048,
+            1024
+          ]
+        },
+        "acquisitionDate": "2026-10-28T19:08:23.010995+00:00",
+        "projection": "equirectangular",
+        "longitudeConvention": "east-positive after processing",
+        "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "processingCategory": "approx-natural-color"
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/celestial/earth/albedo-1024.jpg",
+          "sha256": "e3aa9b654ab3257ba78db76aa522f1c9391cb40e9ec386ddde7bd66a7afc653c"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/celestial/earth/albedo-2048.jpg",
+          "sha256": "9208e648b60afdc35b2615e8ff757540760376c23c6956c4227051bd8b04cc0d"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/celestial/earth/albedo-4096.jpg",
+          "sha256": "3f45c9ab39e7f16981d7712b0e6ebdd4fb181a0248a6cb359d6d534629b70158"
+        }
+      ],
+      "cloudLods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/celestial/earth/clouds-1024.jpg",
+          "sha256": "f5ed5b4eaabdb1c40a3ef980a4044b28660282215f40d5c5944bd0cc982e9101"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/celestial/earth/clouds-2048.jpg",
+          "sha256": "e743d642563d06baeb40553eabfab8c83b4f283c656c11fbdde6af5620079258"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/celestial/earth/clouds-4096.jpg",
+          "sha256": "05a6c6ab988ad2a7fb3091ffd30de42483aa922100e09fe53889d4b20c099a3d"
+        }
+      ],
+      "nightLods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/celestial/earth/night-1024.jpg",
+          "sha256": "984eab0f04fff6838155e18d10894eb2c80c219ce8ed5571c5ffbf4465e67279"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/celestial/earth/night-2048.jpg",
+          "sha256": "2a17e577e0968c5c0050c14ddf4e31da9679b966d09e6acd4cabfb4a23612f5e"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/celestial/earth/night-4096.jpg",
+          "sha256": "5c3489ecd3259cfd013df62f8918a8c108ee9dabc457d7cd0c9809d76d02a00f"
+        }
+      ],
+      "roughnessLods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/celestial/earth/roughness-1024.jpg",
+          "sha256": "ea7d5140c2700f8e2437cda92bcc9363fc842d9077593ad70adaa3550897fc47"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/celestial/earth/roughness-2048.jpg",
+          "sha256": "271578d7de122cdf60e5e41e513df527711805a1bb91eb49b214c1c4b8eb3f79"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/celestial/earth/roughness-4096.jpg",
+          "sha256": "ce2812de4c76a1405b8e3629c29570c965ac88b5dcf85bafc2a79e009991615d"
+        }
+      ],
+      "additionalSources": [
+        {
+          "provider": "NASA / GSFC Blue Marble",
+          "title": "Independent cloud composite",
+          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/the-blue-marble-true-color-global-imagery-at-1km-resolution/",
+          "observationEpoch": "2001-era composite: two visible-light days plus polar thermal third day",
+          "credit": "NASA/GSFC Reto St\u00f6ckli; Robert Simmon",
+          "rights": "NASA mission imagery; original credit retained",
+          "processing": "Luminance to opacity on independent shell 1.0015 R; fixed snapshot, no invented drift",
+          "primeMeridianOrOrientationNotes": "Absolute longitude not certified; IAU pole and rotation from NAIF PCK",
+          "rawFile": "data/phase-2/raw/earth-clouds.jpg",
+          "sha256": "daddaad84d7a33bbbc86cdda3f591099f57cee8607b7bcf3b67eb7e4f7a1c793",
+          "nativeSize": [
+            2048,
+            1024
+          ],
+          "acquisitionDate": "2026-10-28T19:08:23.010995+00:00",
+          "projection": "see processing notes",
+          "longitudeConvention": "east-positive after processing",
+          "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "processingCategory": "approx-natural-color"
+        },
+        {
+          "provider": "NASA / GSFC VIIRS Black Marble",
+          "title": "2016 nighttime lights",
+          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/earth-at-night/maps/",
+          "observationEpoch": "2016 annual composite",
+          "credit": "NASA Earth Observatory; VIIRS / Miguel Rom\u00e1n team",
+          "rights": "NASA mission imagery; original credit retained",
+          "processing": "3600x1800 grayscale emissive mask, warm display tint, strictly gated to night",
+          "primeMeridianOrOrientationNotes": "Absolute longitude not certified; IAU pole and rotation from NAIF PCK",
+          "rawFile": "data/phase-2/raw/earth-night.jpg",
+          "sha256": "4d2158f59123dadf0696a1cf8909c45018a1de8d0daab40da04122a5aa7f27c6",
+          "nativeSize": [
+            3600,
+            1800
+          ],
+          "acquisitionDate": "2026-10-28T19:08:23.010995+00:00",
+          "projection": "see processing notes",
+          "longitudeConvention": "east-positive after processing",
+          "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "processingCategory": "approx-natural-color"
+        },
+        {
+          "provider": "NASA GSFC Blue Marble",
+          "title": "2001 ocean composite",
+          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/the-blue-marble-true-color-global-imagery-at-1km-resolution/",
+          "observationEpoch": "2001",
+          "credit": "NASA/GSFC Reto Stockli, Robert Simmon",
+          "rights": "NASA mission imagery; original credit retained",
+          "processing": "Fills black water pixels of July BMNG with observed ocean color; native 2048px ocean image",
+          "primeMeridianOrOrientationNotes": "Absolute longitude not certified; IAU pole and rotation from NAIF PCK",
+          "rawFile": "data/phase-2/raw/earth-ocean-2001.jpg",
+          "sha256": "d4dc80a6ef571939d0abe04a9bed3d3d1e6cd63e59514be1c5e43a6b069e6f1e",
+          "nativeSize": [
+            2048,
+            1024
+          ]
+        }
+      ],
+      "atmosphere": {
+        "radius": 1.012,
+        "tint": "#559ce8",
+        "strength": 0.65
+      },
+      "axisVerified": true,
+      "hasVerifiedOrientation": true,
+      "visualEnhancements": [
+        "VISUAL_ENHANCEMENT: analytic thin atmospheric rim, approximate cloud shadows",
+        "RECONSTRUCTED: color-classified land/ocean roughness, warm non-radiometric city lights",
+        "VISUAL_ENHANCEMENT: optional UTC/TDB-driven cloud advection +3 degrees/day relative to IAU surface, anchored 2026-10-29; illustrative only, not meteorological data"
+      ],
+      "limitations": [
+        "Surface July 2004, clouds 2001 era, lights 2016: not selected-date weather or population",
+        "Cloud source 2048 and night source 3600; 4K derivatives do not add information",
+        "Generic IAU_EARTH rotation, no EOP/polar motion",
+        "No fabricated elevation or ocean-wave normal; cloud advection is illustrative and can be frozen"
+      ],
+      "description": "NASA \u5730\u8868\u3001\u72ec\u7acb\u4e91\u58f3\u3001\u8584\u5927\u6c14\u4e0e\u591c\u9762\u706f\u5149\u3002\u4e91\u6f02\u79fb\u662f\u53ef\u5173\u95ed\u7684\u793a\u610f\uff0c\u4e0d\u662f\u5929\u6c14\u9884\u6d4b\u3002",
+      "referenceLinks": [
+        "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/",
+        "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      ],
+      "cloudEpochTdb": 846504069.1824756,
+      "cloudDriftDegreesPerDay": 3
+    }
+  ],
+  "rendering": {
+    "colorSpace": "albedo sRGB; height, optical depth, roughness, cloud opacity and night masks linear",
+    "toneMapping": "ACES Filmic",
+    "exposure": 1.15,
+    "bloom": false,
+    "lighting": "True Sun direction; display irradiance not inverse-square calibrated",
+    "lodPixelThresholds": [
+      120,
+      400
+    ],
+    "lodWidths": [
+      1024,
+      2048,
+      4096
+    ],
+    "scientificRestorePoint": "8d3cb15c817d39796ebdb373f33417400cd76955"
+  }
+}

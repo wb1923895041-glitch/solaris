@@ -1,0 +1,19 @@
+Moon step 3600 max deg 3.410685719805998e-06
+Phobos step 450 max deg 0.0015051172424539858
+Deimos step 3600 max deg 3.96381429441268e-06
+Io step 3600 max deg 2.988808784995065e-06
+Europa step 3600 max deg 4.185885927638538e-06
+Ganymede step 3600 max deg 3.7579439119437592e-06
+Callisto step 3600 max deg 2.6831790075786825e-06
+Mimas step 3600 max deg 4.7865337287700465e-05
+Enceladus step 3600 max deg 3.357388159717945e-06
+Rhea step 3600 max deg 3.90348083548966e-06
+Titan step 3600 max deg 3.1314552559018165e-06
+Iapetus step 3600 max deg 3.973394249369041e-06
+Miranda step 3600 max deg 6.018192757231364e-06
+Ariel step 3600 max deg 4.103959216426994e-06
+Umbriel step 3600 max deg 4.081446142224304e-06
+Titania step 3600 max deg 4.289331511912102e-06
+Oberon step 3600 max deg 4.539674527814132e-06
+Triton step 3600 max deg 4.368388407714049e-06
+PASS all 18 IAU attitude caches; no orbital data modified

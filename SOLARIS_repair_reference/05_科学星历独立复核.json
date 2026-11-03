@@ -1,0 +1,77 @@
+{
+  "points": 432,
+  "results": [
+    {
+      "id": "10",
+      "count": 2560,
+      "validationPoints": 48,
+      "shaMatch": true,
+      "maxPositionKm": 3.4138795666440985e-06,
+      "maxVelocityKmS": 1.0909056698097732e-10
+    },
+    {
+      "id": "199",
+      "count": 10237,
+      "validationPoints": 48,
+      "shaMatch": true,
+      "maxPositionKm": 0.0647229997201555,
+      "maxVelocityKmS": 9.60185052510667e-06
+    },
+    {
+      "id": "299",
+      "count": 5119,
+      "validationPoints": 48,
+      "shaMatch": true,
+      "maxPositionKm": 0.01106757625487005,
+      "maxVelocityKmS": 8.058494534873934e-07
+    },
+    {
+      "id": "399",
+      "count": 5119,
+      "validationPoints": 48,
+      "shaMatch": true,
+      "maxPositionKm": 0.005454387978831863,
+      "maxVelocityKmS": 3.677408707620857e-07
+    },
+    {
+      "id": "499",
+      "count": 5119,
+      "validationPoints": 48,
+      "shaMatch": true,
+      "maxPositionKm": 0.0016514999912089145,
+      "maxVelocityKmS": 7.511824502868002e-08
+    },
+    {
+      "id": "599",
+      "count": 10237,
+      "validationPoints": 48,
+      "shaMatch": true,
+      "maxPositionKm": 0.03292645422739741,
+      "maxVelocityKmS": 4.734887652169218e-06
+    },
+    {
+      "id": "699",
+      "count": 10237,
+      "validationPoints": 48,
+      "shaMatch": true,
+      "maxPositionKm": 0.00080303583325585,
+      "maxVelocityKmS": 1.3523310453334018e-07
+    },
+    {
+      "id": "799",
+      "count": 10237,
+      "validationPoints": 48,
+      "shaMatch": true,
+      "maxPositionKm": 0.007069202693082322,
+      "maxVelocityKmS": 9.26477596875807e-07
+    },
+    {
+      "id": "899",
+      "count": 10237,
+      "validationPoints": 48,
+      "shaMatch": true,
+      "maxPositionKm": 0.0033970479801404855,
+      "maxVelocityKmS": 5.177822853535694e-07
+    }
+  ]
+}

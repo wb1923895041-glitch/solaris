@@ -1,0 +1,12 @@
+FETCH phobos_g_148m_spc_obj_0000n00000_v004.obj.zip https://sbmt.jhuapl.edu/shared-files/files/phobos_g_148m_spc_obj_0000n00000_v004.obj.zip
+FETCH phobos_g_148m_spc_obj_0000n00000_v004.lbl https://sbmt.jhuapl.edu/shared-files/files/phobos_g_148m_spc_obj_0000n00000_v004.lbl
+FETCH phobos_g_148m_spc_obj_0000n00000_v004.csv.zip https://sbmt.jhuapl.edu/shared-files/files/phobos_g_148m_spc_obj_0000n00000_v004.csv.zip
+FETCH deimos_g_083m_spc_obj_0000n00000_v002.obj.zip https://sbmt.jhuapl.edu/shared-files/files/deimos_g_083m_spc_obj_0000n00000_v002.obj.zip
+READY phobos_g_148m_spc_obj_0000n00000_v004.lbl 932
+FETCH deimos_g_083m_spc_obj_0000n00000_v002.lbl https://sbmt.jhuapl.edu/shared-files/files/deimos_g_083m_spc_obj_0000n00000_v002.lbl
+READY deimos_g_083m_spc_obj_0000n00000_v002.lbl 1081
+FETCH deimos_g_083m_spc_obj_0000n00000_v002.csv.zip https://sbmt.jhuapl.edu/shared-files/files/deimos_g_083m_spc_obj_0000n00000_v002.csv.zip
+READY phobos_g_148m_spc_obj_0000n00000_v004.obj.zip 3018535
+READY deimos_g_083m_spc_obj_0000n00000_v002.obj.zip 3530934
+READY deimos_g_083m_spc_obj_0000n00000_v002.csv.zip 26366556
+READY phobos_g_148m_spc_obj_0000n00000_v004.csv.zip 34508570

@@ -1,0 +1,91 @@
+chrome PASS Lazy-loaded 18 bodies at one TDB
+chrome PASS Opening data preview preserves original planet states and camera
+chrome PASS System 399 correct markers and common clock
+chrome PASS System 399 labels do not overlap
+chrome PASS Rendered marker 301 uses real relative state
+chrome PASS System 499 correct markers and common clock
+chrome PASS System 499 labels do not overlap
+chrome PASS Rendered marker 401 uses real relative state
+chrome PASS Rendered marker 402 uses real relative state
+chrome PASS System 599 correct markers and common clock
+chrome PASS System 599 labels do not overlap
+chrome PASS Rendered marker 501 uses real relative state
+chrome PASS Rendered marker 502 uses real relative state
+chrome PASS Rendered marker 503 uses real relative state
+chrome PASS Rendered marker 504 uses real relative state
+chrome PASS System 699 correct markers and common clock
+chrome PASS System 699 labels do not overlap
+chrome PASS Rendered marker 601 uses real relative state
+chrome PASS Rendered marker 602 uses real relative state
+chrome PASS Rendered marker 605 uses real relative state
+chrome PASS Rendered marker 606 uses real relative state
+chrome PASS Rendered marker 608 uses real relative state
+chrome PASS System 799 correct markers and common clock
+chrome PASS System 799 labels do not overlap
+chrome PASS Rendered marker 705 uses real relative state
+chrome PASS Rendered marker 701 uses real relative state
+chrome PASS Rendered marker 702 uses real relative state
+chrome PASS Rendered marker 703 uses real relative state
+chrome PASS Rendered marker 704 uses real relative state
+chrome PASS System 899 correct markers and common clock
+chrome PASS System 899 labels do not overlap
+chrome PASS Rendered marker 801 uses real relative state
+chrome PASS Desktop layout 1920
+chrome PASS Desktop layout 2560
+chrome PASS Desktop layout 3840
+chrome PASS Pause freezes all satellite states
+chrome PASS Date jump synchronises 18 satellites 2025-01-01T00:00
+chrome PASS Date jump synchronises 18 satellites 2026-08-01T00:00
+chrome PASS Date jump synchronises 18 satellites 2030-01-01T00:00
+chrome PASS Date jump synchronises 18 satellites 2024-01-01T00:00
+chrome PASS Date jump synchronises 18 satellites 2031-01-01T00:00
+chrome PASS Forward playback reads shared clock
+chrome PASS Reverse playback
+chrome PASS Zero-rate playback remains fixed
+chrome PASS Scale mode leaves satellite truth unchanged scientific
+chrome PASS Scale mode leaves satellite truth unchanged exploration
+chrome PASS Original nine-body science baseline unchanged
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+locator.selectOption: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('#sat-parent')
+    - locator resolved to <select id="sat-parent" aria-label="卫星轨道核验系统">…</select>
+  - attempting select option action
+    2 × waiting for element to be visible and enabled
+      - element is not visible
+    - retrying select option action
+    - waiting 20ms
+    2 × waiting for element to be visible and enabled
+      - element is not visible
+    - retrying select option action
+      - waiting 100ms
+    59 × waiting for element to be visible and enabled
+       - element is not visible
+     - retrying select option action
+       - waiting 500ms
+
+    at C:\Users\19238\Documents\ChatGPT\前端\scripts\satellite-browser-qa.mjs:40:137 {
+  log: [
+    "  - waiting for locator('#sat-parent')",
+    '    - locator resolved to <select id="sat-parent" aria-label="卫星轨道核验系统">…</select>',
+    '  - attempting select option action',
+    '    2 × waiting for element to be visible and enabled',
+    '      - element is not visible',
+    '    - retrying select option action',
+    '    - waiting 20ms',
+    '    2 × waiting for element to be visible and enabled',
+    '      - element is not visible',
+    '    - retrying select option action',
+    '      - waiting 100ms',
+    '    59 × waiting for element to be visible and enabled',
+    '       - element is not visible',
+    '     - retrying select option action',
+    '       - waiting 500ms'
+  ],
+  name: 'TimeoutError'
+}
+
+Node.js v22.20.0

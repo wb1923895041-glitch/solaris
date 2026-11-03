@@ -1,0 +1,29 @@
+{
+  "base": "3da16f2999bcb4c6d2449ccf119d225a8ded263b",
+  "modified": [
+    "README.md",
+    "index.html",
+    "src/main.ts"
+  ],
+  "addedCode": [
+    "src/satellites/diagnostic.css",
+    "src/satellites/diagnostic.ts",
+    "src/satellites/ephemeris.ts",
+    "04-启动SOLARIS卫星3A.cmd",
+    "scripts/build-satellites.py",
+    "scripts/requirements-phase3a.txt",
+    "scripts/verify-satellites.mjs",
+    "scripts/validate-satellites.py",
+    "scripts/satellite-browser-qa.mjs",
+    "scripts/satellite-browser-science-qa.mjs",
+    "scripts/finalize-phase3a-tests.py",
+    "scripts/package-phase3a.py",
+    "scripts/verify-phase3a-gallery.mjs"
+  ],
+  "addedData": [
+    "data/phase-3a",
+    "public/satellites"
+  ],
+  "frozenScienceFiles": 59,
+  "oldRendererAndAssetsChanged": false
+}

@@ -1,0 +1,449 @@
+{
+  "source": "NASA NSSDCA planetary ring fact sheets (D. R. Williams), last updated 14 October 2015",
+  "systems": {
+    "599": {
+      "equatorialRadiusKm": 71492,
+      "file": "data/phase-7/raw/jupringfact.html",
+      "sha256": "e362dc46d9ec74e25ce9b40f41e5593945569ae3af8c9d10577999948c4a0e8e",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupringfact.html",
+      "bands": [
+        {
+          "name": "Halo",
+          "centerKm": 106200.0,
+          "widthKm": 33600.0,
+          "normalOpticalDepth": 3e-06,
+          "opticalDepthText": "3 x 10-6",
+          "albedo": 0.015,
+          "albedoText": null,
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "Halo",
+            "89,400 - 123,000",
+            "1.25 - 1.72",
+            "~10,000",
+            "3 x 10-6",
+            ""
+          ],
+          "albedoAssumed": "system typical value from the same fact sheet"
+        },
+        {
+          "name": "Main Ring",
+          "centerKm": 125970.0,
+          "widthKm": 5940.0,
+          "normalOpticalDepth": 5e-06,
+          "opticalDepthText": "5 x 10-6",
+          "albedo": 0.015,
+          "albedoText": "~0.015",
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "Main Ring",
+            "123,000 - 128,940",
+            "1.72 - 1.80",
+            "<~100",
+            "5 x 10-6",
+            "~0.015",
+            "5 x 10-6"
+          ]
+        },
+        {
+          "name": "Amalthea Ring",
+          "centerKm": 155145.0,
+          "widthKm": 52410.0,
+          "normalOpticalDepth": 1e-07,
+          "opticalDepthText": "1 x 10-7",
+          "albedo": 0.015,
+          "albedoText": null,
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "Amalthea Ring",
+            "128,940 - 181,350",
+            "1.80 - 2.54",
+            "2,600",
+            "1 x 10-7",
+            ""
+          ],
+          "albedoAssumed": "system typical value from the same fact sheet"
+        },
+        {
+          "name": "Thebe Ring",
+          "centerKm": 201625.0,
+          "widthKm": 40550.0,
+          "normalOpticalDepth": 1e-07,
+          "opticalDepthText": "1 x 10-7",
+          "albedo": 0.015,
+          "albedoText": null,
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "Thebe Ring",
+            "181,350 - 221,900",
+            "2.54 - 3.10",
+            "8,800",
+            "1 x 10-7",
+            ""
+          ],
+          "albedoAssumed": "system typical value from the same fact sheet"
+        },
+        {
+          "name": "Thebe Extension",
+          "centerKm": 250950.0,
+          "widthKm": 58100.0,
+          "normalOpticalDepth": 1e-07,
+          "opticalDepthText": "1 x 10-7",
+          "albedo": 0.015,
+          "albedoText": null,
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "Thebe Extension",
+            "221,900 - 280,000",
+            "3.10 - 3.92",
+            "8,800",
+            "1 x 10-7",
+            ""
+          ],
+          "albedoAssumed": "system typical value from the same fact sheet"
+        }
+      ],
+      "notes": "Gossamer and halo vertical thickness is not modelled; drawn as a thin sheet."
+    },
+    "799": {
+      "equatorialRadiusKm": 25559,
+      "file": "data/phase-7/raw/uranringfact.html",
+      "sha256": "dbbe304c6cd6927fbb8ac94b8451ec67f2be56e6e3762bfb5c4c213e2488093e",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranringfact.html",
+      "bands": [
+        {
+          "name": "6",
+          "centerKm": 41837.0,
+          "widthKm": 1.5,
+          "normalOpticalDepth": 0.3,
+          "opticalDepthText": "~0.3",
+          "albedo": 0.015,
+          "albedoText": "~15",
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "6",
+            "41,837",
+            "1.637",
+            "~0.3",
+            "~15",
+            "1.5",
+            "0.0010"
+          ]
+        },
+        {
+          "name": "5",
+          "centerKm": 42234.0,
+          "widthKm": 2.0,
+          "normalOpticalDepth": 0.5,
+          "opticalDepthText": "~0.5",
+          "albedo": 0.015,
+          "albedoText": "~15",
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "5",
+            "42,234",
+            "1.652",
+            "~0.5",
+            "~15",
+            "~2",
+            "0.0019"
+          ]
+        },
+        {
+          "name": "4",
+          "centerKm": 42571.0,
+          "widthKm": 2.0,
+          "normalOpticalDepth": 0.3,
+          "opticalDepthText": "~0.3",
+          "albedo": 0.015,
+          "albedoText": "~15",
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "4",
+            "42,571",
+            "1.666",
+            "~0.3",
+            "~15",
+            "~2",
+            "0.0011"
+          ]
+        },
+        {
+          "name": "Alpha",
+          "centerKm": 44718.0,
+          "widthKm": 7.0,
+          "normalOpticalDepth": 0.4,
+          "opticalDepthText": "~0.4",
+          "albedo": 0.015,
+          "albedoText": "~15",
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "Alpha",
+            "44,718",
+            "1.750",
+            "~0.4",
+            "~15",
+            "4 - 10",
+            "0.0008"
+          ]
+        },
+        {
+          "name": "Beta",
+          "centerKm": 45661.0,
+          "widthKm": 8.0,
+          "normalOpticalDepth": 0.3,
+          "opticalDepthText": "~0.3",
+          "albedo": 0.015,
+          "albedoText": "~15",
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "Beta",
+            "45,661",
+            "1.786",
+            "~0.3",
+            "~15",
+            "5 - 11",
+            "0.0004"
+          ]
+        },
+        {
+          "name": "Eta",
+          "centerKm": 47176.0,
+          "widthKm": 1.6,
+          "normalOpticalDepth": 0.4,
+          "opticalDepthText": "~0.4-",
+          "albedo": 0.015,
+          "albedoText": "~15",
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "Eta",
+            "47,176",
+            "1.834",
+            "~0.4-",
+            "~15",
+            "1.6",
+            ""
+          ]
+        },
+        {
+          "name": "Gamma",
+          "centerKm": 47627.0,
+          "widthKm": 2.5,
+          "normalOpticalDepth": 0.3,
+          "opticalDepthText": "~0.3+",
+          "albedo": 0.015,
+          "albedoText": "~15",
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "Gamma",
+            "47,627",
+            "1.863",
+            "~0.3+",
+            "~15",
+            "1 - 4",
+            "0.0011"
+          ]
+        },
+        {
+          "name": "Delta",
+          "centerKm": 48300.0,
+          "widthKm": 5.0,
+          "normalOpticalDepth": 0.5,
+          "opticalDepthText": "~0.5",
+          "albedo": 0.015,
+          "albedoText": "~15",
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "Delta",
+            "48,300",
+            "1.900",
+            "~0.5",
+            "~15",
+            "3 - 7",
+            "0.0004"
+          ]
+        },
+        {
+          "name": "Lambda",
+          "centerKm": 50024.0,
+          "widthKm": 2.0,
+          "normalOpticalDepth": 0.1,
+          "opticalDepthText": "~0.1",
+          "albedo": 0.015,
+          "albedoText": "~15",
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "Lambda",
+            "50,024",
+            "1.957",
+            "~0.1",
+            "~15",
+            "~2",
+            "0."
+          ]
+        },
+        {
+          "name": "Epsilon",
+          "centerKm": 51149.0,
+          "widthKm": 58.0,
+          "normalOpticalDepth": 1.4,
+          "opticalDepthText": "0.5-2.3",
+          "albedo": 0.018000000000000002,
+          "albedoText": "~18",
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "Epsilon",
+            "51,149",
+            "2.006",
+            "0.5-2.3",
+            "~18",
+            "20 - 96",
+            "0.0079"
+          ]
+        },
+        {
+          "name": "R/2003 U 2",
+          "centerKm": 67300.0,
+          "widthKm": 3800.0,
+          "normalOpticalDepth": 0.0001,
+          "opticalDepthText": "<<0.01",
+          "albedo": 0.0153,
+          "albedoText": "",
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "R/2003 U 2",
+            "67,300",
+            "2.633",
+            "<<0.01",
+            "",
+            "3,800",
+            "0."
+          ],
+          "albedoAssumed": "system typical value from the same fact sheet"
+        },
+        {
+          "name": "R/2003 U 1",
+          "centerKm": 97700.0,
+          "widthKm": 17000.0,
+          "normalOpticalDepth": 0.0001,
+          "opticalDepthText": "<<0.01",
+          "albedo": 0.0153,
+          "albedoText": "",
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "R/2003 U 1",
+            "97,700",
+            "3.823",
+            "<<0.01",
+            "",
+            "17,000",
+            "0."
+          ],
+          "albedoAssumed": "system typical value from the same fact sheet"
+        }
+      ],
+      "notes": "Ring eccentricities (≤0.008) and inclinations are neglected; rings are drawn circular in the IAU equatorial plane."
+    },
+    "899": {
+      "equatorialRadiusKm": 24766,
+      "file": "data/phase-7/raw/nepringfact.html",
+      "sha256": "b79b93010089e65eb63aa8437bceca48da71afc9b47de1192040031f30a10b08",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/nepringfact.html",
+      "bands": [
+        {
+          "name": "Galle (1989N3R)",
+          "centerKm": 41900.0,
+          "widthKm": 2000.0,
+          "normalOpticalDepth": 0.0001,
+          "opticalDepthText": "~0.0001",
+          "albedo": 0.015,
+          "albedoText": "~15",
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "Galle (1989N3R)",
+            "~41,900",
+            "1.692",
+            "~0.0001",
+            "~15",
+            "~2000"
+          ]
+        },
+        {
+          "name": "LeVerrier (1989N2R)",
+          "centerKm": 53200.0,
+          "widthKm": 100.0,
+          "normalOpticalDepth": 0.01,
+          "opticalDepthText": "~0.01",
+          "albedo": 0.015,
+          "albedoText": "~15",
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "LeVerrier (1989N2R)",
+            "~53,200",
+            "2.148",
+            "~0.01",
+            "~15",
+            "< 100"
+          ]
+        },
+        {
+          "name": "Lassell (1989N4R*)",
+          "centerKm": 55200.0,
+          "widthKm": 4000.0,
+          "normalOpticalDepth": 0.0001,
+          "opticalDepthText": "~0.0001",
+          "albedo": 0.015,
+          "albedoText": "~15",
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "Lassell (1989N4R*)",
+            "~53,200",
+            "2.148",
+            "~0.0001",
+            "~15",
+            "~4000"
+          ],
+          "centerNote": "tabulated radius is the inner edge; centre = edge + width/2 (extends to Arago)"
+        },
+        {
+          "name": "Arago (1989N4R*)",
+          "centerKm": 57200.0,
+          "widthKm": 100.0,
+          "normalOpticalDepth": 0.0001,
+          "opticalDepthText": "",
+          "albedo": 0.023333333333333334,
+          "albedoText": "",
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "Arago (1989N4R*)",
+            "~57,200",
+            "2.310",
+            "< 100",
+            ""
+          ],
+          "albedoAssumed": "system typical value from the same fact sheet",
+          "opticalDepthAssumed": "faint ring, upper bound class"
+        },
+        {
+          "name": "Adams (1989N1R)",
+          "centerKm": 62933.0,
+          "widthKm": 15.0,
+          "normalOpticalDepth": 0.055,
+          "opticalDepthText": "0.01 - 0.1",
+          "albedo": 0.015,
+          "albedoText": "~15",
+          "azimuthallyConfinedArc": false,
+          "raw": [
+            "Adams (1989N1R)",
+            "62,933",
+            "2.541",
+            "0.01 - 0.1",
+            "~15",
+            "~15"
+          ]
+        }
+      ],
+      "notes": "Adams ring arcs (Courage, Liberté, Égalité, Fraternité) are not placed: the source gives no longitudes."
+    }
+  }
+}

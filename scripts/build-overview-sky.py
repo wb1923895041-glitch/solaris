@@ -1,0 +1,9 @@
+from pathlib import Path
+import OpenEXR,numpy as np,json,hashlib
+from PIL import Image
+r=Path(__file__).resolve().parent.parent;p=r/'data/overview-repair/starmap_2020_4k.exr';f=OpenEXR.File(str(p));channels=f.channels();a=channels['RGB'].pixels if 'RGB' in channels else np.stack([channels[c].pixels for c in ['R','G','B']],axis=-1)
+a=np.maximum(a.astype(float),0);linear=1-np.exp(-a*.65);srgb=np.where(linear<=.0031308,linear*12.92,1.055*np.power(linear,1/2.4)-.055)
+out=r/'public/assets/sky';out.mkdir(exist_ok=True);image=out/'nasa-stars-4k.jpg';Image.fromarray(np.uint8(np.clip(srgb*255,0,255))).save(image,quality=95,subsampling=0)
+meta=dict(sourceUrl='https://svs.gsfc.nasa.gov/4851/',downloadUrl='https://svs.gsfc.nasa.gov/vis/a000000/a004800/a004851/starmap_2020_4k.exr',title='Deep Star Maps 2020',credit='NASA/Goddard Space Flight Center Scientific Visualization Studio / Ernie Wright',rights='NASA SVS credit and NASA media usage guidelines retained; catalog acknowledgements on source page',catalogs=['Hipparcos-2','Tycho-2','Gaia DR2','Yale Bright Star Catalog','UCAC3','XHIP'],projection='celestial equirectangular; RA0 center, RA increases left; north up',processing='VISUAL_ENHANCEMENT: linear HDR to sRGB LDR by 1-exp(-0.65*HDR); display background not a radiometric or navigation instrument',width=4096,height=2048,rawSha256=hashlib.sha256(p.read_bytes()).hexdigest(),sha256=hashlib.sha256(image.read_bytes()).hexdigest())
+meta.update(runtimeLinearGain=.18,runtimeToneMapping='ACES Filmic, scene exposure 1.15',limitations=['Catalog-derived static celestial map, not selected-date astrometric navigation','No per-star identification or proper-motion propagation','NASA HDR display product, not a radiometric sky-brightness model'])
+(out/'source.json').write_text(json.dumps(meta,indent=2)+'\n');print(a.shape,np.percentile(a,[50,90,99,99.9]),a.max())

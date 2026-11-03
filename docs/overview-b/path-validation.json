@@ -1,0 +1,1180 @@
+{
+  "cases": 192,
+  "maxBufferErrorSceneUnits": 1.1376896456141583e-12,
+  "staticBufferVersionsUnchanged": true,
+  "skyProjection": {
+    "RA0": [
+      0.5,
+      0.5
+    ],
+    "RA6h": [
+      0.25,
+      0.5
+    ],
+    "RA12h": [
+      0,
+      0.5
+    ],
+    "RA18h": [
+      0.75,
+      0.5
+    ],
+    "northV": 1,
+    "southV": 0
+  },
+  "method": "Independent Python Hermite interpolation from frozen .f64 states, SSB Sun subtraction, display mapping; compared against actual browser high+low vertex buffers",
+  "rows": [
+    {
+      "id": "199",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.847716647714797e-14
+    },
+    {
+      "id": "199",
+      "mode": "exploration",
+      "tdb": 757425669.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.864289338439558e-14
+    },
+    {
+      "id": "199",
+      "mode": "exploration",
+      "tdb": 867844869.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.020439314654103e-14
+    },
+    {
+      "id": "199",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 1.464821375527116e-14
+    },
+    {
+      "id": "299",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 3.5574289974654566e-14
+    },
+    {
+      "id": "299",
+      "mode": "exploration",
+      "tdb": 757512069.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.4383281002407285e-14
+    },
+    {
+      "id": "299",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 4.297380857707019e-14
+    },
+    {
+      "id": "299",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 2.842170943040401e-14
+    },
+    {
+      "id": "399",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 5.710661899436153e-14
+    },
+    {
+      "id": "399",
+      "mode": "exploration",
+      "tdb": 757512069.1839061,
+      "bufferReconstructionErrorSceneUnits": 5.333340394750968e-15
+    },
+    {
+      "id": "399",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.4363548328113873e-14
+    },
+    {
+      "id": "399",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 2.8425440908214834e-14
+    },
+    {
+      "id": "499",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 7.116520927755989e-14
+    },
+    {
+      "id": "499",
+      "mode": "exploration",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 4.076197102228689e-15
+    },
+    {
+      "id": "499",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 5.729880283102207e-14
+    },
+    {
+      "id": "499",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 7.143075202578721e-14
+    },
+    {
+      "id": "599",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.2791002765336182e-13
+    },
+    {
+      "id": "599",
+      "mode": "exploration",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 8.53806982001633e-14
+    },
+    {
+      "id": "599",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.7975686784865234e-13
+    },
+    {
+      "id": "599",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 1.9947120983431092e-13
+    },
+    {
+      "id": "699",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 5.718241383625821e-14
+    },
+    {
+      "id": "699",
+      "mode": "exploration",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.820419121175931e-13
+    },
+    {
+      "id": "699",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.706805330695529e-13
+    },
+    {
+      "id": "699",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 5.870046366090628e-14
+    },
+    {
+      "id": "799",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 8.532177710646797e-14
+    },
+    {
+      "id": "799",
+      "mode": "exploration",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 8.039639998616192e-14
+    },
+    {
+      "id": "799",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 5.685653619360045e-14
+    },
+    {
+      "id": "799",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 8.987761107900976e-14
+    },
+    {
+      "id": "899",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.7054875929571916e-13
+    },
+    {
+      "id": "899",
+      "mode": "exploration",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.95110562224397e-14
+    },
+    {
+      "id": "899",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 8.556528537529814e-14
+    },
+    {
+      "id": "899",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 1.4458497151625688e-14
+    },
+    {
+      "id": "199",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.847716647714797e-14
+    },
+    {
+      "id": "199",
+      "mode": "exploration",
+      "tdb": 757425669.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.864289338439558e-14
+    },
+    {
+      "id": "199",
+      "mode": "exploration",
+      "tdb": 867844869.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.020439314654103e-14
+    },
+    {
+      "id": "199",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 1.464821375527116e-14
+    },
+    {
+      "id": "299",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 3.5574289974654566e-14
+    },
+    {
+      "id": "299",
+      "mode": "exploration",
+      "tdb": 757512069.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.4383281002407285e-14
+    },
+    {
+      "id": "299",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 4.297380857707019e-14
+    },
+    {
+      "id": "299",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 2.842170943040401e-14
+    },
+    {
+      "id": "399",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 5.710661899436153e-14
+    },
+    {
+      "id": "399",
+      "mode": "exploration",
+      "tdb": 757512069.1839061,
+      "bufferReconstructionErrorSceneUnits": 5.333340394750968e-15
+    },
+    {
+      "id": "399",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.4363548328113873e-14
+    },
+    {
+      "id": "399",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 2.8425440908214834e-14
+    },
+    {
+      "id": "499",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 7.116520927755989e-14
+    },
+    {
+      "id": "499",
+      "mode": "exploration",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 4.076197102228689e-15
+    },
+    {
+      "id": "499",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 5.729880283102207e-14
+    },
+    {
+      "id": "499",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 7.143075202578721e-14
+    },
+    {
+      "id": "599",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.2791002765336182e-13
+    },
+    {
+      "id": "599",
+      "mode": "exploration",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 8.53806982001633e-14
+    },
+    {
+      "id": "599",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.7975686784865234e-13
+    },
+    {
+      "id": "599",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 1.9947120983431092e-13
+    },
+    {
+      "id": "699",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 5.718241383625821e-14
+    },
+    {
+      "id": "699",
+      "mode": "exploration",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.820419121175931e-13
+    },
+    {
+      "id": "699",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.706805330695529e-13
+    },
+    {
+      "id": "699",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 5.870046366090628e-14
+    },
+    {
+      "id": "799",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 8.532177710646797e-14
+    },
+    {
+      "id": "799",
+      "mode": "exploration",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 8.039639998616192e-14
+    },
+    {
+      "id": "799",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 5.685653619360045e-14
+    },
+    {
+      "id": "799",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 8.987761107900976e-14
+    },
+    {
+      "id": "899",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.7054875929571916e-13
+    },
+    {
+      "id": "899",
+      "mode": "exploration",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.95110562224397e-14
+    },
+    {
+      "id": "899",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 8.556528537529814e-14
+    },
+    {
+      "id": "899",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 1.4458497151625688e-14
+    },
+    {
+      "id": "199",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.847716647714797e-14
+    },
+    {
+      "id": "199",
+      "mode": "exploration",
+      "tdb": 757425669.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.864289338439558e-14
+    },
+    {
+      "id": "199",
+      "mode": "exploration",
+      "tdb": 867844869.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.020439314654103e-14
+    },
+    {
+      "id": "199",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 1.464821375527116e-14
+    },
+    {
+      "id": "299",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 3.5574289974654566e-14
+    },
+    {
+      "id": "299",
+      "mode": "exploration",
+      "tdb": 757512069.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.4383281002407285e-14
+    },
+    {
+      "id": "299",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 4.297380857707019e-14
+    },
+    {
+      "id": "299",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 2.842170943040401e-14
+    },
+    {
+      "id": "399",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 5.710661899436153e-14
+    },
+    {
+      "id": "399",
+      "mode": "exploration",
+      "tdb": 757512069.1839061,
+      "bufferReconstructionErrorSceneUnits": 5.333340394750968e-15
+    },
+    {
+      "id": "399",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.4363548328113873e-14
+    },
+    {
+      "id": "399",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 2.8425440908214834e-14
+    },
+    {
+      "id": "499",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 7.116520927755989e-14
+    },
+    {
+      "id": "499",
+      "mode": "exploration",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 4.076197102228689e-15
+    },
+    {
+      "id": "499",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 5.729880283102207e-14
+    },
+    {
+      "id": "499",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 7.143075202578721e-14
+    },
+    {
+      "id": "599",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.2791002765336182e-13
+    },
+    {
+      "id": "599",
+      "mode": "exploration",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 8.53806982001633e-14
+    },
+    {
+      "id": "599",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.7975686784865234e-13
+    },
+    {
+      "id": "599",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 1.9947120983431092e-13
+    },
+    {
+      "id": "699",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 5.718241383625821e-14
+    },
+    {
+      "id": "699",
+      "mode": "exploration",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.820419121175931e-13
+    },
+    {
+      "id": "699",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.706805330695529e-13
+    },
+    {
+      "id": "699",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 5.870046366090628e-14
+    },
+    {
+      "id": "799",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 8.532177710646797e-14
+    },
+    {
+      "id": "799",
+      "mode": "exploration",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 8.039639998616192e-14
+    },
+    {
+      "id": "799",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 5.685653619360045e-14
+    },
+    {
+      "id": "799",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 8.987761107900976e-14
+    },
+    {
+      "id": "899",
+      "mode": "exploration",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.7054875929571916e-13
+    },
+    {
+      "id": "899",
+      "mode": "exploration",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.95110562224397e-14
+    },
+    {
+      "id": "899",
+      "mode": "exploration",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 8.556528537529814e-14
+    },
+    {
+      "id": "899",
+      "mode": "exploration",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 1.4458497151625688e-14
+    },
+    {
+      "id": "199",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 3.9968028886505635e-15
+    },
+    {
+      "id": "199",
+      "mode": "scientific",
+      "tdb": 757425669.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.5510982866352577e-15
+    },
+    {
+      "id": "199",
+      "mode": "scientific",
+      "tdb": 867844869.1839061,
+      "bufferReconstructionErrorSceneUnits": 7.444291678311382e-15
+    },
+    {
+      "id": "199",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 4.213000162292041e-15
+    },
+    {
+      "id": "299",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.4238583238573986e-14
+    },
+    {
+      "id": "299",
+      "mode": "scientific",
+      "tdb": 757512069.1839061,
+      "bufferReconstructionErrorSceneUnits": 7.906783589979253e-15
+    },
+    {
+      "id": "299",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 3.5576180026236307e-14
+    },
+    {
+      "id": "299",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 2.5622831388630473e-14
+    },
+    {
+      "id": "399",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.1991912172976304e-14
+    },
+    {
+      "id": "399",
+      "mode": "scientific",
+      "tdb": 757512069.1839061,
+      "bufferReconstructionErrorSceneUnits": 7.107142392340498e-15
+    },
+    {
+      "id": "399",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.843356359648347e-14
+    },
+    {
+      "id": "399",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 4.278169924715987e-14
+    },
+    {
+      "id": "499",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 4.281720149348427e-14
+    },
+    {
+      "id": "499",
+      "mode": "scientific",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 7.215595591812694e-14
+    },
+    {
+      "id": "499",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.1339687989529585e-14
+    },
+    {
+      "id": "499",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 7.14100420569469e-14
+    },
+    {
+      "id": "599",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.6077746776921858e-13
+    },
+    {
+      "id": "599",
+      "mode": "scientific",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 0.0
+    },
+    {
+      "id": "599",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.206125364677349e-13
+    },
+    {
+      "id": "599",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 9.104695276223525e-14
+    },
+    {
+      "id": "699",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 3.422611415011926e-13
+    },
+    {
+      "id": "699",
+      "mode": "scientific",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.1403325463066973e-13
+    },
+    {
+      "id": "699",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 4.583000645652646e-13
+    },
+    {
+      "id": "699",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 1.906917205519625e-13
+    },
+    {
+      "id": "799",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 3.219092377840955e-13
+    },
+    {
+      "id": "799",
+      "mode": "scientific",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.542502839297054e-13
+    },
+    {
+      "id": "799",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 8.039096939532742e-13
+    },
+    {
+      "id": "799",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 1.4211132268247708e-13
+    },
+    {
+      "id": "899",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.1376896456141583e-12
+    },
+    {
+      "id": "899",
+      "mode": "scientific",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.3177202635764743e-13
+    },
+    {
+      "id": "899",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 4.548028586499771e-13
+    },
+    {
+      "id": "899",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 9.38804169481775e-13
+    },
+    {
+      "id": "199",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 3.9968028886505635e-15
+    },
+    {
+      "id": "199",
+      "mode": "scientific",
+      "tdb": 757425669.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.5510982866352577e-15
+    },
+    {
+      "id": "199",
+      "mode": "scientific",
+      "tdb": 867844869.1839061,
+      "bufferReconstructionErrorSceneUnits": 7.444291678311382e-15
+    },
+    {
+      "id": "199",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 4.213000162292041e-15
+    },
+    {
+      "id": "299",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.4238583238573986e-14
+    },
+    {
+      "id": "299",
+      "mode": "scientific",
+      "tdb": 757512069.1839061,
+      "bufferReconstructionErrorSceneUnits": 7.906783589979253e-15
+    },
+    {
+      "id": "299",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 3.5576180026236307e-14
+    },
+    {
+      "id": "299",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 2.5622831388630473e-14
+    },
+    {
+      "id": "399",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.1991912172976304e-14
+    },
+    {
+      "id": "399",
+      "mode": "scientific",
+      "tdb": 757512069.1839061,
+      "bufferReconstructionErrorSceneUnits": 7.107142392340498e-15
+    },
+    {
+      "id": "399",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.843356359648347e-14
+    },
+    {
+      "id": "399",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 4.278169924715987e-14
+    },
+    {
+      "id": "499",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 4.281720149348427e-14
+    },
+    {
+      "id": "499",
+      "mode": "scientific",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 7.215595591812694e-14
+    },
+    {
+      "id": "499",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.1339687989529585e-14
+    },
+    {
+      "id": "499",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 7.14100420569469e-14
+    },
+    {
+      "id": "599",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.6077746776921858e-13
+    },
+    {
+      "id": "599",
+      "mode": "scientific",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 0.0
+    },
+    {
+      "id": "599",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.206125364677349e-13
+    },
+    {
+      "id": "599",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 9.104695276223525e-14
+    },
+    {
+      "id": "699",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 3.422611415011926e-13
+    },
+    {
+      "id": "699",
+      "mode": "scientific",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.1403325463066973e-13
+    },
+    {
+      "id": "699",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 4.583000645652646e-13
+    },
+    {
+      "id": "699",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 1.906917205519625e-13
+    },
+    {
+      "id": "799",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 3.219092377840955e-13
+    },
+    {
+      "id": "799",
+      "mode": "scientific",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.542502839297054e-13
+    },
+    {
+      "id": "799",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 8.039096939532742e-13
+    },
+    {
+      "id": "799",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 1.4211132268247708e-13
+    },
+    {
+      "id": "899",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.1376896456141583e-12
+    },
+    {
+      "id": "899",
+      "mode": "scientific",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.3177202635764743e-13
+    },
+    {
+      "id": "899",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 4.548028586499771e-13
+    },
+    {
+      "id": "899",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 9.38804169481775e-13
+    },
+    {
+      "id": "199",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 3.9968028886505635e-15
+    },
+    {
+      "id": "199",
+      "mode": "scientific",
+      "tdb": 757425669.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.5510982866352577e-15
+    },
+    {
+      "id": "199",
+      "mode": "scientific",
+      "tdb": 867844869.1839061,
+      "bufferReconstructionErrorSceneUnits": 7.444291678311382e-15
+    },
+    {
+      "id": "199",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 4.213000162292041e-15
+    },
+    {
+      "id": "299",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.4238583238573986e-14
+    },
+    {
+      "id": "299",
+      "mode": "scientific",
+      "tdb": 757512069.1839061,
+      "bufferReconstructionErrorSceneUnits": 7.906783589979253e-15
+    },
+    {
+      "id": "299",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 3.5576180026236307e-14
+    },
+    {
+      "id": "299",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 2.5622831388630473e-14
+    },
+    {
+      "id": "399",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.1991912172976304e-14
+    },
+    {
+      "id": "399",
+      "mode": "scientific",
+      "tdb": 757512069.1839061,
+      "bufferReconstructionErrorSceneUnits": 7.107142392340498e-15
+    },
+    {
+      "id": "399",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.843356359648347e-14
+    },
+    {
+      "id": "399",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 4.278169924715987e-14
+    },
+    {
+      "id": "499",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 4.281720149348427e-14
+    },
+    {
+      "id": "499",
+      "mode": "scientific",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 7.215595591812694e-14
+    },
+    {
+      "id": "499",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.1339687989529585e-14
+    },
+    {
+      "id": "499",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 7.14100420569469e-14
+    },
+    {
+      "id": "599",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.6077746776921858e-13
+    },
+    {
+      "id": "599",
+      "mode": "scientific",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 0.0
+    },
+    {
+      "id": "599",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.206125364677349e-13
+    },
+    {
+      "id": "599",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 9.104695276223525e-14
+    },
+    {
+      "id": "699",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 3.422611415011926e-13
+    },
+    {
+      "id": "699",
+      "mode": "scientific",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.1403325463066973e-13
+    },
+    {
+      "id": "699",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 4.583000645652646e-13
+    },
+    {
+      "id": "699",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 1.906917205519625e-13
+    },
+    {
+      "id": "799",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 3.219092377840955e-13
+    },
+    {
+      "id": "799",
+      "mode": "scientific",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.542502839297054e-13
+    },
+    {
+      "id": "799",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 8.039096939532742e-13
+    },
+    {
+      "id": "799",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 1.4211132268247708e-13
+    },
+    {
+      "id": "899",
+      "mode": "scientific",
+      "tdb": 757339269.1839061,
+      "bufferReconstructionErrorSceneUnits": 1.1376896456141583e-12
+    },
+    {
+      "id": "899",
+      "mode": "scientific",
+      "tdb": 757684869.1839061,
+      "bufferReconstructionErrorSceneUnits": 2.3177202635764743e-13
+    },
+    {
+      "id": "899",
+      "mode": "scientific",
+      "tdb": 867931269.1839061,
+      "bufferReconstructionErrorSceneUnits": 4.548028586499771e-13
+    },
+    {
+      "id": "899",
+      "mode": "scientific",
+      "tdb": 978264069.1839114,
+      "bufferReconstructionErrorSceneUnits": 9.38804169481775e-13
+    }
+  ]
+}

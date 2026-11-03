@@ -1,0 +1,272 @@
+{
+  "method": "Geometric (no light-time/aberration) shadow cones; Earth shadow enlarged 1/85 (Danjon); scan of syzygies with ternary refinement",
+  "computeMs": 33.68129999999999,
+  "found": 32,
+  "matched": 32,
+  "rows": [
+    {
+      "nasa": "2024-04-08 18:18:29 TD T",
+      "expected": "solar-total",
+      "computed": "solar-total",
+      "dtSeconds": 33.84341526031494,
+      "nasaGamma": 0.3431,
+      "computedGamma": 0.3436900002526651
+    },
+    {
+      "nasa": "2024-10-02 18:46:13 TD A",
+      "expected": "solar-annular",
+      "computed": "solar-annular",
+      "dtSeconds": 43.836689472198486,
+      "nasaGamma": -0.3509,
+      "computedGamma": 0.35150312646158005
+    },
+    {
+      "nasa": "2025-03-29 10:48:36 TD P",
+      "expected": "solar-partial",
+      "computed": "solar-partial",
+      "dtSeconds": 33.39527606964111,
+      "nasaGamma": 1.0405,
+      "computedGamma": 1.0410699425704852
+    },
+    {
+      "nasa": "2025-09-21 19:43:04 TD P",
+      "expected": "solar-partial",
+      "computed": "solar-partial",
+      "dtSeconds": 41.44633340835571,
+      "nasaGamma": -1.0651,
+      "computedGamma": 1.0656956405876943
+    },
+    {
+      "nasa": "2026-02-17 12:13:06 TD A",
+      "expected": "solar-annular",
+      "computed": "solar-annular",
+      "dtSeconds": 38.956236600875854,
+      "nasaGamma": -0.9743,
+      "computedGamma": 0.9736745979053986
+    },
+    {
+      "nasa": "2026-08-12 17:47:06 TD T",
+      "expected": "solar-total",
+      "computed": "solar-total",
+      "dtSeconds": 34.14536476135254,
+      "nasaGamma": 0.8977,
+      "computedGamma": 0.8972030873936653
+    },
+    {
+      "nasa": "2027-02-06 16:00:48 TD A",
+      "expected": "solar-annular",
+      "computed": "solar-annular",
+      "dtSeconds": 43.171040296554565,
+      "nasaGamma": -0.2952,
+      "computedGamma": 0.29451654828588997
+    },
+    {
+      "nasa": "2027-08-02 10:07:50 TD T",
+      "expected": "solar-total",
+      "computed": "solar-total",
+      "dtSeconds": 32.60892581939697,
+      "nasaGamma": 0.1421,
+      "computedGamma": 0.14155629962825753
+    },
+    {
+      "nasa": "2028-01-26 15:08:59 TD A",
+      "expected": "solar-annular",
+      "computed": "solar-annular",
+      "dtSeconds": 43.84006404876709,
+      "nasaGamma": 0.3901,
+      "computedGamma": 0.3907893713426951
+    },
+    {
+      "nasa": "2028-07-22 02:56:40 TD T",
+      "expected": "solar-total",
+      "computed": "solar-total",
+      "dtSeconds": 33.29436421394348,
+      "nasaGamma": -0.6056,
+      "computedGamma": 0.6061148736375381
+    },
+    {
+      "nasa": "2029-01-14 17:13:48 TD P",
+      "expected": "solar-partial",
+      "computed": "solar-partial",
+      "dtSeconds": 40.00642156600952,
+      "nasaGamma": 1.0553,
+      "computedGamma": 1.0559284217578173
+    },
+    {
+      "nasa": "2029-06-12 04:06:13 TD P",
+      "expected": "solar-partial",
+      "computed": "solar-partial",
+      "dtSeconds": 39.9664945602417,
+      "nasaGamma": 1.2943,
+      "computedGamma": 1.29373087716671
+    },
+    {
+      "nasa": "2029-07-11 15:37:19 TD P",
+      "expected": "solar-partial",
+      "computed": "solar-partial",
+      "dtSeconds": 37.558733224868774,
+      "nasaGamma": -1.4191,
+      "computedGamma": 1.4196362897700812
+    },
+    {
+      "nasa": "2029-12-05 15:03:58 TD P",
+      "expected": "solar-partial",
+      "computed": "solar-partial",
+      "dtSeconds": 34.174755811691284,
+      "nasaGamma": -1.0609,
+      "computedGamma": 1.060357151151387
+    },
+    {
+      "nasa": "2030-06-01 06:29:13 TD A",
+      "expected": "solar-annular",
+      "computed": "solar-annular",
+      "dtSeconds": 42.663673639297485,
+      "nasaGamma": 0.5626,
+      "computedGamma": 0.5620269458059731
+    },
+    {
+      "nasa": "2030-11-25 06:51:37 TD T",
+      "expected": "solar-total",
+      "computed": "solar-total",
+      "dtSeconds": 33.48135042190552,
+      "nasaGamma": -0.3867,
+      "computedGamma": 0.3861347384762869
+    },
+    {
+      "nasa": "2024-03-25 07:13:59 TD N",
+      "expected": "lunar-penumbral",
+      "computed": "lunar-penumbral",
+      "dtSeconds": 46.30671668052673,
+      "nasaGamma": 1.0609,
+      "computedGamma": 1.0602819586425556
+    },
+    {
+      "nasa": "2024-09-18 02:45:25 TD P",
+      "expected": "lunar-partial",
+      "computed": "lunar-partial",
+      "dtSeconds": 34.378193616867065,
+      "nasaGamma": -0.9792,
+      "computedGamma": 0.9786033667132059
+    },
+    {
+      "nasa": "2025-03-14 06:59:56 TD T",
+      "expected": "lunar-total",
+      "computed": "lunar-total",
+      "dtSeconds": 42.52951121330261,
+      "nasaGamma": 0.3484,
+      "computedGamma": 0.34780844108116477
+    },
+    {
+      "nasa": "2025-09-07 18:12:58 TD T",
+      "expected": "lunar-total",
+      "computed": "lunar-total",
+      "dtSeconds": 35.43326449394226,
+      "nasaGamma": -0.2752,
+      "computedGamma": 0.27463277328674063
+    },
+    {
+      "nasa": "2026-03-03 11:34:52 TD T",
+      "expected": "lunar-total",
+      "computed": "lunar-total",
+      "dtSeconds": 37.90960884094238,
+      "nasaGamma": -0.3765,
+      "computedGamma": 0.3770863834422782
+    },
+    {
+      "nasa": "2026-08-28 04:14:04 TD P",
+      "expected": "lunar-partial",
+      "computed": "lunar-partial",
+      "dtSeconds": 40.93203902244568,
+      "nasaGamma": 0.4964,
+      "computedGamma": 0.4970007794023965
+    },
+    {
+      "nasa": "2027-02-20 23:14:06 TD N",
+      "expected": "lunar-penumbral",
+      "computed": "lunar-penumbral",
+      "dtSeconds": 30.101958990097046,
+      "nasaGamma": -1.048,
+      "computedGamma": 1.0485193723352124
+    },
+    {
+      "nasa": "2027-07-18 16:04:09 TD Ne",
+      "expected": "lunar-penumbral",
+      "computed": "lunar-penumbral",
+      "dtSeconds": 42.173036336898804,
+      "nasaGamma": -1.5758,
+      "computedGamma": 1.5751870902890717
+    },
+    {
+      "nasa": "2027-08-17 07:14:59 TD N",
+      "expected": "lunar-penumbral",
+      "computed": "lunar-penumbral",
+      "dtSeconds": 44.22767210006714,
+      "nasaGamma": 1.2797,
+      "computedGamma": 1.2802589716302248
+    },
+    {
+      "nasa": "2028-01-12 04:14:13 TD P",
+      "expected": "lunar-partial",
+      "computed": "lunar-partial",
+      "dtSeconds": 37.18944954872131,
+      "nasaGamma": 0.9817,
+      "computedGamma": 0.9811497989145744
+    },
+    {
+      "nasa": "2028-07-06 18:20:57 TD P",
+      "expected": "lunar-partial",
+      "computed": "lunar-partial",
+      "dtSeconds": 37.1779522895813,
+      "nasaGamma": -0.7903,
+      "computedGamma": 0.7897547478355165
+    },
+    {
+      "nasa": "2028-12-31 16:53:15 TD T",
+      "expected": "lunar-total",
+      "computed": "lunar-total",
+      "dtSeconds": 38.520431995391846,
+      "nasaGamma": 0.3258,
+      "computedGamma": 0.3252202410702581
+    },
+    {
+      "nasa": "2029-06-26 03:23:22 TD T+",
+      "expected": "lunar-total",
+      "computed": "lunar-total",
+      "dtSeconds": 35.96753168106079,
+      "nasaGamma": 0.0124,
+      "computedGamma": 0.012962032537124536
+    },
+    {
+      "nasa": "2029-12-20 22:43:12 TD T",
+      "expected": "lunar-total",
+      "computed": "lunar-total",
+      "dtSeconds": 42.83852505683899,
+      "nasaGamma": -0.3811,
+      "computedGamma": 0.3816995579656356
+    },
+    {
+      "nasa": "2030-06-15 18:34:34 TD P",
+      "expected": "lunar-partial",
+      "computed": "lunar-partial",
+      "dtSeconds": 31.094305515289307,
+      "nasaGamma": 0.7534,
+      "computedGamma": 0.7539430454697279
+    },
+    {
+      "nasa": "2030-12-09 22:28:51 TD N",
+      "expected": "lunar-penumbral",
+      "computed": "lunar-penumbral",
+      "dtSeconds": 43.90156602859497,
+      "nasaGamma": -1.0731,
+      "computedGamma": 1.0737161622987235
+    }
+  ],
+  "extraComputed": [],
+  "fails": [],
+  "phaseAtLunarEclipse2025": {
+    "illuminatedFraction": 0.9999924081713154,
+    "phaseAngleDeg": 0.3157376536505355,
+    "waxing": false
+  },
+  "maxAbsTimingSeconds": 46.30671668052673
+}

@@ -1,0 +1,28 @@
+FETCH ganymede-verified.html https://astrogeology.usgs.gov/search/map/ganymede_voyager_galileo_ssi_color_global_mosaic_1_4km
+FETCH callisto-verified.html https://astrogeology.usgs.gov/search/map/callisto_galileo_voyager_global_mosaic_1km
+FETCH triton-usgs.html https://astrogeology.usgs.gov/search/map/triton_voyager_2_global_color_mosaic_600m
+FETCH titan-visible.html https://science.nasa.gov/resource/cassinis-views-of-titan/
+READY triton-usgs.html 26546
+triton-usgs.html ['https://astrogeology.usgs.gov/ckan/dataset/445b4c39-e87a-4e4d-88a8-e48d8e755c5c/resource/de0ba9f1-303e-4e5f-a99a-3201fba9a764/download/triton_voyager2_clrmosaic_1024.jpg', 'https://planetarymaps.usgs.gov/mosaic/Triton_Voyager2_ClrMosaic_GlobalFill_600m.tif', 'https://astrogeology.usgs.gov/ckan/dataset/445b4c39-e87a-4e4d-88a8-e48d8e755c5c/resource/a79dfc3b-0267-435f-8ea0-5784a27c96bf/download/triton_voyager2_clrmosaic_globalfill_600m.lbl', 'https://astrogeology.usgs.gov/ckan/dataset/445b4c39-e87a-4e4d-88a8-e48d8e755c5c/resource/07a8e6bb-dfad-4d07-8cd5-bd010870564b/download/triton_voyager2_clrmosaic_globalfill_600m_pds3.lbl', 'https://astrogeology.usgs.gov/ckan/dataset/445b4c39-e87a-4e4d-88a8-e48d8e755c5c/resource/05bf1c30-5f51-4dd3-b738-42554965a9e2/download/triton_voyager2_clrmosaic_512.jpg', 'https://astrogeology.usgs.gov/ckan/dataset/445b4c39-e87a-4e4d-88a8-e48d8e755c5c/resource/de0ba9f1-303e-4e5f-a99a-3201fba9a764/download/triton_voyager2_clrmosaic_1024.jpg']
+READY titan-visible.html 255944
+titan-visible.html ['https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/PIA06227-1.jpg']
+READY callisto-verified.html 27043
+callisto-verified.html ['https://astrogeology.usgs.gov/ckan/dataset/a80abd68-7ed9-440e-829a-76376779164f/resource/ac628525-cb1c-4742-928b-5a0a60f372cd/download/callisto_voyager_galileossi_global_mosaic_1024.jpg', 'https://planetarymaps.usgs.gov/mosaic/Callisto_Voyager_GalileoSSI_global_mosaic_1km.tif', 'https://astrogeology.usgs.gov/ckan/dataset/a80abd68-7ed9-440e-829a-76376779164f/resource/66433621-ca46-4563-994f-c615931adb42/download/callisto_voyager_galileossi_global_mosaic_1km.lbl', 'https://astrogeology.usgs.gov/ckan/dataset/a80abd68-7ed9-440e-829a-76376779164f/resource/0b2f0b5f-36d9-4b02-8901-026cffa44393/download/callisto_voyager_galileossi_global_mosaic_1km_pds3.lbl', 'https://astrogeology.usgs.gov/ckan/dataset/a80abd68-7ed9-440e-829a-76376779164f/resource/07fadad5-8e6b-41bc-a916-5798e1912578/download/callisto_voyager_galileossi_global_mosaic_100.jpg', 'https://astrogeology.usgs.gov/ckan/dataset/a80abd68-7ed9-440e-829a-76376779164f/resource/b102d2c0-f734-412b-9019-1dfc3327d187/download/callisto_voyager_galileossi_global_mosaic_512.jpg', 'https://astrogeology.usgs.gov/ckan/dataset/a80abd68-7ed9-440e-829a-76376779164f/resource/ac628525-cb1c-4742-928b-5a0a60f372cd/download/callisto_voyager_galileossi_global_mosaic_1024.jpg']
+READY ganymede-verified.html 33310
+ganymede-verified.html ['https://astrogeology.usgs.gov/ckan/dataset/e1422336-3291-4b65-b903-c942d53de073/resource/eb32abd7-fee2-47d1-9f96-9d7d8824cc3a/download/ganymede_voyager_galileossi_global_clrmosaic_1024.jpg', 'https://planetarymaps.usgs.gov/mosaic/Ganymede_Voyager_GalileoSSI_Global_ClrMosaic_1435m.tif', 'https://astrogeology.usgs.gov/ckan/dataset/e1422336-3291-4b65-b903-c942d53de073/resource/f1f69d62-98d9-4eb9-9f69-0dba163cb125/download/ganymede_voyager_galileossi_global_clrmosaic_1435m.lbl', 'https://astrogeology.usgs.gov/ckan/dataset/e1422336-3291-4b65-b903-c942d53de073/resource/509fa2d8-249d-4e1c-b75c-7e2e7f18e759/download/ganymede_voyager_galileossi_global_clrmosaic_1435m_pds3.lbl', 'https://astrogeology.usgs.gov/ckan/dataset/e1422336-3291-4b65-b903-c942d53de073/resource/1cc39812-7eb3-4d5d-bf9e-9f8d159a89c0/download/ganymede_voyager_galileossi_global_clrmosaic_512.jpg', 'https://astrogeology.usgs.gov/ckan/dataset/e1422336-3291-4b65-b903-c942d53de073/resource/eb32abd7-fee2-47d1-9f96-9d7d8824cc3a/download/ganymede_voyager_galileossi_global_clrmosaic_1024.jpg']
+FETCH uranus-moon-1.tif https://space.jpl.nasa.gov/tmaps/pix/ura1vuu2.tif
+FETCH triton-global.jpg https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/2/238_PIA18668-2.jpg
+FETCH uranus-moon-2.tif https://space.jpl.nasa.gov/tmaps/pix/ura2vuu2.tif
+FETCH uranus-moon-3.tif https://space.jpl.nasa.gov/tmaps/pix/ura3vuu2.tif
+READY uranus-moon-2.tif 211300
+FETCH uranus-moon-4.tif https://space.jpl.nasa.gov/tmaps/pix/ura4vuu2.tif
+READY uranus-moon-3.tif 323574
+FETCH uranus-moon-5.tif https://space.jpl.nasa.gov/tmaps/pix/ura5vuu2.tif
+READY uranus-moon-1.tif 261190
+FETCH callisto-global.tif https://planetarymaps.usgs.gov/mosaic/Callisto_Voyager_GalileoSSI_global_mosaic_1km.tif
+READY uranus-moon-4.tif 327600
+FETCH ganymede-global.tif https://planetarymaps.usgs.gov/mosaic/Ganymede_Voyager_GalileoSSI_Global_ClrMosaic_1435m.tif
+READY uranus-moon-5.tif 385974
+READY triton-global.jpg 4281065
+READY callisto-global.tif 114640717
+READY ganymede-global.tif 199204541

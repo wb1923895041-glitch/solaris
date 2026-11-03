@@ -1,0 +1,17 @@
+cycle 1 109.2 MB {"geometries":25,"textures":32} {"geometries":16,"textures":13}
+cycle 2 104.8 MB {"geometries":25,"textures":32} {"geometries":16,"textures":13}
+cycle 3 117.1 MB {"geometries":25,"textures":32} {"geometries":16,"textures":13}
+cycle 4 116.7 MB {"geometries":25,"textures":32} {"geometries":16,"textures":13}
+cycle 5 112.7 MB {"geometries":25,"textures":32} {"geometries":16,"textures":13}
+cycle 6 117.4 MB {"geometries":25,"textures":32} {"geometries":16,"textures":13}
+cycle 7 116.9 MB {"geometries":25,"textures":32} {"geometries":16,"textures":13}
+cycle 8 112.8 MB {"geometries":25,"textures":32} {"geometries":16,"textures":13}
+cycle 9 117.5 MB {"geometries":25,"textures":32} {"geometries":16,"textures":13}
+cycle 10 117.1 MB {"geometries":25,"textures":32} {"geometries":16,"textures":13}
+cycle 11 113.0 MB {"geometries":25,"textures":32} {"geometries":16,"textures":13}
+cycle 12 117.7 MB {"geometries":25,"textures":32} {"geometries":16,"textures":13}
+PASS 主星历 599 字节损坏 → 拒绝初始化，不用替代轨道 | 初始化失败：星历完整性检查失败 599；未使用替代轨道 
+PASS 月球星历字节损坏 → 卫星层停用，行星照常 | 局部系统未启用：卫星缓存哈希不符 301；原太阳系继续运行 
+PASS 小天体清单缺失 → 小天体图层停用 | 小天体图层未启用：小天体清单加载失败；行星与卫星照常运行 
+PASS 木卫二纹理字节损坏 → 仅该资产报错 | 3B 独立资产验收 · 历史影像与 IAU 近似姿态 · 参考中心仍使用原星历 Error: 资产哈希核验失败
+ALL PASS 8 audit checks

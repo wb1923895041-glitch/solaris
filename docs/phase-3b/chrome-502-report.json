@@ -1,0 +1,731 @@
+{
+  "browser": "156.0.8078.79",
+  "viewport": {
+    "width": 2560,
+    "height": 1440
+  },
+  "checks": [
+    "Asset loaded with no fallback",
+    "Solar-only illumination and non-emissive material",
+    "Same original TDB instant",
+    "Body orientation is a unit quaternion",
+    "Satellite absolute position available",
+    "Light points to Sun from the actual satellite centre",
+    "standard camera rendered without error",
+    "side camera rendered without error",
+    "detail camera rendered without error",
+    "parent camera rendered without error",
+    "Actual mouse drag rotates inspection camera",
+    "Camera does not alter physical orientation",
+    "Optional fill is explicit and reversible",
+    "Close restores unchanged main scene and camera",
+    "No browser console/runtime errors"
+  ],
+  "errors": [],
+  "captures": [
+    {
+      "view": "standard",
+      "file": "output/playwright/phase-3b/chrome-502-standard-2560.png",
+      "snapshot": {
+        "id": "502",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "standard",
+        "bodyToIcrfQuaternion": [
+          0.21520833785779706,
+          -0.03484606065418093,
+          0.1101145158509304,
+          0.9697143480284719
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.692584283889071,
+          0.07293395138789413,
+          0.08955497350313915,
+          0.712030585835793
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          0.6870259248454055,
+          -0.012312684699498514,
+          0.7265285791941057
+        ],
+        "camera": [
+          3.5078729434763023,
+          -0.06286710873195149,
+          3.709568814584053
+        ],
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "502",
+          "displayNameZh": "木卫二",
+          "displayNameEn": "Europa",
+          "parentPlanetId": "599",
+          "version": "3b-502-mosaic-v1",
+          "kind": "galileo-ice",
+          "shapeType": "pck-ellipsoid",
+          "meanRadiusKm": 1560.8,
+          "meshFrame": "sphere-y-up",
+          "geometry": {
+            "axesKm": [
+              1562.6,
+              1560.3,
+              1559.5
+            ],
+            "source": "NAIF pck00011.tpc BODY502_RADII; retained physical catalog radius"
+          },
+          "geometrySource": {
+            "provider": "NASA/NAIF",
+            "title": "IAU generic PCK triaxial radii",
+            "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+          },
+          "albedo": {
+            "title": "Voyager / Galileo SSI 500 m monochrome mosaic",
+            "provider": "NASA Voyager / Galileo / USGS",
+            "uri": "https://astrogeology.usgs.gov/search/map/Europa/Voyager-Galileo/Europa_Voyager_GalileoSSI_global_mosaic_500m",
+            "downloadUrl": "https://planetarymaps.usgs.gov/mosaic/Europa_Voyager_GalileoSSI_global_mosaic_500m.tif",
+            "rawPath": "data/phase-3b/raw/europa-mosaic-500m.tif",
+            "rawSha256": "a323f0c9ccb47d5af9902ea8297fe81f9a9708795645b80801f103c3f7c9a624",
+            "observationEpoch": "Voyager 1979 / Galileo 1995–2003 composite",
+            "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+            "colorProcessing": "保留观测灰度；没有加入虚构的棕红裂纹或全球彩色重建。",
+            "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+            "processingCategory": "OBSERVED_MONOCHROME",
+            "nativeDimensions": [
+              19631,
+              9816
+            ]
+          },
+          "lods": [
+            {
+              "width": 1024,
+              "height": 512,
+              "url": "/assets/moons/502/albedo-1024.jpg",
+              "sha256": "f350ea103b7b92f21bd6a3bceec9db8b0a787278f26551ef3c07676108ea3f69"
+            },
+            {
+              "width": 2048,
+              "height": 1024,
+              "url": "/assets/moons/502/albedo-2048.jpg",
+              "sha256": "2fbefb9a3c9724d2db15a7c19103335f959170d7e8f0ff227be972de34e00f4e"
+            },
+            {
+              "width": 4096,
+              "height": 2048,
+              "url": "/assets/moons/502/albedo-4096.jpg",
+              "sha256": "ef619a3ad874b917c05dd18d453a7d04592e701f8b774c677dd6ef87a0ada503"
+            }
+          ],
+          "coverage": {
+            "file": "/assets/moons/502/coverage.png",
+            "sha256": "0c98f8243a3b6ace7a0a6acd32a58ca8225e5a733fbefbeb4294b71290b1f11a",
+            "missingSurfaceFraction": 0.005094761148165354,
+            "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+          },
+          "georeferencing": {
+            "method": "GeoTIFF SimpleCylindrical affine inverse at output pixel centres",
+            "centralLongitudeEast": 180,
+            "radiusMeters": 1562089.9658,
+            "pixelScale": [
+              499.97456657942,
+              499.97456657942,
+              0
+            ],
+            "tiePoint": [
+              0,
+              0,
+              0,
+              -4907750.3455436,
+              2453875.1727718,
+              0
+            ],
+            "sourceMetadataPage": "europa-usgs.html"
+          },
+          "material": {
+            "roughness": 0.95,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+          "reconstructionNotes": "南纬 83° 以南没有影像覆盖；两极分辨率较低。裂纹是影像纹理，不是高程测量。 蓝灰色区域为未测，未加入虚构地貌。",
+          "visualEnhancements": [
+            "未测区蓝灰色分类标识",
+            "固定观察曝光；可选补光默认关闭"
+          ],
+          "limitations": [
+            "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+            "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+            "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+          ],
+          "verifiedAt": "2026-11-01T08:13:34.700695+00:00"
+        },
+        "loadedWidth": 2048,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 2,
+            "textures": 5
+          },
+          "drawCalls": 1,
+          "triangles": 48768
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 5,
+          "geometryCount": 2,
+          "textureCount": 5
+        }
+      }
+    },
+    {
+      "view": "side",
+      "file": "output/playwright/phase-3b/chrome-502-side-2560.png",
+      "snapshot": {
+        "id": "502",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "side",
+        "bodyToIcrfQuaternion": [
+          0.21520833785779706,
+          -0.03484606065418093,
+          0.1101145158509304,
+          0.9697143480284719
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.692584283889071,
+          0.07293395138789413,
+          0.08955497350313915,
+          0.712030585835793
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          0.6870259248454055,
+          -0.012312684699498514,
+          0.7265285791941057
+        ],
+        "camera": [
+          4.94656610073045,
+          -0.030530966959310152,
+          -1.265139250133687
+        ],
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "502",
+          "displayNameZh": "木卫二",
+          "displayNameEn": "Europa",
+          "parentPlanetId": "599",
+          "version": "3b-502-mosaic-v1",
+          "kind": "galileo-ice",
+          "shapeType": "pck-ellipsoid",
+          "meanRadiusKm": 1560.8,
+          "meshFrame": "sphere-y-up",
+          "geometry": {
+            "axesKm": [
+              1562.6,
+              1560.3,
+              1559.5
+            ],
+            "source": "NAIF pck00011.tpc BODY502_RADII; retained physical catalog radius"
+          },
+          "geometrySource": {
+            "provider": "NASA/NAIF",
+            "title": "IAU generic PCK triaxial radii",
+            "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+          },
+          "albedo": {
+            "title": "Voyager / Galileo SSI 500 m monochrome mosaic",
+            "provider": "NASA Voyager / Galileo / USGS",
+            "uri": "https://astrogeology.usgs.gov/search/map/Europa/Voyager-Galileo/Europa_Voyager_GalileoSSI_global_mosaic_500m",
+            "downloadUrl": "https://planetarymaps.usgs.gov/mosaic/Europa_Voyager_GalileoSSI_global_mosaic_500m.tif",
+            "rawPath": "data/phase-3b/raw/europa-mosaic-500m.tif",
+            "rawSha256": "a323f0c9ccb47d5af9902ea8297fe81f9a9708795645b80801f103c3f7c9a624",
+            "observationEpoch": "Voyager 1979 / Galileo 1995–2003 composite",
+            "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+            "colorProcessing": "保留观测灰度；没有加入虚构的棕红裂纹或全球彩色重建。",
+            "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+            "processingCategory": "OBSERVED_MONOCHROME",
+            "nativeDimensions": [
+              19631,
+              9816
+            ]
+          },
+          "lods": [
+            {
+              "width": 1024,
+              "height": 512,
+              "url": "/assets/moons/502/albedo-1024.jpg",
+              "sha256": "f350ea103b7b92f21bd6a3bceec9db8b0a787278f26551ef3c07676108ea3f69"
+            },
+            {
+              "width": 2048,
+              "height": 1024,
+              "url": "/assets/moons/502/albedo-2048.jpg",
+              "sha256": "2fbefb9a3c9724d2db15a7c19103335f959170d7e8f0ff227be972de34e00f4e"
+            },
+            {
+              "width": 4096,
+              "height": 2048,
+              "url": "/assets/moons/502/albedo-4096.jpg",
+              "sha256": "ef619a3ad874b917c05dd18d453a7d04592e701f8b774c677dd6ef87a0ada503"
+            }
+          ],
+          "coverage": {
+            "file": "/assets/moons/502/coverage.png",
+            "sha256": "0c98f8243a3b6ace7a0a6acd32a58ca8225e5a733fbefbeb4294b71290b1f11a",
+            "missingSurfaceFraction": 0.005094761148165354,
+            "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+          },
+          "georeferencing": {
+            "method": "GeoTIFF SimpleCylindrical affine inverse at output pixel centres",
+            "centralLongitudeEast": 180,
+            "radiusMeters": 1562089.9658,
+            "pixelScale": [
+              499.97456657942,
+              499.97456657942,
+              0
+            ],
+            "tiePoint": [
+              0,
+              0,
+              0,
+              -4907750.3455436,
+              2453875.1727718,
+              0
+            ],
+            "sourceMetadataPage": "europa-usgs.html"
+          },
+          "material": {
+            "roughness": 0.95,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+          "reconstructionNotes": "南纬 83° 以南没有影像覆盖；两极分辨率较低。裂纹是影像纹理，不是高程测量。 蓝灰色区域为未测，未加入虚构地貌。",
+          "visualEnhancements": [
+            "未测区蓝灰色分类标识",
+            "固定观察曝光；可选补光默认关闭"
+          ],
+          "limitations": [
+            "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+            "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+            "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+          ],
+          "verifiedAt": "2026-11-01T08:13:34.700695+00:00"
+        },
+        "loadedWidth": 2048,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 2,
+            "textures": 5
+          },
+          "drawCalls": 1,
+          "triangles": 48768
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 5,
+          "geometryCount": 2,
+          "textureCount": 5
+        }
+      }
+    },
+    {
+      "view": "detail",
+      "file": "output/playwright/phase-3b/chrome-502-detail-2560.png",
+      "snapshot": {
+        "id": "502",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "detail",
+        "bodyToIcrfQuaternion": [
+          0.21520833785779706,
+          -0.03484606065418093,
+          0.1101145158509304,
+          0.9697143480284719
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.692584283889071,
+          0.07293395138789413,
+          0.08955497350313915,
+          0.712030585835793
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          0.6870259248454055,
+          -0.012312684699498514,
+          0.7265285791941057
+        ],
+        "camera": [
+          1.994672850212015,
+          -0.03574796378875673,
+          2.1093626592732853
+        ],
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "502",
+          "displayNameZh": "木卫二",
+          "displayNameEn": "Europa",
+          "parentPlanetId": "599",
+          "version": "3b-502-mosaic-v1",
+          "kind": "galileo-ice",
+          "shapeType": "pck-ellipsoid",
+          "meanRadiusKm": 1560.8,
+          "meshFrame": "sphere-y-up",
+          "geometry": {
+            "axesKm": [
+              1562.6,
+              1560.3,
+              1559.5
+            ],
+            "source": "NAIF pck00011.tpc BODY502_RADII; retained physical catalog radius"
+          },
+          "geometrySource": {
+            "provider": "NASA/NAIF",
+            "title": "IAU generic PCK triaxial radii",
+            "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+          },
+          "albedo": {
+            "title": "Voyager / Galileo SSI 500 m monochrome mosaic",
+            "provider": "NASA Voyager / Galileo / USGS",
+            "uri": "https://astrogeology.usgs.gov/search/map/Europa/Voyager-Galileo/Europa_Voyager_GalileoSSI_global_mosaic_500m",
+            "downloadUrl": "https://planetarymaps.usgs.gov/mosaic/Europa_Voyager_GalileoSSI_global_mosaic_500m.tif",
+            "rawPath": "data/phase-3b/raw/europa-mosaic-500m.tif",
+            "rawSha256": "a323f0c9ccb47d5af9902ea8297fe81f9a9708795645b80801f103c3f7c9a624",
+            "observationEpoch": "Voyager 1979 / Galileo 1995–2003 composite",
+            "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+            "colorProcessing": "保留观测灰度；没有加入虚构的棕红裂纹或全球彩色重建。",
+            "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+            "processingCategory": "OBSERVED_MONOCHROME",
+            "nativeDimensions": [
+              19631,
+              9816
+            ]
+          },
+          "lods": [
+            {
+              "width": 1024,
+              "height": 512,
+              "url": "/assets/moons/502/albedo-1024.jpg",
+              "sha256": "f350ea103b7b92f21bd6a3bceec9db8b0a787278f26551ef3c07676108ea3f69"
+            },
+            {
+              "width": 2048,
+              "height": 1024,
+              "url": "/assets/moons/502/albedo-2048.jpg",
+              "sha256": "2fbefb9a3c9724d2db15a7c19103335f959170d7e8f0ff227be972de34e00f4e"
+            },
+            {
+              "width": 4096,
+              "height": 2048,
+              "url": "/assets/moons/502/albedo-4096.jpg",
+              "sha256": "ef619a3ad874b917c05dd18d453a7d04592e701f8b774c677dd6ef87a0ada503"
+            }
+          ],
+          "coverage": {
+            "file": "/assets/moons/502/coverage.png",
+            "sha256": "0c98f8243a3b6ace7a0a6acd32a58ca8225e5a733fbefbeb4294b71290b1f11a",
+            "missingSurfaceFraction": 0.005094761148165354,
+            "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+          },
+          "georeferencing": {
+            "method": "GeoTIFF SimpleCylindrical affine inverse at output pixel centres",
+            "centralLongitudeEast": 180,
+            "radiusMeters": 1562089.9658,
+            "pixelScale": [
+              499.97456657942,
+              499.97456657942,
+              0
+            ],
+            "tiePoint": [
+              0,
+              0,
+              0,
+              -4907750.3455436,
+              2453875.1727718,
+              0
+            ],
+            "sourceMetadataPage": "europa-usgs.html"
+          },
+          "material": {
+            "roughness": 0.95,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+          "reconstructionNotes": "南纬 83° 以南没有影像覆盖；两极分辨率较低。裂纹是影像纹理，不是高程测量。 蓝灰色区域为未测，未加入虚构地貌。",
+          "visualEnhancements": [
+            "未测区蓝灰色分类标识",
+            "固定观察曝光；可选补光默认关闭"
+          ],
+          "limitations": [
+            "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+            "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+            "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+          ],
+          "verifiedAt": "2026-11-01T08:13:34.700695+00:00"
+        },
+        "loadedWidth": 4096,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 2,
+            "textures": 6
+          },
+          "drawCalls": 1,
+          "triangles": 48768
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 6,
+          "geometryCount": 2,
+          "textureCount": 6
+        }
+      }
+    },
+    {
+      "view": "parent",
+      "file": "output/playwright/phase-3b/chrome-502-parent-2560.png",
+      "snapshot": {
+        "id": "502",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "parent",
+        "bodyToIcrfQuaternion": [
+          0.21520833785779706,
+          -0.03484606065418093,
+          0.1101145158509304,
+          0.9697143480284719
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.692584283889071,
+          0.07293395138789413,
+          0.08955497350313915,
+          0.712030585835793
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          0.6870259248454055,
+          -0.012312684699498514,
+          0.7265285791941057
+        ],
+        "camera": [
+          4.996634886198609,
+          0.13188682515566738,
+          -1.0422434122801285
+        ],
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "502",
+          "displayNameZh": "木卫二",
+          "displayNameEn": "Europa",
+          "parentPlanetId": "599",
+          "version": "3b-502-mosaic-v1",
+          "kind": "galileo-ice",
+          "shapeType": "pck-ellipsoid",
+          "meanRadiusKm": 1560.8,
+          "meshFrame": "sphere-y-up",
+          "geometry": {
+            "axesKm": [
+              1562.6,
+              1560.3,
+              1559.5
+            ],
+            "source": "NAIF pck00011.tpc BODY502_RADII; retained physical catalog radius"
+          },
+          "geometrySource": {
+            "provider": "NASA/NAIF",
+            "title": "IAU generic PCK triaxial radii",
+            "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+          },
+          "albedo": {
+            "title": "Voyager / Galileo SSI 500 m monochrome mosaic",
+            "provider": "NASA Voyager / Galileo / USGS",
+            "uri": "https://astrogeology.usgs.gov/search/map/Europa/Voyager-Galileo/Europa_Voyager_GalileoSSI_global_mosaic_500m",
+            "downloadUrl": "https://planetarymaps.usgs.gov/mosaic/Europa_Voyager_GalileoSSI_global_mosaic_500m.tif",
+            "rawPath": "data/phase-3b/raw/europa-mosaic-500m.tif",
+            "rawSha256": "a323f0c9ccb47d5af9902ea8297fe81f9a9708795645b80801f103c3f7c9a624",
+            "observationEpoch": "Voyager 1979 / Galileo 1995–2003 composite",
+            "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+            "colorProcessing": "保留观测灰度；没有加入虚构的棕红裂纹或全球彩色重建。",
+            "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+            "processingCategory": "OBSERVED_MONOCHROME",
+            "nativeDimensions": [
+              19631,
+              9816
+            ]
+          },
+          "lods": [
+            {
+              "width": 1024,
+              "height": 512,
+              "url": "/assets/moons/502/albedo-1024.jpg",
+              "sha256": "f350ea103b7b92f21bd6a3bceec9db8b0a787278f26551ef3c07676108ea3f69"
+            },
+            {
+              "width": 2048,
+              "height": 1024,
+              "url": "/assets/moons/502/albedo-2048.jpg",
+              "sha256": "2fbefb9a3c9724d2db15a7c19103335f959170d7e8f0ff227be972de34e00f4e"
+            },
+            {
+              "width": 4096,
+              "height": 2048,
+              "url": "/assets/moons/502/albedo-4096.jpg",
+              "sha256": "ef619a3ad874b917c05dd18d453a7d04592e701f8b774c677dd6ef87a0ada503"
+            }
+          ],
+          "coverage": {
+            "file": "/assets/moons/502/coverage.png",
+            "sha256": "0c98f8243a3b6ace7a0a6acd32a58ca8225e5a733fbefbeb4294b71290b1f11a",
+            "missingSurfaceFraction": 0.005094761148165354,
+            "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+          },
+          "georeferencing": {
+            "method": "GeoTIFF SimpleCylindrical affine inverse at output pixel centres",
+            "centralLongitudeEast": 180,
+            "radiusMeters": 1562089.9658,
+            "pixelScale": [
+              499.97456657942,
+              499.97456657942,
+              0
+            ],
+            "tiePoint": [
+              0,
+              0,
+              0,
+              -4907750.3455436,
+              2453875.1727718,
+              0
+            ],
+            "sourceMetadataPage": "europa-usgs.html"
+          },
+          "material": {
+            "roughness": 0.95,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+          "reconstructionNotes": "南纬 83° 以南没有影像覆盖；两极分辨率较低。裂纹是影像纹理，不是高程测量。 蓝灰色区域为未测，未加入虚构地貌。",
+          "visualEnhancements": [
+            "未测区蓝灰色分类标识",
+            "固定观察曝光；可选补光默认关闭"
+          ],
+          "limitations": [
+            "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+            "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+            "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+          ],
+          "verifiedAt": "2026-11-01T08:13:34.700695+00:00"
+        },
+        "loadedWidth": 4096,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 2,
+            "textures": 6
+          },
+          "drawCalls": 1,
+          "triangles": 48768
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 6,
+          "geometryCount": 2,
+          "textureCount": 6
+        }
+      }
+    }
+  ]
+}

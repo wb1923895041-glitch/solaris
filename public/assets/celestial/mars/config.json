@@ -1,0 +1,108 @@
+{
+  "bodyId": "499",
+  "name": "Mars",
+  "version": "2.0.0-mars",
+  "kind": "viking-mola-rock",
+  "roughness": 0.98,
+  "albedo": {
+    "provider": "NASA Viking / USGS Astrogeology",
+    "title": "Viking MDIM 2.1 colorized global mosaic",
+    "sourceUrl": "https://astrogeology.usgs.gov/search/map/mars_viking_colorized_global_mosaic_232m",
+    "observationEpoch": "Viking era; colorized product 2009-02-02",
+    "credit": "NASA Ames / USGS Astrogeology",
+    "rights": "NASA mission imagery; original credit retained",
+    "processing": "1km JPEG downsampled to 4K; preserved low-saturation scientific colorization, no noise detail",
+    "primeMeridianOrOrientationNotes": "USGS planetocentric east-positive -180..180, north up; MOLA 0..360 shifted by 180 deg",
+    "rawFile": "data/phase-2/raw/mars-viking.jpg",
+    "sha256": "fdfcd335559c3dc67052b7e8a9565d850e336ac0d1f3ea7f5eb7826ffb44ecb2",
+    "nativeSize": [
+      21339,
+      10670
+    ],
+    "acquisitionDate": "2026-10-28T19:08:23.007994+00:00",
+    "projection": "equirectangular",
+    "longitudeConvention": "east-positive after processing",
+    "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "processingCategory": "approx-natural-color"
+  },
+  "lods": [
+    {
+      "width": 1024,
+      "height": 512,
+      "url": "/assets/celestial/mars/albedo-1024.jpg",
+      "sha256": "8b8bac66fe177f1f294f913397ba07262c763f5c195cbe6ad98bcd1fd0c80c7b"
+    },
+    {
+      "width": 2048,
+      "height": 1024,
+      "url": "/assets/celestial/mars/albedo-2048.jpg",
+      "sha256": "75e391f872ca63ece28476198bd499c55b472e09b7f10ffe4990618623c44782"
+    },
+    {
+      "width": 4096,
+      "height": 2048,
+      "url": "/assets/celestial/mars/albedo-4096.jpg",
+      "sha256": "8ecc433a5b29bf20b7f047cb42c57866ea18bc3eea25cd2f16a094a19ef2b2d8"
+    }
+  ],
+  "heightLods": [
+    {
+      "width": 1024,
+      "height": 512,
+      "url": "/assets/celestial/mars/mola-height-1024.png",
+      "sha256": "0a4790aa2024ad2113623185904987030f5652882e8d78e679268ae7f9f9bed0"
+    },
+    {
+      "width": 2048,
+      "height": 1024,
+      "url": "/assets/celestial/mars/mola-height-2048.png",
+      "sha256": "3e869fa5d471937ca4ec1cd7745280314e948b1947eae6ab37bff9af1c8ea259"
+    },
+    {
+      "width": 4096,
+      "height": 2048,
+      "url": "/assets/celestial/mars/mola-height-4096.png",
+      "sha256": "9589286fcbee05a4b7e0783bbba42d23370e549ef4daaf939d4ef9aee7c5254e"
+    }
+  ],
+  "bumpScale": 0.008658504204159905,
+  "additionalSources": [
+    {
+      "provider": "NASA / MGS MOLA / PDS Geosciences",
+      "title": "MOLA MEGDR median topography 16 pixels/degree",
+      "sourceUrl": "https://pds-geosciences.wustl.edu/mgs/mgs-m-mola-5-megdr-l3-v1/mgsl_300x/meg016/megt90n000eb.img",
+      "observationEpoch": "1999-02 through 2001-06; polar observations from 1998",
+      "credit": "MGS MOLA Team / David E. Smith, GSFC",
+      "rights": "NASA PDS science data",
+      "processing": "MSB int16 meters, 5760x2880, east-positive 0..360; 180deg wrap; 8-bit display height maps -8177..21171m; physical bump range / 3389.5km",
+      "sha256": "d18d9b9ab8c5516d02e157dd2cde0f1d0d160c21940e953ba22391269a545e7b",
+      "label": "data/phase-2/raw/mars-height.lbl",
+      "acquisitionDate": "2026-10-28T19:08:23.007994+00:00",
+      "projection": "see processing notes",
+      "longitudeConvention": "east-positive after processing",
+      "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "processingCategory": "approx-natural-color"
+    }
+  ],
+  "atmosphere": {
+    "radius": 1.007,
+    "tint": "#af7856",
+    "strength": 0.23
+  },
+  "hasVerifiedOrientation": true,
+  "axisVerified": true,
+  "visualEnhancements": [
+    "VISUAL_ENHANCEMENT: thin approximate dust scattering; not selected-date dust weather"
+  ],
+  "limitations": [
+    "Viking imagery is a colorized composite, not calibrated surface reflectance",
+    "MOLA bump mapping affects normals only; no mesh displacement or crater detail below 3.705km sampling",
+    "Height display quantization about 115m; reference IAU2000 grid attached to current generic IAU attitude",
+    "Fixed observed polar caps and atmosphere, no seasonal frost simulation"
+  ],
+  "description": "USGS Viking \u5168\u7403\u5f71\u50cf\u4e0e MOLA \u6d4b\u7ed8\u5730\u5f62\u6cd5\u7ebf\uff0c\u5448\u73b0\u4f4e\u9971\u548c\u5730\u8c8c\u3001\u6781\u51a0\u4e0e\u8584\u96fe\u3002",
+  "referenceLinks": [
+    "https://astrogeology.usgs.gov/search/map/mars_viking_colorized_global_mosaic_232m",
+    "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+  ]
+}

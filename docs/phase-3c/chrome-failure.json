@@ -1,0 +1,521 @@
+{
+  "message": "Error: Measurable transitions animated (≥ 20 frames) with no flip (< 12°/frame) {\"count\":23,\"throttled\":5,\"bad\":[]}",
+  "errors": [],
+  "local": {
+    "open": false,
+    "planet": "599",
+    "selected": null,
+    "focus": "planet",
+    "follow": true,
+    "scale": "exploration",
+    "orbitsVisible": true,
+    "tdb": 846504069.1824756,
+    "utc": "2026-10-29 00:00:00 UTC",
+    "transitioning": false,
+    "camera": [
+      13.864639585364898,
+      13.86389855842992,
+      18.831388617371417
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ],
+    "cameraUp": [
+      0,
+      1,
+      0
+    ],
+    "cameraQuaternion": [
+      -0.25119456665659246,
+      0.3009198540776039,
+      0.08249728987795499,
+      0.9162656428497759
+    ],
+    "minClearance": 3.6011286888052005,
+    "transitions": [
+      {
+        "planet": "699",
+        "to": "planet",
+        "minClearance": 3.6034347748768605,
+        "maxStepDegrees": 0.9105245412132034,
+        "durationMs": 1500,
+        "frames": 75,
+        "maxFrameMs": 114.10000000009313,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "699",
+        "to": "planet",
+        "minClearance": 31.919416871643698,
+        "maxStepDegrees": 0,
+        "durationMs": 1100,
+        "frames": 66,
+        "maxFrameMs": 17,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "699",
+        "to": "planet",
+        "minClearance": 31.707481091740576,
+        "maxStepDegrees": 0,
+        "durationMs": 1100,
+        "frames": 66,
+        "maxFrameMs": 17.09999999962747,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "699",
+        "to": "601",
+        "minClearance": 0.4907465269503013,
+        "maxStepDegrees": 0.6113645231797034,
+        "durationMs": 1500,
+        "frames": 90,
+        "maxFrameMs": 17.800000000279397,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "699",
+        "to": "602",
+        "minClearance": 0.22450429140788009,
+        "maxStepDegrees": 0.1935823208620043,
+        "durationMs": 1500,
+        "frames": 90,
+        "maxFrameMs": 45.799999999813735,
+        "aroundPlanet": true
+      },
+      {
+        "planet": "699",
+        "to": "602",
+        "minClearance": 0.006418194506873726,
+        "maxStepDegrees": 0.06553393020204762,
+        "durationMs": 1500,
+        "frames": 90,
+        "maxFrameMs": 17,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "699",
+        "to": "602",
+        "minClearance": 0.013932386698456811,
+        "maxStepDegrees": 0.022017135283766316,
+        "durationMs": 1500,
+        "frames": 90,
+        "maxFrameMs": 17.100000000093132,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "699",
+        "to": "605",
+        "minClearance": 0.16827798681114134,
+        "maxStepDegrees": 0.007394078457676184,
+        "durationMs": 1500,
+        "frames": 90,
+        "maxFrameMs": 42.700000000186265,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "699",
+        "to": "606",
+        "minClearance": 0.4781977038792611,
+        "maxStepDegrees": 0.002490703426412455,
+        "durationMs": 1500,
+        "frames": 90,
+        "maxFrameMs": 17.299999999813735,
+        "aroundPlanet": true
+      },
+      {
+        "planet": "699",
+        "to": "606",
+        "minClearance": 0.057907136539128275,
+        "maxStepDegrees": 0.0008351948781843104,
+        "durationMs": 1500,
+        "frames": 90,
+        "maxFrameMs": 17.299999999813735,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "699",
+        "to": "606",
+        "minClearance": 0.3903071587760719,
+        "maxStepDegrees": 0.0002820969420575697,
+        "durationMs": 1500,
+        "frames": 90,
+        "maxFrameMs": 17.300000000279397,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "699",
+        "to": "608",
+        "minClearance": 0.462948380639563,
+        "maxStepDegrees": 0.00009467268023225813,
+        "durationMs": 1500,
+        "frames": 90,
+        "maxFrameMs": 17.100000000093132,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "699",
+        "to": "planet",
+        "minClearance": 0.452136422529273,
+        "maxStepDegrees": 0.40643649305716223,
+        "durationMs": 1500,
+        "frames": 90,
+        "maxFrameMs": 17,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "899",
+        "to": "801",
+        "minClearance": 0.49527305683920814,
+        "maxStepDegrees": 0.4492374194937284,
+        "durationMs": 1500,
+        "frames": 88,
+        "maxFrameMs": 58.10000000009313,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "899",
+        "to": "planet",
+        "minClearance": 0.5084941028629666,
+        "maxStepDegrees": 0.4286200220184512,
+        "durationMs": 1500,
+        "frames": 90,
+        "maxFrameMs": 17.299999999813735,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "599",
+        "to": "502",
+        "minClearance": 0.49599114449972204,
+        "maxStepDegrees": 0.42893027830020647,
+        "durationMs": 1500,
+        "frames": 84,
+        "maxFrameMs": 76.90000000037253,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "599",
+        "to": "planet",
+        "minClearance": 1.0602881128419446,
+        "maxStepDegrees": 0.37351179893896025,
+        "durationMs": 1500,
+        "frames": 90,
+        "maxFrameMs": 17.300000000279397,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "699",
+        "to": "planet",
+        "minClearance": 3.600493211369888,
+        "maxStepDegrees": 0.3220049838955842,
+        "durationMs": 1500,
+        "frames": 88,
+        "maxFrameMs": 57.200000000186265,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "699",
+        "to": "planet",
+        "minClearance": 3.600165037795877,
+        "maxStepDegrees": 0.3217424212452083,
+        "durationMs": 1500,
+        "frames": 90,
+        "maxFrameMs": 17.300000000279397,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "699",
+        "to": "planet",
+        "minClearance": 3.600039154446784,
+        "maxStepDegrees": 0.32169891842894616,
+        "durationMs": 1500,
+        "frames": 91,
+        "maxFrameMs": 17.5,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "599",
+        "to": "planet",
+        "minClearance": 3.600043625638399,
+        "maxStepDegrees": 0.06156221973529109,
+        "durationMs": 1500,
+        "frames": 89,
+        "maxFrameMs": 53.89999999990687,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "599",
+        "to": "planet",
+        "minClearance": 3.6002412166188886,
+        "maxStepDegrees": 0.06250562099236315,
+        "durationMs": 1500,
+        "frames": 91,
+        "maxFrameMs": 17.200000000186265,
+        "aroundPlanet": false
+      },
+      {
+        "planet": "599",
+        "to": "planet",
+        "minClearance": 3.6011286888052005,
+        "maxStepDegrees": 0.061274222158016235,
+        "durationMs": 1500,
+        "frames": 90,
+        "maxFrameMs": 17,
+        "aroundPlanet": false
+      }
+    ],
+    "viewport": {
+      "width": 0,
+      "height": 0
+    },
+    "sunDirection": [
+      0.6865083357246798,
+      -0.012339671364931132,
+      0.727017219528627
+    ],
+    "parentSpin": [
+      -0.014593490514285611,
+      0.9992527882150741,
+      0.03578959735746673
+    ],
+    "parentRadiusKm": 69911,
+    "moons": [
+      {
+        "id": "501",
+        "truthKm": [
+          390595.411173924,
+          137083.78592291047,
+          71620.03884678976
+        ],
+        "truthVelocity": [
+          -6.380167360716857,
+          14.65436490874258,
+          6.892238129444837
+        ],
+        "displayPosition": [
+          4.597865577041252,
+          0.13161989136249147,
+          -1.815869003611006
+        ],
+        "displayRadius": 0.09,
+        "pixelRadius": 5.11885964448009,
+        "onScreen": true,
+        "label": true,
+        "marker": false,
+        "loaded": true,
+        "loadedWidth": 1024,
+        "error": null,
+        "trackPoints": 385,
+        "trackTdb": 846504069.1824756,
+        "trackVisible": true,
+        "trackSample": [
+          -4.624159336090088,
+          -0.13128511607646942,
+          1.7963435649871826
+        ],
+        "bodyToIcrf": [
+          -0.04867753763228857,
+          -0.21547308232173856,
+          0.9579741201321377,
+          -0.1829957192993401
+        ]
+      },
+      {
+        "id": "502",
+        "truthKm": [
+          -650726.396637984,
+          -117701.66512168317,
+          -69750.72733274856
+        ],
+        "truthVelocity": [
+          2.819145168734643,
+          -12.312669176872706,
+          -5.721253296241533
+        ],
+        "displayPosition": [
+          -5.828063392615955,
+          -0.15383248829751153,
+          1.21567030924811
+        ],
+        "displayRadius": 0.09,
+        "pixelRadius": 4.530432142889417,
+        "onScreen": true,
+        "label": true,
+        "marker": false,
+        "loaded": true,
+        "loadedWidth": 1024,
+        "error": null,
+        "trackPoints": 385,
+        "trackTdb": 846504069.1824756,
+        "trackVisible": true,
+        "trackSample": [
+          5.874411106109619,
+          0.15401899814605713,
+          -1.189732551574707
+        ],
+        "bodyToIcrf": [
+          0.21520833785779706,
+          -0.03484606065418093,
+          0.1101145158509304,
+          0.9697143480284719
+        ]
+      },
+      {
+        "id": "503",
+        "truthKm": [
+          1060084.1736002688,
+          109797.3203084815,
+          69860.00116081384
+        ],
+        "truthVelocity": [
+          -1.3078700766535831,
+          9.76935208055324,
+          4.665433075104155
+        ],
+        "displayPosition": [
+          6.945848254281408,
+          0.13379807596801443,
+          -0.8421223687567883
+        ],
+        "displayRadius": 0.09,
+        "pixelRadius": 5.42703380291608,
+        "onScreen": true,
+        "label": true,
+        "marker": false,
+        "loaded": true,
+        "loadedWidth": 1024,
+        "error": null,
+        "trackPoints": 385,
+        "trackTdb": 846504069.1824756,
+        "trackVisible": true,
+        "trackSample": [
+          -6.959214210510254,
+          -0.13290949165821075,
+          0.813941240310669
+        ],
+        "bodyToIcrf": [
+          -0.02497788509260667,
+          -0.22046862248371402,
+          0.9720319973405653,
+          -0.07696419883650726
+        ]
+      },
+      {
+        "id": "504",
+        "truthKm": [
+          -411207.67501779605,
+          1664679.767748847,
+          778407.9926729065
+        ],
+        "truthVelocity": [
+          -8.016769367701754,
+          -1.5211574533891277,
+          -0.8360635745601158
+        ],
+        "displayPosition": [
+          -1.8005496027749337,
+          0.22770829234757722,
+          -8.043414387017371
+        ],
+        "displayRadius": 0.09,
+        "pixelRadius": 3.989603975995083,
+        "onScreen": true,
+        "label": true,
+        "marker": false,
+        "loaded": true,
+        "loadedWidth": 1024,
+        "error": null,
+        "trackPoints": 385,
+        "trackTdb": 846504069.1824756,
+        "trackVisible": true,
+        "trackSample": [
+          1.5670284032821655,
+          -0.23235270380973816,
+          8.09144115447998
+        ],
+        "bodyToIcrf": [
+          0.1726600823174651,
+          0.1339044428503432,
+          -0.6222465067354973,
+          0.7517096387665493
+        ]
+      }
+    ],
+    "parentVisual": {
+      "visual": [
+        {
+          "id": "599",
+          "status": "ready",
+          "error": null,
+          "loadedWidth": 4096,
+          "actualAlbedoWidth": 4096,
+          "material": "cassini-ammonia-cloudtops",
+          "layers": [
+            "IAU-pole",
+            "atmosphere"
+          ],
+          "sunLocal": [
+            0.29218868959678934,
+            0.003670654952448303,
+            -0.9563536458674322
+          ],
+          "cloudAngle": null
+        }
+      ],
+      "loading": {
+        "cachedRequests": 2,
+        "completed": 2,
+        "decodedMipBudgetMiB": 45.33333333333333,
+        "textures": {
+          "/assets/celestial/jupiter/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 2.7000000001862645,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/jupiter/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 18.40000000037253,
+            "decodedMipBudgetMiB": 42.666666666666664
+          }
+        }
+      }
+    },
+    "resources": {
+      "models": 7,
+      "textureRequests": 6,
+      "texturesCreated": 25,
+      "texturesDisposed": 19,
+      "geometryCount": 20,
+      "textureCount": 13
+    },
+    "render": {
+      "gpuTimerAvailable": true,
+      "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuVendor": "Google Inc. (NVIDIA)",
+      "cpuRender": {
+        "samples": 600,
+        "p50Ms": 0.19999999972060323,
+        "p95Ms": 0.3000000002793968
+      },
+      "gpuRender": {
+        "samples": 447,
+        "p50Ms": 0.13552,
+        "p95Ms": 0.798496
+      },
+      "gpuMemoryObjectCounts": {
+        "geometries": 20,
+        "textures": 13
+      },
+      "drawCalls": 10,
+      "triangles": 248832
+    },
+    "gpuMemory": {
+      "geometries": 20,
+      "textures": 13
+    }
+  }
+}

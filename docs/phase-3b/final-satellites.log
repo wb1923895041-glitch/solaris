@@ -1,0 +1,19 @@
+PASS 18 verified identities, parent BODY CENTER contracts and source hashes
+PASS Reject wrong frame
+PASS Reject wrong timeScale
+PASS Reject wrong positionUnit
+PASS Reject wrong velocityUnit
+PASS Reject wrong correction
+PASS Reject system barycentre or wrong parent
+PASS Reject incomplete and duplicate catalog
+PASS Reject missing, non-finite or discontinuous buffers
+PASS Reject extrapolation, NaN and unknown satellite
+PASS Every held-out JPL local position and velocity within declared engineering budgets
+PASS Global SSB composition adds parent exactly once, for position and velocity
+PASS Track samples use same state evaluator and stay inside coverage, including limits
+PASS One original clock: pause, reverse, zero rate and jump synchronise all moons
+PASS Both display mappings leave satellite truth unchanged
+PASS Surface and attitude explicitly unimplemented in 3A
+16 behavioral checks; 1530 held-out JPL states; existing Hermite evaluator reused
+(node:12812) ExperimentalWarning: Transform Types is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)

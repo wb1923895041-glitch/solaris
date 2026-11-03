@@ -1,0 +1,1 @@
+async(page)=>{await page.evaluate(()=>window.solarisQA.profile());await page.waitForTimeout(3500);return {snapshot:await page.evaluate(()=>window.solarisQA.snapshot()),performance:await page.evaluate(()=>window.solarisQA.performance())};}

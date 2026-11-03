@@ -1,0 +1,75 @@
+{
+  "sourceUrl": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc",
+  "pckSha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+  "toolkit": "CSPICE_N0067",
+  "model": "IAU body-fixed frames, generic PCK; Earth is approximate IAU_EARTH, not high precision EOP",
+  "startTdb": 757339269.1839061,
+  "endTdb": 978264069.1839114,
+  "stepSeconds": 3600,
+  "format": "little-endian Float32 XYZW quaternion from IAU to ICRF/J2000-aligned axes",
+  "objects": [
+    {
+      "bodyId": "10",
+      "frame": "IAU_SUN",
+      "file": "/assets/celestial/orientation/10.f32",
+      "count": 61370,
+      "sha256": "277d3ca27e0a2c66e7ea06cf5f21393a98a39cf024e1147cb439027aa770667a"
+    },
+    {
+      "bodyId": "199",
+      "frame": "IAU_MERCURY",
+      "file": "/assets/celestial/orientation/199.f32",
+      "count": 61370,
+      "sha256": "a1ed3e6ae892bddbd09870b01ea77e38d3f79dc8fafdf196719c6905c6c3ab26"
+    },
+    {
+      "bodyId": "299",
+      "frame": "IAU_VENUS",
+      "file": "/assets/celestial/orientation/299.f32",
+      "count": 61370,
+      "sha256": "2eab06bb78b27e472c14220e7014c758d2a7f4e8615a6918c6f4ad8216c3ba34"
+    },
+    {
+      "bodyId": "399",
+      "frame": "IAU_EARTH",
+      "file": "/assets/celestial/orientation/399.f32",
+      "count": 61370,
+      "sha256": "6aa994422535e0afaf7fcb7bdef980c8711824aaf0a677db502e911fe9791402"
+    },
+    {
+      "bodyId": "499",
+      "frame": "IAU_MARS",
+      "file": "/assets/celestial/orientation/499.f32",
+      "count": 61370,
+      "sha256": "94aa6b9ea6626ca88b4df1ccf3749a2d9dbe94226ad94a68ce781acc23daa50a"
+    },
+    {
+      "bodyId": "599",
+      "frame": "IAU_JUPITER",
+      "file": "/assets/celestial/orientation/599.f32",
+      "count": 61370,
+      "sha256": "600ac22037f33ec98c25d97083114c11e93c1c0247092988bc56fe0a285196cc"
+    },
+    {
+      "bodyId": "699",
+      "frame": "IAU_SATURN",
+      "file": "/assets/celestial/orientation/699.f32",
+      "count": 61370,
+      "sha256": "7b40fc0a127ebedcbaeb6028410ee9a743418896f808dd1ffa72176d31dcda5c"
+    },
+    {
+      "bodyId": "799",
+      "frame": "IAU_URANUS",
+      "file": "/assets/celestial/orientation/799.f32",
+      "count": 61370,
+      "sha256": "e3e70dc59292d4e8b4344ba93dfe1987197617e109ae1d5917176cd32a949890"
+    },
+    {
+      "bodyId": "899",
+      "frame": "IAU_NEPTUNE",
+      "file": "/assets/celestial/orientation/899.f32",
+      "count": 61370,
+      "sha256": "9be942c2b9c2d73cc2418831c2c38aa2895d85f89bfee8a1edb5dbfbe306eed4"
+    }
+  ]
+}

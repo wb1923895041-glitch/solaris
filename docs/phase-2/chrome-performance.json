@@ -1,0 +1,2965 @@
+{
+  "browser": "155.0.8059.85",
+  "headless": false,
+  "performance": [
+    {
+      "id": "10",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "frameSamples": 200,
+      "frameP50Ms": 3.600000000000364,
+      "frameP95Ms": 3.7000000000007276,
+      "renderLoopFps": 274.98968788670453,
+      "render": {
+        "gpuTimerAvailable": true,
+        "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "gpuVendor": "Google Inc. (NVIDIA)",
+        "cpuRender": {
+          "samples": 600,
+          "p50Ms": 0.10000002384185791,
+          "p95Ms": 0.19999992847442627
+        },
+        "gpuRender": {
+          "samples": 290,
+          "p50Ms": 0.193472,
+          "p95Ms": 0.787744
+        },
+        "gpuMemoryObjectCounts": {
+          "geometries": 12,
+          "textures": 16
+        },
+        "drawCalls": 3,
+        "triangles": 97536
+      },
+      "loading": {
+        "cachedRequests": 30,
+        "completed": 30,
+        "decodedMipBudgetMiB": 229.37499999999991,
+        "textures": {
+          "/assets/celestial/sun/photosphere-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 97.10000002384186,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mercury/mdis-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 96.60000002384186,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/venus/cloudtops-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 96.30000007152557,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 96.39999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 96.20000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/jupiter/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 96.29999995231628,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 94.89999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/uranus/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 146.10000002384186,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/neptune/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 145.70000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/sun/photosphere-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 112.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 52.5,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/clouds-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 52,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/mola-height-1024.png|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 52.39999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/ring-optical-depth.png|false": {
+            "width": 8192,
+            "height": 1,
+            "loadMs": 52.200000047683716,
+            "decodedMipBudgetMiB": 0.041666666666666664
+          },
+          "/assets/celestial/earth/night-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 76.5,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/roughness-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 10.899999976158142,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.6999999284744263,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/jupiter/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.699999928474426,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/sun/photosphere-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 4.200000047683716,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/mercury/mdis-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 5.100000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/cloudtops-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.399999976158142,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 6.100000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.299999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/clouds-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.4000000953674316,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/night-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 2.899999976158142,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/roughness-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.100000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/neptune/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.600000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/mola-height-2048.png|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.799999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/uranus/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          }
+        }
+      }
+    },
+    {
+      "id": "199",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "frameSamples": 200,
+      "frameP50Ms": 3.600000000000364,
+      "frameP95Ms": 3.7999999999992724,
+      "renderLoopFps": 275.0653280154035,
+      "render": {
+        "gpuTimerAvailable": true,
+        "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "gpuVendor": "Google Inc. (NVIDIA)",
+        "cpuRender": {
+          "samples": 600,
+          "p50Ms": 0.09999990463256836,
+          "p95Ms": 0.19999992847442627
+        },
+        "gpuRender": {
+          "samples": 290,
+          "p50Ms": 0.109216,
+          "p95Ms": 0.12816
+        },
+        "gpuMemoryObjectCounts": {
+          "geometries": 12,
+          "textures": 17
+        },
+        "drawCalls": 2,
+        "triangles": 48768
+      },
+      "loading": {
+        "cachedRequests": 37,
+        "completed": 37,
+        "decodedMipBudgetMiB": 528.0416666666666,
+        "textures": {
+          "/assets/celestial/sun/photosphere-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 72.89999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mercury/mdis-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 72.59999990463257,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/venus/cloudtops-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 72.5,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 72.60000002384186,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 72.60000002384186,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/jupiter/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 110.30000007152557,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 108.90000009536743,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/uranus/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 109.10000002384186,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/neptune/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 109.10000002384186,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/sun/photosphere-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 92.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 39,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/clouds-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 38.699999928474426,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/mola-height-1024.png|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 38.800000071525574,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/ring-optical-depth.png|false": {
+            "width": 8192,
+            "height": 1,
+            "loadMs": 67.89999997615814,
+            "decodedMipBudgetMiB": 0.041666666666666664
+          },
+          "/assets/celestial/earth/night-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 67.30000007152557,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/roughness-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 6.5,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.800000071525574,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/jupiter/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.700000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/sun/photosphere-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 9.5,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/neptune/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/cloudtops-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.800000071525574,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mercury/mdis-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 6.100000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 6,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/clouds-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 22.299999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 27.299999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/night-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.200000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/roughness-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.200000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 6.299999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/mola-height-2048.png|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/uranus/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.599999904632568,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mercury/mdis-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 8.399999976158142,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/venus/cloudtops-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 4.099999904632568,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/venus/radar-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6.600000023841858,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/clouds-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/night-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 3.700000047683716,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/roughness-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 3.5,
+            "decodedMipBudgetMiB": 42.666666666666664
+          }
+        }
+      }
+    },
+    {
+      "id": "299",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "frameSamples": 200,
+      "frameP50Ms": 3.600000000000364,
+      "frameP95Ms": 3.7999999999992724,
+      "renderLoopFps": 275.0275027502748,
+      "render": {
+        "gpuTimerAvailable": true,
+        "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "gpuVendor": "Google Inc. (NVIDIA)",
+        "cpuRender": {
+          "samples": 600,
+          "p50Ms": 0.10000002384185791,
+          "p95Ms": 0.20000004768371582
+        },
+        "gpuRender": {
+          "samples": 289,
+          "p50Ms": 0.183584,
+          "p95Ms": 0.643392
+        },
+        "gpuMemoryObjectCounts": {
+          "geometries": 12,
+          "textures": 17
+        },
+        "drawCalls": 3,
+        "triangles": 97536
+      },
+      "loading": {
+        "cachedRequests": 38,
+        "completed": 38,
+        "decodedMipBudgetMiB": 570.7083333333333,
+        "textures": {
+          "/assets/celestial/sun/photosphere-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 82.39999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mercury/mdis-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 82,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/venus/cloudtops-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 81.70000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 81.29999995231628,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 81.20000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/jupiter/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 125.60000002384186,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 124.79999995231628,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/uranus/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 125.89999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/neptune/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 126,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/sun/photosphere-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 107.79999995231628,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 46.799999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/clouds-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 46.700000047683716,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/mola-height-1024.png|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 47,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/ring-optical-depth.png|false": {
+            "width": 8192,
+            "height": 1,
+            "loadMs": 77.60000002384186,
+            "decodedMipBudgetMiB": 0.041666666666666664
+          },
+          "/assets/celestial/earth/night-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 75.69999992847443,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/roughness-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 6.299999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 5.199999928474426,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/jupiter/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.700000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/neptune/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 8.600000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/sun/photosphere-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 9.399999976158142,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/cloudtops-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.599999904632568,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/clouds-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 21.600000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mercury/mdis-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 20.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 19.300000071525574,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/night-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.799999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/roughness-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.700000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 5.699999928474426,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/uranus/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.800000071525574,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/mola-height-2048.png|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.800000071525574,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mercury/mdis-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6.799999952316284,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/venus/cloudtops-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 4.700000047683716,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/venus/radar-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 75.5,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 10.100000023841858,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/clouds-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6.300000071525574,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/night-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 3.6999999284744263,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/roughness-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 3.899999976158142,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/saturn/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 12,
+            "decodedMipBudgetMiB": 42.666666666666664
+          }
+        }
+      }
+    },
+    {
+      "id": "399",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "frameSamples": 200,
+      "frameP50Ms": 3.600000000000364,
+      "frameP95Ms": 3.7000000000007276,
+      "renderLoopFps": 275.0275027502748,
+      "render": {
+        "gpuTimerAvailable": true,
+        "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "gpuVendor": "Google Inc. (NVIDIA)",
+        "cpuRender": {
+          "samples": 600,
+          "p50Ms": 0.10000002384185791,
+          "p95Ms": 0.20000004768371582
+        },
+        "gpuRender": {
+          "samples": 290,
+          "p50Ms": 0.301856,
+          "p95Ms": 0.318208
+        },
+        "gpuMemoryObjectCounts": {
+          "geometries": 12,
+          "textures": 23
+        },
+        "drawCalls": 4,
+        "triangles": 146304
+      },
+      "loading": {
+        "cachedRequests": 38,
+        "completed": 38,
+        "decodedMipBudgetMiB": 570.7083333333333,
+        "textures": {
+          "/assets/celestial/sun/photosphere-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 72.80000007152557,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mercury/mdis-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 72.39999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/venus/cloudtops-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 72.09999990463257,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 72.10000002384186,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 72.19999992847443,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/jupiter/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 111.80000007152557,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 110.89999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/uranus/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 111.29999995231628,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/neptune/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 111.09999990463257,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/sun/photosphere-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 94.89999997615814,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 41.200000047683716,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/clouds-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 40.799999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/mola-height-1024.png|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 40.800000071525574,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/ring-optical-depth.png|false": {
+            "width": 8192,
+            "height": 1,
+            "loadMs": 68.10000002384186,
+            "decodedMipBudgetMiB": 0.041666666666666664
+          },
+          "/assets/celestial/earth/night-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 67.5,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/roughness-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 5.899999976158142,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.899999976158142,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/jupiter/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.699999928474426,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/neptune/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.1999999284744263,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/sun/photosphere-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 8.399999976158142,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 5.099999904632568,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/cloudtops-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 20.200000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/clouds-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 19.90000009536743,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/night-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 20.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mercury/mdis-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 38.39999997615814,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 20.799999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/roughness-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 13,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/uranus/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.700000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 5.899999976158142,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/mola-height-2048.png|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.100000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mercury/mdis-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6.299999952316284,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/venus/cloudtops-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 4.399999976158142,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/venus/radar-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 5.5,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 5.700000047683716,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/clouds-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 73.60000002384186,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/night-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 69.19999992847443,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/roughness-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 60.60000002384186,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/saturn/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 8.700000047683716,
+            "decodedMipBudgetMiB": 42.666666666666664
+          }
+        }
+      }
+    },
+    {
+      "id": "499",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "frameSamples": 200,
+      "frameP50Ms": 3.600000000000364,
+      "frameP95Ms": 3.7999999999992724,
+      "renderLoopFps": 275.0275027502748,
+      "render": {
+        "gpuTimerAvailable": true,
+        "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "gpuVendor": "Google Inc. (NVIDIA)",
+        "cpuRender": {
+          "samples": 600,
+          "p50Ms": 0.10000002384185791,
+          "p95Ms": 0.20000004768371582
+        },
+        "gpuRender": {
+          "samples": 291,
+          "p50Ms": 0.230048,
+          "p95Ms": 0.252576
+        },
+        "gpuMemoryObjectCounts": {
+          "geometries": 12,
+          "textures": 19
+        },
+        "drawCalls": 3,
+        "triangles": 97536
+      },
+      "loading": {
+        "cachedRequests": 39,
+        "completed": 39,
+        "decodedMipBudgetMiB": 613.3749999999999,
+        "textures": {
+          "/assets/celestial/sun/photosphere-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 84.10000002384186,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mercury/mdis-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 83.69999992847443,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/venus/cloudtops-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 83.5,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 83.60000002384186,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 83.70000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/jupiter/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 83.70000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 126.5,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/uranus/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 126.79999995231628,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/neptune/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 126.70000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/sun/photosphere-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 106.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 45.200000047683716,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/clouds-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 45,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/mola-height-1024.png|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 44.799999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/ring-optical-depth.png|false": {
+            "width": 8192,
+            "height": 1,
+            "loadMs": 70.5,
+            "decodedMipBudgetMiB": 0.041666666666666664
+          },
+          "/assets/celestial/earth/night-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 69.89999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/roughness-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 7.799999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/jupiter/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 5.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/sun/photosphere-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 8.600000023841858,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/neptune/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.100000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/cloudtops-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.800000071525574,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 6.700000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.899999976158142,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/clouds-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 5.299999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mercury/mdis-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 6.399999976158142,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/night-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.600000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/roughness-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 5.900000095367432,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/mola-height-2048.png|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 23.899999976158142,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/uranus/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 16.899999976158142,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 23.800000071525574,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/mars/mola-height-4096.png|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 101.89999997615814,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/jupiter/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 10.599999904632568,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/venus/cloudtops-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 5.300000071525574,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/venus/radar-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 7.099999904632568,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6.599999904632568,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/clouds-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6.600000023841858,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/night-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 3.200000047683716,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/roughness-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 3.1999999284744263,
+            "decodedMipBudgetMiB": 42.666666666666664
+          }
+        }
+      }
+    },
+    {
+      "id": "599",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "frameSamples": 200,
+      "frameP50Ms": 3.600000000000364,
+      "frameP95Ms": 3.7000000000007276,
+      "renderLoopFps": 275.02750275027546,
+      "render": {
+        "gpuTimerAvailable": true,
+        "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "gpuVendor": "Google Inc. (NVIDIA)",
+        "cpuRender": {
+          "samples": 600,
+          "p50Ms": 0.10000002384185791,
+          "p95Ms": 0.20000004768371582
+        },
+        "gpuRender": {
+          "samples": 290,
+          "p50Ms": 0.182592,
+          "p95Ms": 0.583648
+        },
+        "gpuMemoryObjectCounts": {
+          "geometries": 12,
+          "textures": 17
+        },
+        "drawCalls": 3,
+        "triangles": 97536
+      },
+      "loading": {
+        "cachedRequests": 32,
+        "completed": 32,
+        "decodedMipBudgetMiB": 346.7083333333333,
+        "textures": {
+          "/assets/celestial/sun/photosphere-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 75.70000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mercury/mdis-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 75.30000007152557,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/venus/cloudtops-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 75.10000002384186,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 75.20000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 75.39999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/jupiter/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 116.29999995231628,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 115.29999995231628,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/uranus/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 115.5,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/neptune/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 115.39999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/sun/photosphere-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 99.09999990463257,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 42.299999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/clouds-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 41.89999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/mola-height-1024.png|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 41.800000071525574,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/ring-optical-depth.png|false": {
+            "width": 8192,
+            "height": 1,
+            "loadMs": 67.70000004768372,
+            "decodedMipBudgetMiB": 0.041666666666666664
+          },
+          "/assets/celestial/earth/night-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 67.20000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/roughness-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 8.5,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.299999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/jupiter/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 5.399999976158142,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/sun/photosphere-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 9,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/venus/cloudtops-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.600000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.699999928474426,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 5.799999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mercury/mdis-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 6,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/clouds-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.600000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/night-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.600000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/roughness-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 2.700000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 5.700000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/mola-height-2048.png|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/uranus/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/jupiter/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6.700000047683716,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/mars/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 8.100000023841858,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/mars/mola-height-4096.png|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 4.700000047683716,
+            "decodedMipBudgetMiB": 42.666666666666664
+          }
+        }
+      }
+    },
+    {
+      "id": "699",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "frameSamples": 200,
+      "frameP50Ms": 3.600000000000364,
+      "frameP95Ms": 3.7000000000007276,
+      "renderLoopFps": 275.02750275027546,
+      "render": {
+        "gpuTimerAvailable": true,
+        "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "gpuVendor": "Google Inc. (NVIDIA)",
+        "cpuRender": {
+          "samples": 600,
+          "p50Ms": 0.10000002384185791,
+          "p95Ms": 0.19999992847442627
+        },
+        "gpuRender": {
+          "samples": 290,
+          "p50Ms": 0.11872,
+          "p95Ms": 0.123968
+        },
+        "gpuMemoryObjectCounts": {
+          "geometries": 12,
+          "textures": 17
+        },
+        "drawCalls": 4,
+        "triangles": 99072
+      },
+      "loading": {
+        "cachedRequests": 36,
+        "completed": 36,
+        "decodedMipBudgetMiB": 485.375,
+        "textures": {
+          "/assets/celestial/sun/photosphere-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 76.39999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mercury/mdis-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 76.10000002384186,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/venus/cloudtops-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 76,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 75.79999995231628,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 75.79999995231628,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/jupiter/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 75.70000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 74.40000009536743,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/uranus/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 117.70000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/neptune/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 117.60000002384186,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/sun/photosphere-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 98.90000009536743,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 44.09999990463257,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/clouds-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 43.799999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/mola-height-1024.png|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 44.39999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/ring-optical-depth.png|false": {
+            "width": 8192,
+            "height": 1,
+            "loadMs": 44.199999928474426,
+            "decodedMipBudgetMiB": 0.041666666666666664
+          },
+          "/assets/celestial/earth/night-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 62,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/roughness-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 6.600000023841858,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.600000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/neptune/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.799999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/jupiter/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/sun/photosphere-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 3.399999976158142,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.100000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/clouds-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 2.8000000715255737,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/night-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/cloudtops-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.899999976158142,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/roughness-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.100000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.700000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mercury/mdis-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.3000000715255737,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/uranus/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.1999999284744263,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/saturn/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 5.5,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/mars/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.100000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/mola-height-2048.png|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 8,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/clouds-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 8.100000023841858,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/night-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 4.5,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/roughness-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 4.200000047683716,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/neptune/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 7,
+            "decodedMipBudgetMiB": 42.666666666666664
+          }
+        }
+      }
+    },
+    {
+      "id": "799",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "frameSamples": 200,
+      "frameP50Ms": 3.600000000000364,
+      "frameP95Ms": 3.7999999999992724,
+      "renderLoopFps": 274.95188342040154,
+      "render": {
+        "gpuTimerAvailable": true,
+        "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "gpuVendor": "Google Inc. (NVIDIA)",
+        "cpuRender": {
+          "samples": 600,
+          "p50Ms": 0.10000002384185791,
+          "p95Ms": 0.19999992847442627
+        },
+        "gpuRender": {
+          "samples": 291,
+          "p50Ms": 0.18032,
+          "p95Ms": 0.194752
+        },
+        "gpuMemoryObjectCounts": {
+          "geometries": 12,
+          "textures": 17
+        },
+        "drawCalls": 3,
+        "triangles": 97536
+      },
+      "loading": {
+        "cachedRequests": 31,
+        "completed": 31,
+        "decodedMipBudgetMiB": 272.0416666666666,
+        "textures": {
+          "/assets/celestial/sun/photosphere-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 73.39999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mercury/mdis-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 73,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/venus/cloudtops-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 72.89999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 73,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 72.79999995231628,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/jupiter/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 109.80000007152557,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 108.80000007152557,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/uranus/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 108.79999995231628,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/neptune/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 108.80000007152557,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/sun/photosphere-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 92.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 38,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/clouds-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 37.700000047683716,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/mola-height-1024.png|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 37.799999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/ring-optical-depth.png|false": {
+            "width": 8192,
+            "height": 1,
+            "loadMs": 69.29999995231628,
+            "decodedMipBudgetMiB": 0.041666666666666664
+          },
+          "/assets/celestial/earth/night-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 69,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/roughness-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 7.899999976158142,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.299999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/neptune/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/jupiter/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.100000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/sun/photosphere-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 3.700000047683716,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.3000000715255737,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/clouds-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.299999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/cloudtops-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.299999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/night-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 2.799999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 2.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/roughness-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.100000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mercury/mdis-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/uranus/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.600000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.600000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/mola-height-2048.png|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.200000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/uranus/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 5.800000071525574,
+            "decodedMipBudgetMiB": 42.666666666666664
+          }
+        }
+      }
+    },
+    {
+      "id": "899",
+      "viewport": [
+        2560,
+        1440
+      ],
+      "frameSamples": 200,
+      "frameP50Ms": 3.600000000000364,
+      "frameP95Ms": 3.7999999999992724,
+      "renderLoopFps": 275.02750275027546,
+      "render": {
+        "gpuTimerAvailable": true,
+        "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "gpuVendor": "Google Inc. (NVIDIA)",
+        "cpuRender": {
+          "samples": 600,
+          "p50Ms": 0.10000002384185791,
+          "p95Ms": 0.20000004768371582
+        },
+        "gpuRender": {
+          "samples": 291,
+          "p50Ms": 0.173984,
+          "p95Ms": 0.186976
+        },
+        "gpuMemoryObjectCounts": {
+          "geometries": 12,
+          "textures": 17
+        },
+        "drawCalls": 3,
+        "triangles": 97536
+      },
+      "loading": {
+        "cachedRequests": 30,
+        "completed": 30,
+        "decodedMipBudgetMiB": 293.37499999999994,
+        "textures": {
+          "/assets/celestial/sun/photosphere-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 74.20000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mercury/mdis-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 74,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/venus/cloudtops-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 73.80000007152557,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 74,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 73.90000009536743,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/jupiter/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 110.60000002384186,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 109.30000007152557,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/uranus/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 109.5,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/neptune/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 109.39999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/sun/photosphere-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 93.60000002384186,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 37.799999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/clouds-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 37.299999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/mola-height-1024.png|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 37.299999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/ring-optical-depth.png|false": {
+            "width": 8192,
+            "height": 1,
+            "loadMs": 70.5,
+            "decodedMipBudgetMiB": 0.041666666666666664
+          },
+          "/assets/celestial/earth/night-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 70.20000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/roughness-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 7.199999928474426,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.399999976158142,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/neptune/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.700000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/jupiter/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.3000000715255737,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/clouds-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.700000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/night-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.600000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/roughness-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/cloudtops-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.799999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/uranus/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.299999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/sun/photosphere-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 4.5,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/saturn/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6.400000095367432,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/mercury/mdis-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.5999999046325684,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/neptune/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 4.100000023841858,
+            "decodedMipBudgetMiB": 42.666666666666664
+          }
+        }
+      }
+    }
+  ],
+  "memory": [
+    {
+      "render": {
+        "gpuTimerAvailable": true,
+        "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "gpuVendor": "Google Inc. (NVIDIA)",
+        "cpuRender": {
+          "samples": 600,
+          "p50Ms": 0.10000002384185791,
+          "p95Ms": 0.20000004768371582
+        },
+        "gpuRender": {
+          "samples": 518,
+          "p50Ms": 0.171392,
+          "p95Ms": 0.185984
+        },
+        "gpuMemoryObjectCounts": {
+          "geometries": 12,
+          "textures": 18
+        },
+        "drawCalls": 3,
+        "triangles": 97536
+      },
+      "loading": {
+        "cachedRequests": 36,
+        "completed": 36,
+        "decodedMipBudgetMiB": 485.37500000000006,
+        "textures": {
+          "/assets/celestial/sun/photosphere-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 74.20000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mercury/mdis-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 74,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/venus/cloudtops-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 73.80000007152557,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 74,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 73.90000009536743,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/jupiter/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 110.60000002384186,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 109.30000007152557,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/uranus/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 109.5,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/neptune/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 109.39999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/sun/photosphere-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 93.60000002384186,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 37.799999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/clouds-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 37.299999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/mola-height-1024.png|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 37.299999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/ring-optical-depth.png|false": {
+            "width": 8192,
+            "height": 1,
+            "loadMs": 70.5,
+            "decodedMipBudgetMiB": 0.041666666666666664
+          },
+          "/assets/celestial/earth/night-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 70.20000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/roughness-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 7.199999928474426,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.399999976158142,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/neptune/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.700000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/jupiter/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.3000000715255737,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/clouds-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.700000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/night-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.600000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/roughness-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/cloudtops-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.799999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/uranus/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.299999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/sun/photosphere-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 4.5,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/saturn/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6.400000095367432,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/mercury/mdis-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.5999999046325684,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/neptune/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 4.100000023841858,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/mars/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 6,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/mola-height-2048.png|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.600000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6.700000047683716,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/clouds-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6.5,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/night-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 3.8000000715255737,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/roughness-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 3.600000023841858,
+            "decodedMipBudgetMiB": 42.666666666666664
+          }
+        }
+      }
+    },
+    {
+      "render": {
+        "gpuTimerAvailable": true,
+        "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "gpuVendor": "Google Inc. (NVIDIA)",
+        "cpuRender": {
+          "samples": 600,
+          "p50Ms": 0.10000002384185791,
+          "p95Ms": 0.20000004768371582
+        },
+        "gpuRender": {
+          "samples": 600,
+          "p50Ms": 0.0832,
+          "p95Ms": 0.184864
+        },
+        "gpuMemoryObjectCounts": {
+          "geometries": 12,
+          "textures": 18
+        },
+        "drawCalls": 3,
+        "triangles": 97536
+      },
+      "loading": {
+        "cachedRequests": 36,
+        "completed": 36,
+        "decodedMipBudgetMiB": 485.37500000000006,
+        "textures": {
+          "/assets/celestial/sun/photosphere-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 74.20000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mercury/mdis-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 74,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/venus/cloudtops-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 73.80000007152557,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 74,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 73.90000009536743,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/jupiter/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 110.60000002384186,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 109.30000007152557,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/uranus/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 109.5,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/neptune/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 109.39999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/sun/photosphere-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 93.60000002384186,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 37.799999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/clouds-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 37.299999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/mola-height-1024.png|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 37.299999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/ring-optical-depth.png|false": {
+            "width": 8192,
+            "height": 1,
+            "loadMs": 70.5,
+            "decodedMipBudgetMiB": 0.041666666666666664
+          },
+          "/assets/celestial/earth/night-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 70.20000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/roughness-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 7.199999928474426,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.399999976158142,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/neptune/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.700000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/jupiter/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.3000000715255737,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/clouds-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.700000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/night-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.600000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/roughness-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/cloudtops-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.799999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/uranus/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.299999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/sun/photosphere-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 4.5,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/saturn/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6.400000095367432,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/mercury/mdis-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.5999999046325684,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/neptune/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 4.100000023841858,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/mars/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 6,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/mola-height-2048.png|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.600000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6.700000047683716,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/clouds-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6.5,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/night-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 3.8000000715255737,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/roughness-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 3.600000023841858,
+            "decodedMipBudgetMiB": 42.666666666666664
+          }
+        }
+      }
+    },
+    {
+      "render": {
+        "gpuTimerAvailable": true,
+        "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "gpuVendor": "Google Inc. (NVIDIA)",
+        "cpuRender": {
+          "samples": 600,
+          "p50Ms": 0.10000002384185791,
+          "p95Ms": 0.20000004768371582
+        },
+        "gpuRender": {
+          "samples": 600,
+          "p50Ms": 0.062112,
+          "p95Ms": 0.132448
+        },
+        "gpuMemoryObjectCounts": {
+          "geometries": 12,
+          "textures": 18
+        },
+        "drawCalls": 3,
+        "triangles": 97536
+      },
+      "loading": {
+        "cachedRequests": 36,
+        "completed": 36,
+        "decodedMipBudgetMiB": 485.37500000000006,
+        "textures": {
+          "/assets/celestial/sun/photosphere-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 74.20000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mercury/mdis-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 74,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/venus/cloudtops-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 73.80000007152557,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 74,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 73.90000009536743,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/jupiter/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 110.60000002384186,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 109.30000007152557,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/uranus/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 109.5,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/neptune/albedo-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 109.39999997615814,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/sun/photosphere-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 93.60000002384186,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-1024.jpg|true": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 37.799999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/clouds-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 37.299999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/mars/mola-height-1024.png|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 37.299999952316284,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/ring-optical-depth.png|false": {
+            "width": 8192,
+            "height": 1,
+            "loadMs": 70.5,
+            "decodedMipBudgetMiB": 0.041666666666666664
+          },
+          "/assets/celestial/earth/night-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 70.20000004768372,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/earth/roughness-1024.jpg|false": {
+            "width": 1024,
+            "height": 512,
+            "loadMs": 7.199999928474426,
+            "decodedMipBudgetMiB": 2.6666666666666665
+          },
+          "/assets/celestial/saturn/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.399999976158142,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/neptune/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.700000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/jupiter/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.3000000715255737,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/clouds-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.700000047683716,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/night-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.600000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/roughness-2048.jpg|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/cloudtops-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.5,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/venus/radar-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.799999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/uranus/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 4.299999952316284,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/sun/photosphere-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 4.5,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/saturn/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6.400000095367432,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/mercury/mdis-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.5999999046325684,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/neptune/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 4.100000023841858,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/mars/albedo-2048.jpg|true": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 6,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/mars/mola-height-2048.png|false": {
+            "width": 2048,
+            "height": 1024,
+            "loadMs": 3.600000023841858,
+            "decodedMipBudgetMiB": 10.666666666666666
+          },
+          "/assets/celestial/earth/albedo-4096.jpg|true": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6.700000047683716,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/clouds-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 6.5,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/night-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 3.8000000715255737,
+            "decodedMipBudgetMiB": 42.666666666666664
+          },
+          "/assets/celestial/earth/roughness-4096.jpg|false": {
+            "width": 4096,
+            "height": 2048,
+            "loadMs": 3.600000023841858,
+            "decodedMipBudgetMiB": 42.666666666666664
+          }
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "resourceFailures": []
+}

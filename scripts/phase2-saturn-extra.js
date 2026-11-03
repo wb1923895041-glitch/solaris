@@ -1,0 +1,1 @@
+async(page)=>{const views=[];for(const v of ['ring-front','ring-edge','backlight','ring-detail']){await page.evaluate(v=>window.solarisQA.observe(v),v);await page.waitForTimeout(1300);await page.screenshot({path:'output/playwright/phase-2/final/saturn_'+v+'.png'});views.push(await page.evaluate(()=>window.solarisQA.snapshot()));}return {bodyId:'699',views};}

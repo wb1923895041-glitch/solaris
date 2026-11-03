@@ -1,0 +1,10 @@
+{
+  "url": "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Com%2Cw%2Cma%2Cepoch&sb-kind=a&full-prec=1&sb-class=TNO",
+  "params": {
+    "fields": "a,e,i,om,w,ma,epoch",
+    "sb-kind": "a",
+    "full-prec": "1",
+    "sb-class": "TNO"
+  },
+  "retrievedAtUtc": "2026-11-01T18:37:47.360938+00:00"
+}

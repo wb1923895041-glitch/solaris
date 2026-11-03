@@ -1,0 +1,32 @@
+{
+  "base": "a046fa5",
+  "modified": [
+    "data/phase-2/visual-manifest.json",
+    "index.html",
+    "public/assets/celestial/manifest.json",
+    "public/assets/celestial/sun/config.json",
+    "src/main.ts",
+    "src/render/celestial/profiling.ts",
+    "src/render/celestial/system.ts",
+    "src/render/scene.ts",
+    "src/style.css"
+  ],
+  "addedCode": [
+    "src/render/sky.ts",
+    "src/render/orbit-trails.ts",
+    "scripts/fetch-overview-sky.py",
+    "scripts/build-overview-sky.py",
+    "scripts/requirements-overview-sky.txt",
+    "scripts/overview-b-qa.mjs",
+    "scripts/overview-b-final-smoke.mjs",
+    "scripts/overview-b-gallery-qa.mjs",
+    "scripts/overview-b-path-check.mjs",
+    "scripts/validate-overview-paths.py",
+    "scripts/package-overview-b.py"
+  ],
+  "addedAssets": [
+    "public/assets/sky/nasa-stars-4k.jpg",
+    "public/assets/sky/source.json"
+  ],
+  "note": "Binary assets, provenance and evidence are supplied as files, not encoded in the patch."
+}

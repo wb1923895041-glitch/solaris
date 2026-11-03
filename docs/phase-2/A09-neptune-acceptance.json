@@ -1,0 +1,48 @@
+{
+  "bodyId": "899",
+  "utcMs": 1793232000000,
+  "physicsUnchanged": true,
+  "matchedCamera": [
+    186.15840479937722,
+    22.766182470026674,
+    -0.08132554169396222
+  ],
+  "baselineCamera": [
+    186.15840479937722,
+    22.766182470026674,
+    -0.08132554169396222
+  ],
+  "visual": {
+    "id": "899",
+    "status": "ready",
+    "error": null,
+    "loadedWidth": 4096,
+    "material": "neptune-methane-haze-reconstruction",
+    "layers": [
+      "IAU-pole",
+      "atmosphere"
+    ]
+  },
+  "performance": {
+    "meanMs": 3.6364000000000014,
+    "p50": 3.600000000000364,
+    "p95": 3.7000000000007276,
+    "headlessRafFps": 274.9972500274996
+  },
+  "gpuMemory": {
+    "geometries": 12,
+    "textures": 18
+  },
+  "errors": [],
+  "gate": "accepted-with-declared-limitations",
+  "checkedAt": "2026-10-28T19:05:14.557737+00:00",
+  "visualInspection": "Standard / detail / terminator / backlight browser PNGs reviewed by agent; see screenshots",
+  "limitations": [
+    "Native published disk is about 556px; 4K derivatives add no observed resolution",
+    "Disk sub-observer registration is unavailable; cloud feature latitude/longitude NOT certified",
+    "RECONSTRUCTED mirrored unknown hemisphere; historical weather only, no permanent invented dark spot",
+    "No new winds, current weather, rings or satellites; near-natural color intentionally pale cyan",
+    "Neptune color follows 2024 spectral recalibration, not legacy saturated blue"
+  ],
+  "independentAcceptanceOrder": 9
+}

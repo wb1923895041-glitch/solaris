@@ -1,0 +1,87 @@
+{
+  "bodyId": "10",
+  "name": "Sun",
+  "version": "2.0.0-sun",
+  "kind": "solar-photosphere",
+  "albedo": {
+    "sourceUrl": "https://sdo.gsfc.nasa.gov/assets/img/browse/2025/09/07/20250907_000000_4096_HMIIF.jpg",
+    "provider": "NASA/SDO HMI",
+    "title": "HMI flattened continuum intensity 2025-09-07 00:00 UTC",
+    "observationEpoch": "2025-09-07T00:00:00Z",
+    "acquisitionDate": "2026-10-28T18:18:18.732602+00:00",
+    "processing": "reconstruction",
+    "rights": "NASA media usage guidelines; credit NASA/SDO and HMI science team; no endorsement",
+    "credit": "Courtesy NASA/SDO and the AIA, EVE, and HMI science teams",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "referenceUrl": "https://sdo.gsfc.nasa.gov/data/channels.php",
+    "projection": "orthographic full disk source; derived equirectangular",
+    "longitudeConvention": "east-positive",
+    "primeMeridianOrOrientationNotes": "Visual reprojection; JPEG browse disk lacks full WCS. Texture prime-meridian registration unverified; backside mirrored reconstruction.",
+    "sha256": "b0f51d42d2e2cd1cfb571a19bd85bbd6c9436f9b9c05e9593e0c235a7e7b405b",
+    "rawPath": "data/phase-2/raw/sun-HMIIF-20250907.jpg",
+    "derivedProjection": "equirectangular 4096x2048; orthographic inverse x=R*cos(lat)*sin(lon), y=-R*sin(lat); mirrored unseen hemisphere",
+    "sourceDiskCenter": [
+      2046.5,
+      2048.0
+    ],
+    "sourceDiskRadius": 1884.5,
+    "lods": [
+      {
+        "width": 1024,
+        "height": 512,
+        "url": "/assets/celestial/sun/photosphere-1024.jpg",
+        "sha256": "e48c1fa31905b805ad900f84fab706f2b3d42d2904e39df894bf5ca9eecad2b4"
+      },
+      {
+        "width": 2048,
+        "height": 1024,
+        "url": "/assets/celestial/sun/photosphere-2048.jpg",
+        "sha256": "4577cc9595306f8339658c519ec6fd5c9671ea7110df40b5ed864a9c1910634a"
+      },
+      {
+        "width": 4096,
+        "height": 2048,
+        "url": "/assets/celestial/sun/photosphere-4096.jpg",
+        "sha256": "c4241889f9eea2c17a8f8cf920f0722e8d5e9adbc1b8f582b2d2440f827a8c9d"
+      }
+    ],
+    "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "processingCategory": "reconstruction"
+  },
+  "hasVerifiedOrientation": false,
+  "axisVerified": true,
+  "referenceLinks": [
+    "https://sdo.gsfc.nasa.gov/data/channels.php"
+  ],
+  "visualEnhancements": [
+    "VISUAL_ENHANCEMENT: optional warm display grading",
+    "VISUAL_ENHANCEMENT: opt-in analytic corona and prominences, not event observations",
+    "VISUAL_ENHANCEMENT: restrained analytic corona to 1.18R, alpha peak 0.14, no Bloom; not an observed coronal shape"
+  ],
+  "limitations": [
+    "RECONSTRUCTED: mirrored unseen hemisphere",
+    "HMI browse image is colorized continuum, not full radiometric spectrum",
+    "No absolute heliographic registration from JPEG WCS; spots represent 2025-09-07 only"
+  ],
+  "lods": [
+    {
+      "width": 1024,
+      "height": 512,
+      "url": "/assets/celestial/sun/photosphere-1024.jpg",
+      "sha256": "e48c1fa31905b805ad900f84fab706f2b3d42d2904e39df894bf5ca9eecad2b4"
+    },
+    {
+      "width": 2048,
+      "height": 1024,
+      "url": "/assets/celestial/sun/photosphere-2048.jpg",
+      "sha256": "4577cc9595306f8339658c519ec6fd5c9671ea7110df40b5ed864a9c1910634a"
+    },
+    {
+      "width": 4096,
+      "height": 2048,
+      "url": "/assets/celestial/sun/photosphere-4096.jpg",
+      "sha256": "c4241889f9eea2c17a8f8cf920f0722e8d5e9adbc1b8f582b2d2440f827a8c9d"
+    }
+  ],
+  "description": "SDO/HMI \u5149\u7403\u89c2\u6d4b\u5feb\u7167\uff0c\u4fdd\u7559\u6697\u6591\u548c\u7c73\u7c92\u7ec4\u7ec7\u3002\u65e5\u5195\u3001\u65e5\u73e5\u4e3a\u53ef\u5173\u95ed\u7684\u89c2\u5bdf\u589e\u5f3a\u3002"
+}

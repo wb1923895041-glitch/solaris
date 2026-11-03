@@ -1,0 +1,559 @@
+{
+  "browser": "156.0.8078.79",
+  "viewport": {
+    "width": 2560,
+    "height": 1440
+  },
+  "checks": [
+    "Asset loaded with no fallback",
+    "Solar-only illumination and non-emissive material",
+    "Same original TDB instant",
+    "Body orientation is a unit quaternion",
+    "Satellite absolute position available",
+    "Light points to Sun from the actual satellite centre",
+    "standard camera rendered without error",
+    "side camera rendered without error",
+    "detail camera rendered without error",
+    "parent camera rendered without error",
+    "Actual mouse drag rotates inspection camera",
+    "Camera does not alter physical orientation",
+    "Optional fill is explicit and reversible",
+    "Close restores unchanged main scene and camera",
+    "No browser console/runtime errors"
+  ],
+  "errors": [],
+  "captures": [
+    {
+      "view": "standard",
+      "file": "output/playwright/phase-3b/chrome-606-standard-2560.png",
+      "snapshot": {
+        "id": "606",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "standard",
+        "bodyToIcrfQuaternion": [
+          0.017261108189182604,
+          0.05466027930926492,
+          0.8373697970619538,
+          0.5436231516209892
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.44499474660540117,
+          0.7300315074366959,
+          0.41379937326613964,
+          0.31273591467538614
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          -0.9782936246718945,
+          0.04214340968932155,
+          0.2028928706142341
+        ],
+        "camera": [
+          -5.958183418074069,
+          0.2566695299442762,
+          1.2356954056044425
+        ],
+        "modelRadius": 1.1941928568099551,
+        "cameraFov": 38,
+        "viewport": {
+          "width": 1507,
+          "height": 982
+        },
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "606",
+          "displayNameZh": "土卫六",
+          "displayNameEn": "Titan",
+          "parentPlanetId": "699",
+          "version": "3b-titan-visible-haze-v1",
+          "kind": "titan-opaque-haze",
+          "shapeType": "opaque-haze-reconstruction",
+          "meanRadiusKm": 2574.76,
+          "meshFrame": "sphere-y-up",
+          "albedo": {
+            "title": "Cassini 可见光橙色不透明雾霾外观重建 / PIA06227",
+            "provider": "NASA/JPL/Space Science Institute",
+            "uri": "https://science.nasa.gov/resource/cassinis-views-of-titan/",
+            "observationEpoch": "Cassini ISS 2005-04-16 comparison; not real-time weather",
+            "rights": "NASA media guidelines; acknowledge NASA/JPL/Space Science Institute. No image pixels used as a planetary map.",
+            "colorProcessing": "依照自然色观测重建橙色不透明雾霾与弱蓝色边缘；颜色、透明度和厚度显示参数不是反演测量。没有地表光学贴图。",
+            "projection": "No surface or cloud texture; spherically symmetric display reconstruction",
+            "processingCategory": "OBSERVATION_INFORMED_ATMOSPHERE_RECONSTRUCTION",
+            "referencePagePath": "data/phase-3b/raw/titan-visible.html",
+            "referencePageSha256": "eb68998d6b6cbac74fe00ba858ca74f09faaade907e8529b17807ff6e3e143a8"
+          },
+          "lods": [],
+          "geometrySource": {
+            "title": "Independent haze layers; scientific surface radius retained",
+            "provider": "NASA Cassini / NTRS observational reference",
+            "uri": "https://ntrs.nasa.gov/citations/20050167753"
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#c29a57"
+          },
+          "atmosphere": {
+            "opaqueProxyAltitudeKm": 200,
+            "outerReferenceAltitudeKm": 500,
+            "quality": "DISPLAY_RECONSTRUCTION_NOT_RETRIEVED_PROFILE",
+            "reference": "https://www.giss.nasa.gov/pubs/abs/po05100g.html",
+            "notes": "500 km detached haze was observed in the Cassini era; layer shape/opacity here are a static display reconstruction, not a current atmosphere model"
+          },
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "NOT_APPLICABLE_NO_VISIBLE_SURFACE_MAP",
+          "reconstructionNotes": "可见光默认只显示不透明大气，地表不可见。橙色雾霾和弱蓝色边缘是依据 Cassini 观测的显示重建；没有借用近红外地表图冒充自然色。",
+          "visualEnhancements": [
+            "固定观察曝光",
+            "雾霾的颜色、层厚和透明度为显示重建；不是实时大气参数"
+          ],
+          "limitations": [
+            "不含实时极涡、云图或气候演化",
+            "不模拟多次散射或完整辐射传输",
+            "200 km 不透明代理层及外层透明度为静态展示选择",
+            "没有地表光学地图，因此不声明地表参考经线配准"
+          ],
+          "verifiedAt": "2026-11-01T08:26:12.795691+00:00"
+        },
+        "loadedWidth": 0,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 3,
+            "textures": 3
+          },
+          "drawCalls": 2,
+          "triangles": 73088
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 3,
+          "geometryCount": 3,
+          "textureCount": 3
+        }
+      }
+    },
+    {
+      "view": "side",
+      "file": "output/playwright/phase-3b/chrome-606-side-2560.png",
+      "snapshot": {
+        "id": "606",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "side",
+        "bodyToIcrfQuaternion": [
+          0.017261108189182604,
+          0.05466027930926492,
+          0.8373697970619538,
+          0.5436231516209892
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.44499474660540117,
+          0.7300315074366959,
+          0.41379937326613964,
+          0.31273591467538614
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          -0.9782936246718945,
+          0.04214340968932155,
+          0.2028928706142341
+        ],
+        "camera": [
+          -1.8123970033282202,
+          0.1246497428663802,
+          5.813127520567286
+        ],
+        "modelRadius": 1.1941928568099551,
+        "cameraFov": 38,
+        "viewport": {
+          "width": 1507,
+          "height": 982
+        },
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "606",
+          "displayNameZh": "土卫六",
+          "displayNameEn": "Titan",
+          "parentPlanetId": "699",
+          "version": "3b-titan-visible-haze-v1",
+          "kind": "titan-opaque-haze",
+          "shapeType": "opaque-haze-reconstruction",
+          "meanRadiusKm": 2574.76,
+          "meshFrame": "sphere-y-up",
+          "albedo": {
+            "title": "Cassini 可见光橙色不透明雾霾外观重建 / PIA06227",
+            "provider": "NASA/JPL/Space Science Institute",
+            "uri": "https://science.nasa.gov/resource/cassinis-views-of-titan/",
+            "observationEpoch": "Cassini ISS 2005-04-16 comparison; not real-time weather",
+            "rights": "NASA media guidelines; acknowledge NASA/JPL/Space Science Institute. No image pixels used as a planetary map.",
+            "colorProcessing": "依照自然色观测重建橙色不透明雾霾与弱蓝色边缘；颜色、透明度和厚度显示参数不是反演测量。没有地表光学贴图。",
+            "projection": "No surface or cloud texture; spherically symmetric display reconstruction",
+            "processingCategory": "OBSERVATION_INFORMED_ATMOSPHERE_RECONSTRUCTION",
+            "referencePagePath": "data/phase-3b/raw/titan-visible.html",
+            "referencePageSha256": "eb68998d6b6cbac74fe00ba858ca74f09faaade907e8529b17807ff6e3e143a8"
+          },
+          "lods": [],
+          "geometrySource": {
+            "title": "Independent haze layers; scientific surface radius retained",
+            "provider": "NASA Cassini / NTRS observational reference",
+            "uri": "https://ntrs.nasa.gov/citations/20050167753"
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#c29a57"
+          },
+          "atmosphere": {
+            "opaqueProxyAltitudeKm": 200,
+            "outerReferenceAltitudeKm": 500,
+            "quality": "DISPLAY_RECONSTRUCTION_NOT_RETRIEVED_PROFILE",
+            "reference": "https://www.giss.nasa.gov/pubs/abs/po05100g.html",
+            "notes": "500 km detached haze was observed in the Cassini era; layer shape/opacity here are a static display reconstruction, not a current atmosphere model"
+          },
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "NOT_APPLICABLE_NO_VISIBLE_SURFACE_MAP",
+          "reconstructionNotes": "可见光默认只显示不透明大气，地表不可见。橙色雾霾和弱蓝色边缘是依据 Cassini 观测的显示重建；没有借用近红外地表图冒充自然色。",
+          "visualEnhancements": [
+            "固定观察曝光",
+            "雾霾的颜色、层厚和透明度为显示重建；不是实时大气参数"
+          ],
+          "limitations": [
+            "不含实时极涡、云图或气候演化",
+            "不模拟多次散射或完整辐射传输",
+            "200 km 不透明代理层及外层透明度为静态展示选择",
+            "没有地表光学地图，因此不声明地表参考经线配准"
+          ],
+          "verifiedAt": "2026-11-01T08:26:12.795691+00:00"
+        },
+        "loadedWidth": 0,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 3,
+            "textures": 3
+          },
+          "drawCalls": 2,
+          "triangles": 73088
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 3,
+          "geometryCount": 3,
+          "textureCount": 3
+        }
+      }
+    },
+    {
+      "view": "detail",
+      "file": "output/playwright/phase-3b/chrome-606-detail-2560.png",
+      "snapshot": {
+        "id": "606",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "detail",
+        "bodyToIcrfQuaternion": [
+          0.017261108189182604,
+          0.05466027930926492,
+          0.8373697970619538,
+          0.5436231516209892
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.44499474660540117,
+          0.7300315074366959,
+          0.41379937326613964,
+          0.31273591467538614
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          -0.9782936246718945,
+          0.04214340968932155,
+          0.2028928706142341
+        ],
+        "camera": [
+          -3.3879866494930977,
+          0.14594934055654923,
+          0.7026503286770358
+        ],
+        "modelRadius": 1.1941928568099551,
+        "cameraFov": 38,
+        "viewport": {
+          "width": 1507,
+          "height": 982
+        },
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "606",
+          "displayNameZh": "土卫六",
+          "displayNameEn": "Titan",
+          "parentPlanetId": "699",
+          "version": "3b-titan-visible-haze-v1",
+          "kind": "titan-opaque-haze",
+          "shapeType": "opaque-haze-reconstruction",
+          "meanRadiusKm": 2574.76,
+          "meshFrame": "sphere-y-up",
+          "albedo": {
+            "title": "Cassini 可见光橙色不透明雾霾外观重建 / PIA06227",
+            "provider": "NASA/JPL/Space Science Institute",
+            "uri": "https://science.nasa.gov/resource/cassinis-views-of-titan/",
+            "observationEpoch": "Cassini ISS 2005-04-16 comparison; not real-time weather",
+            "rights": "NASA media guidelines; acknowledge NASA/JPL/Space Science Institute. No image pixels used as a planetary map.",
+            "colorProcessing": "依照自然色观测重建橙色不透明雾霾与弱蓝色边缘；颜色、透明度和厚度显示参数不是反演测量。没有地表光学贴图。",
+            "projection": "No surface or cloud texture; spherically symmetric display reconstruction",
+            "processingCategory": "OBSERVATION_INFORMED_ATMOSPHERE_RECONSTRUCTION",
+            "referencePagePath": "data/phase-3b/raw/titan-visible.html",
+            "referencePageSha256": "eb68998d6b6cbac74fe00ba858ca74f09faaade907e8529b17807ff6e3e143a8"
+          },
+          "lods": [],
+          "geometrySource": {
+            "title": "Independent haze layers; scientific surface radius retained",
+            "provider": "NASA Cassini / NTRS observational reference",
+            "uri": "https://ntrs.nasa.gov/citations/20050167753"
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#c29a57"
+          },
+          "atmosphere": {
+            "opaqueProxyAltitudeKm": 200,
+            "outerReferenceAltitudeKm": 500,
+            "quality": "DISPLAY_RECONSTRUCTION_NOT_RETRIEVED_PROFILE",
+            "reference": "https://www.giss.nasa.gov/pubs/abs/po05100g.html",
+            "notes": "500 km detached haze was observed in the Cassini era; layer shape/opacity here are a static display reconstruction, not a current atmosphere model"
+          },
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "NOT_APPLICABLE_NO_VISIBLE_SURFACE_MAP",
+          "reconstructionNotes": "可见光默认只显示不透明大气，地表不可见。橙色雾霾和弱蓝色边缘是依据 Cassini 观测的显示重建；没有借用近红外地表图冒充自然色。",
+          "visualEnhancements": [
+            "固定观察曝光",
+            "雾霾的颜色、层厚和透明度为显示重建；不是实时大气参数"
+          ],
+          "limitations": [
+            "不含实时极涡、云图或气候演化",
+            "不模拟多次散射或完整辐射传输",
+            "200 km 不透明代理层及外层透明度为静态展示选择",
+            "没有地表光学地图，因此不声明地表参考经线配准"
+          ],
+          "verifiedAt": "2026-11-01T08:26:12.795691+00:00"
+        },
+        "loadedWidth": 0,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 3,
+            "textures": 3
+          },
+          "drawCalls": 2,
+          "triangles": 73088
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 3,
+          "geometryCount": 3,
+          "textureCount": 3
+        }
+      }
+    },
+    {
+      "view": "parent",
+      "file": "output/playwright/phase-3b/chrome-606-parent-2560.png",
+      "snapshot": {
+        "id": "606",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "parent",
+        "bodyToIcrfQuaternion": [
+          0.017261108189182604,
+          0.05466027930926492,
+          0.8373697970619538,
+          0.5436231516209892
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.44499474660540117,
+          0.7300315074366959,
+          0.41379937326613964,
+          0.31273591467538614
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          -0.9782936246718945,
+          0.04214340968932155,
+          0.2028928706142341
+        ],
+        "camera": [
+          -2.4262059421323894,
+          -2.3675750185691924,
+          -5.059731740345046
+        ],
+        "modelRadius": 1.1941928568099551,
+        "cameraFov": 38,
+        "viewport": {
+          "width": 1507,
+          "height": 982
+        },
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "606",
+          "displayNameZh": "土卫六",
+          "displayNameEn": "Titan",
+          "parentPlanetId": "699",
+          "version": "3b-titan-visible-haze-v1",
+          "kind": "titan-opaque-haze",
+          "shapeType": "opaque-haze-reconstruction",
+          "meanRadiusKm": 2574.76,
+          "meshFrame": "sphere-y-up",
+          "albedo": {
+            "title": "Cassini 可见光橙色不透明雾霾外观重建 / PIA06227",
+            "provider": "NASA/JPL/Space Science Institute",
+            "uri": "https://science.nasa.gov/resource/cassinis-views-of-titan/",
+            "observationEpoch": "Cassini ISS 2005-04-16 comparison; not real-time weather",
+            "rights": "NASA media guidelines; acknowledge NASA/JPL/Space Science Institute. No image pixels used as a planetary map.",
+            "colorProcessing": "依照自然色观测重建橙色不透明雾霾与弱蓝色边缘；颜色、透明度和厚度显示参数不是反演测量。没有地表光学贴图。",
+            "projection": "No surface or cloud texture; spherically symmetric display reconstruction",
+            "processingCategory": "OBSERVATION_INFORMED_ATMOSPHERE_RECONSTRUCTION",
+            "referencePagePath": "data/phase-3b/raw/titan-visible.html",
+            "referencePageSha256": "eb68998d6b6cbac74fe00ba858ca74f09faaade907e8529b17807ff6e3e143a8"
+          },
+          "lods": [],
+          "geometrySource": {
+            "title": "Independent haze layers; scientific surface radius retained",
+            "provider": "NASA Cassini / NTRS observational reference",
+            "uri": "https://ntrs.nasa.gov/citations/20050167753"
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#c29a57"
+          },
+          "atmosphere": {
+            "opaqueProxyAltitudeKm": 200,
+            "outerReferenceAltitudeKm": 500,
+            "quality": "DISPLAY_RECONSTRUCTION_NOT_RETRIEVED_PROFILE",
+            "reference": "https://www.giss.nasa.gov/pubs/abs/po05100g.html",
+            "notes": "500 km detached haze was observed in the Cassini era; layer shape/opacity here are a static display reconstruction, not a current atmosphere model"
+          },
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "NOT_APPLICABLE_NO_VISIBLE_SURFACE_MAP",
+          "reconstructionNotes": "可见光默认只显示不透明大气，地表不可见。橙色雾霾和弱蓝色边缘是依据 Cassini 观测的显示重建；没有借用近红外地表图冒充自然色。",
+          "visualEnhancements": [
+            "固定观察曝光",
+            "雾霾的颜色、层厚和透明度为显示重建；不是实时大气参数"
+          ],
+          "limitations": [
+            "不含实时极涡、云图或气候演化",
+            "不模拟多次散射或完整辐射传输",
+            "200 km 不透明代理层及外层透明度为静态展示选择",
+            "没有地表光学地图，因此不声明地表参考经线配准"
+          ],
+          "verifiedAt": "2026-11-01T08:26:12.795691+00:00"
+        },
+        "loadedWidth": 0,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 3,
+            "textures": 3
+          },
+          "drawCalls": 2,
+          "triangles": 73088
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 3,
+          "geometryCount": 3,
+          "textureCount": 3
+        }
+      }
+    }
+  ]
+}

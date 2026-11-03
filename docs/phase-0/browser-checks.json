@@ -1,0 +1,148 @@
+{
+  "chrome": [
+    {
+      "width": 2560,
+      "height": 1440,
+      "noOverflow": true,
+      "noOverlap": true,
+      "webgl2": true,
+      "canvasWidth": 2560,
+      "canvasHeight": 1440,
+      "status": "WebGL2 已就绪 · 空场景",
+      "feedback": "视角已重置 · 2",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "renderer": "WebKit WebGL",
+      "resources": [
+        "http://127.0.0.1:4173/assets/index-5Jm2CSmT.js",
+        "http://127.0.0.1:4173/assets/index-BalKXvf2.css"
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "noOverflow": true,
+      "noOverlap": true,
+      "webgl2": true,
+      "canvasWidth": 1920,
+      "canvasHeight": 1080,
+      "status": "WebGL2 已就绪 · 空场景",
+      "feedback": "视角已重置 · 2",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "renderer": "WebKit WebGL",
+      "resources": [
+        "http://127.0.0.1:4173/assets/index-5Jm2CSmT.js",
+        "http://127.0.0.1:4173/assets/index-BalKXvf2.css"
+      ]
+    },
+    {
+      "width": 3840,
+      "height": 2160,
+      "noOverflow": true,
+      "noOverlap": true,
+      "webgl2": true,
+      "canvasWidth": 3840,
+      "canvasHeight": 2160,
+      "status": "WebGL2 已就绪 · 空场景",
+      "feedback": "视角已重置 · 2",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "renderer": "WebKit WebGL",
+      "resources": [
+        "http://127.0.0.1:4173/assets/index-5Jm2CSmT.js",
+        "http://127.0.0.1:4173/assets/index-BalKXvf2.css"
+      ]
+    }
+  ],
+  "chromeScreenshots": [
+    {
+      "path": "output/playwright/chrome-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6b9b6591600935a72fef13248fe7d2e597f749e324f38a17b7c0eb5311469b8e"
+    },
+    {
+      "path": "output/playwright/chrome-2560x1440.png",
+      "width": 2560,
+      "height": 1440,
+      "sha256": "d8d03f94aab2a8d065b0056cb9bcd6f650c2916f1019c8e0644f262a4b5f3cc9"
+    },
+    {
+      "path": "output/playwright/chrome-3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "65afb18d201ee931b5b06fbdb3b3494566c0c32be217b1eef6027f6cd57bd8ca"
+    }
+  ],
+  "edge": [
+    {
+      "width": 2560,
+      "height": 1440,
+      "noOverflow": true,
+      "noOverlap": true,
+      "webgl2": true,
+      "canvasWidth": 2560,
+      "canvasHeight": 1440,
+      "status": "WebGL2 已就绪 · 空场景",
+      "feedback": "视角已重置 · 1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "renderer": "WebKit WebGL",
+      "resources": [
+        "http://127.0.0.1:4173/assets/index-5Jm2CSmT.js",
+        "http://127.0.0.1:4173/assets/index-BalKXvf2.css"
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "noOverflow": true,
+      "noOverlap": true,
+      "webgl2": true,
+      "canvasWidth": 1920,
+      "canvasHeight": 1080,
+      "status": "WebGL2 已就绪 · 空场景",
+      "feedback": "视角已重置 · 1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "renderer": "WebKit WebGL",
+      "resources": [
+        "http://127.0.0.1:4173/assets/index-5Jm2CSmT.js",
+        "http://127.0.0.1:4173/assets/index-BalKXvf2.css"
+      ]
+    },
+    {
+      "width": 3840,
+      "height": 2160,
+      "noOverflow": true,
+      "noOverlap": true,
+      "webgl2": true,
+      "canvasWidth": 3840,
+      "canvasHeight": 2160,
+      "status": "WebGL2 已就绪 · 空场景",
+      "feedback": "视角已重置 · 1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "renderer": "WebKit WebGL",
+      "resources": [
+        "http://127.0.0.1:4173/assets/index-5Jm2CSmT.js",
+        "http://127.0.0.1:4173/assets/index-BalKXvf2.css"
+      ]
+    }
+  ],
+  "edgeScreenshots": [
+    {
+      "path": "output/playwright/edge-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "8c170f797455a46969d3112fbef544e81ef88fc736381240f1c951951087dded"
+    },
+    {
+      "path": "output/playwright/edge-2560x1440.png",
+      "width": 2560,
+      "height": 1440,
+      "sha256": "3c9f606e043721061688cd02b33c73f325e56106553c8e9d535a4b018bfd7679"
+    },
+    {
+      "path": "output/playwright/edge-3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "9caff01c61c9e5e9d8a3f866308a9e0e9f1b5c870254e36adbbe95c0b39de8f4"
+    }
+  ]
+}

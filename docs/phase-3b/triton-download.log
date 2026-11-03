@@ -1,0 +1,2 @@
+FETCH triton-global.tif https://planetarymaps.usgs.gov/mosaic/Triton_Voyager2_ClrMosaic_GlobalFill_600m.tif
+READY triton-global.tif 299994887

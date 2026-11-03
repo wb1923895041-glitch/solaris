@@ -1,0 +1,99 @@
+chrome PASS Lazy-loaded 18 bodies at one TDB
+chrome PASS Opening data preview preserves original planet states and camera
+chrome PASS System 399 correct markers and common clock
+chrome PASS Rendered marker 301 uses real relative state
+chrome PASS System 499 correct markers and common clock
+chrome PASS Rendered marker 401 uses real relative state
+chrome PASS Rendered marker 402 uses real relative state
+chrome PASS System 599 correct markers and common clock
+chrome PASS Rendered marker 501 uses real relative state
+chrome PASS Rendered marker 502 uses real relative state
+chrome PASS Rendered marker 503 uses real relative state
+chrome PASS Rendered marker 504 uses real relative state
+chrome PASS System 699 correct markers and common clock
+chrome PASS Rendered marker 601 uses real relative state
+chrome PASS Rendered marker 602 uses real relative state
+chrome PASS Rendered marker 605 uses real relative state
+chrome PASS Rendered marker 606 uses real relative state
+chrome PASS Rendered marker 608 uses real relative state
+chrome PASS System 799 correct markers and common clock
+chrome PASS Rendered marker 705 uses real relative state
+chrome PASS Rendered marker 701 uses real relative state
+chrome PASS Rendered marker 702 uses real relative state
+chrome PASS Rendered marker 703 uses real relative state
+chrome PASS Rendered marker 704 uses real relative state
+chrome PASS System 899 correct markers and common clock
+chrome PASS Rendered marker 801 uses real relative state
+chrome PASS Desktop layout 1920
+chrome PASS Desktop layout 2560
+chrome PASS Desktop layout 3840
+chrome PASS Pause freezes all satellite states
+chrome PASS Date jump synchronises 18 satellites 2025-01-01T00:00
+chrome PASS Date jump synchronises 18 satellites 2026-08-01T00:00
+chrome PASS Date jump synchronises 18 satellites 2030-01-01T00:00
+chrome PASS Date jump synchronises 18 satellites 2024-01-01T00:00
+chrome PASS Date jump synchronises 18 satellites 2031-01-01T00:00
+chrome PASS Forward playback reads shared clock
+chrome PASS Reverse playback
+chrome PASS Zero-rate playback remains fixed
+chrome PASS Scale mode leaves satellite truth unchanged scientific
+chrome PASS Scale mode leaves satellite truth unchanged exploration
+chrome PASS Original nine-body science baseline unchanged
+chrome PASS Stable GPU object counts after repeated switches 399
+chrome PASS Stable GPU object counts after repeated switches 499
+chrome PASS Stable GPU object counts after repeated switches 599
+chrome PASS Stable GPU object counts after repeated switches 699
+chrome PASS Stable GPU object counts after repeated switches 799
+chrome PASS Stable GPU object counts after repeated switches 899
+chrome PASS Earth Hero nine bodies / eight paths regression
+chrome PASS Closing preview preserves Earth camera and focus
+chrome PASS Escape closes diagnostic
+chrome PASS No browser errors or failed resources
+chrome PASS Actual browser recording decoded
+chrome ALL PASS 52
+msedge PASS Lazy-loaded 18 bodies at one TDB
+msedge PASS Opening data preview preserves original planet states and camera
+msedge PASS System 399 correct markers and common clock
+msedge PASS Rendered marker 301 uses real relative state
+msedge PASS System 499 correct markers and common clock
+msedge PASS Rendered marker 401 uses real relative state
+msedge PASS Rendered marker 402 uses real relative state
+msedge PASS System 599 correct markers and common clock
+msedge PASS Rendered marker 501 uses real relative state
+msedge PASS Rendered marker 502 uses real relative state
+msedge PASS Rendered marker 503 uses real relative state
+msedge PASS Rendered marker 504 uses real relative state
+msedge PASS System 699 correct markers and common clock
+msedge PASS Rendered marker 601 uses real relative state
+msedge PASS Rendered marker 602 uses real relative state
+msedge PASS Rendered marker 605 uses real relative state
+msedge PASS Rendered marker 606 uses real relative state
+msedge PASS Rendered marker 608 uses real relative state
+msedge PASS System 799 correct markers and common clock
+msedge PASS Rendered marker 705 uses real relative state
+msedge PASS Rendered marker 701 uses real relative state
+msedge PASS Rendered marker 702 uses real relative state
+msedge PASS Rendered marker 703 uses real relative state
+msedge PASS Rendered marker 704 uses real relative state
+msedge PASS System 899 correct markers and common clock
+msedge PASS Rendered marker 801 uses real relative state
+msedge PASS Desktop layout 1920
+msedge PASS Desktop layout 2560
+msedge PASS Desktop layout 3840
+msedge PASS Pause freezes all satellite states
+msedge PASS Date jump synchronises 18 satellites 2025-01-01T00:00
+msedge PASS Date jump synchronises 18 satellites 2026-08-01T00:00
+msedge PASS Date jump synchronises 18 satellites 2030-01-01T00:00
+msedge PASS Date jump synchronises 18 satellites 2024-01-01T00:00
+msedge PASS Date jump synchronises 18 satellites 2031-01-01T00:00
+msedge PASS Forward playback reads shared clock
+msedge PASS Reverse playback
+msedge PASS Zero-rate playback remains fixed
+msedge PASS Scale mode leaves satellite truth unchanged scientific
+msedge PASS Scale mode leaves satellite truth unchanged exploration
+msedge PASS Original nine-body science baseline unchanged
+msedge PASS Earth Hero nine bodies / eight paths regression
+msedge PASS Closing preview preserves Earth camera and focus
+msedge PASS Escape closes diagnostic
+msedge PASS No browser errors or failed resources
+msedge ALL PASS 45

@@ -1,0 +1,104 @@
+{
+  "naifId": "504",
+  "displayNameZh": "木卫四",
+  "displayNameEn": "Callisto",
+  "parentPlanetId": "599",
+  "version": "3b-504-mosaic-v1",
+  "kind": "galileo-ice",
+  "shapeType": "pck-ellipsoid",
+  "meanRadiusKm": 2410.3,
+  "meshFrame": "sphere-y-up",
+  "geometry": {
+    "axesKm": [
+      2410.3,
+      2410.3,
+      2410.3
+    ],
+    "source": "NAIF pck00011.tpc BODY504_RADII; retained physical catalog radius"
+  },
+  "geometrySource": {
+    "provider": "NASA/NAIF",
+    "title": "IAU generic PCK triaxial radii",
+    "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+  },
+  "albedo": {
+    "title": "Voyager / Galileo SSI 1 km monochrome mosaic",
+    "provider": "NASA Voyager / Galileo / USGS",
+    "uri": "https://astrogeology.usgs.gov/search/map/callisto_galileo_voyager_global_mosaic_1km",
+    "downloadUrl": "https://planetarymaps.usgs.gov/mosaic/Callisto_Voyager_GalileoSSI_global_mosaic_1km.tif",
+    "rawPath": "data/phase-3b/raw/callisto-global.tif",
+    "rawSha256": "e1f0bd2e0e05de605d067d6b5f5ededddaf31ca6c064562a1ca770f15a7dbaa3",
+    "observationEpoch": "Voyager 1979 / Galileo 1995–2003 composite",
+    "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+    "colorProcessing": "保留观测灰度，不把灰度亮度解释为高程。",
+    "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+    "processingCategory": "OBSERVED_MONOCHROME",
+    "nativeDimensions": [
+      15138,
+      7569
+    ]
+  },
+  "lods": [
+    {
+      "width": 1024,
+      "height": 512,
+      "url": "/assets/moons/504/albedo-1024.jpg",
+      "sha256": "32fb51eb0c871d09bd7a2ed7e4602b5753f19f20bab62462f97eb02b1821a1b1"
+    },
+    {
+      "width": 2048,
+      "height": 1024,
+      "url": "/assets/moons/504/albedo-2048.jpg",
+      "sha256": "bd4a86eeab131272f69a100e8eee94e13decce0f55681d370aae24d9d36031d5"
+    },
+    {
+      "width": 4096,
+      "height": 2048,
+      "url": "/assets/moons/504/albedo-4096.jpg",
+      "sha256": "fbf80a76f2cbdfbcba8045d238a93351ef6641df9d53c8f3aa7317122cde08e0"
+    }
+  ],
+  "coverage": {
+    "file": "/assets/moons/504/coverage.png",
+    "sha256": "082f0c7f5596c3dbbbea31bd0f2383f2e03d63e6673b13cef8aecd1fc3044847",
+    "missingSurfaceFraction": 0.008551487034506196,
+    "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+  },
+  "georeferencing": {
+    "method": "GeoTIFF SimpleCylindrical affine inverse at output pixel centres",
+    "centralLongitudeEast": 180.0,
+    "radiusMeters": 2409300.0488,
+    "pixelScale": [
+      1000.0051966711,
+      1000.0051966711,
+      0.0
+    ],
+    "tiePoint": [
+      0.0,
+      0.0,
+      0.0,
+      -7569039.3336036,
+      3784519.6668018,
+      0.0
+    ],
+    "sourceMetadataPage": "callisto-verified.html"
+  },
+  "material": {
+    "roughness": 1,
+    "metalness": 0,
+    "tint": "#ffffff"
+  },
+  "orientationModel": "IAU_GENERIC_APPROX",
+  "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+  "reconstructionNotes": "多环撞击盆地和密集陨石坑来自历史影像；局部分辨率约 400 m 至 60 km。 蓝灰色区域为未测，未加入虚构地貌。",
+  "visualEnhancements": [
+    "未测区蓝灰色分类标识",
+    "固定观察曝光；可选补光默认关闭"
+  ],
+  "limitations": [
+    "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+    "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+    "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+  ],
+  "verifiedAt": "2026-11-01T08:17:22.065883+00:00"
+}

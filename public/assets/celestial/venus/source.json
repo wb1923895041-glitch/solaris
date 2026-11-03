@@ -1,0 +1,96 @@
+{
+  "bodyId": "299",
+  "name": "Venus",
+  "version": "2.0.0-venus",
+  "kind": "opaque-acid-cloudtops",
+  "roughness": 1,
+  "albedo": {
+    "provider": "NASA / JPL-Caltech / Mariner 10",
+    "title": "PIA23791 cloud structure reconstruction",
+    "sourceUrl": "https://science.nasa.gov/photojournal/venus-from-mariner-10/",
+    "observationEpoch": "1974-02-07 / 08",
+    "credit": "NASA/JPL-Caltech; processing Kevin M. Gill",
+    "rights": "NASA mission imagery; original credit retained",
+    "processing": "Inverse orthographic of LEFT unenhanced disk; radial median illumination removal; reduced-contrast cream display reconstruction; unknown hemisphere mirrored. Source orange+UV false color, not calibrated visible RGB.",
+    "primeMeridianOrOrientationNotes": "Absolute longitude not certified; IAU pole and rotation from NAIF PCK",
+    "rawFile": "data/phase-2/raw/venus-cloud.jpg",
+    "sha256": "853268f7922ea572a0966df4a378e6b54221102d6740bdc78f4011708ee71007",
+    "nativeSize": [
+      2245,
+      1096
+    ]
+  },
+  "lods": [
+    {
+      "width": 1024,
+      "height": 512,
+      "url": "/assets/celestial/venus/cloudtops-1024.jpg",
+      "sha256": "5c5c3a029dd1d307d7c4c3166cf8b7fe6e7f0a5fcc3dbf3a51a4612f9c5dfa62"
+    },
+    {
+      "width": 2048,
+      "height": 1024,
+      "url": "/assets/celestial/venus/cloudtops-2048.jpg",
+      "sha256": "90930e314500bbec4e88f9fd6ee65de7fa9817465cf88d1f47cbc4aee3553682"
+    },
+    {
+      "width": 4096,
+      "height": 2048,
+      "url": "/assets/celestial/venus/cloudtops-4096.jpg",
+      "sha256": "4374737ca4b81b621602532aafe1bf06f76f73e22ddd140f937f12b70c9dc5c3"
+    }
+  ],
+  "radarLods": [
+    {
+      "width": 1024,
+      "height": 512,
+      "url": "/assets/celestial/venus/radar-1024.jpg",
+      "sha256": "72921ec628c41271640e443db70cbe0b2debfab32ac4140ac9ab7bf2d225cce2"
+    },
+    {
+      "width": 2048,
+      "height": 1024,
+      "url": "/assets/celestial/venus/radar-2048.jpg",
+      "sha256": "10c91e8f11c1d8852e22de9f463853bd1618e133943e6f515c73fec1b73d9072"
+    },
+    {
+      "width": 4096,
+      "height": 2048,
+      "url": "/assets/celestial/venus/radar-4096.jpg",
+      "sha256": "5f746558cfe329ccddd99bec80c6e0d20cf3aca5a9a89016fe101131b72a4bca"
+    }
+  ],
+  "radarSource": {
+    "provider": "NASA / JPL Magellan via NASA 3D Resources",
+    "title": "Venus radar representative global texture",
+    "sourceUrl": "https://science.nasa.gov/3d-resources/venus/",
+    "observationEpoch": "Magellan era; exact mosaic epoch not documented on download page",
+    "credit": "NASA/JPL-Caltech",
+    "rights": "NASA mission imagery; original credit retained",
+    "processing": "Unmodified radar appearance resampled; not optical color or a DEM",
+    "primeMeridianOrOrientationNotes": "Absolute longitude not certified; IAU pole and rotation from NAIF PCK",
+    "rawFile": "data/phase-2/raw/venus-radar.jpg",
+    "sha256": "e395bced59e95339efbdd002d4a0bbbf81fe323a6694f3a4039120560c80e789",
+    "nativeSize": [
+      1440,
+      720
+    ]
+  },
+  "atmosphere": {
+    "radius": 1.012,
+    "tint": "#e8dbb3",
+    "strength": 0.38
+  },
+  "axisVerified": true,
+  "hasVerifiedOrientation": false,
+  "visualEnhancements": [
+    "RECONSTRUCTED: low-contrast cream cloudtops from orange/UV structure",
+    "VISUAL_ENHANCEMENT: analytic cloudtop limb scattering; radar mode explicitly labeled"
+  ],
+  "limitations": [
+    "Static 1974 snapshot, not current clouds or simulated superrotation",
+    "RECONSTRUCTED unseen hemisphere; sub-view geometry and prime meridian not certified",
+    "4K derivative; source disk is about 900 pixels across, no 4K observation detail claimed",
+    "Radar source is a representative NASA texture, not calibrated backscatter or height"
+  ]
+}

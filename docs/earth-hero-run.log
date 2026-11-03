@@ -1,0 +1,22 @@
+Earth Hero QA PASS {
+  duration: 42.68,
+  width: 1920,
+  height: 1080,
+  decodedSeconds: 1.244282
+} [
+  {
+    viewport: [ 1920, 1080 ],
+    p95: 7.19999999999709,
+    gpu: { samples: 202, p50Ms: 0.515136, p95Ms: 2.170496 }
+  },
+  {
+    viewport: [ 2560, 1440 ],
+    p95: 3.7999999999956344,
+    gpu: { samples: 207, p50Ms: 1.210272, p95Ms: 2.299296 }
+  },
+  {
+    viewport: [ 3840, 2160 ],
+    p95: 3.7999999999956344,
+    gpu: { samples: 209, p50Ms: 1.420448, p95Ms: 2.175104 }
+  }
+]

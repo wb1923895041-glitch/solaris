@@ -1,0 +1,19 @@
+chrome PASS 301 Moon captures 3 rAF P95 16.80 retries 0
+chrome PASS 401 Phobos captures 3 rAF P95 16.80 retries 0
+chrome PASS 402 Deimos captures 2 rAF P95 16.80 retries 0
+chrome PASS 501 Io captures 3 rAF P95 16.80 retries 0
+chrome PASS 502 Europa captures 3 rAF P95 16.90 retries 0
+chrome PASS 503 Ganymede captures 3 rAF P95 16.90 retries 0
+chrome PASS 504 Callisto captures 2 rAF P95 16.80 retries 0
+chrome PASS 601 Mimas captures 3 rAF P95 16.90 retries 0
+chrome PASS 602 Enceladus captures 5 rAF P95 16.80 retries 0
+chrome PASS 605 Rhea captures 2 rAF P95 16.80 retries 0
+chrome PASS 606 Titan captures 3 rAF P95 16.80 retries 0
+chrome PASS 608 Iapetus captures 2 rAF P95 16.80 retries 0
+chrome PASS 705 Miranda captures 3 rAF P95 16.80 retries 0
+chrome PASS 701 Ariel captures 3 rAF P95 16.80 retries 0
+chrome PASS 702 Umbriel captures 3 rAF P95 16.80 retries 0
+chrome PASS 703 Titania captures 3 rAF P95 16.80 retries 0
+chrome PASS 704 Oberon captures 3 rAF P95 16.90 retries 0
+chrome PASS 801 Triton captures 3 rAF P95 16.90 retries 0
+chrome ALL PASS 196 checks 18 assets

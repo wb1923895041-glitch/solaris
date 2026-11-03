@@ -1,0 +1,92 @@
+diff --git a/src/main.ts b/src/main.ts
+index 5679f3d..baec531 100644
+--- a/src/main.ts
++++ b/src/main.ts
+@@ -42,7 +42,8 @@ function updateUI(){
+  $('utc-label').textContent=time.format(clock.utcMs).replace(/\.\d{3}Z$/,' UTC');
+  $('play').textContent=clock.playing?'Ⅱ':'▶';$('play').setAttribute('aria-label',clock.playing?'暂停':'播放');
+  $<HTMLInputElement>('timeline').value=String((clock.utcMs-time.startMs)/(time.endMs-time.startMs));
+- $('view-caption').textContent=scene?.focusedId?'聚焦视图 · 其他天体与轨迹暂隐':mode==='exploration'?'真实日心方向 · 非线性距离 · 尺寸放大':'尺寸与距离统一映射 · 远处小天体以标签定位';
++ document.body.classList.toggle('earth-hero',scene?.focusedId==='399');
++ $('view-caption').textContent=scene?.focusedId==='399'?'地球探索 · 真实空间参照保留 · 日照来自同一时刻的太阳':scene?.focusedId?'聚焦视图 · 其他天体与轨迹暂隐':mode==='exploration'?'真实日心方向 · 非线性距离 · 尺寸放大':'尺寸与距离统一映射 · 远处小天体以标签定位';
+  if(selected==='299'&&scene.visuals.options.radar)$('view-caption').textContent+=' · 雷达示意 / 非可见光';
+  $('mode-badge').textContent=mode==='exploration'?'探索比例 · 非真实比例':'科学比例 · 统一长度映射';
+  $('mapping-note').textContent=mode==='exploration'?'距离非线性压缩 · 各天体尺寸放大 · 不用于量测':`1 场景单位 = ${(KM_PER_UNIT/1e6).toFixed(3)} 百万 km`;
+diff --git a/src/render/celestial/system.ts b/src/render/celestial/system.ts
+index b218218..51830cd 100644
+--- a/src/render/celestial/system.ts
++++ b/src/render/celestial/system.ts
+@@ -8,6 +8,7 @@ type Entry={mesh:THREE.Mesh;material:THREE.Material;loadedWidth:number;requested
+ export class CelestialVisualSystem {
+  readonly entries=new Map<string,Entry>();private cache=new Map<string,Promise<THREE.Texture>>();
+  private textureRecords=new Map<string,{width:number;height:number;loadMs:number;decodedMipBudgetMiB:number}>();
++ private contextBindings=new Map<string,{material:THREE.Material;opacity:number;transparent:boolean;depthWrite:boolean}[]>();
+  readonly options={...defaultVisualOptions};
+  private highGeometry=new THREE.SphereGeometry(1,192,128);
+  private lowGeometry=new THREE.SphereGeometry(1,64,40);
+@@ -50,6 +51,8 @@ export class CelestialVisualSystem {
+    activity.visible=false;mesh.add(activity);this.entries.get(id)!.layers.set('illustrative-prominences',activity);
+   }
+   for(const [name,object]of this.entries.get(id)!.layers)object.name=name;
++  const bindings:{material:THREE.Material;opacity:number;transparent:boolean;depthWrite:boolean}[]=[];
++  const contextAlpha={value:1};mesh.traverse(object=>{if(object instanceof THREE.Mesh||object instanceof THREE.Line){const materials=Array.isArray(object.material)?object.material:[object.material];for(const mat of materials){bindings.push({material:mat,opacity:mat.opacity,transparent:mat.transparent,depthWrite:mat.depthWrite});if(mat instanceof THREE.ShaderMaterial){mat.uniforms.uHeroContextOpacity=contextAlpha;mat.onBeforeCompile=shader=>{shader.uniforms.uHeroContextOpacity=contextAlpha;const index=shader.fragmentShader.lastIndexOf('}');shader.fragmentShader='uniform float uHeroContextOpacity;\n'+shader.fragmentShader.slice(0,index)+'gl_FragColor.a*=uHeroContextOpacity;\n'+shader.fragmentShader.slice(index);};}}}});this.contextBindings.set(id,bindings);this.entries.get(id)!.uniforms.uHeroContextOpacity=contextAlpha;
+   this.requestLod(id,1024);return mesh;
+  }
+  private createEarth(e:Entry){
+@@ -100,5 +103,6 @@ export class CelestialVisualSystem {
+   if(e.layers.has('illustrative-prominences'))e.layers.get('illustrative-prominences')!.visible=this.options.activity;
+  }
+  snapshot(){return [...this.entries].map(([id,e])=>({id,status:e.status,error:e.error,loadedWidth:e.loadedWidth,actualAlbedoWidth:e.uniforms.uMap.value.image?.width??0,material:e.config.kind,layers:[...e.layers.keys()],sunLocal:e.uniforms.uSunLocal?.value.toArray(),cloudAngle:e.layers.get('clouds')?.rotation.y??null}));}
++ contextOpacity(id:string,alpha:number){const e=this.entries.get(id);if(!e)return;e.uniforms.uHeroContextOpacity.value=alpha;for(const b of this.contextBindings.get(id)??[]){const mat=b.material;const transparent=b.transparent||alpha<1;if(mat.transparent!==transparent){mat.transparent=transparent;mat.needsUpdate=true;}mat.depthWrite=b.depthWrite&&alpha===1;if(!(mat instanceof THREE.ShaderMaterial))mat.opacity=b.opacity*alpha;}}
+  loadingStats(){return {cachedRequests:this.cache.size,completed:this.textureRecords.size,decodedMipBudgetMiB:[...this.textureRecords.values()].reduce((s,t)=>s+t.decodedMipBudgetMiB,0),textures:Object.fromEntries(this.textureRecords)};}
+ }
+diff --git a/src/render/scene.ts b/src/render/scene.ts
+index beb06fa..e44967f 100644
+--- a/src/render/scene.ts
++++ b/src/render/scene.ts
+@@ -81,7 +81,7 @@ export class SolarSystemScene {
+   if(view==='feature'&&id==='599'){const lat=THREE.MathUtils.degToRad(-20),lon=THREE.MathUtils.degToRad(-48);direction.set(Math.cos(lat)*Math.cos(lon),Math.sin(lat),-Math.cos(lat)*Math.sin(lon)).applyQuaternion(mesh.quaternion);distance=r*3.2;}
+   this.move(p.clone().addScaledVector(direction,distance),target);
+  }
+- focus(id:string){this.focused=id;const target=this.positions.get(id)!.clone(),r=this.meshes.get(id)!.scale.x;this.previousFocus=target.clone();const direction=id==='10'?this.navigation.position.clone().sub(this.controls.target).normalize():this.positions.get('10')!.clone().sub(target).normalize().add(new THREE.Vector3(0,.6,.2)).normalize();this.move(target.clone().addScaledVector(direction,Math.max(r*5.8,.015)),target);}
++ focus(id:string){this.focused=id;const target=this.positions.get(id)!.clone(),r=this.meshes.get(id)!.scale.x;this.previousFocus=target.clone();const direction=id==='10'?this.navigation.position.clone().sub(this.controls.target).normalize():this.positions.get('10')!.clone().sub(target).normalize().add(new THREE.Vector3(0,.6,.2)).normalize();if(id==='399'){const tangent=new THREE.Vector3(0,1,0).cross(direction).normalize();direction.addScaledVector(tangent,.65).normalize();}this.move(target.clone().addScaledVector(direction,Math.max(r*(id==='399'?4.5:5.8),.015)),target);}
+  private move(to:THREE.Vector3,target:THREE.Vector3){this.transition={from:this.navigation.position.clone(),targetFrom:this.controls.target.clone(),to,target,start:performance.now()};}
+  private buildPaths(mode:ScaleMode){
+   for(const p of this.paths){this.world.remove(p.line);p.line.geometry.dispose();(p.line.material as THREE.Material).dispose();}this.paths=[];
+@@ -104,11 +104,16 @@ export class SolarSystemScene {
+   this.controls.minDistance=this.focused?this.meshes.get(this.focused)!.scale.x*1.13:.005;
+   this.controls.update();this.navigation.updateMatrixWorld();this.camera.quaternion.copy(this.navigation.quaternion);this.camera.position.set(0,0,0);this.camera.updateMatrixWorld();
+   const origin=this.navigation.position.toArray() as [number,number,number];
+-  for(const [id,mesh] of this.meshes){mesh.position.fromArray(cameraRelative(this.positions.get(id)!.toArray() as [number,number,number],origin));mesh.visible=!this.focused||this.focused===id;}
++  for(const [id,mesh] of this.meshes){mesh.position.fromArray(cameraRelative(this.positions.get(id)!.toArray() as [number,number,number],origin));mesh.visible=this.focused==='399'||!this.focused||this.focused===id;}
++  // Exploration radii are exaggerated: retain nearby background bodies as faint context,
++  // so they cannot obscure the Earth Hero. Only opacity changes; positions/radii stay canonical.
++  const earthMesh=this.meshes.get('399')!;
++  const earthAngular=earthMesh.scale.x/Math.max(earthMesh.position.length(),.001);
++  for(const [id,bodyMesh] of this.meshes){const ghost=this.focused==='399'&&id!=='399'&&bodyMesh.scale.x/Math.max(bodyMesh.position.length(),.001)>earthAngular*.22;this.visuals.contextOpacity(id,ghost?.003:1);}
+   this.fillLight.intensity=this.visuals.options.fill?.035:0;
+   for(const [id,mesh] of this.meshes){if(this.visuals.has(id)){mesh.quaternion.copy(this.orientation.at(id,sun.timeTdb));const physicalSun=relative(sun,states.get(id)!).positionKm;const sunLocal=new THREE.Vector3(...axes(physicalSun)).normalize().applyQuaternion(mesh.quaternion.clone().invert());const diameter=mesh.scale.x/mesh.position.length()*this.host.clientHeight/Math.tan(THREE.MathUtils.degToRad(this.camera.fov/2));this.visuals.update(id,diameter,sunLocal,sun.timeTdb);}}
+   this.light.position.copy(this.meshes.get('10')!.position);this.glow.position.copy(this.light.position);this.glow.scale.setScalar(this.meshes.get('10')!.scale.x*11);this.glow.visible=!this.visuals.has('10')&&((!this.focused&&mode==='exploration')||this.focused==='10');
+-  for(const p of this.paths){p.line.visible=pathsVisible&&!this.focused;const a=p.line.geometry.attributes.position as THREE.BufferAttribute;for(let i=0;i<p.world.length;i+=3){a.setXYZ(i/3,p.world[i]-origin[0],p.world[i+1]-origin[1],p.world[i+2]-origin[2]);}a.needsUpdate=true;(p.line.material as THREE.LineBasicMaterial).opacity=p.id===selected ? .48 : .2;}
++  for(const p of this.paths){p.line.visible=pathsVisible&&(!this.focused||this.focused==='399');const a=p.line.geometry.attributes.position as THREE.BufferAttribute;for(let i=0;i<p.world.length;i+=3){a.setXYZ(i/3,p.world[i]-origin[0],p.world[i+1]-origin[1],p.world[i+2]-origin[2]);}a.needsUpdate=true;(p.line.material as THREE.LineBasicMaterial).opacity=this.focused==='399'?(p.id==='399'?.16:.045):(p.id===selected?.48:.2);}
+   this.profiler.begin();this.renderer.render(this.world,this.camera);this.profiler.end();
+   const occupied:{x:number;y:number;w:number;h:number}[]=[],w=this.host.clientWidth,h=this.host.clientHeight;
+   const ordered=[selected,...catalog.filter(b=>b.id!==selected).map(b=>b.id)];
+@@ -122,5 +127,5 @@ export class SolarSystemScene {
+    if(visible)occupied.push(box);
+   }
+  }
+- snapshot(){return {mode:this.lastMode,focus:this.focused,lastPick:this.lastPick,camera:this.navigation.position.toArray(),target:this.controls.target.toArray(),objects:[...this.meshes].map(([id,m])=>({id,radius:m.scale.x,position:this.positions.get(id)!.toArray(),quaternion:m.quaternion.toArray(),pole:new THREE.Vector3(0,1,0).applyQuaternion(m.quaternion).toArray()})),labels:[...this.labels].filter(([,l])=>!l.hidden).map(([id])=>id),visuals:this.visuals.snapshot(),visualOptions:this.visuals.options,gpuMemory:this.renderer.info.memory};}
++ snapshot(){return {mode:this.lastMode,focus:this.focused,lastPick:this.lastPick,visiblePaths:this.paths.filter(p=>p.line.visible).length,sunInFrontOfCamera:this.camera.getWorldDirection(new THREE.Vector3()).dot(this.meshes.get('10')!.position)>0,camera:this.navigation.position.toArray(),target:this.controls.target.toArray(),objects:[...this.meshes].map(([id,m])=>({id,radius:m.scale.x,visible:m.visible,position:this.positions.get(id)!.toArray(),quaternion:m.quaternion.toArray(),pole:new THREE.Vector3(0,1,0).applyQuaternion(m.quaternion).toArray()})),labels:[...this.labels].filter(([,l])=>!l.hidden).map(([id])=>id),visuals:this.visuals.snapshot(),visualOptions:this.visuals.options,gpuMemory:this.renderer.info.memory};}
+ }
+diff --git a/src/style.css b/src/style.css
+index fb7ba39..af4c954 100644
+--- a/src/style.css
++++ b/src/style.css
+@@ -11,3 +11,6 @@ dialog{max-width:740px;width:70vw;padding:30px;background:#0a1521;color:#bacdda;
+ @media(max-height:980px){.catalog-item{padding:7px 9px}.planet-icon{width:28px;height:28px}.catalog-panel{padding-top:20px}.search{margin:18px 0 14px}.catalog-note{margin-top:15px;padding-top:10px}#hero-orb{width:100px;height:100px;margin:20px auto}#body-description{font-size:10px;margin-bottom:15px}#body-en{margin-bottom:14px}dl div{padding:10px 0}.details-panel{padding:18px}.scene-heading{top:120px}.scene-tools{top:116px}.controls-hint{display:none}}
+ @media(min-height:981px) and (max-height:1100px){.stage-label{display:none}.details-panel #hero-orb{width:128px;height:128px;margin:18px auto}#body-description{margin-bottom:15px}dl div{padding:12px 0}#body-en{margin-bottom:14px}}
+ #visual-controls{border-top:1px solid var(--line);margin-top:17px;padding-top:12px;font-size:11px}#visual-controls summary{cursor:pointer;color:#adc8dc;letter-spacing:1px}#visual-controls summary small{float:right;font-size:9px;color:#5f7f95}.visual-disclosure{font-size:9px;line-height:1.8;color:#b69e7d;margin:12px 0}.visual-presets{display:grid;grid-template-columns:1fr 1fr;gap:6px}.visual-presets button{font-size:10px;padding:8px}.visual-options{display:grid;gap:9px;margin-top:15px;color:#8aa4b9;font-size:10px}.visual-options label{display:flex;align-items:center;gap:7px}.visual-options input{accent-color:#8caebf;margin:0}
++
++/* Scoped Earth Hero typography; preserve the existing overview direction. */
++.earth-hero #hero-orb{display:none}.earth-hero #body-kind{margin-top:28px}.earth-hero #body-description{font-size:15px;line-height:1.9;margin:18px 0 24px;color:#a8bdcc}.earth-hero .details-panel dl,.earth-hero .details-panel dd{font-size:14px}.earth-hero .detail-tab{font-size:14px}.earth-hero .detail-tab span{font-size:11px}.earth-hero .material-note{font-size:12px;color:#92aaba;line-height:1.8}.earth-hero .source-row{font-size:11px}.earth-hero .source-row button{font-size:13px}.earth-hero .kicker,.earth-hero .detail-top .kicker,.earth-hero #body-order{font-size:11px}.earth-hero .primary{font-size:14px;padding:16px}.earth-hero #visual-controls,.earth-hero .visual-options,.earth-hero .visual-presets button{font-size:13px}.earth-hero .visual-disclosure,.earth-hero #visual-controls summary small{font-size:12px}.earth-hero #view-caption{font-size:13px;color:#97afc1}.earth-hero .scene-tools span,.earth-hero .scene-legend,.earth-hero .scene-legend small,.earth-hero .controls-hint{font-size:12px}.earth-hero #mapping-note,.earth-hero #mode-badge{font-size:12px}.earth-hero .catalog-item small,.earth-hero .catalog-note p,.earth-hero .catalog-note small{font-size:12px}.earth-hero .catalog-item .id{font-size:11px}.earth-hero .timeline-top,.earth-hero .time-scale,.earth-hero #boundary-status{font-size:12px}.earth-hero .date-jump input,.earth-hero .date-jump button,.earth-hero .scale-buttons button,.earth-hero .time-controls select{font-size:13px}.earth-hero .bottom-status{font-size:11px}

@@ -1,0 +1,12 @@
+{
+  "earth": {
+    "url": "https://svs.gsfc.nasa.gov/vis/a000000/a002900/a002915/bluemarble-2048.png",
+    "page": "https://svs.gsfc.nasa.gov/2915",
+    "credit": "NASA/Goddard Space Flight Center Scientific Visualization Studio; Reto Stockli (NASA/GSFC), NASA Earth Observatory",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "sha256": "ae6214b078ed0864c96f74bcb10ae3021f6eb116f8059797efe0fa9ea8b89d35",
+    "projection": "equirectangular 2:1, 2048x1024",
+    "processing": "Unmodified source PNG; sRGB color texture; no concept image extraction",
+    "limitations": "Historical composite, not live weather; surface attitude is illustrative in phase 1"
+  }
+}

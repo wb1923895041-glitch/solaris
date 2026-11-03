@@ -1,0 +1,92 @@
+{
+  "naifId": "601",
+  "displayNameZh": "土卫一",
+  "displayNameEn": "Mimas",
+  "parentPlanetId": "699",
+  "version": "3b-601-mosaic-v1",
+  "kind": "cassini-ice",
+  "shapeType": "pck-ellipsoid",
+  "meanRadiusKm": 198.2,
+  "meshFrame": "sphere-y-up",
+  "geometry": {
+    "axesKm": [
+      207.8,
+      196.7,
+      190.6
+    ],
+    "source": "NAIF pck00011.tpc BODY601_RADII; retained physical catalog radius"
+  },
+  "geometrySource": {
+    "provider": "NASA/NAIF",
+    "title": "IAU generic PCK triaxial radii",
+    "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+  },
+  "albedo": {
+    "title": "Cassini ISS 2014 global mosaic / PIA18437",
+    "provider": "NASA/JPL-Caltech/SSI / Paul Schenk, LPI",
+    "uri": "https://science.nasa.gov/photojournal/color-maps-of-mimas-2014/",
+    "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18437/PIA18437.jpg",
+    "rawPath": "data/phase-3b/raw/mimas-global.jpg",
+    "rawSha256": "303d5653875d507e8859a26d0afdedd0173c7d4e691f27c3266ca63d1aa4f97f",
+    "observationEpoch": "Cassini 2004–2014 composite",
+    "rights": "NASA/JPL-Caltech/SSI/LPI credit; retain Paul Schenk and mission credits. NASA media guidelines.",
+    "colorProcessing": "保留源 IR-Green-UV 增强色；超出人眼波段，不声称自然色。",
+    "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+    "processingCategory": "OBSERVED_ENHANCED_COLOR_COMPOSITE",
+    "nativeDimensions": [
+      6356,
+      3178
+    ]
+  },
+  "lods": [
+    {
+      "width": 1024,
+      "height": 512,
+      "url": "/assets/moons/601/albedo-1024.jpg",
+      "sha256": "37348bbe778eac4a23c0f9adfca5d65d831a4293ab3d663a8d48dd3eda806271"
+    },
+    {
+      "width": 2048,
+      "height": 1024,
+      "url": "/assets/moons/601/albedo-2048.jpg",
+      "sha256": "5c72099e32283bd8226324f0cbd0f647320c55aea0cf675dcc16f83b8cdcccdd"
+    },
+    {
+      "width": 4096,
+      "height": 2048,
+      "url": "/assets/moons/601/albedo-4096.jpg",
+      "sha256": "c84266c1072f971e2792554793b62ff9109ce274f59ba39d15017f51a631452c"
+    }
+  ],
+  "coverage": {
+    "file": "/assets/moons/601/coverage.png",
+    "sha256": "db18ad38f680bfc15635a67532fbd25b02a62497b7f6630faf7a89794315a0a3",
+    "missingSurfaceFraction": 0.00012229655549796507,
+    "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+  },
+  "georeferencing": {
+    "method": "audited equirectangular image grid",
+    "centralLongitudeEast": 180,
+    "sourceMetadataPage": "mimas-product.html",
+    "longitudeConvention": "east positive; zero centred on derived map",
+    "verification": "Cassini annotated map 360W to 0W"
+  },
+  "material": {
+    "roughness": 1,
+    "metalness": 0,
+    "tint": "#ffffff"
+  },
+  "orientationModel": "IAU_GENERIC_APPROX",
+  "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+  "reconstructionNotes": "Herschel 撞击坑来自 Cassini 拼图；采用 PCK 三轴外形，没有虚构陨石坑高程。 蓝灰色区域为未测，未加入虚构地貌。",
+  "visualEnhancements": [
+    "未测区蓝灰色分类标识",
+    "固定观察曝光；可选补光默认关闭"
+  ],
+  "limitations": [
+    "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+    "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+    "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+  ],
+  "verifiedAt": "2026-11-01T08:19:18.746313+00:00"
+}

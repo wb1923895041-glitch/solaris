@@ -1,0 +1,27 @@
+{
+  "id": "401",
+  "vertices": 98306,
+  "triangles": 196608,
+  "closedManifold": true,
+  "outwardVolumeKm3": 5692.017040042677,
+  "volumeEquivalentRadiusKm": 11.07624433431049,
+  "sourceAlbedoSamples": 196608,
+  "missingAlbedoSamples": 0,
+  "albedoRange": [
+    0.0475441,
+    0.08608161
+  ],
+  "facetRegistrationMaxKm": 5.551115123125783e-17,
+  "boundsKm": [
+    [
+      -13.348999977111816,
+      -11.425000190734863,
+      -9.478099822998047
+    ],
+    [
+      12.75,
+      11.984000205993652,
+      9.99839973449707
+    ]
+  ]
+}

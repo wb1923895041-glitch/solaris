@@ -1,0 +1,368 @@
+{
+  "checks": [
+    "nine body centers and deterministic paused default",
+    "paused browser clock and state do not drift",
+    "search filters catalog",
+    "UTC jump 2024-01-01T00:00:00Z",
+    "browser vs held-out Horizons 2024-01-01T00:00:00Z",
+    "repeat jump 2024-01-01T00:00:00Z",
+    "UTC jump 2024-02-29T12:34:56Z",
+    "browser vs held-out Horizons 2024-02-29T12:34:56Z",
+    "repeat jump 2024-02-29T12:34:56Z",
+    "UTC jump 2026-10-29T00:00:00Z",
+    "browser vs held-out Horizons 2026-10-29T00:00:00Z",
+    "repeat jump 2026-10-29T00:00:00Z",
+    "UTC jump 2030-01-01T00:00:00Z",
+    "browser vs held-out Horizons 2030-01-01T00:00:00Z",
+    "repeat jump 2030-01-01T00:00:00Z",
+    "scientific switch preserves physical state",
+    "scientific size-distance mapping in actual scene",
+    "exploration switch preserves physical state",
+    "Earth focus",
+    "overview restores camera",
+    "canvas drag rotates free camera",
+    "wheel zoom",
+    "camera motion leaves physics unchanged",
+    "source dialog shows provenance",
+    "zero rate does not move",
+    "out-of-range date rejected",
+    "continuous playback advances UTC",
+    "pause stops UTC",
+    "desktop layout 1920",
+    "desktop layout 2560",
+    "desktop layout 3840",
+    "refresh restores explicit default"
+  ],
+  "dates": [
+    {
+      "utc": "2024-01-01T00:00:00Z",
+      "errors": [
+        {
+          "id": "10",
+          "positionKm": 9.017890317352809e-08,
+          "velocityKmPerS": 6.536431574017459e-13
+        },
+        {
+          "id": "199",
+          "positionKm": 0.0003208370743601209,
+          "velocityKmPerS": 2.0351802057373605e-07
+        },
+        {
+          "id": "299",
+          "positionKm": 0.0002138193800653075,
+          "velocityKmPerS": 1.3191964739698252e-08
+        },
+        {
+          "id": "399",
+          "positionKm": 0.00018410840563979104,
+          "velocityKmPerS": 2.580410122336575e-09
+        },
+        {
+          "id": "499",
+          "positionKm": 0.0001509805580052636,
+          "velocityKmPerS": 7.2056707311595e-10
+        },
+        {
+          "id": "599",
+          "positionKm": 7.79836351147287e-05,
+          "velocityKmPerS": 1.5870610210762474e-07
+        },
+        {
+          "id": "699",
+          "positionKm": 5.75538095017868e-05,
+          "velocityKmPerS": 1.871445460005558e-09
+        },
+        {
+          "id": "799",
+          "positionKm": 3.865782834957699e-05,
+          "velocityKmPerS": 5.58171472964357e-08
+        },
+        {
+          "id": "899",
+          "positionKm": 3.3511833610459285e-05,
+          "velocityKmPerS": 1.2977774264723314e-08
+        }
+      ]
+    },
+    {
+      "utc": "2024-02-29T12:34:56Z",
+      "errors": [
+        {
+          "id": "10",
+          "positionKm": 1.6514697016236234e-06,
+          "velocityKmPerS": 6.322020748178309e-12
+        },
+        {
+          "id": "199",
+          "positionKm": 0.004191178099937026,
+          "velocityKmPerS": 2.7102699447296676e-06
+        },
+        {
+          "id": "299",
+          "positionKm": 0.0007447803347102718,
+          "velocityKmPerS": 3.263664162204032e-07
+        },
+        {
+          "id": "399",
+          "positionKm": 0.0005976722853689744,
+          "velocityKmPerS": 4.580981021721307e-08
+        },
+        {
+          "id": "499",
+          "positionKm": 0.00048082585702617376,
+          "velocityKmPerS": 1.4359985641798285e-08
+        },
+        {
+          "id": "599",
+          "positionKm": 0.0041553102375590165,
+          "velocityKmPerS": 3.2076970917803485e-06
+        },
+        {
+          "id": "699",
+          "positionKm": 0.0001376423445549032,
+          "velocityKmPerS": 3.845320327611926e-08
+        },
+        {
+          "id": "799",
+          "positionKm": 0.00024351575188831737,
+          "velocityKmPerS": 1.0203194112050234e-07
+        },
+        {
+          "id": "899",
+          "positionKm": 0.0001106094235069892,
+          "velocityKmPerS": 8.50970724888933e-08
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-29T00:00:00Z",
+      "errors": [
+        {
+          "id": "10",
+          "positionKm": 1.1106934210219983e-07,
+          "velocityKmPerS": 5.733976397843246e-13
+        },
+        {
+          "id": "199",
+          "positionKm": 0.0005118359569723802,
+          "velocityKmPerS": 1.8780544636241851e-07
+        },
+        {
+          "id": "299",
+          "positionKm": 0.00034216792648683483,
+          "velocityKmPerS": 1.257208379796618e-08
+        },
+        {
+          "id": "399",
+          "positionKm": 0.00029285281967847973,
+          "velocityKmPerS": 2.8761720008218666e-09
+        },
+        {
+          "id": "499",
+          "positionKm": 0.00022558141673851913,
+          "velocityKmPerS": 5.90723948497766e-10
+        },
+        {
+          "id": "599",
+          "positionKm": 0.00012997185049061787,
+          "velocityKmPerS": 1.464940909211813e-07
+        },
+        {
+          "id": "699",
+          "positionKm": 9.555354511051994e-05,
+          "velocityKmPerS": 2.5753183870443507e-09
+        },
+        {
+          "id": "799",
+          "positionKm": 6.41958350272386e-05,
+          "velocityKmPerS": 5.244423521763963e-08
+        },
+        {
+          "id": "899",
+          "positionKm": 5.329812606519957e-05,
+          "velocityKmPerS": 8.500463285227364e-09
+        }
+      ]
+    },
+    {
+      "utc": "2030-01-01T00:00:00Z",
+      "errors": [
+        {
+          "id": "10",
+          "positionKm": 1.2665345780740992e-07,
+          "velocityKmPerS": 1.0309343960760755e-12
+        },
+        {
+          "id": "199",
+          "positionKm": 0.0008647747636052458,
+          "velocityKmPerS": 3.3474382754787224e-07
+        },
+        {
+          "id": "299",
+          "positionKm": 0.0005206212766581439,
+          "velocityKmPerS": 1.3124893977047251e-08
+        },
+        {
+          "id": "399",
+          "positionKm": 0.0004477955331423962,
+          "velocityKmPerS": 6.176003576810738e-09
+        },
+        {
+          "id": "499",
+          "positionKm": 0.00039171181473138575,
+          "velocityKmPerS": 1.0014695774511863e-09
+        },
+        {
+          "id": "599",
+          "positionKm": 0.0001805725246592305,
+          "velocityKmPerS": 1.4197348600480788e-07
+        },
+        {
+          "id": "699",
+          "positionKm": 0.00014898096007757145,
+          "velocityKmPerS": 8.531580847290107e-10
+        },
+        {
+          "id": "799",
+          "positionKm": 0.00010030291158092204,
+          "velocityKmPerS": 5.081661890985435e-08
+        },
+        {
+          "id": "899",
+          "positionKm": 8.12273108215859e-05,
+          "velocityKmPerS": 1.4471675834686858e-08
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "noOverflow": true,
+      "footer": {
+        "x": 0,
+        "y": 902,
+        "right": 1920,
+        "bottom": 1080,
+        "width": 1920,
+        "height": 178
+      },
+      "canvas": {
+        "x": 258,
+        "y": 96,
+        "right": 1578,
+        "bottom": 902,
+        "width": 1320,
+        "height": 806
+      },
+      "details": {
+        "x": 1596,
+        "y": 116,
+        "right": 1902,
+        "bottom": 887,
+        "width": 306,
+        "height": 771
+      },
+      "labelsDoNotOverlap": true
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "noOverflow": true,
+      "footer": {
+        "x": 0,
+        "y": 1262,
+        "right": 2560,
+        "bottom": 1440,
+        "width": 2560,
+        "height": 178
+      },
+      "canvas": {
+        "x": 282,
+        "y": 104,
+        "right": 2178,
+        "bottom": 1262,
+        "width": 1896,
+        "height": 1158
+      },
+      "details": {
+        "x": 2196,
+        "y": 126,
+        "right": 2542,
+        "bottom": 1247,
+        "width": 346,
+        "height": 1121
+      },
+      "labelsDoNotOverlap": true
+    },
+    {
+      "width": 3840,
+      "height": 2160,
+      "noOverflow": true,
+      "footer": {
+        "x": 0,
+        "y": 1982,
+        "right": 3840,
+        "bottom": 2160,
+        "width": 3840,
+        "height": 178
+      },
+      "canvas": {
+        "x": 282,
+        "y": 104,
+        "right": 3458,
+        "bottom": 1982,
+        "width": 3176,
+        "height": 1878
+      },
+      "details": {
+        "x": 3476,
+        "y": 126,
+        "right": 3822,
+        "bottom": 1967,
+        "width": 346,
+        "height": 1841
+      },
+      "labelsDoNotOverlap": true
+    }
+  ],
+  "performance": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "samples": 250,
+      "meanFrameMs": 3.6363999999999943,
+      "averageLoopFPS": 274.9972500275002,
+      "p50Ms": 3.600000000002183,
+      "p95Ms": 3.7000000000007276,
+      "method": "headless rAF render-loop intervals, last 250 frames; not display presentation or GPU timer"
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "samples": 250,
+      "meanFrameMs": 3.6368000000000027,
+      "averageLoopFPS": 274.9670039595247,
+      "p50Ms": 3.600000000002183,
+      "p95Ms": 3.7999999999992724,
+      "method": "headless rAF render-loop intervals, last 250 frames; not display presentation or GPU timer"
+    },
+    {
+      "width": 3840,
+      "height": 2160,
+      "samples": 250,
+      "meanFrameMs": 3.6363999999999943,
+      "averageLoopFPS": 274.9972500275002,
+      "p50Ms": 3.600000000002183,
+      "p95Ms": 3.7000000000007276,
+      "method": "headless rAF render-loop intervals, last 250 frames; not display presentation or GPU timer"
+    }
+  ],
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "dpr": 1,
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)"
+  }
+}

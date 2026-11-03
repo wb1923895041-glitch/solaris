@@ -1,0 +1,11 @@
+{
+  "url": "https://ssd-api.jpl.nasa.gov/sbdb_query.api?fields=a%2Ce%2Ci%2Com%2Cw%2Cma%2Cepoch&sb-kind=a&full-prec=1&sb-cdata=%7B%22AND%22%3A%5B%22H%7CLT%7C15%22%2C%22a%7CLT%7C5.5%22%5D%7D&sb-ns=n",
+  "params": {
+    "fields": "a,e,i,om,w,ma,epoch",
+    "sb-kind": "a",
+    "full-prec": "1",
+    "sb-cdata": "{\"AND\":[\"H|LT|15\",\"a|LT|5.5\"]}",
+    "sb-ns": "n"
+  },
+  "retrievedAtUtc": "2026-11-01T18:37:42.762245+00:00"
+}

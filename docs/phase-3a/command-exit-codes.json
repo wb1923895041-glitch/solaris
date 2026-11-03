@@ -1,0 +1,59 @@
+[
+  {
+    "name": "regression-science",
+    "command": [
+      "node",
+      "--experimental-transform-types",
+      "scripts/verify-phase1.mjs"
+    ],
+    "exitCode": 0
+  },
+  {
+    "name": "regression-contracts",
+    "command": [
+      "node",
+      "scripts/check-contracts.mjs"
+    ],
+    "exitCode": 0
+  },
+  {
+    "name": "runtime-validation",
+    "command": [
+      "node",
+      "--experimental-transform-types",
+      "scripts/verify-satellites.mjs"
+    ],
+    "exitCode": 0
+  },
+  {
+    "name": "independent-validation",
+    "command": [
+      "C:\\Users\\19238\\Documents\\ChatGPT\\\u524d\u7aef\\.venv-phase1\\Scripts\\python.exe",
+      "scripts/validate-satellites.py"
+    ],
+    "exitCode": 0
+  },
+  {
+    "name": "regression-freeze",
+    "command": [
+      "C:\\Users\\19238\\Documents\\ChatGPT\\\u524d\u7aef\\.venv-phase1\\Scripts\\python.exe",
+      "scripts/phase2-freeze.py",
+      "--check"
+    ],
+    "exitCode": 0
+  },
+  {
+    "name": "render-asset-freeze",
+    "command": [
+      "git",
+      "diff",
+      "--exit-code",
+      "3da16f2",
+      "--",
+      "src/render",
+      "public/assets",
+      "data/phase-2"
+    ],
+    "exitCode": 0
+  }
+]

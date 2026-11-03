@@ -1,0 +1,104 @@
+{
+  "naifId": "999",
+  "displayNameZh": "冥王星",
+  "displayNameEn": "Pluto",
+  "parentPlanetId": "10",
+  "version": "4-999-mosaic-v1",
+  "kind": "new-horizons-mosaic",
+  "shapeType": "pck-ellipsoid",
+  "meanRadiusKm": 1188.3,
+  "meshFrame": "sphere-y-up",
+  "geometry": {
+    "axesKm": [
+      1188.3,
+      1188.3,
+      1188.3
+    ],
+    "source": "NAIF pck00011.tpc BODY999_RADII; mean radius cube root of PCK axes"
+  },
+  "geometrySource": {
+    "provider": "NASA/NAIF",
+    "title": "IAU generic PCK triaxial radii",
+    "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+  },
+  "albedo": {
+    "title": "New Horizons LORRI/MVIC global mosaic 300 m (July 2017)",
+    "provider": "NASA / JHUAPL / SwRI / USGS",
+    "uri": "https://astrogeology.usgs.gov/search/map/pluto_new_horizons_lorri_mvic_global_mosaic_300m",
+    "downloadUrl": "https://planetarymaps.usgs.gov/mosaic/Pluto_NewHorizons_Global_Mosaic_300m_Jul2017_8bit.tif",
+    "rawPath": "data/phase-4/raw/assets/Pluto_NewHorizons_Global_Mosaic_300m_Jul2017_8bit.tif",
+    "rawSha256": "592b7fb0f88cafa0bedf9f33bb71e983952a250ee8577edf2abfe814b473356b",
+    "observationEpoch": "New Horizons flyby, July 2015",
+    "rights": "NASA/USGS public product; retain mission and USGS Astrogeology credit (NASA media guidelines).",
+    "colorProcessing": "保留 LORRI/MVIC 全色灰度；未叠加增强色。",
+    "projection": "Equirectangular: +90 latitude at top; −180…+180 east longitude; prime meridian centred",
+    "processingCategory": "OBSERVED_MONOCHROME",
+    "nativeDimensions": [
+      24888,
+      12444
+    ]
+  },
+  "lods": [
+    {
+      "width": 1024,
+      "height": 512,
+      "url": "/assets/smallbodies/999/albedo-1024.jpg",
+      "sha256": "25191281554d9b50cdbf436837c4966a46045bcde0a7515bd333eefea12671c6"
+    },
+    {
+      "width": 2048,
+      "height": 1024,
+      "url": "/assets/smallbodies/999/albedo-2048.jpg",
+      "sha256": "676f0bed58ca60308994f69b9a34ea8fcb2928f4abf7de187453e6964fd5c467"
+    },
+    {
+      "width": 4096,
+      "height": 2048,
+      "url": "/assets/smallbodies/999/albedo-4096.jpg",
+      "sha256": "64a608d06b2e05b4e7f7c2579a00aeed850149c10dc2431cc4ac622454f7bc56"
+    }
+  ],
+  "coverage": {
+    "file": "/assets/smallbodies/999/coverage.png",
+    "sha256": "210fa38dabdbe8d85fc189b3df6fd09459e9724a96aad08ee0a401241566f396",
+    "missingSurfaceFraction": 0.23123574905992736,
+    "display": "蓝灰色平整区域 = 未测 / 极夜未成像；非地形"
+  },
+  "georeferencing": {
+    "method": "GeoTIFF SimpleCylindrical affine inverse at output pixel centres",
+    "centralLongitudeEast": 180.0,
+    "radiusMeters": 1188300.0,
+    "pixelScale": [
+      300.0,
+      300.0,
+      0.0
+    ],
+    "tiePoint": [
+      0.0,
+      0.0,
+      0.0,
+      -3733200.0,
+      1866600.0,
+      0.0
+    ],
+    "sourceReduceFactor": 3
+  },
+  "material": {
+    "roughness": 1,
+    "metalness": 0,
+    "tint": "#ffffff"
+  },
+  "orientationModel": "IAU_GENERIC_APPROX",
+  "surfaceRegistration": "GRID_CONVENTION_DOCUMENTED_NOT_NAVIGATION",
+  "reconstructionNotes": "2015 年飞掠仅高分辨率成像相遇半球；南纬约 38° 以南处于极夜未成像，标为未测。 蓝灰色区域为未测，未加入虚构地貌。",
+  "visualEnhancements": [
+    "未测区蓝灰色分类标识",
+    "固定观察曝光；可选补光默认关闭"
+  ],
+  "limitations": [
+    "通用 IAU PCK 姿态；USGS 控制网与当前参考经线存在配准误差，非导航级",
+    "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+    "单色源影像，未合成未观测颜色"
+  ],
+  "verifiedAt": "2026-11-02T05:28:11.477456+00:00"
+}

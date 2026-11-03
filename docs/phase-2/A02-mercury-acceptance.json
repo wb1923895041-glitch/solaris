@@ -1,0 +1,22 @@
+{
+  "bodyId": "199",
+  "gate": "accepted-with-declared-limitations",
+  "checkedAt": "2026-10-28T18:37:58.334253+00:00",
+  "physicsUnchanged": true,
+  "matchedCamera": true,
+  "loadedWidth": 4096,
+  "visualInspection": [
+    "standard and crater detail reviewed",
+    "night hemisphere black; no atmosphere"
+  ],
+  "performance": {
+    "meanMs": 3.636,
+    "p95Ms": 3.8,
+    "headlessRafFps": 275.03
+  },
+  "limitations": [
+    "Enhanced-color mosaic luminance reconstruction, not calibrated natural RGB",
+    "Absolute longitude unverified",
+    "No DEM; no invented bump"
+  ]
+}

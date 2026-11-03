@@ -1,0 +1,31 @@
+* text=auto
+*.md text eol=lf
+*.ts text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.png binary
+*.webm binary
+*.f64 binary
+*.cmd text eol=crlf
+data/phase-1/raw/** binary
+SOLARIS_phase1_reference/** binary
+SOLARIS_visual_baseline/** binary
+data/phase-2/raw/** binary
+SOLARIS_phase2_reference/** binary
+SOLARIS_repair_reference/** binary
+*.f32 binary
+*.fits binary
+*.tif binary
+*.jpg binary
+*.exr binary
+data/phase-3a/raw/** binary
+SOLARIS_phase3_reference/** binary
+
+data/**/raw/** binary
+
+# Frozen science and runtime data are verified by byte-level SHA-256.
+src/science/** -text
+data/phase-1/** -text
+public/data/** -text
+schemas/** -text

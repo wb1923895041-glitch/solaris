@@ -1,0 +1,34 @@
+FETCH ganymede-product.html https://astrogeology.usgs.gov/search/map/Ganymede/Voyager-Galileo/Ganymede_Voyager_GalileoSSI_Global_ClrMosaic_1435m
+FETCH callisto-product.html https://astrogeology.usgs.gov/search/map/Callisto/Voyager-Galileo/Callisto_Voyager_GalileoSSI_global_mosaic_1km
+FETCH iapetus-product.html https://science.nasa.gov/photojournal/color-maps-of-iapetus-2014/
+FETCH mimas-product.html https://science.nasa.gov/photojournal/color-maps-of-mimas-2014/
+READY iapetus-product.html 270745
+FETCH enceladus-product.html https://science.nasa.gov/photojournal/color-maps-of-enceladus-2014/
+iapetus-product.html ['https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18436/PIA18436.jpg', 'https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18436/PIA18436.tif', 'https://photojournal.jpl.nasa.gov/figures/PIA18436_fig1_half.jpg', 'https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia18/pia18436/figures/PIA18436_fig1.jpg', 'https://photojournal.jpl.nasa.gov/figures/PIA18436_fig2_half.jpg', 'https://photojournal.jpl.nasa.gov/figures/PIA18436_fig3_half.jpg', 'https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia18/pia18436/figures/PIA18436_fig2.jpg', 'https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia18/pia18436/figures/PIA18436_fig3.jpg']
+READY ganymede-product.html 12188
+FETCH rhea-product.html https://science.nasa.gov/photojournal/color-maps-of-rhea-2014/
+ganymede-product.html []
+READY callisto-product.html 12188
+callisto-product.html []
+READY mimas-product.html 271556
+mimas-product.html ['https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18437/PIA18437.jpg', 'https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18437/PIA18437.tif', 'https://photojournal.jpl.nasa.gov/figures/PIA18437_fig1_half.jpg', 'https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia18/pia18437/figures/PIA18437_fig1.jpg', 'https://photojournal.jpl.nasa.gov/figures/PIA18437_fig2_half.jpg', 'https://photojournal.jpl.nasa.gov/figures/PIA18437_fig3_half.jpg', 'https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia18/pia18437/figures/PIA18437_fig2.jpg', 'https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia18/pia18437/figures/PIA18437_fig3.jpg']
+READY enceladus-product.html 271565
+enceladus-product.html ['https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18435/PIA18435.jpg', 'https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18435/PIA18435.tif', 'https://photojournal.jpl.nasa.gov/figures/PIA18435_fig1_half.jpg', 'https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia18/pia18435/figures/PIA18435_fig1.jpg', 'https://photojournal.jpl.nasa.gov/figures/PIA18435_fig2_half.jpg', 'https://photojournal.jpl.nasa.gov/figures/PIA18435_fig3_half.jpg', 'https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia18/pia18435/figures/PIA18435_fig2.jpg', 'https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia18/pia18435/figures/PIA18435_fig3.jpg']
+READY rhea-product.html 271225
+rhea-product.html ['https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18438/PIA18438.jpg', 'https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18438/PIA18438.tif', 'https://photojournal.jpl.nasa.gov/figures/PIA18438_fig1_half.jpg', 'https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia18/pia18438/figures/PIA18438_fig1.jpg', 'https://photojournal.jpl.nasa.gov/figures/PIA18438_fig2_half.jpg', 'https://photojournal.jpl.nasa.gov/figures/PIA18438_fig3_half.jpg', 'https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia18/pia18438/figures/PIA18438_fig2.jpg', 'https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia18/pia18438/figures/PIA18438_fig3.jpg']
+FETCH io-color-1km.tif https://planetarymaps.usgs.gov/mosaic/Io_GalileoSSI-Voyager_Global_Mosaic_ClrMerge_1km.tif
+FETCH mimas-color.jpg https://www.lpi.usra.edu/icy_moons/images/msmap-cyl-KH.jpg
+FETCH europa-mosaic-500m.tif https://planetarymaps.usgs.gov/mosaic/Europa_Voyager_GalileoSSI_global_mosaic_500m.tif
+FETCH mimas-annotated.jpg https://www.lpi.usra.edu/icy_moons/images/msmap-cyl-KH-anno.jpg
+READY mimas-color.jpg 1745720
+FETCH iapetus-global.jpg https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18436/PIA18436.jpg
+READY iapetus-global.jpg 4989080
+FETCH mimas-global.jpg https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18437/PIA18437.jpg
+READY mimas-global.jpg 1848860
+FETCH enceladus-global.jpg https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18435/PIA18435.jpg
+READY mimas-annotated.jpg 20016538
+FETCH rhea-global.jpg https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18438/PIA18438.jpg
+READY rhea-global.jpg 10389170
+READY enceladus-global.jpg 18915876
+READY europa-mosaic-500m.tif 192777263
+READY io-color-1km.tif 196637696

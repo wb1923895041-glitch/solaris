@@ -1,0 +1,96 @@
+{
+  "evaluator": "production MoonOrientation.at",
+  "reference": "CSPICE pxform at independently selected off-grid times",
+  "results": [
+    {
+      "id": "301",
+      "samples": 128,
+      "maxAngleDegrees": 0.0000034150945850063755
+    },
+    {
+      "id": "401",
+      "samples": 128,
+      "maxAngleDegrees": 0.0015051164931044038
+    },
+    {
+      "id": "402",
+      "samples": 128,
+      "maxAngleDegrees": 0.0000034150945850063755
+    },
+    {
+      "id": "501",
+      "samples": 128,
+      "maxAngleDegrees": 0.0000034150945850063755
+    },
+    {
+      "id": "502",
+      "samples": 128,
+      "maxAngleDegrees": 0.000004182619578303746
+    },
+    {
+      "id": "503",
+      "samples": 128,
+      "maxAngleDegrees": 0.000013336370687868315
+    },
+    {
+      "id": "504",
+      "samples": 128,
+      "maxAngleDegrees": 0.0000034150945850063755
+    },
+    {
+      "id": "601",
+      "samples": 128,
+      "maxAngleDegrees": 0.00004784180638903575
+    },
+    {
+      "id": "602",
+      "samples": 128,
+      "maxAngleDegrees": 0.0000034150945850063755
+    },
+    {
+      "id": "605",
+      "samples": 128,
+      "maxAngleDegrees": 0.00004744401024087473
+    },
+    {
+      "id": "606",
+      "samples": 128,
+      "maxAngleDegrees": 0.0000034150945850063755
+    },
+    {
+      "id": "608",
+      "samples": 128,
+      "maxAngleDegrees": 0.000003818191820832845
+    },
+    {
+      "id": "705",
+      "samples": 128,
+      "maxAngleDegrees": 0.000006156649318399951
+    },
+    {
+      "id": "701",
+      "samples": 128,
+      "maxAngleDegrees": 0.000004182619578303746
+    },
+    {
+      "id": "702",
+      "samples": 128,
+      "maxAngleDegrees": 0.00005878031593161108
+    },
+    {
+      "id": "703",
+      "samples": 128,
+      "maxAngleDegrees": 0.000007040397847728099
+    },
+    {
+      "id": "704",
+      "samples": 128,
+      "maxAngleDegrees": 0.000004517745487845101
+    },
+    {
+      "id": "801",
+      "samples": 128,
+      "maxAngleDegrees": 0.00002146353664868225
+    }
+  ]
+}

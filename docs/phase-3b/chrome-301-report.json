@@ -1,0 +1,659 @@
+{
+  "browser": "156.0.8078.79",
+  "viewport": {
+    "width": 2560,
+    "height": 1440
+  },
+  "checks": [
+    "Asset loaded with no fallback",
+    "Solar-only illumination and non-emissive material",
+    "Same original TDB instant",
+    "Body orientation is a unit quaternion",
+    "Satellite absolute position available",
+    "Light points to Sun from the actual satellite centre",
+    "standard camera rendered without error",
+    "side camera rendered without error",
+    "detail camera rendered without error",
+    "parent camera rendered without error",
+    "Actual mouse drag rotates inspection camera",
+    "Camera does not alter physical orientation",
+    "Optional fill is explicit and reversible",
+    "Close restores unchanged main scene and camera",
+    "No browser console/runtime errors"
+  ],
+  "errors": [],
+  "captures": [
+    {
+      "view": "standard",
+      "file": "output/playwright/phase-3b/chrome-301-standard-2560.png",
+      "snapshot": {
+        "id": "301",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "standard",
+        "bodyToIcrfQuaternion": [
+          -0.10953459306067287,
+          -0.1582324534741299,
+          0.7844590693818809,
+          -0.5895664780625706
+        ],
+        "bodyToDisplayQuaternion": [
+          0.4327693617104997,
+          0.568976423833563,
+          0.5627427209564767,
+          -0.41508690499310785
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          -0.8161841660155781,
+          -0.00016289556349840563,
+          0.577791814246698
+        ],
+        "camera": [
+          -4.178557115721753,
+          -0.0008339642501253688,
+          2.958077597379217
+        ],
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "301",
+          "displayNameZh": "月球",
+          "displayNameEn": "Moon",
+          "parentPlanetId": "399",
+          "version": "3b-moon-v1",
+          "kind": "lro-terrain",
+          "shapeType": "displaced-sphere",
+          "meanRadiusKm": 1737.4,
+          "geometrySource": {
+            "title": "LRO LOLA gridded elevation, 2019 release",
+            "provider": "NASA/GSFC LOLA / SVS",
+            "uri": "https://svs.gsfc.nasa.gov/4720/",
+            "rights": "NASA media usage guidelines; retain credit NASA/GSFC/SVS, LROC and LOLA science teams"
+          },
+          "albedo": {
+            "title": "2025 CGI Moon Kit LROC Hapke-normalized WAC rendering adaptation",
+            "provider": "NASA/GSFC SVS / LROC ASU",
+            "uri": "https://svs.gsfc.nasa.gov/4720/",
+            "downloadUrl": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_16bit_srgb_4k.tif",
+            "rawPath": "data/phase-3b/raw/moon-lroc-2025-4k.tif",
+            "rawSha256": "9731fa8af425b6c2f88f277ecca82bf8c603f3743894f64ed7b25c5bfefa22ff",
+            "observationEpoch": "LRO historical composite; 2025 display adaptation",
+            "rights": "NASA media usage guidelines; no endorsement; credit NASA/SVS/Ernie Wright and LROC/LOLA teams",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+            "colorProcessing": "NASA 643/566/415 nm display composite, source white balance/inpainting retained; 16-bit sRGB TIFF decoded to RGB8, JPEG LOD only",
+            "projection": "equirectangular, north up, zero longitude at centre, east-positive",
+            "processingCategory": "OBSERVED_COMPOSITE_RENDER_ADAPTED"
+          },
+          "lods": [
+            {
+              "width": 1024,
+              "height": 512,
+              "url": "/assets/moons/301/albedo-1024.jpg",
+              "sha256": "a52afa22597fd1f599d3dee4ae64d9030b0980187b5fe39f853853157c34ca72"
+            },
+            {
+              "width": 2048,
+              "height": 1024,
+              "url": "/assets/moons/301/albedo-2048.jpg",
+              "sha256": "b648ffcfff832529119c00bcd0a160f8ab7a4b9ec7d540812f21599b7a786b9d"
+            },
+            {
+              "width": 4096,
+              "height": 2048,
+              "url": "/assets/moons/301/albedo-4096.jpg",
+              "sha256": "aa3ff7bb7ca7a83005b64d1754d0c3d53e906a267ed80724f607374021e74954"
+            }
+          ],
+          "geometry": {
+            "file": "/assets/moons/301/height-grid.f32",
+            "sha256": "4f31e417678c52b74e5ac2ec47f862ddb3dc904971d83e042273f6e4a59f1e92",
+            "width": 513,
+            "height": 257,
+            "unit": "km above 1737.4 km reference sphere",
+            "rawPath": "data/phase-3b/raw/moon-ldem16-uint.tif",
+            "rawSha256": "45a2b32d56e81ed30db07fead8abc842b249b6511219d9ca2c53f81bc2dc5d62",
+            "minHeightKm": -8.981499671936035,
+            "maxHeightKm": 10.685501098632812
+          },
+          "relief": {
+            "file": "/assets/moons/301/relief-residual.png",
+            "sha256": "a941a3bfc325baa80bca6e2f488fe773ef3c41d11835af71b8bbc2c0fe0c0b63",
+            "residualHalfRangeKm": 3.74566650390625
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "meshFrame": "sphere-y-up",
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "VERIFIED_GRID_CONVENTION_NOT_NAVIGATION",
+          "reconstructionNotes": "NASA source colour data beyond ±70 latitude is filled from monochrome LOLA albedo; high-latitude dropouts are source inpainting. Approximately 6% of surface uses polar substitute. No current terrain or weather claim.",
+          "visualEnhancements": [
+            "NASA source exposure/white-balance display processing",
+            "No relief exaggeration; geometric elevation in original km",
+            "Optional dim fill light must be labelled display enhancement"
+          ],
+          "limitations": [
+            "Generic IAU lunar orientation, not precision lunar binary PCK",
+            "Colour data is an aesthetic NASA rendering adaptation, not radiometric science data",
+            "Geometric mesh is downsampled from 16 pixels/degree LOLA; sub-grid relief shown as a residual bump"
+          ],
+          "verifiedAt": "2026-11-01T07:50:44.455240+00:00"
+        },
+        "loadedWidth": 2048,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 1,
+            "textures": 4
+          },
+          "drawCalls": 1,
+          "triangles": 261120
+        },
+        "resources": {
+          "models": 1,
+          "textureRequests": 3,
+          "geometryCount": 1,
+          "textureCount": 4
+        }
+      }
+    },
+    {
+      "view": "side",
+      "file": "output/playwright/phase-3b/chrome-301-side-2560.png",
+      "snapshot": {
+        "id": "301",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "side",
+        "bodyToIcrfQuaternion": [
+          -0.10953459306067287,
+          -0.1582324534741299,
+          0.7844590693818809,
+          -0.5895664780625706
+        ],
+        "bodyToDisplayQuaternion": [
+          0.4327693617104997,
+          0.568976423833563,
+          0.5627427209564767,
+          -0.41508690499310785
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          -0.8161841660155781,
+          -0.00016289556349840563,
+          0.577791814246698
+        ],
+        "camera": [
+          0.5565383636121048,
+          -0.00040500884292954,
+          5.089285629905032
+        ],
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "301",
+          "displayNameZh": "月球",
+          "displayNameEn": "Moon",
+          "parentPlanetId": "399",
+          "version": "3b-moon-v1",
+          "kind": "lro-terrain",
+          "shapeType": "displaced-sphere",
+          "meanRadiusKm": 1737.4,
+          "geometrySource": {
+            "title": "LRO LOLA gridded elevation, 2019 release",
+            "provider": "NASA/GSFC LOLA / SVS",
+            "uri": "https://svs.gsfc.nasa.gov/4720/",
+            "rights": "NASA media usage guidelines; retain credit NASA/GSFC/SVS, LROC and LOLA science teams"
+          },
+          "albedo": {
+            "title": "2025 CGI Moon Kit LROC Hapke-normalized WAC rendering adaptation",
+            "provider": "NASA/GSFC SVS / LROC ASU",
+            "uri": "https://svs.gsfc.nasa.gov/4720/",
+            "downloadUrl": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_16bit_srgb_4k.tif",
+            "rawPath": "data/phase-3b/raw/moon-lroc-2025-4k.tif",
+            "rawSha256": "9731fa8af425b6c2f88f277ecca82bf8c603f3743894f64ed7b25c5bfefa22ff",
+            "observationEpoch": "LRO historical composite; 2025 display adaptation",
+            "rights": "NASA media usage guidelines; no endorsement; credit NASA/SVS/Ernie Wright and LROC/LOLA teams",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+            "colorProcessing": "NASA 643/566/415 nm display composite, source white balance/inpainting retained; 16-bit sRGB TIFF decoded to RGB8, JPEG LOD only",
+            "projection": "equirectangular, north up, zero longitude at centre, east-positive",
+            "processingCategory": "OBSERVED_COMPOSITE_RENDER_ADAPTED"
+          },
+          "lods": [
+            {
+              "width": 1024,
+              "height": 512,
+              "url": "/assets/moons/301/albedo-1024.jpg",
+              "sha256": "a52afa22597fd1f599d3dee4ae64d9030b0980187b5fe39f853853157c34ca72"
+            },
+            {
+              "width": 2048,
+              "height": 1024,
+              "url": "/assets/moons/301/albedo-2048.jpg",
+              "sha256": "b648ffcfff832529119c00bcd0a160f8ab7a4b9ec7d540812f21599b7a786b9d"
+            },
+            {
+              "width": 4096,
+              "height": 2048,
+              "url": "/assets/moons/301/albedo-4096.jpg",
+              "sha256": "aa3ff7bb7ca7a83005b64d1754d0c3d53e906a267ed80724f607374021e74954"
+            }
+          ],
+          "geometry": {
+            "file": "/assets/moons/301/height-grid.f32",
+            "sha256": "4f31e417678c52b74e5ac2ec47f862ddb3dc904971d83e042273f6e4a59f1e92",
+            "width": 513,
+            "height": 257,
+            "unit": "km above 1737.4 km reference sphere",
+            "rawPath": "data/phase-3b/raw/moon-ldem16-uint.tif",
+            "rawSha256": "45a2b32d56e81ed30db07fead8abc842b249b6511219d9ca2c53f81bc2dc5d62",
+            "minHeightKm": -8.981499671936035,
+            "maxHeightKm": 10.685501098632812
+          },
+          "relief": {
+            "file": "/assets/moons/301/relief-residual.png",
+            "sha256": "a941a3bfc325baa80bca6e2f488fe773ef3c41d11835af71b8bbc2c0fe0c0b63",
+            "residualHalfRangeKm": 3.74566650390625
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "meshFrame": "sphere-y-up",
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "VERIFIED_GRID_CONVENTION_NOT_NAVIGATION",
+          "reconstructionNotes": "NASA source colour data beyond ±70 latitude is filled from monochrome LOLA albedo; high-latitude dropouts are source inpainting. Approximately 6% of surface uses polar substitute. No current terrain or weather claim.",
+          "visualEnhancements": [
+            "NASA source exposure/white-balance display processing",
+            "No relief exaggeration; geometric elevation in original km",
+            "Optional dim fill light must be labelled display enhancement"
+          ],
+          "limitations": [
+            "Generic IAU lunar orientation, not precision lunar binary PCK",
+            "Colour data is an aesthetic NASA rendering adaptation, not radiometric science data",
+            "Geometric mesh is downsampled from 16 pixels/degree LOLA; sub-grid relief shown as a residual bump"
+          ],
+          "verifiedAt": "2026-11-01T07:50:44.455240+00:00"
+        },
+        "loadedWidth": 2048,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 1,
+            "textures": 4
+          },
+          "drawCalls": 1,
+          "triangles": 261120
+        },
+        "resources": {
+          "models": 1,
+          "textureRequests": 3,
+          "geometryCount": 1,
+          "textureCount": 4
+        }
+      }
+    },
+    {
+      "view": "detail",
+      "file": "output/playwright/phase-3b/chrome-301-detail-2560.png",
+      "snapshot": {
+        "id": "301",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "detail",
+        "bodyToIcrfQuaternion": [
+          -0.10953459306067287,
+          -0.1582324534741299,
+          0.7844590693818809,
+          -0.5895664780625706
+        ],
+        "bodyToDisplayQuaternion": [
+          0.4327693617104997,
+          0.568976423833563,
+          0.5627427209564767,
+          -0.41508690499310785
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          -0.8161841660155781,
+          -0.00016289556349840563,
+          0.577791814246698
+        ],
+        "camera": [
+          -2.3760422814888393,
+          -0.00047421496575756255,
+          1.6820441239999464
+        ],
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "301",
+          "displayNameZh": "月球",
+          "displayNameEn": "Moon",
+          "parentPlanetId": "399",
+          "version": "3b-moon-v1",
+          "kind": "lro-terrain",
+          "shapeType": "displaced-sphere",
+          "meanRadiusKm": 1737.4,
+          "geometrySource": {
+            "title": "LRO LOLA gridded elevation, 2019 release",
+            "provider": "NASA/GSFC LOLA / SVS",
+            "uri": "https://svs.gsfc.nasa.gov/4720/",
+            "rights": "NASA media usage guidelines; retain credit NASA/GSFC/SVS, LROC and LOLA science teams"
+          },
+          "albedo": {
+            "title": "2025 CGI Moon Kit LROC Hapke-normalized WAC rendering adaptation",
+            "provider": "NASA/GSFC SVS / LROC ASU",
+            "uri": "https://svs.gsfc.nasa.gov/4720/",
+            "downloadUrl": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_16bit_srgb_4k.tif",
+            "rawPath": "data/phase-3b/raw/moon-lroc-2025-4k.tif",
+            "rawSha256": "9731fa8af425b6c2f88f277ecca82bf8c603f3743894f64ed7b25c5bfefa22ff",
+            "observationEpoch": "LRO historical composite; 2025 display adaptation",
+            "rights": "NASA media usage guidelines; no endorsement; credit NASA/SVS/Ernie Wright and LROC/LOLA teams",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+            "colorProcessing": "NASA 643/566/415 nm display composite, source white balance/inpainting retained; 16-bit sRGB TIFF decoded to RGB8, JPEG LOD only",
+            "projection": "equirectangular, north up, zero longitude at centre, east-positive",
+            "processingCategory": "OBSERVED_COMPOSITE_RENDER_ADAPTED"
+          },
+          "lods": [
+            {
+              "width": 1024,
+              "height": 512,
+              "url": "/assets/moons/301/albedo-1024.jpg",
+              "sha256": "a52afa22597fd1f599d3dee4ae64d9030b0980187b5fe39f853853157c34ca72"
+            },
+            {
+              "width": 2048,
+              "height": 1024,
+              "url": "/assets/moons/301/albedo-2048.jpg",
+              "sha256": "b648ffcfff832529119c00bcd0a160f8ab7a4b9ec7d540812f21599b7a786b9d"
+            },
+            {
+              "width": 4096,
+              "height": 2048,
+              "url": "/assets/moons/301/albedo-4096.jpg",
+              "sha256": "aa3ff7bb7ca7a83005b64d1754d0c3d53e906a267ed80724f607374021e74954"
+            }
+          ],
+          "geometry": {
+            "file": "/assets/moons/301/height-grid.f32",
+            "sha256": "4f31e417678c52b74e5ac2ec47f862ddb3dc904971d83e042273f6e4a59f1e92",
+            "width": 513,
+            "height": 257,
+            "unit": "km above 1737.4 km reference sphere",
+            "rawPath": "data/phase-3b/raw/moon-ldem16-uint.tif",
+            "rawSha256": "45a2b32d56e81ed30db07fead8abc842b249b6511219d9ca2c53f81bc2dc5d62",
+            "minHeightKm": -8.981499671936035,
+            "maxHeightKm": 10.685501098632812
+          },
+          "relief": {
+            "file": "/assets/moons/301/relief-residual.png",
+            "sha256": "a941a3bfc325baa80bca6e2f488fe773ef3c41d11835af71b8bbc2c0fe0c0b63",
+            "residualHalfRangeKm": 3.74566650390625
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "meshFrame": "sphere-y-up",
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "VERIFIED_GRID_CONVENTION_NOT_NAVIGATION",
+          "reconstructionNotes": "NASA source colour data beyond ±70 latitude is filled from monochrome LOLA albedo; high-latitude dropouts are source inpainting. Approximately 6% of surface uses polar substitute. No current terrain or weather claim.",
+          "visualEnhancements": [
+            "NASA source exposure/white-balance display processing",
+            "No relief exaggeration; geometric elevation in original km",
+            "Optional dim fill light must be labelled display enhancement"
+          ],
+          "limitations": [
+            "Generic IAU lunar orientation, not precision lunar binary PCK",
+            "Colour data is an aesthetic NASA rendering adaptation, not radiometric science data",
+            "Geometric mesh is downsampled from 16 pixels/degree LOLA; sub-grid relief shown as a residual bump"
+          ],
+          "verifiedAt": "2026-11-01T07:50:44.455240+00:00"
+        },
+        "loadedWidth": 4096,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 1,
+            "textures": 5
+          },
+          "drawCalls": 1,
+          "triangles": 261120
+        },
+        "resources": {
+          "models": 1,
+          "textureRequests": 4,
+          "geometryCount": 1,
+          "textureCount": 5
+        }
+      }
+    },
+    {
+      "view": "parent",
+      "file": "output/playwright/phase-3b/chrome-301-parent-2560.png",
+      "snapshot": {
+        "id": "301",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "parent",
+        "bodyToIcrfQuaternion": [
+          -0.10953459306067287,
+          -0.1582324534741299,
+          0.7844590693818809,
+          -0.5895664780625706
+        ],
+        "bodyToDisplayQuaternion": [
+          0.4327693617104997,
+          0.568976423833563,
+          0.5627427209564767,
+          -0.41508690499310785
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          -0.8161841660155781,
+          -0.00016289556349840563,
+          0.577791814246698
+        ],
+        "camera": [
+          -1.4314714284492747,
+          -0.43017404402557885,
+          4.89657055277897
+        ],
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "301",
+          "displayNameZh": "月球",
+          "displayNameEn": "Moon",
+          "parentPlanetId": "399",
+          "version": "3b-moon-v1",
+          "kind": "lro-terrain",
+          "shapeType": "displaced-sphere",
+          "meanRadiusKm": 1737.4,
+          "geometrySource": {
+            "title": "LRO LOLA gridded elevation, 2019 release",
+            "provider": "NASA/GSFC LOLA / SVS",
+            "uri": "https://svs.gsfc.nasa.gov/4720/",
+            "rights": "NASA media usage guidelines; retain credit NASA/GSFC/SVS, LROC and LOLA science teams"
+          },
+          "albedo": {
+            "title": "2025 CGI Moon Kit LROC Hapke-normalized WAC rendering adaptation",
+            "provider": "NASA/GSFC SVS / LROC ASU",
+            "uri": "https://svs.gsfc.nasa.gov/4720/",
+            "downloadUrl": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_16bit_srgb_4k.tif",
+            "rawPath": "data/phase-3b/raw/moon-lroc-2025-4k.tif",
+            "rawSha256": "9731fa8af425b6c2f88f277ecca82bf8c603f3743894f64ed7b25c5bfefa22ff",
+            "observationEpoch": "LRO historical composite; 2025 display adaptation",
+            "rights": "NASA media usage guidelines; no endorsement; credit NASA/SVS/Ernie Wright and LROC/LOLA teams",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+            "colorProcessing": "NASA 643/566/415 nm display composite, source white balance/inpainting retained; 16-bit sRGB TIFF decoded to RGB8, JPEG LOD only",
+            "projection": "equirectangular, north up, zero longitude at centre, east-positive",
+            "processingCategory": "OBSERVED_COMPOSITE_RENDER_ADAPTED"
+          },
+          "lods": [
+            {
+              "width": 1024,
+              "height": 512,
+              "url": "/assets/moons/301/albedo-1024.jpg",
+              "sha256": "a52afa22597fd1f599d3dee4ae64d9030b0980187b5fe39f853853157c34ca72"
+            },
+            {
+              "width": 2048,
+              "height": 1024,
+              "url": "/assets/moons/301/albedo-2048.jpg",
+              "sha256": "b648ffcfff832529119c00bcd0a160f8ab7a4b9ec7d540812f21599b7a786b9d"
+            },
+            {
+              "width": 4096,
+              "height": 2048,
+              "url": "/assets/moons/301/albedo-4096.jpg",
+              "sha256": "aa3ff7bb7ca7a83005b64d1754d0c3d53e906a267ed80724f607374021e74954"
+            }
+          ],
+          "geometry": {
+            "file": "/assets/moons/301/height-grid.f32",
+            "sha256": "4f31e417678c52b74e5ac2ec47f862ddb3dc904971d83e042273f6e4a59f1e92",
+            "width": 513,
+            "height": 257,
+            "unit": "km above 1737.4 km reference sphere",
+            "rawPath": "data/phase-3b/raw/moon-ldem16-uint.tif",
+            "rawSha256": "45a2b32d56e81ed30db07fead8abc842b249b6511219d9ca2c53f81bc2dc5d62",
+            "minHeightKm": -8.981499671936035,
+            "maxHeightKm": 10.685501098632812
+          },
+          "relief": {
+            "file": "/assets/moons/301/relief-residual.png",
+            "sha256": "a941a3bfc325baa80bca6e2f488fe773ef3c41d11835af71b8bbc2c0fe0c0b63",
+            "residualHalfRangeKm": 3.74566650390625
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "meshFrame": "sphere-y-up",
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "VERIFIED_GRID_CONVENTION_NOT_NAVIGATION",
+          "reconstructionNotes": "NASA source colour data beyond ±70 latitude is filled from monochrome LOLA albedo; high-latitude dropouts are source inpainting. Approximately 6% of surface uses polar substitute. No current terrain or weather claim.",
+          "visualEnhancements": [
+            "NASA source exposure/white-balance display processing",
+            "No relief exaggeration; geometric elevation in original km",
+            "Optional dim fill light must be labelled display enhancement"
+          ],
+          "limitations": [
+            "Generic IAU lunar orientation, not precision lunar binary PCK",
+            "Colour data is an aesthetic NASA rendering adaptation, not radiometric science data",
+            "Geometric mesh is downsampled from 16 pixels/degree LOLA; sub-grid relief shown as a residual bump"
+          ],
+          "verifiedAt": "2026-11-01T07:50:44.455240+00:00"
+        },
+        "loadedWidth": 4096,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 1,
+            "textures": 5
+          },
+          "drawCalls": 1,
+          "triangles": 261120
+        },
+        "resources": {
+          "models": 1,
+          "textureRequests": 4,
+          "geometryCount": 1,
+          "textureCount": 5
+        }
+      }
+    }
+  ]
+}

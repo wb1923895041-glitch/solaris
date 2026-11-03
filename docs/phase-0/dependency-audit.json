@@ -1,0 +1,37 @@
+[
+  {
+    "name": "three",
+    "version": "0.186.1",
+    "license": "MIT",
+    "group": "dependencies",
+    "role": "rendering"
+  },
+  {
+    "name": "@types/three",
+    "version": "0.186.0",
+    "license": "MIT",
+    "group": "devDependencies",
+    "role": "development-only"
+  },
+  {
+    "name": "ajv",
+    "version": "8.20.0",
+    "license": "MIT",
+    "group": "devDependencies",
+    "role": "development-only"
+  },
+  {
+    "name": "typescript",
+    "version": "7.0.2",
+    "license": "Apache-2.0",
+    "group": "devDependencies",
+    "role": "development-only"
+  },
+  {
+    "name": "vite",
+    "version": "8.3.5",
+    "license": "MIT",
+    "group": "devDependencies",
+    "role": "development-only"
+  }
+]

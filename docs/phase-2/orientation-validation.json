@@ -1,0 +1,47 @@
+[
+  {
+    "bodyId": "10",
+    "offGridSamples": 50,
+    "maxAngleDegrees": 3.032519777536453e-06
+  },
+  {
+    "bodyId": "199",
+    "offGridSamples": 50,
+    "maxAngleDegrees": 3.9245984932315255e-06
+  },
+  {
+    "bodyId": "299",
+    "offGridSamples": 50,
+    "maxAngleDegrees": 3.94133262531251e-06
+  },
+  {
+    "bodyId": "399",
+    "offGridSamples": 50,
+    "maxAngleDegrees": 2.0333678244513814e-06
+  },
+  {
+    "bodyId": "499",
+    "offGridSamples": 50,
+    "maxAngleDegrees": 3.0493556216335178e-06
+  },
+  {
+    "bodyId": "599",
+    "offGridSamples": 50,
+    "maxAngleDegrees": 3.6824567675039036e-06
+  },
+  {
+    "bodyId": "699",
+    "offGridSamples": 50,
+    "maxAngleDegrees": 2.1125620357299666e-06
+  },
+  {
+    "bodyId": "799",
+    "offGridSamples": 50,
+    "maxAngleDegrees": 4.649858023874848e-06
+  },
+  {
+    "bodyId": "899",
+    "offGridSamples": 50,
+    "maxAngleDegrees": 2.8027257529448416e-06
+  }
+]

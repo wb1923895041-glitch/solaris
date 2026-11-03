@@ -1,0 +1,86 @@
+{
+  "naifId": "301",
+  "displayNameZh": "月球",
+  "displayNameEn": "Moon",
+  "parentPlanetId": "399",
+  "version": "3b-moon-v1",
+  "kind": "lro-terrain",
+  "shapeType": "displaced-sphere",
+  "meanRadiusKm": 1737.4,
+  "geometrySource": {
+    "title": "LRO LOLA gridded elevation, 2019 release",
+    "provider": "NASA/GSFC LOLA / SVS",
+    "uri": "https://svs.gsfc.nasa.gov/4720/",
+    "rights": "NASA media usage guidelines; retain credit NASA/GSFC/SVS, LROC and LOLA science teams"
+  },
+  "albedo": {
+    "title": "2025 CGI Moon Kit LROC Hapke-normalized WAC rendering adaptation",
+    "provider": "NASA/GSFC SVS / LROC ASU",
+    "uri": "https://svs.gsfc.nasa.gov/4720/",
+    "downloadUrl": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_16bit_srgb_4k.tif",
+    "rawPath": "data/phase-3b/raw/moon-lroc-2025-4k.tif",
+    "rawSha256": "9731fa8af425b6c2f88f277ecca82bf8c603f3743894f64ed7b25c5bfefa22ff",
+    "observationEpoch": "LRO historical composite; 2025 display adaptation",
+    "rights": "NASA media usage guidelines; no endorsement; credit NASA/SVS/Ernie Wright and LROC/LOLA teams",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "colorProcessing": "643/566/415 nm 波段显示合成；保留 NASA 的白平衡、曝光和缺口填补；16 位 sRGB 转为 RGB8 与 JPEG LOD，不声称辐射定标数据。",
+    "projection": "equirectangular, north up, zero longitude at centre, east-positive",
+    "processingCategory": "OBSERVED_COMPOSITE_RENDER_ADAPTED"
+  },
+  "lods": [
+    {
+      "width": 1024,
+      "height": 512,
+      "url": "/assets/moons/301/albedo-1024.jpg",
+      "sha256": "a52afa22597fd1f599d3dee4ae64d9030b0980187b5fe39f853853157c34ca72"
+    },
+    {
+      "width": 2048,
+      "height": 1024,
+      "url": "/assets/moons/301/albedo-2048.jpg",
+      "sha256": "b648ffcfff832529119c00bcd0a160f8ab7a4b9ec7d540812f21599b7a786b9d"
+    },
+    {
+      "width": 4096,
+      "height": 2048,
+      "url": "/assets/moons/301/albedo-4096.jpg",
+      "sha256": "aa3ff7bb7ca7a83005b64d1754d0c3d53e906a267ed80724f607374021e74954"
+    }
+  ],
+  "geometry": {
+    "file": "/assets/moons/301/height-grid.f32",
+    "sha256": "4f31e417678c52b74e5ac2ec47f862ddb3dc904971d83e042273f6e4a59f1e92",
+    "width": 513,
+    "height": 257,
+    "unit": "km above 1737.4 km reference sphere",
+    "rawPath": "data/phase-3b/raw/moon-ldem16-uint.tif",
+    "rawSha256": "45a2b32d56e81ed30db07fead8abc842b249b6511219d9ca2c53f81bc2dc5d62",
+    "minHeightKm": -8.981499671936035,
+    "maxHeightKm": 10.685501098632812
+  },
+  "relief": {
+    "file": "/assets/moons/301/relief-residual.png",
+    "sha256": "a941a3bfc325baa80bca6e2f488fe773ef3c41d11835af71b8bbc2c0fe0c0b63",
+    "residualHalfRangeKm": 3.74566650390625
+  },
+  "material": {
+    "roughness": 1.0,
+    "metalness": 0,
+    "tint": "#ffffff"
+  },
+  "meshFrame": "sphere-y-up",
+  "orientationModel": "IAU_GENERIC_APPROX",
+  "surfaceRegistration": "VERIFIED_GRID_CONVENTION_NOT_NAVIGATION",
+  "reconstructionNotes": "LROC 观测拼图与 LOLA 实测高程。NASA 源图将 ±70° 以外的部分颜色用单色反照率替代，约占表面 6%；保留并明确标注原始填补范围。",
+  "visualEnhancements": [
+    "保留 NASA 显示用曝光与白平衡",
+    "高程使用原始 km，不夸大地形",
+    "可选观察补光，默认关闭"
+  ],
+  "limitations": [
+    "通用 IAU 月球姿态；不是高精度月球二进制 PCK",
+    "NASA 显示适配影像，不用于辐射测量",
+    "网格下采样自 16 像素/度 LOLA；更细起伏使用高频残差凹凸映射"
+  ],
+  "verifiedAt": "2026-11-01T08:42:25.150504+00:00"
+}

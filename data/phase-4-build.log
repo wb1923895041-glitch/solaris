@@ -1,0 +1,24 @@
+Ceres 2560 grid 48 held-out JPL#48
+Pallas 2560 grid 48 held-out JPL#74
+Vesta 2560 grid 48 held-out JPL#36
+Hygiea 2560 grid 48 held-out JPL#129
+Psyche 2560 grid 48 held-out JPL#92
+Eros 10237 grid 48 held-out JPL#659
+Bennu 10237 grid 48 held-out ORX_merged_DE424
+FETCH 2099942-grid.json
+FETCH sbdb-orbit-99942.json
+Apophis 81889 grid 61 held-out JPL#220
+FETCH sbdb-orbit-134340.json
+Pluto 2560 grid 48 held-out plu060_merged
+FETCH sbdb-orbit-136199.json
+Eris 515 grid 48 held-out JPL#103
+FETCH sbdb-orbit-136108.json
+Haumea 515 grid 48 held-out JPL#132
+FETCH sbdb-orbit-136472.json
+Makemake 515 grid 48 held-out JPL#130
+FETCH sbdb-orbit-486958.json
+Arrokoth 515 grid 48 held-out JPL#3
+Charon 30709 grid 48 held-out plu060_merged
+mainbelt 74597 rows 0 dropped
+tno 8306 rows 1 dropped
+phase-4 data complete

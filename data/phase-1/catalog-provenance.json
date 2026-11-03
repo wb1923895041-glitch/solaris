@@ -1,0 +1,168 @@
+[
+  {
+    "id": "10",
+    "meanRadius": {
+      "value": 695700,
+      "unit": "km",
+      "uncertaintyKm": null,
+      "source": "https://ssd.jpl.nasa.gov/api/horizons.api",
+      "sourceSha256": "ea3995ecc1bd071e70e3d7c1fc658ceec9dd09af4dbfe363c4a4d9f559b63d76",
+      "sourceField": "Solar radius (IAU2015)",
+      "processing": "manual transcription from archived official source"
+    },
+    "siderealOrbitalPeriod": null,
+    "classificationSource": "https://science.nasa.gov/solar-system/"
+  },
+  {
+    "id": "199",
+    "meanRadius": {
+      "value": 2439.4,
+      "unit": "km",
+      "uncertaintyKm": 0.1,
+      "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "sourceSha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b",
+      "sourceField": "Mean Radius",
+      "processing": "manual transcription from archived official source"
+    },
+    "siderealOrbitalPeriod": {
+      "value": 0.2408467,
+      "unit": "Julian year (365.25 d)",
+      "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "sourceSha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b"
+    },
+    "classificationSource": "https://science.nasa.gov/solar-system/"
+  },
+  {
+    "id": "299",
+    "meanRadius": {
+      "value": 6051.8,
+      "unit": "km",
+      "uncertaintyKm": 1,
+      "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "sourceSha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b",
+      "sourceField": "Mean Radius",
+      "processing": "manual transcription from archived official source"
+    },
+    "siderealOrbitalPeriod": {
+      "value": 0.61519726,
+      "unit": "Julian year (365.25 d)",
+      "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "sourceSha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b"
+    },
+    "classificationSource": "https://science.nasa.gov/solar-system/"
+  },
+  {
+    "id": "399",
+    "meanRadius": {
+      "value": 6371.0084,
+      "unit": "km",
+      "uncertaintyKm": 0.0001,
+      "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "sourceSha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b",
+      "sourceField": "Mean Radius",
+      "processing": "manual transcription from archived official source"
+    },
+    "siderealOrbitalPeriod": {
+      "value": 1.0000174,
+      "unit": "Julian year (365.25 d)",
+      "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "sourceSha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b"
+    },
+    "classificationSource": "https://science.nasa.gov/solar-system/"
+  },
+  {
+    "id": "499",
+    "meanRadius": {
+      "value": 3389.5,
+      "unit": "km",
+      "uncertaintyKm": 0.2,
+      "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "sourceSha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b",
+      "sourceField": "Mean Radius",
+      "processing": "manual transcription from archived official source"
+    },
+    "siderealOrbitalPeriod": {
+      "value": 1.8808476,
+      "unit": "Julian year (365.25 d)",
+      "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "sourceSha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b"
+    },
+    "classificationSource": "https://science.nasa.gov/solar-system/"
+  },
+  {
+    "id": "599",
+    "meanRadius": {
+      "value": 69911,
+      "unit": "km",
+      "uncertaintyKm": 6,
+      "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "sourceSha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b",
+      "sourceField": "Mean Radius",
+      "processing": "manual transcription from archived official source"
+    },
+    "siderealOrbitalPeriod": {
+      "value": 11.862615,
+      "unit": "Julian year (365.25 d)",
+      "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "sourceSha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b"
+    },
+    "classificationSource": "https://science.nasa.gov/solar-system/"
+  },
+  {
+    "id": "699",
+    "meanRadius": {
+      "value": 58232,
+      "unit": "km",
+      "uncertaintyKm": 6,
+      "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "sourceSha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b",
+      "sourceField": "Mean Radius",
+      "processing": "manual transcription from archived official source"
+    },
+    "siderealOrbitalPeriod": {
+      "value": 29.447498,
+      "unit": "Julian year (365.25 d)",
+      "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "sourceSha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b"
+    },
+    "classificationSource": "https://science.nasa.gov/solar-system/"
+  },
+  {
+    "id": "799",
+    "meanRadius": {
+      "value": 25362,
+      "unit": "km",
+      "uncertaintyKm": 7,
+      "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "sourceSha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b",
+      "sourceField": "Mean Radius",
+      "processing": "manual transcription from archived official source"
+    },
+    "siderealOrbitalPeriod": {
+      "value": 84.016846,
+      "unit": "Julian year (365.25 d)",
+      "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "sourceSha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b"
+    },
+    "classificationSource": "https://science.nasa.gov/solar-system/"
+  },
+  {
+    "id": "899",
+    "meanRadius": {
+      "value": 24622,
+      "unit": "km",
+      "uncertaintyKm": 19,
+      "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "sourceSha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b",
+      "sourceField": "Mean Radius",
+      "processing": "manual transcription from archived official source"
+    },
+    "siderealOrbitalPeriod": {
+      "value": 164.79132,
+      "unit": "Julian year (365.25 d)",
+      "source": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "sourceSha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b"
+    },
+    "classificationSource": "https://science.nasa.gov/solar-system/"
+  }
+]

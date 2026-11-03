@@ -1,0 +1,47 @@
+{
+  "bodyId": "599",
+  "utcMs": 1793232000000,
+  "physicsUnchanged": true,
+  "matchedCamera": [
+    -59.411599708085824,
+    36.01294743984131,
+    -51.268957025990105
+  ],
+  "baselineCamera": [
+    -59.411599708085824,
+    36.01294743984131,
+    -51.268957025990105
+  ],
+  "visual": {
+    "id": "599",
+    "status": "ready",
+    "error": null,
+    "loadedWidth": 4096,
+    "material": "cassini-ammonia-cloudtops",
+    "layers": [
+      "IAU-pole",
+      "atmosphere"
+    ]
+  },
+  "performance": {
+    "meanMs": 3.636,
+    "p50": 3.600000000000364,
+    "p95": 3.7000000000007276,
+    "headlessRafFps": 275.027502750275
+  },
+  "gpuMemory": {
+    "geometries": 12,
+    "textures": 17
+  },
+  "errors": [],
+  "gate": "accepted-with-declared-limitations",
+  "checkedAt": "2026-10-28T18:52:46.502426+00:00",
+  "visualInspection": "Standard / detail / terminator / backlight browser PNGs reviewed by agent; see screenshots",
+  "limitations": [
+    "GRS and vortices represent December 2000, not the selected date",
+    "Near-natural color synthesized from blue and near-IR, not calibrated full visible spectrum",
+    "Smallest source features about 120km; 4096 derivative does not add detail",
+    "No fictional cloud height or differential atmospheric wind animation"
+  ],
+  "independentAcceptanceOrder": 6
+}

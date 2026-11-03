@@ -1,0 +1,46 @@
+chrome PASS Same UTC, physical states, body centres and camera as before
+chrome PASS All nine bodies and eight real paths retained
+chrome PASS All visible envelopes separated at their actual mesh centres
+chrome PASS Earth and Venus have separate apparent discs
+chrome PASS Separate Earth/Venus silhouettes 1920
+chrome PASS No page overflow 1920
+chrome PASS Separate Earth/Venus silhouettes 2560
+chrome PASS No page overflow 2560
+chrome PASS Separate Earth/Venus silhouettes 3840
+chrome PASS No page overflow 3840
+chrome PASS No envelope intersection 2024-01-01T00:00
+chrome PASS No envelope intersection 2025-03-23T00:00
+chrome PASS No envelope intersection 2026-10-29T00:00
+chrome PASS No envelope intersection 2028-06-01T00:00
+chrome PASS No envelope intersection 2031-01-01T00:00
+chrome PASS Continuous time playback has no body intersections
+chrome PASS Earth Hero restores original display radius and camera framing
+chrome PASS Earth Hero retains context without intersections
+chrome PASS Venus close-up restores its original display radius
+chrome PASS Scientific scale remains exact and preserves physical states
+chrome PASS Existing eighteen-satellite data layer still works
+chrome PASS No console or runtime errors
+chrome ALL PASS 22
+msedge PASS Same UTC, physical states, body centres and camera as before
+msedge PASS All nine bodies and eight real paths retained
+msedge PASS All visible envelopes separated at their actual mesh centres
+msedge PASS Earth and Venus have separate apparent discs
+msedge PASS Separate Earth/Venus silhouettes 1920
+msedge PASS No page overflow 1920
+msedge PASS Separate Earth/Venus silhouettes 2560
+msedge PASS No page overflow 2560
+msedge PASS Separate Earth/Venus silhouettes 3840
+msedge PASS No page overflow 3840
+msedge PASS No envelope intersection 2024-01-01T00:00
+msedge PASS No envelope intersection 2025-03-23T00:00
+msedge PASS No envelope intersection 2026-10-29T00:00
+msedge PASS No envelope intersection 2028-06-01T00:00
+msedge PASS No envelope intersection 2031-01-01T00:00
+msedge PASS Continuous time playback has no body intersections
+msedge PASS Earth Hero restores original display radius and camera framing
+msedge PASS Earth Hero retains context without intersections
+msedge PASS Venus close-up restores its original display radius
+msedge PASS Scientific scale remains exact and preserves physical states
+msedge PASS Existing eighteen-satellite data layer still works
+msedge PASS No console or runtime errors
+msedge ALL PASS 22

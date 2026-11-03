@@ -1,0 +1,10 @@
+{
+  "samples": 12846,
+  "sourceStepKm": 5,
+  "outputSamples": 8192,
+  "cRingMeanTau": 0.10721251210896077,
+  "bRingMeanTau": 2.7207427742900196,
+  "divisionMeanTau": 0.13307799981328206,
+  "aRingMeanTau": 0.5415043278059337,
+  "opaqueFlagCount": 1279
+}

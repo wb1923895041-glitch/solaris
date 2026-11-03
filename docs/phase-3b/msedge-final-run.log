@@ -1,0 +1,19 @@
+msedge PASS 301 Moon captures 3 rAF P95 16.80 retries 0
+msedge PASS 401 Phobos captures 3 rAF P95 16.80 retries 0
+msedge PASS 402 Deimos captures 2 rAF P95 16.80 retries 0
+msedge PASS 501 Io captures 3 rAF P95 16.80 retries 0
+msedge PASS 502 Europa captures 3 rAF P95 16.80 retries 0
+msedge PASS 503 Ganymede captures 3 rAF P95 16.80 retries 0
+msedge PASS 504 Callisto captures 2 rAF P95 16.80 retries 0
+msedge PASS 601 Mimas captures 3 rAF P95 16.80 retries 0
+msedge PASS 602 Enceladus captures 5 rAF P95 16.80 retries 0
+msedge PASS 605 Rhea captures 2 rAF P95 16.80 retries 1
+msedge PASS 606 Titan captures 3 rAF P95 16.80 retries 0
+msedge PASS 608 Iapetus captures 2 rAF P95 16.80 retries 0
+msedge PASS 705 Miranda captures 3 rAF P95 16.80 retries 0
+msedge PASS 701 Ariel captures 3 rAF P95 16.80 retries 0
+msedge PASS 702 Umbriel captures 3 rAF P95 16.80 retries 0
+msedge PASS 703 Titania captures 3 rAF P95 16.80 retries 0
+msedge PASS 704 Oberon captures 3 rAF P95 16.80 retries 0
+msedge PASS 801 Triton captures 3 rAF P95 16.80 retries 0
+msedge ALL PASS 196 checks 18 assets

@@ -1,0 +1,14 @@
+
+> solaris@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 22 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   7.21 kB │ gzip:   3.14 kB
+dist/assets/index-B7YeD-_d.css   13.86 kB │ gzip:   3.96 kB
+dist/assets/index-jKgIMuDC.js   663.97 kB │ gzip: 174.27 kB
+
+✓ built in 362ms

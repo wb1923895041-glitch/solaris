@@ -1,0 +1,98 @@
+[
+  {
+    "path": "output/playwright/phase-1/chrome-01-overview-2560x1440.png",
+    "bytes": 839521,
+    "sha256": "2f61e7d64c0c1935e8b04ba3b5c261182141c29a55d971d1dead6bafef73dae5",
+    "width": 2560,
+    "height": 1440
+  },
+  {
+    "path": "output/playwright/phase-1/chrome-02-earth-focus-2560x1440.png",
+    "bytes": 606666,
+    "sha256": "e4ca65705bbc5bba2a2ca8e184757d40cb79bf20af72beca4d41c479c7ea86d7",
+    "width": 2560,
+    "height": 1440
+  },
+  {
+    "path": "output/playwright/phase-1/chrome-03-scientific-2560x1440.png",
+    "bytes": 474008,
+    "sha256": "1009bf21d69851757c4d690c09ad81d4c2f7738d333504d32186d24049399305",
+    "width": 2560,
+    "height": 1440
+  },
+  {
+    "path": "output/playwright/phase-1/chrome-04-playing-2030-2560x1440.png",
+    "bytes": 846989,
+    "sha256": "c548feaa535c5c4b8b4cf14703be508722b53c64993f37e8758f4976bc545539",
+    "width": 2560,
+    "height": 1440
+  },
+  {
+    "path": "output/playwright/phase-1/chrome-overview-1920x1080.png",
+    "bytes": 557285,
+    "sha256": "d06a98d77600d63f2e10c1f8cc85b5e88d1c40a6a02f27e5b121013c7dbfab3e",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "path": "output/playwright/phase-1/chrome-overview-2560x1440.png",
+    "bytes": 839579,
+    "sha256": "f15e454c931aa6bb9f18f5e46b5b3d1e564ae7386a14877c438d56ca484b974b",
+    "width": 2560,
+    "height": 1440
+  },
+  {
+    "path": "output/playwright/phase-1/chrome-overview-3840x2160.png",
+    "bytes": 1401152,
+    "sha256": "112ab245d4bd7151736323e4b1d04a88e71ad399de7782c5618017469fe3db15",
+    "width": 3840,
+    "height": 2160
+  },
+  {
+    "path": "output/playwright/phase-1/edge-01-overview-2560x1440.png",
+    "bytes": 839513,
+    "sha256": "0e82207e7bc6ed47def5297c0a99ffadc2d71dfc50dfc9051da7c434549a1fea",
+    "width": 2560,
+    "height": 1440
+  },
+  {
+    "path": "output/playwright/phase-1/edge-02-earth-focus-2560x1440.png",
+    "bytes": 606717,
+    "sha256": "312f44ffb8f9ccf2b3b0a76e2de5447bf9d1defe84735388db9589aa76f7b000",
+    "width": 2560,
+    "height": 1440
+  },
+  {
+    "path": "output/playwright/phase-1/edge-03-scientific-2560x1440.png",
+    "bytes": 474051,
+    "sha256": "a9c2b7e52f5df49f50607c85eca94b3bdad638670d377fa8864e8291f374ecde",
+    "width": 2560,
+    "height": 1440
+  },
+  {
+    "path": "output/playwright/phase-1/edge-overview-1920x1080.png",
+    "bytes": 557379,
+    "sha256": "11335141c56110e8e137fbc99833480ff8c862563794031d9574a0d49dec1acf",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "path": "output/playwright/phase-1/edge-overview-2560x1440.png",
+    "bytes": 839611,
+    "sha256": "c83fc7be82fa8844d2ff2977a8835787479cbab10ecd051ccd397ed7f2af9462",
+    "width": 2560,
+    "height": 1440
+  },
+  {
+    "path": "output/playwright/phase-1/edge-overview-3840x2160.png",
+    "bytes": 1401263,
+    "sha256": "2e922b5eff5fdb1ba7ed4b9d31a83872dec01dfb46afd395c1111a05be598ee8",
+    "width": 3840,
+    "height": 2160
+  },
+  {
+    "path": "output/playwright/phase-1/phase1-continuous-demo.webm",
+    "bytes": 4808621,
+    "sha256": "5e4cbd36893678d2e4699cb2ca4dac5ff1751937df14adc9b5c8461a28c9dec6"
+  }
+]

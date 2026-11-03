@@ -1,0 +1,71 @@
+{
+  "bodyId": "599",
+  "name": "Jupiter",
+  "version": "2.0.0-jupiter",
+  "kind": "cassini-ammonia-cloudtops",
+  "photometry": "gas",
+  "minnaert": 0.85,
+  "albedo": {
+    "provider": "NASA / JPL / Cassini ISS",
+    "title": "PIA07782 cylindrical cloud mosaic",
+    "sourceUrl": "https://science.nasa.gov/photojournal/cassinis-best-maps-of-jupiter-cylindrical-map/",
+    "observationEpoch": "2000-12-11 / 12",
+    "credit": "NASA/JPL/Space Science Institute",
+    "rights": "NASA mission imagery; original credit retained",
+    "processing": "3601x1801 TIFF to three LODs; no generated storms, bump, or noise; 750nm+451nm near-natural-color scientific reconstruction",
+    "primeMeridianOrOrientationNotes": "North up, west-positive graticule 180 at left, 0 at center, 180 right => east-positive -180..180; System III features fixed at source epoch",
+    "rawFile": "data/phase-2/raw/jupiter-main.tif",
+    "sha256": "f92ffc7a2fa0235c47ec8f1f168dd36bffeb6acc318292b237878a00a48cf7d9",
+    "nativeSize": [
+      3601,
+      1801
+    ],
+    "acquisitionDate": "2026-10-28T19:08:23.008994+00:00",
+    "projection": "equirectangular",
+    "longitudeConvention": "east-positive after processing",
+    "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "processingCategory": "approx-natural-color"
+  },
+  "lods": [
+    {
+      "width": 1024,
+      "height": 512,
+      "url": "/assets/celestial/jupiter/albedo-1024.jpg",
+      "sha256": "7983d0972a2447dbd32f66dbf188b202b93e598322677e7ad49d6a35db236605"
+    },
+    {
+      "width": 2048,
+      "height": 1024,
+      "url": "/assets/celestial/jupiter/albedo-2048.jpg",
+      "sha256": "b7d179554b3a957fd67851215ee88a8afb8820f92dda302f481ad78df0d03e0d"
+    },
+    {
+      "width": 4096,
+      "height": 2048,
+      "url": "/assets/celestial/jupiter/albedo-4096.jpg",
+      "sha256": "d2a79b74c4917f323794dbc4d48331e0a42704ccc5558a079729c4dcb05a7fb1"
+    }
+  ],
+  "atmosphere": {
+    "radius": 1.003,
+    "tint": "#b8ced6",
+    "strength": 0.2
+  },
+  "axisVerified": true,
+  "hasVerifiedOrientation": true,
+  "visualEnhancements": [
+    "VISUAL_ENHANCEMENT: approximate Minnaert cloud-top photometry k=0.85; switchable to Lambert, not a fitted radiance model",
+    "VISUAL_ENHANCEMENT: restrained analytic haze limb"
+  ],
+  "limitations": [
+    "GRS and vortices represent December 2000, not the selected date",
+    "Near-natural color synthesized from blue and near-IR, not calibrated full visible spectrum",
+    "Smallest source features about 120km; 4096 derivative does not add detail",
+    "No fictional cloud height or differential atmospheric wind animation"
+  ],
+  "description": "Cassini 2000 \u5e74\u4e91\u9876\u5feb\u7167\uff0c\u4e91\u5e26\u4e0e\u5927\u7ea2\u6591\u5747\u6709\u89c2\u6d4b\u6765\u6e90\uff1b\u4e0d\u4ee3\u8868\u5f53\u524d\u98ce\u66b4\u4f4d\u7f6e\u3002",
+  "referenceLinks": [
+    "https://science.nasa.gov/photojournal/cassinis-best-maps-of-jupiter-cylindrical-map/",
+    "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+  ]
+}

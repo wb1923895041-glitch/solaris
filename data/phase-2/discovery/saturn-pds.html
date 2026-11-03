@@ -1,0 +1,471 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" --><!-- InstanceBeginEditable name="doctitle" --><title>Cassini Jupiter and Saturn Global Map Page</title><!-- InstanceEndEditable -->
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="https://pds-atmospheres.nmsu.edu/atmospage_files/cassini_rss.css" type="text/css" rel="stylesheet" media="all">
+<!--
+<link href="main_cass_additions.css" type="text/css" rel="stylesheet" media="all" />
+-->
+<script language="JavaScript" src="https://pds-atmospheres.nmsu.edu/oodt/js/lastMod.js"></script>
+<script src="https://pds-atmospheres.nmsu.edu/atmospage_files/jquery-1.js" type="text/javascript"></script>
+<script src="https://pds-atmospheres.nmsu.edu/atmospage_files/email.js" type="text/javascript"></script>
+<script language="JavaScript" src="https://pds-atmospheres.nmsu.edu/oodt/js/color.js">
+</script>
+<script type="text/javascript">
+$(fixEmail);
+</script>
+
+<style>
+.img_center {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.img_left {
+display: block;
+  margin-left: 0;
+}
+
+</style>
+
+
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --><!-- InstanceParam name="menu_section" type="text" value="data" --><!-- InstanceParam name="menu_item" type="text" value="" --><!-- InstanceParam name="left_sidebar" type="boolean" value="true" --><!-- InstanceParam name="standard_sidebar" type="boolean" value="true" --><!-- InstanceParam name="standard_page_content" type="boolean" value="true" --><!-- InstanceParam name="custom_page_class" type="text" value="" --><link href="https://pds.nasa.gov/pds-app-bar/pds-app-bar.css" type="text/css" rel="stylesheet"><link href="https://pds.nasa.gov/pds-app-bar/pds-app-bar.css" type="text/css" rel="stylesheet"><script src="https://pds.nasa.gov/pds-app-bar/pds-app-bar.js" type="text/javascript"></script><link href="https://pds.nasa.gov/pds-app-bar/pds-app-bar.css" type="text/css" rel="stylesheet"><link href="https://pds.nasa.gov/pds-app-bar/pds-app-bar.css" type="text/css" rel="stylesheet"><script src="https://pds.nasa.gov/pds-app-bar/pds-app-bar.js" type="text/javascript"></script></head><body class="sidebar menu_data menu_item_">
+<!--[if IE]>
+<div id="IE">
+<![endif]--> 
+
+<!-- Header -->
+<div id="header">
+<div class="nonvisual">
+  <h2>Menu: Skip within this page</h2>
+  <ul>
+    <li><a href="#mainContent">Skip to main content</a></li>
+    <li><a href="#mainMenu">Skip to menu</a></li>
+  </ul>
+</div>
+<p id="logo">
+  <a href="https://pds.nasa.gov/index.shtml" onclick="this.blur()"><img src="https://pds-atmospheres.nmsu.edu/atmospage_files/nasa-logo.gif" alt="NASA logo" border="0" height="50" width="60">&nbsp;PDS: The Planetary Atmospheres Node</a><!--<span style="position: relative; left: -3em; bottom: -1em; color: rgb(255, 51, 51); font-size: 90%; font-family: 'Arial Black';">BETA</span> -->
+</p>
+
+<!--    
+<form id="dummyForm" action="/" method="get"></form>
+<script type="text/javascript">
+function setSearchAction(form, actionSelector) {
+    var baseAction = document.getElementById("dummyForm").action;
+    form.action = baseAction + actionSelector.value;
+    return true;
+}
+</script>-->
+<form id="search" action="https://atmos.nmsu.edu/cgi-bin/retrieve_lines" method="post" enctype="application/x-www-form-urlencoded">
+<input name="q" value="" type="hidden">
+<input name="facet" value="" type="hidden">
+<input name="in" value="all" type="hidden">
+<label for="searchPhrase">Search for:</label><br>
+<input id="searchPhrase" class="text" size="30" name="DATA_SET" type="text"> <input class="submit" value="Go" type="submit"><br>
+</select>
+</form>
+<h2 class="nonvisual">Menu: Help Links</h2>
+<ul id="nasaLinks">
+  <li><a href="http://www.nasa.gov/">NASA Portal</a></li>
+  
+</ul>
+<ul id="nasaLinks">
+<img src="https://pds-atmospheres.nmsu.edu/images/PDS_Planets_comet.jpg" border="0" width="100" alt="pds logo">
+</ul>
+
+<div class="clear"></div>
+
+</div>
+<!-- Main menu -->
+
+<div id="menu">
+
+<a class="nonvisual" name="mainMenu"></a>
+
+<h2 class="nonvisual">Main menu</h2>
+<ul>
+  <li id="home"><a href="https://pds-atmospheres.nmsu.edu/">Home</a></li>
+  <li id="about"><a href="https://pds-atmospheres.nmsu.edu/about_t_node/about_t_node.htm">About Us</a></li>
+  <li id="data"><a href="https://pds-atmospheres.nmsu.edu/data_and_services/data_and_services.htm">Data and Services</a></li>
+  <li id="education"><a href="https://pds-atmospheres.nmsu.edu/education_and_outreach/education_and_outreach.htm">Education</a></li>
+  <li id="contact"><a href="https://pds-atmospheres.nmsu.edu/contact_us/contact_us.htm">Contact Us</a></li>
+  
+  <li id="external"><a href="https://pds-atmospheres.nmsu.edu/other_i_sites/other_i_sites.htm">External Links</a></li>
+
+</ul>
+
+<div class="clear"></div>
+</div>
+
+
+<div id="submenu">
+<div id="submenu">
+<div id="submenu_data_and_services">
+<h2 class="nonvisual">Home submenu</h2>
+<ul>
+<li id="data_catalog"><a href="https://pds-atmospheres.nmsu.edu/data_and_services/atmospheres_data/catalog.htm">Data Catalog</a>
+<li id="home_weather"><a href="https://pds-atmospheres.nmsu.edu/weather.html">Local Weather</li>
+
+<li id="home_ads"><a href="http://adswww.harvard.edu/">ADS NASA Astrophysics Data System</a>
+<li id="home_nrs"><a href="http://nspires.nasaprs.com/external/solicitations/solicitations.do?method=open&stack=push">NASA Research Solicitations</a>
+<li id="home_abstracts"><a href="http://nspires.nasaprs.com/external/solicitations/solicitations.do?method=past&stack=push">Abstracts of Funded NASA Proposals</a>
+</ul>
+</div>
+<div class="clear"></div>
+</div>
+
+<!-- <ul id="submenu_standards"><li>&nbsp;</li></ul> -->
+
+<div class="clear"></div>
+</div>
+
+<!-- Sidebar -->
+
+<div id="sidebar">
+
+					<div class="sidebarSection">
+						<h2>Atmospheres data and related services</h2>
+						<ul>
+                                                        <li><a href="https://pds-atmospheres.nmsu.edu/data_and_services/atmospheres_data/atmospheres_data.htm">Atmospheres data</a></li>
+							<li><a href="https://pds-atmospheres.nmsu.edu/data_and_services/software/software.htm">Software</a></li>
+
+						</ul>
+					</div>
+					<div class="sidebarSection">
+						<h2>PDS Nodes</h2>
+						<ul>
+                                                        <li><a href="https://pds.nasa.gov/">PDS</a></li>
+							<li><a href="https://pds-atmospheres.nmsu.edu/">Atmospheres</a></li>
+							<li><a href="http://pds-geosciences.wustl.edu/">Geosciences</a></li>
+							<li><a href="https://pds-imaging.jpl.nasa.gov/">Cartography and Imaging</a></li>
+							<li><a href="https://naif.jpl.nasa.gov/naif">Navigation &amp; Ancillary Information Facility&nbsp;(NAIF)</a></li>
+							<li><a href="http://pds-ppi.igpp.ucla.edu/">Planetary Plasma Interactions&nbsp;(PPI)</a></li>
+							<li><a href="https://pds-rings.seti.org/">Ring-Moon Systems</a></li>
+							<li><a href="https://pds-smallbodies.astro.umd.edu/">Small Bodies</a></li>
+						</ul>
+					</div>
+<!-- Cassini home sidebar link -->
+    <div class="sidebarSection2">
+
+      <h2>Cassini Archive Home</h2>
+
+
+      <ul>
+        <li>
+          <a href="Cassini.html">Cassini Home</a>
+        </li>
+        <li>
+          <br />
+        </li>
+        <li>
+          <a href="act-find.html">Common Resources &amp; Tools</a>
+        </li>
+        <li>
+          <a href="eng-overview.html">Spacecraft Events &amp; Info</a>
+        </li>
+        <li>
+          <a href="global-contact.html">PDS Cassini Contact Page</a>
+        </li>
+      </ul>
+
+    </div>
+    <!-- Instruments sidebar -->
+    <div class="sidebarSection2">
+
+      <h2>Cassini Instruments</h2>
+
+      <ul>
+        <li>
+          <a href="instruments.html">Instrument Overview</a>
+        </li>
+        <li>
+          <br />
+        </li>
+        <li>Optical Remote Imaging:</li>
+        <li>
+          <a href="inst-cirs.html">CIRS</a>
+        </li>
+        <li>
+          <a href="inst-iss.html">ISS</a>
+        </li>
+        <li>
+          <a href="inst-uvis.html">UVIS</a>
+        </li>
+        <li>
+          <a href="inst-vims.html">VIMS</a>
+        </li>
+         <li>
+          <br />
+        </li>
+        <li>Radio Instruments:</li>
+        <li>
+          <a href="inst-radar.html">RADAR</a>
+        </li>
+        <li>
+          <a href="inst-rss.html">RSS</a>
+        </li>
+        <li>
+          <br />
+        </li>
+        <li>Fields and Particles:</li>
+        <li>
+          <a href="inst-caps.html">CAPS</a>
+        </li>
+        <li>
+          <a href="inst-cda.html">CDA</a>
+        </li>
+        <li>
+          <a href="inst-inms.html">INMS</a>
+        </li>
+        <li>
+          <a href="inst-mag.html">MAG</a>
+        </li>
+        <li>
+          <a href="inst-mimi.html">MIMI</a>
+        </li>
+        <li>
+          <a href="inst-rpws.html">RPWS</a>
+        </li>
+        </li>
+        <li>Probe:</li>
+        <li>
+          <a href=https://pds-atmospheres.nmsu.edu/data_and_services/atmospheres_data/Huygens/Huygens.html>Huygens Lander</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="sticky">
+      <!-- Science sidebar -->
+<!--
+      <div class="sidebarSection2">
+        <h2>Science Areas</h2>
+        <ul>
+          <li>
+            <a href="sci-mission.html">Mission Overview</a>
+          </li>
+          <li>
+            <br />
+          </li>
+          <li>
+            <a href="sci-saturn.html">Saturn Planet &amp; Atmosphere</a>
+          </li>
+          <li>
+            <a href="sci-rings.html">Saturn's Rings</a>
+          </li>
+          <li>
+            <a href="sci-fp.html">Magnetospheric Science</a>
+          </li>
+          <li>
+            <a href="sci-titan.html">Titan</a>
+          </li>
+          <ul class="navsub">
+            <li>
+              <a class="ipstickynav" href="#overview">Overview</a>
+            </li>
+            <li>
+              <a class="ipstickynav" href="#finding-data">Titan Data</a>
+            </li>
+            <li>
+              <a class="ipstickynav" href="#titan-interior">Interior</a>
+            </li>
+            <li>
+              <a class="ipstickynav" href="#titan-surface">Surface</a>
+            </li>
+            <li>
+              <a class="ipstickynav" href="#huygens">Huygens Lander</a>
+            </li>
+            <li>
+              <a class="ipstickynav" href="#titan-atmosphere">Atmosphere</a>
+            </li>
+            <li>
+              <a class="ipstickynav" href="#titan-mag">Magnetosphere</a>
+            </li>
+          </ul>
+          <li>
+            <a href="sci-icy.html">Icy Satellites &amp; Other Moons</a>
+          </li>
+          <li>
+            <a href="sci-jupiter.html">Jupiter</a>
+          </li>
+        </ul>
+      </div>
+-->
+<!--
+      <div class="sidebarSection2">
+        <h2>Cassini Search Tools</h2>
+        <ul>
+          <li>
+            <a href="EventCalendar/prototype.html">Event Calendar</a>
+          </li>
+          <li>
+            <a href="https://trek.nasa.gov/titan/">Titan Trek</a>
+          </li>
+          <li>
+            <a href="https://pds-imaging.jpl.nasa.gov/search/">PDS Imaging Atlas</a>
+          </li>
+          <li>
+            <a href="https://opus.pds-rings.seti.org/opus/#/view=search&amp;browse=gallery&amp;colls_browse=gallery&amp;page=1&amp;gallery_data_viewer=true&amp;limit=100&amp;order=timesec1&amp;cols=ringobsid,planet,target,phase1,time1,time2&amp;widgets=planet,target&amp;widgets2=&amp;detail=">OPUS</a>
+          </li>
+          <li>
+            <a href="https://wgc.jpl.nasa.gov:8443/webgeocalc/#NewCalculation">SPICE Geometry Calculator</a>
+          </li>
+        </ul>
+
+      </div>
+-->
+      <div style="text-align: right;">
+        <a href="#othercontent">Scroll to top &#8593;</a>
+      </div>
+
+    </div>
+    <!-- end sticky part -->
+
+  </div>
+
+
+  <!-- InstanceBeginEditable name="leftSidebar" -->
+                                        <!-- InstanceBeginEditable name="leftSidebar" -->
+
+                                <!-- InstanceEndEditable -->
+</div>
+
+
+<!-- Main content -->
+<div id="content">
+<a name="mainContent"></a>
+<div>
+<!-- InstanceBeginEditable name="content" -->
+                                                <div style="border-top: 1px solid white; position: relative;">
+
+
+<!-- main content begin -->
+<h1><!-- InstanceBeginEditable name="pageTitle" --></h1><ul>
+  <img src="images/cassini_log.png" style="top:20px; left:12px; position: absolute;" width="150">
+
+<div id="banholder_2">
+ <div id="banner">
+    <div id="bannertext" style="font-family: Tahoma, Geneva">
+    Welcome to the Cassini Jupiter and Saturn Global Map Page
+    </div>
+  </div>
+  <div id="banner2">
+    <div id="bannertext3" style="font-family: Tahoma, Geneva">
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Certified
+    </div>
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br>
+<char class="img_left">
+<a href="images/sat_thermal_pic.png"><img src="images/sat_thermal_pic.png" width="78%" alt="" align="left" border="0"></a>
+</char>
+<div id="longertext6">
+<br><br>
+<h1>Cassini Jupiter and Saturn Global Map Page</h1>
+
+<div id="subheader">Brief description of the data</div>
+<br>
+Cassini ISS data was searched to find images suitable for global maps of Jupiter and Saturn. The BL1 and CB2 images primarily capture the top visible clouds on Jupiter, located around 0.7 bar (Banfield et al., 1998). On the other hand, the UV1 and MT3 images are sensitive to Jupiter’s atmosphere around 0.3 and 0.6 bars, respectively (West et al., 2004; Li et al., 2006a, 2006b). Images for Saturn were selected to maximize the observed sunlight-illuminated area and to minimize the obstruction caused by Saturn’s rings.
+<br><br>
+
+<b><u style="margin-left:300px;">Characteristics of the Data Set</u></b><br><br>
+<table style="display: block; margin-left:120px;">
+<tr cellpadding="1"><td colspan="3">Planet</td><td colspan="3">Filter 1</td><td colspan="3" align="right">Number of Maps</td></tr>
+<tr cellpadding="1"><td colspan="3">Jupiter</td><td colspan="3">BL1</td><td colspan="3" align="right">6</td></tr>
+<tr cellpadding="1"><td colspan="3">Jupiter</td><td colspan="3">CB2</td><td colspan="3" align="right">6</td></tr>
+<tr cellpadding="1"><td colspan="3">Jupiter</td><td colspan="3">MT3</td><td colspan="3" align="right">4</td></tr>
+<tr cellpadding="1"><td colspan="3">Jupiter</td><td colspan="3">UV1</td><td colspan="3" align="right">3</td></tr>
+<tr cellpadding="1"><td colspan="3">Saturn</td><td colspan="3">BL1</td><td colspan="3" align="right">1</td></tr>
+<tr cellpadding="1"><td colspan="3">Saturn</td><td colspan="3">GRN</td><td colspan="3" align="right">1</td></tr>
+<tr cellpadding="1"><td colspan="3">Saturn</td><td colspan="3">MT2</td><td colspan="3" align="right">1</td></tr>
+<tr cellpadding="1"><td colspan="3">Saturn</td><td colspan="3">RED</td><td colspan="3" align="right">1</td></tr>
+<tr cellpadding="1"><td colspan="3">Saturn</td><td colspan="3">RGB</td><td colspan="3" align="right">2</td></tr>
+
+
+</table>
+<small style="margin-left:120px;"><a href="https://atmos.nmsu.edu/PDS/data/PDS4/co_iss_global-maps/document/user_guide.pdf">Derived from the ISS users guide</a></small>
+<br><br>
+
+The data are accompanied with <a href="https://atmos.nmsu.edu/PDS/data/PDS4/co_iss_global-maps/browse/">browse files</a> and <a href="https://atmos.nmsu.edu/PDS/data/PDS4/co_iss_global-maps/data_derived/Image_Information/">image information files</a>
+<br><br>
+
+<div id="subheader"><a href="https://atmos.nmsu.edu/PDS/data/PDS4/co_iss_global-maps/">PDS4 Bundle</a></div><br><br>
+<div id="subheader"><a href="https://atmos.nmsu.edu/PDS/data/PDS4/co_iss_global-maps/document/">Documentation</a></div><br><br>
+<div id="subheader"><a href="https://atmos.nmsu.edu/PDS/data/PDS4/co_iss_global-maps/data_derived/">Data</a></div><br><br>
+<div id="subheader">References</div><br><br>
+Banfield, D., Gierasch, P.J., Bell, M., Ustinov, E., Ingersoll, A.P., Vasavada, A.R., West, R.A.,
+Belton, M.J.S., 1998. Jupiter’s cloud structure from Galileo imaging data. Icarus 135, 230–250.
+<br><br>
+Li, L., A. P. Ingersoll, A. R. Vasavada, A. A. Simon-Miller, A. D. Del Genio, S. P. Ewald, C. C.
+Porco, and R. A. West, 2006a. Vertical wind shear on Jupiter from Cassini images. J. Geophys.
+Res. 111, Art. No. E04004.
+<br><br>
+Li, L., A. P. Ingersoll, A. R. Vasavada, A. A. Simon-Miller, R. K. Achterberg, S. P. Ewald, U. A.
+Dyudina, C. C. Porco, R. A. West, and F. M. Flasar, 2006b. Waves in Jupiter's atmosphere
+observed by the Cassini ISS and CIRS instruments. Icarus 185, 416-419.
+Minnaert, M., 1941. The reciprocity principle in lunar photometry. The Astrophysical Journal 93,
+403-410.
+<br><br>
+Porco, C. C., and 19 colleagues, 2004. Cassini Imaging Science: Instrument characteristics and
+anticipated scientific investigations at Saturn, Space Sci. Rev. 115, 363-497.
+<br><br>
+Trammell, H. J., L. Li, X. Jiang, M. Smith, S. Hörst, and A. Vasavada, 2014. The global vortex
+analysis of Jupiter and Saturn based on Cassini Imaging Science Subsystem, Icarus 242, 122-
+129.
+<br><br>
+Trammell, H. J., L. Li, Jiang, X., Pan, Y., Smith, M.A., Bering, E.A., Hörst, S.M., Vasavada,
+A.R., Ingersoll, A.P., Janssen, M.A. and West, R.A., 2016. Vortices in Saturn's Northern
+Hemisphere (2008–2015) observed by Cassini ISS. Journal of Geophysical Research: Planets
+121, 1814-1826.
+<br><br>
+West, R.A., Baines, K.H., Friedson, A.J., Banfield, D., Ragent, B., Taylor, F.W., 2004. Jupiter:
+The planet, satellites and magnetosphere. In: Bagenal, F., Dowling, T.E., McKinnon, W.B.,
+Jewitt, D., Murray, C., Bell, J., Lorenz, R., Nimmo, F. (Eds.), Cambridge Planetary Science.
+Cambridge Univ. Press, New York, p. 81
+<br><br>
+<div id="subheader">Citing data sets for publication:</div><br><!--<char style="color: red;";>Get this from Lyle after he gets the DOI</char>-->
+Li, Liming, Robert West, Xun Jiang, and Benjamin Knowles (2023), Cassini ISS Global Maps of Jupiter and Saturn Bundle, NASA Planetary Data System, <a href="https://doi.org/10.17189/rkkb-6y30">https://doi.org/10.17189/rkkb-6y30</a>.
+<br><br>
+<div id="subheader"><a href="https://atmos.nmsu.edu/PDS/data/PDS4/co_iss_global-maps.tar.gz">Download Compressed Bundle</a></div> <char style="color: red;";></char> 
+
+</div> <!--longertext2-->
+<!-- main content end -->
+						</div>
+					<!-- InstanceEndEditable -->
+</div>
+</div>
+
+<div style="clear: both;"></div>
+
+<div id="footer" style="color: black; background: #CCCCCC; vertical-align: middle;">
+  <a href="http://www.nasa.gov/"><img class="left" src="https://pds-atmospheres.nmsu.edu/atmospage_files/usa-gov.gif" alt="Link to www.usa.gov" border="0"></a>
+
+  <p class="left">
+<a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy</a> / <a href="http://www.jpl.nasa.gov/imagepolicy/">Copyright</a><br />
+<a href="https://www.nasa.gov/foia/">Freedom of Information Act</a>
+  </p>
+  
+  <p class="right">
+Curator: <a href="mailto:lhuber@nmsu.edu">Lyle Huber</a><br />
+ATM Mgr: <a href="mailto:nchanove@nmsu.edu">Nancy Chanover</a><br />
+Last updated:
+<script>
+  document.write(lastMod());
+</script>
+ 
+  </p>
+  
+  <img class="right" src="https://pds-atmospheres.nmsu.edu/atmospage_files/nasa-logo-small.gif" alt="Small NASA logo">
+  
+  <div style="clear: both;"></div>
+</div>
+
+
+    <!--[if IE]>
+    </div>
+    <![endif]--> 
+  <!-- InstanceEnd --></body></html>

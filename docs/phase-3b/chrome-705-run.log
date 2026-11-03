@@ -1,0 +1,16 @@
+chrome 705 PASS Asset loaded with no fallback
+chrome 705 PASS Solar-only illumination and non-emissive material
+chrome 705 PASS Same original TDB instant
+chrome 705 PASS Body orientation is a unit quaternion
+chrome 705 PASS Satellite absolute position available
+chrome 705 PASS Light points to Sun from the actual satellite centre
+chrome 705 PASS standard camera rendered without error
+chrome 705 PASS side camera rendered without error
+chrome 705 PASS detail camera rendered without error
+chrome 705 PASS parent camera rendered without error
+chrome 705 PASS Actual mouse drag rotates inspection camera
+chrome 705 PASS Camera does not alter physical orientation
+chrome 705 PASS Optional fill is explicit and reversible
+chrome 705 PASS Close restores unchanged main scene and camera
+chrome 705 PASS No browser console/runtime errors
+ALL PASS 15

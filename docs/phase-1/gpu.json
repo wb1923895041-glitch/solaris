@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "OrayIddDriver Device",
+    "DriverVersion": "17.50.19.949"
+  },
+  {
+    "Name": "Todesk Virtual Display Adapter",
+    "DriverVersion": "16.44.2.509"
+  },
+  {
+    "Name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "DriverVersion": "32.0.15.9636"
+  }
+]

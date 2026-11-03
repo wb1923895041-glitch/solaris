@@ -1,0 +1,497 @@
+{
+  "browser": "156.0.8078.48",
+  "checks": [
+    "Corrupt satellite cache is rejected explicitly",
+    "Corrupt optional layer preserves nine-body science and controls",
+    "Retry recovers from data error",
+    "Moon browser / JPL 2025-01-01T00:00:00Z",
+    "Phobos browser / JPL 2025-01-01T00:00:00Z",
+    "Deimos browser / JPL 2025-01-01T00:00:00Z",
+    "Io browser / JPL 2025-01-01T00:00:00Z",
+    "Europa browser / JPL 2025-01-01T00:00:00Z",
+    "Ganymede browser / JPL 2025-01-01T00:00:00Z",
+    "Callisto browser / JPL 2025-01-01T00:00:00Z",
+    "Mimas browser / JPL 2025-01-01T00:00:00Z",
+    "Enceladus browser / JPL 2025-01-01T00:00:00Z",
+    "Rhea browser / JPL 2025-01-01T00:00:00Z",
+    "Titan browser / JPL 2025-01-01T00:00:00Z",
+    "Iapetus browser / JPL 2025-01-01T00:00:00Z",
+    "Miranda browser / JPL 2025-01-01T00:00:00Z",
+    "Ariel browser / JPL 2025-01-01T00:00:00Z",
+    "Umbriel browser / JPL 2025-01-01T00:00:00Z",
+    "Titania browser / JPL 2025-01-01T00:00:00Z",
+    "Oberon browser / JPL 2025-01-01T00:00:00Z",
+    "Triton browser / JPL 2025-01-01T00:00:00Z",
+    "Moon browser / JPL 2026-08-01T00:00:00Z",
+    "Phobos browser / JPL 2026-08-01T00:00:00Z",
+    "Deimos browser / JPL 2026-08-01T00:00:00Z",
+    "Io browser / JPL 2026-08-01T00:00:00Z",
+    "Europa browser / JPL 2026-08-01T00:00:00Z",
+    "Ganymede browser / JPL 2026-08-01T00:00:00Z",
+    "Callisto browser / JPL 2026-08-01T00:00:00Z",
+    "Mimas browser / JPL 2026-08-01T00:00:00Z",
+    "Enceladus browser / JPL 2026-08-01T00:00:00Z",
+    "Rhea browser / JPL 2026-08-01T00:00:00Z",
+    "Titan browser / JPL 2026-08-01T00:00:00Z",
+    "Iapetus browser / JPL 2026-08-01T00:00:00Z",
+    "Miranda browser / JPL 2026-08-01T00:00:00Z",
+    "Ariel browser / JPL 2026-08-01T00:00:00Z",
+    "Umbriel browser / JPL 2026-08-01T00:00:00Z",
+    "Titania browser / JPL 2026-08-01T00:00:00Z",
+    "Oberon browser / JPL 2026-08-01T00:00:00Z",
+    "Triton browser / JPL 2026-08-01T00:00:00Z",
+    "Moon browser / JPL 2030-01-01T00:00:00Z",
+    "Phobos browser / JPL 2030-01-01T00:00:00Z",
+    "Deimos browser / JPL 2030-01-01T00:00:00Z",
+    "Io browser / JPL 2030-01-01T00:00:00Z",
+    "Europa browser / JPL 2030-01-01T00:00:00Z",
+    "Ganymede browser / JPL 2030-01-01T00:00:00Z",
+    "Callisto browser / JPL 2030-01-01T00:00:00Z",
+    "Mimas browser / JPL 2030-01-01T00:00:00Z",
+    "Enceladus browser / JPL 2030-01-01T00:00:00Z",
+    "Rhea browser / JPL 2030-01-01T00:00:00Z",
+    "Titan browser / JPL 2030-01-01T00:00:00Z",
+    "Iapetus browser / JPL 2030-01-01T00:00:00Z",
+    "Miranda browser / JPL 2030-01-01T00:00:00Z",
+    "Ariel browser / JPL 2030-01-01T00:00:00Z",
+    "Umbriel browser / JPL 2030-01-01T00:00:00Z",
+    "Titania browser / JPL 2030-01-01T00:00:00Z",
+    "Oberon browser / JPL 2030-01-01T00:00:00Z",
+    "Triton browser / JPL 2030-01-01T00:00:00Z"
+  ],
+  "cases": [
+    {
+      "id": "301",
+      "utc": "2025-01-01T00:00:00Z",
+      "runtimeTdb": 788961669.1839275,
+      "jplPrintedTdb": 788961669.1839337,
+      "positionErrorKm": 0.000006276061440633481,
+      "velocityErrorKmPerSec": 5.7143781665457557e-8
+    },
+    {
+      "id": "401",
+      "utc": "2025-01-01T00:00:00Z",
+      "runtimeTdb": 788961669.1839275,
+      "jplPrintedTdb": 788961669.1839337,
+      "positionErrorKm": 0.0072612465554547975,
+      "velocityErrorKmPerSec": 0.00019705794835368616
+    },
+    {
+      "id": "402",
+      "utc": "2025-01-01T00:00:00Z",
+      "runtimeTdb": 788961669.1839275,
+      "jplPrintedTdb": 788961669.1839337,
+      "positionErrorKm": 0.0006421465329393263,
+      "velocityErrorKmPerSec": 0.000018179341196207226
+    },
+    {
+      "id": "501",
+      "utc": "2025-01-01T00:00:00Z",
+      "runtimeTdb": 788961669.1839275,
+      "jplPrintedTdb": 788961669.1839337,
+      "positionErrorKm": 0.003009341606993826,
+      "velocityErrorKmPerSec": 0.00008497107773442863
+    },
+    {
+      "id": "502",
+      "utc": "2025-01-01T00:00:00Z",
+      "runtimeTdb": 788961669.1839275,
+      "jplPrintedTdb": 788961669.1839337,
+      "positionErrorKm": 0.001274157256441895,
+      "velocityErrorKmPerSec": 0.00003613532668163277
+    },
+    {
+      "id": "503",
+      "utc": "2025-01-01T00:00:00Z",
+      "runtimeTdb": 788961669.1839275,
+      "jplPrintedTdb": 788961669.1839337,
+      "positionErrorKm": 0.0002760944916362972,
+      "velocityErrorKmPerSec": 0.000007614785261410408
+    },
+    {
+      "id": "504",
+      "utc": "2025-01-01T00:00:00Z",
+      "runtimeTdb": 788961669.1839275,
+      "jplPrintedTdb": 788961669.1839337,
+      "positionErrorKm": 0.00008405610955583929,
+      "velocityErrorKmPerSec": 0.000001716274632433412
+    },
+    {
+      "id": "601",
+      "utc": "2025-01-01T00:00:00Z",
+      "runtimeTdb": 788961669.1839275,
+      "jplPrintedTdb": 788961669.1839337,
+      "positionErrorKm": 0.004546431559561553,
+      "velocityErrorKmPerSec": 0.0001261403632766472
+    },
+    {
+      "id": "602",
+      "utc": "2025-01-01T00:00:00Z",
+      "runtimeTdb": 788961669.1839275,
+      "jplPrintedTdb": 788961669.1839337,
+      "positionErrorKm": 0.004682387109743751,
+      "velocityErrorKmPerSec": 0.00013259697754040676
+    },
+    {
+      "id": "605",
+      "utc": "2025-01-01T00:00:00Z",
+      "runtimeTdb": 788961669.1839275,
+      "jplPrintedTdb": 788961669.1839337,
+      "positionErrorKm": 0.0003670511755161148,
+      "velocityErrorKmPerSec": 0.00001033450804760507
+    },
+    {
+      "id": "606",
+      "utc": "2025-01-01T00:00:00Z",
+      "runtimeTdb": 788961669.1839275,
+      "jplPrintedTdb": 788961669.1839337,
+      "positionErrorKm": 0.00007339873350918414,
+      "velocityErrorKmPerSec": 0.0000017034820181638215
+    },
+    {
+      "id": "608",
+      "utc": "2025-01-01T00:00:00Z",
+      "runtimeTdb": 788961669.1839275,
+      "jplPrintedTdb": 788961669.1839337,
+      "positionErrorKm": 0.00001987341132496784,
+      "velocityErrorKmPerSec": 1.0342963650460742e-8
+    },
+    {
+      "id": "705",
+      "utc": "2025-01-01T00:00:00Z",
+      "runtimeTdb": 788961669.1839275,
+      "jplPrintedTdb": 788961669.1839337,
+      "positionErrorKm": 0.00228111120739377,
+      "velocityErrorKmPerSec": 0.00006454852425346852
+    },
+    {
+      "id": "701",
+      "utc": "2025-01-01T00:00:00Z",
+      "runtimeTdb": 788961669.1839275,
+      "jplPrintedTdb": 788961669.1839337,
+      "positionErrorKm": 0.0013474928661209422,
+      "velocityErrorKmPerSec": 0.00003848299416654551
+    },
+    {
+      "id": "702",
+      "utc": "2025-01-01T00:00:00Z",
+      "runtimeTdb": 788961669.1839275,
+      "jplPrintedTdb": 788961669.1839337,
+      "positionErrorKm": 0.00060134620562318,
+      "velocityErrorKmPerSec": 0.000017191009999362776
+    },
+    {
+      "id": "703",
+      "utc": "2025-01-01T00:00:00Z",
+      "runtimeTdb": 788961669.1839275,
+      "jplPrintedTdb": 788961669.1839337,
+      "positionErrorKm": 0.00020129307753114027,
+      "velocityErrorKmPerSec": 0.00000571503919250781
+    },
+    {
+      "id": "704",
+      "utc": "2025-01-01T00:00:00Z",
+      "runtimeTdb": 788961669.1839275,
+      "jplPrintedTdb": 788961669.1839337,
+      "positionErrorKm": 0.000050163470988075886,
+      "velocityErrorKmPerSec": 0.0000013079597075911147
+    },
+    {
+      "id": "801",
+      "utc": "2025-01-01T00:00:00Z",
+      "runtimeTdb": 788961669.1839275,
+      "jplPrintedTdb": 788961669.1839337,
+      "positionErrorKm": 0.00019410063841752745,
+      "velocityErrorKmPerSec": 0.0000054784636217442355
+    },
+    {
+      "id": "301",
+      "utc": "2026-08-01T00:00:00Z",
+      "runtimeTdb": 838814469.1832788,
+      "jplPrintedTdb": 838814469.1833303,
+      "positionErrorKm": 0.000010990188032599167,
+      "velocityErrorKmPerSec": 4.534662683329647e-8
+    },
+    {
+      "id": "401",
+      "utc": "2026-08-01T00:00:00Z",
+      "runtimeTdb": 838814469.1832788,
+      "jplPrintedTdb": 838814469.1833303,
+      "positionErrorKm": 0.00575523970326682,
+      "velocityErrorKmPerSec": 0.00015618178974431712
+    },
+    {
+      "id": "402",
+      "utc": "2026-08-01T00:00:00Z",
+      "runtimeTdb": 838814469.1832788,
+      "jplPrintedTdb": 838814469.1833303,
+      "positionErrorKm": 0.0006433685691773028,
+      "velocityErrorKmPerSec": 0.00001819531870153489
+    },
+    {
+      "id": "501",
+      "utc": "2026-08-01T00:00:00Z",
+      "runtimeTdb": 838814469.1832788,
+      "jplPrintedTdb": 838814469.1833303,
+      "positionErrorKm": 0.0029202682845450964,
+      "velocityErrorKmPerSec": 0.00008234072411208423
+    },
+    {
+      "id": "502",
+      "utc": "2026-08-01T00:00:00Z",
+      "runtimeTdb": 838814469.1832788,
+      "jplPrintedTdb": 838814469.1833303,
+      "positionErrorKm": 0.0012266412516203301,
+      "velocityErrorKmPerSec": 0.00003485942055556377
+    },
+    {
+      "id": "503",
+      "utc": "2026-08-01T00:00:00Z",
+      "runtimeTdb": 838814469.1832788,
+      "jplPrintedTdb": 838814469.1833303,
+      "positionErrorKm": 0.00029061521746161375,
+      "velocityErrorKmPerSec": 0.000007437844283036528
+    },
+    {
+      "id": "504",
+      "utc": "2026-08-01T00:00:00Z",
+      "runtimeTdb": 838814469.1832788,
+      "jplPrintedTdb": 838814469.1833303,
+      "positionErrorKm": 0.00011297269551482415,
+      "velocityErrorKmPerSec": 0.0000019844958472747657
+    },
+    {
+      "id": "601",
+      "utc": "2026-08-01T00:00:00Z",
+      "runtimeTdb": 838814469.1832788,
+      "jplPrintedTdb": 838814469.1833303,
+      "positionErrorKm": 0.0034319960198132184,
+      "velocityErrorKmPerSec": 0.00009523542798699229
+    },
+    {
+      "id": "602",
+      "utc": "2026-08-01T00:00:00Z",
+      "runtimeTdb": 838814469.1832788,
+      "jplPrintedTdb": 838814469.1833303,
+      "positionErrorKm": 0.004658367583284778,
+      "velocityErrorKmPerSec": 0.0001315409831043917
+    },
+    {
+      "id": "605",
+      "utc": "2026-08-01T00:00:00Z",
+      "runtimeTdb": 838814469.1832788,
+      "jplPrintedTdb": 838814469.1833303,
+      "positionErrorKm": 0.0003730708584477533,
+      "velocityErrorKmPerSec": 0.000010221972682258171
+    },
+    {
+      "id": "606",
+      "utc": "2026-08-01T00:00:00Z",
+      "runtimeTdb": 838814469.1832788,
+      "jplPrintedTdb": 838814469.1833303,
+      "positionErrorKm": 0.00008623442268659605,
+      "velocityErrorKmPerSec": 0.000001351359230457439
+    },
+    {
+      "id": "608",
+      "utc": "2026-08-01T00:00:00Z",
+      "runtimeTdb": 838814469.1832788,
+      "jplPrintedTdb": 838814469.1833303,
+      "positionErrorKm": 0.000037475170140711574,
+      "velocityErrorKmPerSec": 2.8334158527114686e-8
+    },
+    {
+      "id": "705",
+      "utc": "2026-08-01T00:00:00Z",
+      "runtimeTdb": 838814469.1832788,
+      "jplPrintedTdb": 838814469.1833303,
+      "positionErrorKm": 0.002267348353185142,
+      "velocityErrorKmPerSec": 0.00006405204935903348
+    },
+    {
+      "id": "701",
+      "utc": "2026-08-01T00:00:00Z",
+      "runtimeTdb": 838814469.1832788,
+      "jplPrintedTdb": 838814469.1833303,
+      "positionErrorKm": 0.001350913766026359,
+      "velocityErrorKmPerSec": 0.00003849360437341817
+    },
+    {
+      "id": "702",
+      "utc": "2026-08-01T00:00:00Z",
+      "runtimeTdb": 838814469.1832788,
+      "jplPrintedTdb": 838814469.1833303,
+      "positionErrorKm": 0.0005933459401270038,
+      "velocityErrorKmPerSec": 0.0000168281027894679
+    },
+    {
+      "id": "703",
+      "utc": "2026-08-01T00:00:00Z",
+      "runtimeTdb": 838814469.1832788,
+      "jplPrintedTdb": 838814469.1833303,
+      "positionErrorKm": 0.00020258332144285838,
+      "velocityErrorKmPerSec": 0.000005622963355371165
+    },
+    {
+      "id": "704",
+      "utc": "2026-08-01T00:00:00Z",
+      "runtimeTdb": 838814469.1832788,
+      "jplPrintedTdb": 838814469.1833303,
+      "positionErrorKm": 0.000058764836999082356,
+      "velocityErrorKmPerSec": 0.0000013043468440528475
+    },
+    {
+      "id": "801",
+      "utc": "2026-08-01T00:00:00Z",
+      "runtimeTdb": 838814469.1832788,
+      "jplPrintedTdb": 838814469.1833303,
+      "positionErrorKm": 0.0001997996883530208,
+      "velocityErrorKmPerSec": 0.000005490257442486176
+    },
+    {
+      "id": "301",
+      "utc": "2030-01-01T00:00:00Z",
+      "runtimeTdb": 946728069.183919,
+      "jplPrintedTdb": 946728069.1839337,
+      "positionErrorKm": 0.000016068119863650434,
+      "velocityErrorKmPerSec": 7.794763640018442e-8
+    },
+    {
+      "id": "401",
+      "utc": "2030-01-01T00:00:00Z",
+      "runtimeTdb": 946728069.183919,
+      "jplPrintedTdb": 946728069.1839337,
+      "positionErrorKm": 0.005701040725819813,
+      "velocityErrorKmPerSec": 0.000154665174282094
+    },
+    {
+      "id": "402",
+      "utc": "2030-01-01T00:00:00Z",
+      "runtimeTdb": 946728069.183919,
+      "jplPrintedTdb": 946728069.1839337,
+      "positionErrorKm": 0.0006449198590981382,
+      "velocityErrorKmPerSec": 0.000018222664309739748
+    },
+    {
+      "id": "501",
+      "utc": "2030-01-01T00:00:00Z",
+      "runtimeTdb": 946728069.183919,
+      "jplPrintedTdb": 946728069.1839337,
+      "positionErrorKm": 0.003091585975886872,
+      "velocityErrorKmPerSec": 0.00008674018740798042
+    },
+    {
+      "id": "502",
+      "utc": "2030-01-01T00:00:00Z",
+      "runtimeTdb": 946728069.183919,
+      "jplPrintedTdb": 946728069.1839337,
+      "positionErrorKm": 0.0013127450239890578,
+      "velocityErrorKmPerSec": 0.00003660211148598098
+    },
+    {
+      "id": "503",
+      "utc": "2030-01-01T00:00:00Z",
+      "runtimeTdb": 946728069.183919,
+      "jplPrintedTdb": 946728069.1839337,
+      "positionErrorKm": 0.00031382602476153225,
+      "velocityErrorKmPerSec": 0.000007508478839969073
+    },
+    {
+      "id": "504",
+      "utc": "2030-01-01T00:00:00Z",
+      "runtimeTdb": 946728069.183919,
+      "jplPrintedTdb": 946728069.1839337,
+      "positionErrorKm": 0.00013894360765032376,
+      "velocityErrorKmPerSec": 0.000001957336353179294
+    },
+    {
+      "id": "601",
+      "utc": "2030-01-01T00:00:00Z",
+      "runtimeTdb": 946728069.183919,
+      "jplPrintedTdb": 946728069.1839337,
+      "positionErrorKm": 0.003413926337510475,
+      "velocityErrorKmPerSec": 0.00009389421658668959
+    },
+    {
+      "id": "602",
+      "utc": "2030-01-01T00:00:00Z",
+      "runtimeTdb": 946728069.183919,
+      "jplPrintedTdb": 946728069.1839337,
+      "positionErrorKm": 0.00460648612761414,
+      "velocityErrorKmPerSec": 0.00013020440470827525
+    },
+    {
+      "id": "605",
+      "utc": "2030-01-01T00:00:00Z",
+      "runtimeTdb": 946728069.183919,
+      "jplPrintedTdb": 946728069.1839337,
+      "positionErrorKm": 0.0003885384531303669,
+      "velocityErrorKmPerSec": 0.000010342813589159734
+    },
+    {
+      "id": "606",
+      "utc": "2030-01-01T00:00:00Z",
+      "runtimeTdb": 946728069.183919,
+      "jplPrintedTdb": 946728069.1839337,
+      "positionErrorKm": 0.00008699669941014032,
+      "velocityErrorKmPerSec": 0.0000011732381387121194
+    },
+    {
+      "id": "608",
+      "utc": "2030-01-01T00:00:00Z",
+      "runtimeTdb": 946728069.183919,
+      "jplPrintedTdb": 946728069.1839337,
+      "positionErrorKm": 0.00004750713885207661,
+      "velocityErrorKmPerSec": 2.545455616797308e-8
+    },
+    {
+      "id": "705",
+      "utc": "2030-01-01T00:00:00Z",
+      "runtimeTdb": 946728069.183919,
+      "jplPrintedTdb": 946728069.1839337,
+      "positionErrorKm": 0.0022577487289269613,
+      "velocityErrorKmPerSec": 0.00006374878815109638
+    },
+    {
+      "id": "701",
+      "utc": "2030-01-01T00:00:00Z",
+      "runtimeTdb": 946728069.183919,
+      "jplPrintedTdb": 946728069.1839337,
+      "positionErrorKm": 0.0013477481306589422,
+      "velocityErrorKmPerSec": 0.00003831235817866588
+    },
+    {
+      "id": "702",
+      "utc": "2030-01-01T00:00:00Z",
+      "runtimeTdb": 946728069.183919,
+      "jplPrintedTdb": 946728069.1839337,
+      "positionErrorKm": 0.0005713562197026316,
+      "velocityErrorKmPerSec": 0.00001616953152765392
+    },
+    {
+      "id": "703",
+      "utc": "2030-01-01T00:00:00Z",
+      "runtimeTdb": 946728069.183919,
+      "jplPrintedTdb": 946728069.1839337,
+      "positionErrorKm": 0.00020380928090228036,
+      "velocityErrorKmPerSec": 0.0000055677033983132894
+    },
+    {
+      "id": "704",
+      "utc": "2030-01-01T00:00:00Z",
+      "runtimeTdb": 946728069.183919,
+      "jplPrintedTdb": 946728069.1839337,
+      "positionErrorKm": 0.00006714621467734065,
+      "velocityErrorKmPerSec": 0.0000013494187685405807
+    },
+    {
+      "id": "801",
+      "utc": "2030-01-01T00:00:00Z",
+      "runtimeTdb": 946728069.183919,
+      "jplPrintedTdb": 946728069.1839337,
+      "positionErrorKm": 0.00020488418271142792,
+      "velocityErrorKmPerSec": 0.0000054833070815025415
+    }
+  ],
+  "failureInjection": "One response byte flipped in the browser route only; no source file modified"
+}

@@ -1,0 +1,146 @@
+{
+  "browser": "156.0.4314.58",
+  "viewport": {
+    "width": 2560,
+    "height": 1440
+  },
+  "checks": [
+    "Foreground test window",
+    "P4 populations loaded (74,597 main-belt + 8,306 TNO, anonymous)",
+    "P4 13 named heliocentric bodies with Horizons trails",
+    "P4 2000001 browser state equals node Horizons evaluation",
+    "P4 2000002 browser state equals node Horizons evaluation",
+    "P4 2000004 browser state equals node Horizons evaluation",
+    "P4 2000010 browser state equals node Horizons evaluation",
+    "P4 2000016 browser state equals node Horizons evaluation",
+    "P4 2000433 browser state equals node Horizons evaluation",
+    "P4 2101955 browser state equals node Horizons evaluation",
+    "P4 2099942 browser state equals node Horizons evaluation",
+    "P4 999 browser state equals node Horizons evaluation",
+    "P4 2136199 browser state equals node Horizons evaluation",
+    "P4 2136108 browser state equals node Horizons evaluation",
+    "P4 2136472 browser state equals node Horizons evaluation",
+    "P4 2486958 browser state equals node Horizons evaluation",
+    "P4 population layer follows the global TDB",
+    "P4 trojan highlight is a display filter",
+    "P4 Ceres searchable and panel shown",
+    "P4 main scene focuses an external small body",
+    "P4 Ceres local view with Dawn mosaic",
+    "P4 Pluto–Charon system: Charon equals node evaluation relative to Pluto 999",
+    "P4 binary barycentre outside Pluto and mutual tidal lock computed",
+    "P5 atlas lists 9 + 18 + 13 bodies",
+    "P5 eclipses computed in a Web Worker equal node computation",
+    "P5 every computed eclipse matched to the NASA canon",
+    "P5 eclipse jump moves the single global clock",
+    "P5 timeline computed (Apophis flyby, oppositions, perihelion, eclipses)",
+    "P5 bookmark saved",
+    "P5 bookmark restores the saved time",
+    "P6 Kepler ellipse runs with bounded energy error (< 1e-5, as verified offline)",
+    "P6 convergence test shows second-order ratios",
+    "P6 hypothetical experiment clearly labelled",
+    "P6 divergence detected and paused with a warning",
+    "P6 real ephemeris untouched by the lab",
+    "P7 599 NSSDCA ring layer rendered with disclosed gain",
+    "P7 799 NSSDCA ring layer rendered with disclosed gain",
+    "P7 899 NSSDCA ring layer rendered with disclosed gain",
+    "P7 quality tier changes only the pixel ratio",
+    "P7 auto mode restored",
+    "No console or runtime errors"
+  ],
+  "errors": [],
+  "shots": [
+    {
+      "path": "output/playwright/phases-4-7/msedge-p4-overview-exploration-2560.png",
+      "caption": "第 4 期 · 探索比例总览：主带 / Hilda / 特洛伊 / TNO 统计层与命名小天体"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p4-trojans-highlight-2560.png",
+      "caption": "木星特洛伊群高亮（真实根数分布于 L4/L5）"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p4-overview-scientific-2560.png",
+      "caption": "科学比例：小行星带与行星同一线性映射"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p4-ceres-focus-2560.png",
+      "caption": "聚焦谷神星（Horizons 位置）"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p4-ceres-local-2560.png",
+      "caption": "谷神星局部视图：Dawn 全球影像、真实太阳光照与 IAU 姿态"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p4-pluto-system-2560.png",
+      "caption": "冥王星–卡戎双天体系统（New Horizons 影像，质心在冥王星外）"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p4-charon-2560.png",
+      "caption": "卡戎聚焦"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p5-atlas-2560.png",
+      "caption": "科普工作台 · 天体图鉴"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p5-eclipses-2560.png",
+      "caption": "日月食与月相：由星历计算并与 NASA 目录核对"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p5-kepler-2560.png",
+      "caption": "开普勒定律：真实轨道等时扇区与 T²/a³"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p5-timeline-2560.png",
+      "caption": "时间线：由星历计算的事件"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p5-compare-2560.png",
+      "caption": "双天体比较（同一比例）"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p6-kepler-2560.png",
+      "caption": "物理实验室：二体解析解对照与步长收敛"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p6-trojan-2560.png",
+      "caption": "限制性三体：L4 特洛伊点在旋转坐标中的摆动"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p6-hypothetical-2560.png",
+      "caption": "假设实验：木星质量 ×10（醒目标注，不写回星历）"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p6-divergence-2560.png",
+      "caption": "数值发散：明确告警并暂停"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p7-rings-599-2560.png",
+      "caption": "599 环系（NSSDCA 光学厚度，增强显示已标注）"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p7-rings-799-2560.png",
+      "caption": "799 环系（NSSDCA 光学厚度，增强显示已标注）"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p7-rings-899-2560.png",
+      "caption": "899 环系（NSSDCA 光学厚度，增强显示已标注）"
+    },
+    {
+      "path": "output/playwright/phases-4-7/msedge-p7-eco-2560.png",
+      "caption": "节能档（像素比 0.75）"
+    }
+  ],
+  "quality": {
+    "mode": "auto",
+    "tier": "eco",
+    "pixelRatio": 0.75,
+    "changes": [
+      {
+        "atMs": 192255.3999999999,
+        "from": "high",
+        "to": "eco",
+        "reason": "manual"
+      }
+    ]
+  }
+}

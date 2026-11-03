@@ -1,0 +1,8 @@
+{
+  "url": "https://ssd-api.jpl.nasa.gov/sbdb.api?sstr=4&phys-par=1",
+  "params": {
+    "sstr": "4",
+    "phys-par": "1"
+  },
+  "retrievedAtUtc": "2026-11-01T18:35:47.574257+00:00"
+}

@@ -1,0 +1,192 @@
+{
+  "checks": [
+    "Leak: JS heap growth between cycle 4 and 12 < 10 % after forced GC",
+    "Leak: main-scene GPU objects stable",
+    "Leak: local-system GPU objects bounded",
+    "Leak run without runtime errors",
+    "主星历 599 字节损坏 → 拒绝初始化，不用替代轨道",
+    "月球星历字节损坏 → 卫星层停用，行星照常",
+    "小天体清单缺失 → 小天体图层停用",
+    "木卫二纹理字节损坏 → 仅该资产报错"
+  ],
+  "leak": {
+    "rows": [
+      {
+        "cycle": 1,
+        "heap": 114457095,
+        "main": {
+          "geometries": 25,
+          "textures": 32
+        },
+        "local": {
+          "geometries": 16,
+          "textures": 13
+        }
+      },
+      {
+        "cycle": 2,
+        "heap": 109941495,
+        "main": {
+          "geometries": 25,
+          "textures": 32
+        },
+        "local": {
+          "geometries": 16,
+          "textures": 13
+        }
+      },
+      {
+        "cycle": 3,
+        "heap": 122792121,
+        "main": {
+          "geometries": 25,
+          "textures": 32
+        },
+        "local": {
+          "geometries": 16,
+          "textures": 13
+        }
+      },
+      {
+        "cycle": 4,
+        "heap": 122374761,
+        "main": {
+          "geometries": 25,
+          "textures": 32
+        },
+        "local": {
+          "geometries": 16,
+          "textures": 13
+        }
+      },
+      {
+        "cycle": 5,
+        "heap": 118156808,
+        "main": {
+          "geometries": 25,
+          "textures": 32
+        },
+        "local": {
+          "geometries": 16,
+          "textures": 13
+        }
+      },
+      {
+        "cycle": 6,
+        "heap": 123064409,
+        "main": {
+          "geometries": 25,
+          "textures": 32
+        },
+        "local": {
+          "geometries": 16,
+          "textures": 13
+        }
+      },
+      {
+        "cycle": 7,
+        "heap": 122542706,
+        "main": {
+          "geometries": 25,
+          "textures": 32
+        },
+        "local": {
+          "geometries": 16,
+          "textures": 13
+        }
+      },
+      {
+        "cycle": 8,
+        "heap": 118278866,
+        "main": {
+          "geometries": 25,
+          "textures": 32
+        },
+        "local": {
+          "geometries": 16,
+          "textures": 13
+        }
+      },
+      {
+        "cycle": 9,
+        "heap": 123238203,
+        "main": {
+          "geometries": 25,
+          "textures": 32
+        },
+        "local": {
+          "geometries": 16,
+          "textures": 13
+        }
+      },
+      {
+        "cycle": 10,
+        "heap": 122778043,
+        "main": {
+          "geometries": 25,
+          "textures": 32
+        },
+        "local": {
+          "geometries": 16,
+          "textures": 13
+        }
+      },
+      {
+        "cycle": 11,
+        "heap": 118458862,
+        "main": {
+          "geometries": 25,
+          "textures": 32
+        },
+        "local": {
+          "geometries": 16,
+          "textures": 13
+        }
+      },
+      {
+        "cycle": 12,
+        "heap": 123389199,
+        "main": {
+          "geometries": 25,
+          "textures": 32
+        },
+        "local": {
+          "geometries": 16,
+          "textures": 13
+        }
+      }
+    ],
+    "heapGrowthCycle4to12": 0.008289601480815149,
+    "errors": []
+  },
+  "corrupt": [
+    {
+      "name": "主星历 599 字节损坏 → 拒绝初始化，不用替代轨道",
+      "status": "初始化失败：星历完整性检查失败 599；未使用替代轨道",
+      "probe": "",
+      "alive": null,
+      "errors": []
+    },
+    {
+      "name": "月球星历字节损坏 → 卫星层停用，行星照常",
+      "status": "局部系统未启用：卫星缓存哈希不符 301；原太阳系继续运行",
+      "probe": "",
+      "alive": true,
+      "errors": []
+    },
+    {
+      "name": "小天体清单缺失 → 小天体图层停用",
+      "status": "小天体图层未启用：小天体清单加载失败；行星与卫星照常运行",
+      "probe": "",
+      "alive": true,
+      "errors": []
+    },
+    {
+      "name": "木卫二纹理字节损坏 → 仅该资产报错",
+      "status": "3B 独立资产验收 · 历史影像与 IAU 近似姿态 · 参考中心仍使用原星历",
+      "probe": "Error: 资产哈希核验失败",
+      "alive": true,
+      "errors": []
+    }
+  ]
+}

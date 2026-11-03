@@ -1,0 +1,138 @@
+{
+  "bodyId": "699",
+  "name": "Saturn",
+  "version": "2.0.0-saturn",
+  "kind": "cassini-clouds-voyager-optical-rings",
+  "photometry": "gas",
+  "minnaert": 0.78,
+  "albedo": {
+    "provider": "NASA PDS / Cassini ISS",
+    "title": "Original RGB Saturn global map",
+    "sourceUrl": "https://atmos.nmsu.edu/data_and_services/atmospheres_data/Cassini/sat_global_map.html",
+    "observationEpoch": "2011-08-11",
+    "credit": "Li, West, Jiang, Knowles (2023), DOI 10.17189/rkkb-6y30; NASA/JPL/Cassini ISS",
+    "rights": "NASA PDS science data; attribution retained",
+    "processing": "Original RGB FITS 3601x1801; black ring-shadow and polar gaps linearly filled in latitude, with reconstruction mask retained; no generated turbulence",
+    "primeMeridianOrOrientationNotes": "North-up verified against PDS browse graticule. West 360..0 converted to east -180..180 by 180-degree wrap. Not current cloud longitude.",
+    "sha256": "32a62eca9b82255c7dd763ba0752cee1664ae73d5ec4d5d5260227deecd422af",
+    "nativeSize": [
+      3601,
+      1801
+    ],
+    "acquisitionDate": "2026-10-28T19:08:23.009993+00:00",
+    "projection": "equirectangular",
+    "longitudeConvention": "east-positive after processing",
+    "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "processingCategory": "approx-natural-color"
+  },
+  "lods": [
+    {
+      "width": 1024,
+      "height": 512,
+      "url": "/assets/celestial/saturn/albedo-1024.jpg",
+      "sha256": "0712cfed4779d89d11513d5be6fce73da77437d7bbdcaa9aee58ccf557808ff5"
+    },
+    {
+      "width": 2048,
+      "height": 1024,
+      "url": "/assets/celestial/saturn/albedo-2048.jpg",
+      "sha256": "8f64b5f84f5f62e88214ed68ea040f3661d316aec60e6a663ee03b91840c5845"
+    },
+    {
+      "width": 4096,
+      "height": 2048,
+      "url": "/assets/celestial/saturn/albedo-4096.jpg",
+      "sha256": "b69e62181368a82156051885f28136425fb44e17dc28fc8af52caad79b4d38c4"
+    }
+  ],
+  "ringProfile": {
+    "sourceUrl": "https://pds-rings.seti.org/voyager/uvs/profiles.html",
+    "downloadUrl": "https://opus.pds-rings.seti.org/holdings/volumes/VG_28xx/VG_2802/EASYDATA/KM005/US1P01.TAB",
+    "provider": "NASA PDS Ring-Moon Systems Node / Voyager 2 UVS",
+    "title": "US1P01 normal optical depth, delta Sco egress",
+    "observationEpoch": "1981-08-26",
+    "credit": "NASA Voyager UVS / PDS Ring-Moon Systems Node",
+    "rights": "NASA PDS science data",
+    "rawSha256": "3ba9cb653ac3d2ecfc8baef4acbb76450fbc4cf91873be9886ce0e0bc0ad4951",
+    "processing": "Column 4 normal optical depth. Original 5km grid; negative estimates clipped to zero; opaque flag 99 capped at tau 6; interpolated onto 8192 radial texels. UV optical depth is an approximate visible-opacity proxy, not measured visible reflectance.",
+    "radiusKm": [
+      74658.0,
+      136775.0
+    ],
+    "planetRadiusKm": 58232,
+    "innerRatio": 1.2820785822228329,
+    "outerRatio": 2.34879447726336,
+    "url": "/assets/celestial/saturn/ring-optical-depth.png",
+    "sha256": "35cd0d9d4969f9566a0a975b4f7880b13ade07464e448d7534f4837da8c717d0",
+    "tauMax": 6,
+    "reconstructionFraction": 0.17656857301499168
+  },
+  "additionalSources": [
+    {
+      "sourceUrl": "https://pds-rings.seti.org/voyager/uvs/profiles.html",
+      "downloadUrl": "https://opus.pds-rings.seti.org/holdings/volumes/VG_28xx/VG_2802/EASYDATA/KM005/US1P01.TAB",
+      "provider": "NASA PDS Ring-Moon Systems Node / Voyager 2 UVS",
+      "title": "US1P01 normal optical depth, delta Sco egress",
+      "observationEpoch": "1981-08-26",
+      "credit": "NASA Voyager UVS / PDS Ring-Moon Systems Node",
+      "rights": "NASA PDS science data",
+      "rawSha256": "3ba9cb653ac3d2ecfc8baef4acbb76450fbc4cf91873be9886ce0e0bc0ad4951",
+      "processing": "Column 4 normal optical depth. Original 5km grid; negative estimates clipped to zero; opaque flag 99 capped at tau 6; interpolated onto 8192 radial texels. UV optical depth is an approximate visible-opacity proxy, not measured visible reflectance.",
+      "radiusKm": [
+        74658.0,
+        136775.0
+      ],
+      "planetRadiusKm": 58232,
+      "innerRatio": 1.2820785822228329,
+      "outerRatio": 2.34879447726336,
+      "url": "/assets/celestial/saturn/ring-optical-depth.png",
+      "sha256": "35cd0d9d4969f9566a0a975b4f7880b13ade07464e448d7534f4837da8c717d0",
+      "tauMax": 6,
+      "reconstructionFraction": 0.17656857301499168,
+      "acquisitionDate": "2026-10-28T19:08:23.009993+00:00",
+      "projection": "see processing notes",
+      "longitudeConvention": "east-positive after processing",
+      "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "processingCategory": "approx-natural-color"
+    }
+  ],
+  "atmosphere": {
+    "radius": 1.003,
+    "tint": "#e1c69c",
+    "strength": 0.18
+  },
+  "axisVerified": true,
+  "hasVerifiedOrientation": true,
+  "visualEnhancements": [
+    "VISUAL_ENHANCEMENT: neutral warm ice color and approximate single-scattering ring photometry, no Bloom",
+    "VISUAL_ENHANCEMENT: ring brightness inspection gain switch, analytic sphere/plane mutual shadows"
+  ],
+  "limitations": [
+    "2011 Saturn storm/cloud snapshot and 1981 ring occultation, not current weather",
+    "RECONSTRUCTED black-image gaps: 17.66% of map, latitude interpolation and constant polar extension",
+    "UVS tau is a proxy for visible optical opacity; opaque limits capped at 6, no particle-scale model",
+    "A/B/C main rings only, radial structures azimuthally averaged; no satellites or ring dynamics",
+    "Oblate ring shadows use analytic ellipsoid / infinitesimal plane; finite Sun penumbra is an approximate smoothing, not a full radiative-transfer model"
+  ],
+  "description": "Cassini \u4e91\u56fe\u4e0e Voyager \u73af\u5149\u5b66\u539a\u5ea6\u6570\u636e\u3002\u4e3b\u73af\u4e0e\u8d64\u9053\u540c\u9762\uff0c\u9634\u5f71\u968f\u771f\u5b9e\u592a\u9633\u65b9\u5411\u53d8\u5316\u3002",
+  "referenceLinks": [
+    "https://atmos.nmsu.edu/data_and_services/atmospheres_data/Cassini/sat_global_map.html",
+    "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+  ],
+  "shapeRatios": [
+    1.034963593900261,
+    0.9335760406649265,
+    1.034963593900261
+  ],
+  "shapeSource": {
+    "sourceUrl": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc",
+    "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+    "iauRadiiKm": [
+      60268.0,
+      60268.0,
+      54364.0
+    ],
+    "physicalMeanRadiusKm": 58232,
+    "processing": "Visual-only planetocentric ellipsoid geometry; frozen mean radius and positions untouched; analytic ellipsoidal shadow intersection"
+  }
+}

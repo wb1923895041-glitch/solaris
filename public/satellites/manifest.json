@@ -1,0 +1,1669 @@
+{
+  "version": "3a-v1",
+  "frame": "ICRF",
+  "referencePlane": "FRAME",
+  "correction": "NONE",
+  "positionUnit": "km",
+  "velocityUnit": "km/s",
+  "timeScale": "TDB",
+  "epochOrigin": "J2000_TDB",
+  "centerPolicy": "Per-body parent planet BODY CENTER; global SSB is parentSSB + relativeMoon",
+  "startTdb": 757339269.1839061,
+  "endTdb": 978264069.1839114,
+  "startUtc": "2024-01-01T00:00:00Z",
+  "endUtc": "2031-01-01T00:00:00Z",
+  "timeSource": {
+    "lsk": "naif0012.tls",
+    "sha256": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b"
+  },
+  "interpolation": "Existing phase-1 EphemerisProvider.state cubic Hermite with stored velocities",
+  "objects": [
+    {
+      "id": "301",
+      "parentPlanetId": "399",
+      "name": "Moon",
+      "zh": "月球",
+      "file": "/satellites/301.f64",
+      "sha256": "37393bdbb65f236d3859f4e724cd52723c19836d68e6c9bf87911014279f080a",
+      "count": 10237,
+      "stepSeconds": 21600,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "centerId": "399",
+      "centerKind": "planetCenter",
+      "frame": "ICRF",
+      "referencePlane": "FRAME",
+      "correction": "NONE",
+      "positionUnit": "km",
+      "velocityUnit": "km/s",
+      "timeScale": "TDB",
+      "solution": "DE441",
+      "rawSha256": "013ac029fca6e1aa683780426a7792a0d815c5ea4c780ff8785399f0dd4127c4",
+      "rawPath": "data/phase-3a/raw/301-grid-360m-00.json",
+      "sources": [
+        {
+          "rawPath": "data/phase-3a/raw/301-grid-360m-00.json",
+          "rawSha256": "013ac029fca6e1aa683780426a7792a0d815c5ea4c780ff8785399f0dd4127c4",
+          "requestPath": "data/phase-3a/raw/301-grid-360m-00.request.json",
+          "solution": "DE441",
+          "centerSolution": "DE441",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:50:25.717191+00:00"
+        }
+      ],
+      "physical": {
+        "radiusKm": 1737.4,
+        "radiusUncertaintyKm": 0.1,
+        "gmKm3PerSec2": 4902.8,
+        "radiusReference": "1",
+        "gmReference": "DE440",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "sourceSha256": "9a9c004d950923ea368a8c4815d813c9c232c332d1586402a23b15d9581370d1"
+      },
+      "orientation": {
+        "modelAvailable": true,
+        "frame": "IAU_MOON",
+        "source": "NAIF pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "status": "METADATA_ONLY_NOT_RENDERED_3A",
+        "quality": "generic IAU model; no lunar binary PCK or physical libration validation"
+      },
+      "characteristicRadiusKm": 385789.28181832645,
+      "sampledMeanPeriodDays": 27.32131699978131,
+      "periodMethod": "Least-squares unwrapped longitude in sampled mean angular-momentum plane over cache",
+      "asset": {
+        "status": "NOT_IMPLEMENTED_3B",
+        "shape": "NO_SURFACE_MESH",
+        "rights": "No satellite imagery distributed in 3A",
+        "colorProcessing": "diagnostic point colors only, not surface albedo"
+      }
+    },
+    {
+      "id": "401",
+      "parentPlanetId": "499",
+      "name": "Phobos",
+      "zh": "火卫一",
+      "file": "/satellites/401.f64",
+      "sha256": "642169c46b04d253c8cc986d59e22b3d99e4934e1c549a4bdb0193a6a1485ecc",
+      "count": 184249,
+      "stepSeconds": 1200,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "centerId": "499",
+      "centerKind": "planetCenter",
+      "frame": "ICRF",
+      "referencePlane": "FRAME",
+      "correction": "NONE",
+      "positionUnit": "km",
+      "velocityUnit": "km/s",
+      "timeScale": "TDB",
+      "solution": "mar099",
+      "rawSha256": "3fde5edc2db53c0f75741f3b7f90d064a7e78ba933b9145d206404e2c6352280",
+      "rawPath": "data/phase-3a/raw/401-grid-20m-00.json",
+      "sources": [
+        {
+          "rawPath": "data/phase-3a/raw/401-grid-20m-00.json",
+          "rawSha256": "3fde5edc2db53c0f75741f3b7f90d064a7e78ba933b9145d206404e2c6352280",
+          "requestPath": "data/phase-3a/raw/401-grid-20m-00.request.json",
+          "solution": "mar099",
+          "centerSolution": "mar099",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:52:51.260545+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/401-grid-20m-01.json",
+          "rawSha256": "f548c424f799da392490960b846ad3c631e1d1b5b4b6ec874f03dbcd31c476b8",
+          "requestPath": "data/phase-3a/raw/401-grid-20m-01.request.json",
+          "solution": "mar099",
+          "centerSolution": "mar099",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:52:59.546176+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/401-grid-20m-02.json",
+          "rawSha256": "449fdc2e25de992ae01a9492c2e58b3418a33eb46405fb0c7907816c1781894e",
+          "requestPath": "data/phase-3a/raw/401-grid-20m-02.request.json",
+          "solution": "mar099",
+          "centerSolution": "mar099",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:53:26.662899+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/401-grid-20m-03.json",
+          "rawSha256": "d3103ca6897786e4a633259cfe0ce459ac8042518fb5d8f990cc0ac90cb696b1",
+          "requestPath": "data/phase-3a/raw/401-grid-20m-03.request.json",
+          "solution": "mar099",
+          "centerSolution": "mar099",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:53:42.945543+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/401-grid-20m-04.json",
+          "rawSha256": "05b6baccc0af1b55b27cd01d5f66fd4939c9f8f4c49ac6f0b6148a03af8b5803",
+          "requestPath": "data/phase-3a/raw/401-grid-20m-04.request.json",
+          "solution": "mar099",
+          "centerSolution": "mar099",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:54:00.822768+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/401-grid-20m-05.json",
+          "rawSha256": "59d4e27d261b978b4be9006b7e863193bd5eaa613508438a6b3fc67304c885b7",
+          "requestPath": "data/phase-3a/raw/401-grid-20m-05.request.json",
+          "solution": "mar099",
+          "centerSolution": "mar099",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:54:05.748992+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/401-grid-20m-06.json",
+          "rawSha256": "02bccd62be2cae6a38b574954c0d4eec53388bccc802eb8c3e3144abb5a4e465",
+          "requestPath": "data/phase-3a/raw/401-grid-20m-06.request.json",
+          "solution": "mar099",
+          "centerSolution": "mar099",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:54:07.824529+00:00"
+        }
+      ],
+      "physical": {
+        "radiusKm": 11.08,
+        "radiusUncertaintyKm": 0.04,
+        "gmKm3PerSec2": 0.0007087,
+        "radiusReference": "1",
+        "gmReference": "MAR097",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "sourceSha256": "9a9c004d950923ea368a8c4815d813c9c232c332d1586402a23b15d9581370d1"
+      },
+      "orientation": {
+        "modelAvailable": true,
+        "frame": "IAU_PHOBOS",
+        "source": "NAIF pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "status": "METADATA_ONLY_NOT_RENDERED_3A",
+        "quality": "generic IAU model; no lunar binary PCK or physical libration validation"
+      },
+      "characteristicRadiusKm": 9377.070941057094,
+      "sampledMeanPeriodDays": 0.3189100526084382,
+      "periodMethod": "Least-squares unwrapped longitude in sampled mean angular-momentum plane over cache",
+      "asset": {
+        "status": "NOT_IMPLEMENTED_3B",
+        "shape": "NO_SURFACE_MESH",
+        "rights": "No satellite imagery distributed in 3A",
+        "colorProcessing": "diagnostic point colors only, not surface albedo"
+      }
+    },
+    {
+      "id": "402",
+      "parentPlanetId": "499",
+      "name": "Deimos",
+      "zh": "火卫二",
+      "file": "/satellites/402.f64",
+      "sha256": "bdad8e887a21fa58c7e62dadbe4fe035f521442822a290ca9f994fcd4a47e649",
+      "count": 61417,
+      "stepSeconds": 3600,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "centerId": "499",
+      "centerKind": "planetCenter",
+      "frame": "ICRF",
+      "referencePlane": "FRAME",
+      "correction": "NONE",
+      "positionUnit": "km",
+      "velocityUnit": "km/s",
+      "timeScale": "TDB",
+      "solution": "mar099",
+      "rawSha256": "24e46ce92ea4c5cfa0db7c03ca63a9dfbd42ccfa2fb5e5eea829f3d541564ac5",
+      "rawPath": "data/phase-3a/raw/402-grid-60m-00.json",
+      "sources": [
+        {
+          "rawPath": "data/phase-3a/raw/402-grid-60m-00.json",
+          "rawSha256": "24e46ce92ea4c5cfa0db7c03ca63a9dfbd42ccfa2fb5e5eea829f3d541564ac5",
+          "requestPath": "data/phase-3a/raw/402-grid-60m-00.request.json",
+          "solution": "mar099",
+          "centerSolution": "mar099",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:54:24.483085+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/402-grid-60m-01-part-00.json",
+          "rawSha256": "c28f57efd6aedb8f3f622a1753cd2674006a28a6a16fa99630a08236d42cb406",
+          "requestPath": "data/phase-3a/raw/402-grid-60m-01-part-00.request.json",
+          "solution": "mar099",
+          "centerSolution": "mar099",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:58:28.831229+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/402-grid-60m-01-part-01.json",
+          "rawSha256": "65e439354840d08c1dc3c869418820ac94e2dca6175be7c96742e51a794c8b40",
+          "requestPath": "data/phase-3a/raw/402-grid-60m-01-part-01.request.json",
+          "solution": "mar099",
+          "centerSolution": "mar099",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:58:31.429680+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/402-grid-60m-01-part-02.json",
+          "rawSha256": "97d55c183e41e6457fb8398172737522a39f12b1ca6d751acf9ace50d026227b",
+          "requestPath": "data/phase-3a/raw/402-grid-60m-01-part-02.request.json",
+          "solution": "mar099",
+          "centerSolution": "mar099",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:58:33.101566+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/402-grid-60m-02-part-00.json",
+          "rawSha256": "276cae603d32f5334d2a576eddf4748654e2df2b1c80227100bbf1835e257263",
+          "requestPath": "data/phase-3a/raw/402-grid-60m-02-part-00.request.json",
+          "solution": "mar099",
+          "centerSolution": "mar099",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:58:33.999158+00:00"
+        }
+      ],
+      "physical": {
+        "radiusKm": 6.2,
+        "radiusUncertaintyKm": 0.24,
+        "gmKm3PerSec2": 9.62e-05,
+        "radiusReference": "1",
+        "gmReference": "MAR097",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "sourceSha256": "9a9c004d950923ea368a8c4815d813c9c232c332d1586402a23b15d9581370d1"
+      },
+      "orientation": {
+        "modelAvailable": true,
+        "frame": "IAU_DEIMOS",
+        "source": "NAIF pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "status": "METADATA_ONLY_NOT_RENDERED_3A",
+        "quality": "generic IAU model; no lunar binary PCK or physical libration validation"
+      },
+      "characteristicRadiusKm": 23457.554307087452,
+      "sampledMeanPeriodDays": 1.2624411425593831,
+      "periodMethod": "Least-squares unwrapped longitude in sampled mean angular-momentum plane over cache",
+      "asset": {
+        "status": "NOT_IMPLEMENTED_3B",
+        "shape": "NO_SURFACE_MESH",
+        "rights": "No satellite imagery distributed in 3A",
+        "colorProcessing": "diagnostic point colors only, not surface albedo"
+      }
+    },
+    {
+      "id": "501",
+      "parentPlanetId": "599",
+      "name": "Io",
+      "zh": "木卫一",
+      "file": "/satellites/501.f64",
+      "sha256": "4be6dba5b5b97529c3ad88e683c6462e9b129cdc8213a4e8a77277534e830dd6",
+      "count": 61417,
+      "stepSeconds": 3600,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "centerId": "599",
+      "centerKind": "planetCenter",
+      "frame": "ICRF",
+      "referencePlane": "FRAME",
+      "correction": "NONE",
+      "positionUnit": "km",
+      "velocityUnit": "km/s",
+      "timeScale": "TDB",
+      "solution": "jup365_merged",
+      "rawSha256": "2bf6759ad1dc3fcb3267c990a39bd35d104493e6dd416dce7e08aba3f4261a20",
+      "rawPath": "data/phase-3a/raw/501-grid-60m-00-part-00.json",
+      "sources": [
+        {
+          "rawPath": "data/phase-3a/raw/501-grid-60m-00-part-00.json",
+          "rawSha256": "2bf6759ad1dc3fcb3267c990a39bd35d104493e6dd416dce7e08aba3f4261a20",
+          "requestPath": "data/phase-3a/raw/501-grid-60m-00-part-00.request.json",
+          "solution": "jup365_merged",
+          "centerSolution": "jup365_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:58:41.040144+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/501-grid-60m-00-part-01.json",
+          "rawSha256": "58a1df55f81f1fa11308b1a82557fa06c18ee79e15b18bbce10ee51359fb361d",
+          "requestPath": "data/phase-3a/raw/501-grid-60m-00-part-01.request.json",
+          "solution": "jup365_merged",
+          "centerSolution": "jup365_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:58:42.456717+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/501-grid-60m-00-part-02.json",
+          "rawSha256": "06f5f11af00205c01a6c560975692dc121a9a28bfa17babffea7065d37e5f243",
+          "requestPath": "data/phase-3a/raw/501-grid-60m-00-part-02.request.json",
+          "solution": "jup365_merged",
+          "centerSolution": "jup365_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:58:44.678462+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/501-grid-60m-01-part-00.json",
+          "rawSha256": "ef4e2114c3f1a1f0cc5bf394cb390285ba9c3938e08f86995437aef8f3f076d8",
+          "requestPath": "data/phase-3a/raw/501-grid-60m-01-part-00.request.json",
+          "solution": "jup365_merged",
+          "centerSolution": "jup365_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:58:46.313125+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/501-grid-60m-01-part-01.json",
+          "rawSha256": "e04155a8f3377daaf9e36379b09205fc74197b06e5530c00c4419c715ff14b34",
+          "requestPath": "data/phase-3a/raw/501-grid-60m-01-part-01.request.json",
+          "solution": "jup365_merged",
+          "centerSolution": "jup365_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:58:47.554978+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/501-grid-60m-01-part-02.json",
+          "rawSha256": "7ba891daddcbeab73196f0ef5da2c5c2fbd6a1f6ed568cd0d5a490d73870047d",
+          "requestPath": "data/phase-3a/raw/501-grid-60m-01-part-02.request.json",
+          "solution": "jup365_merged",
+          "centerSolution": "jup365_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:58:48.754692+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/501-grid-60m-02-part-00.json",
+          "rawSha256": "11543d4b612f2a5ef4aead9b4b1db7fb0be05b3837b19f52245df7611922989c",
+          "requestPath": "data/phase-3a/raw/501-grid-60m-02-part-00.request.json",
+          "solution": "jup365_merged",
+          "centerSolution": "jup365_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:58:49.745076+00:00"
+        }
+      ],
+      "physical": {
+        "radiusKm": 1821.49,
+        "radiusUncertaintyKm": 0.5,
+        "gmKm3PerSec2": 5959.91547,
+        "radiusReference": "1",
+        "gmReference": "JUP365",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "sourceSha256": "9a9c004d950923ea368a8c4815d813c9c232c332d1586402a23b15d9581370d1"
+      },
+      "orientation": {
+        "modelAvailable": true,
+        "frame": "IAU_IO",
+        "source": "NAIF pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "status": "METADATA_ONLY_NOT_RENDERED_3A",
+        "quality": "generic IAU model; no lunar binary PCK or physical libration validation"
+      },
+      "characteristicRadiusKm": 421775.21861792926,
+      "sampledMeanPeriodDays": 1.7691377558558288,
+      "periodMethod": "Least-squares unwrapped longitude in sampled mean angular-momentum plane over cache",
+      "asset": {
+        "status": "NOT_IMPLEMENTED_3B",
+        "shape": "NO_SURFACE_MESH",
+        "rights": "No satellite imagery distributed in 3A",
+        "colorProcessing": "diagnostic point colors only, not surface albedo"
+      }
+    },
+    {
+      "id": "502",
+      "parentPlanetId": "599",
+      "name": "Europa",
+      "zh": "木卫二",
+      "file": "/satellites/502.f64",
+      "sha256": "92a0f752dd086a75d165abee90a9e6e0255e3cc53f2ab13d528e63380e721349",
+      "count": 30709,
+      "stepSeconds": 7200,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "centerId": "599",
+      "centerKind": "planetCenter",
+      "frame": "ICRF",
+      "referencePlane": "FRAME",
+      "correction": "NONE",
+      "positionUnit": "km",
+      "velocityUnit": "km/s",
+      "timeScale": "TDB",
+      "solution": "jup365_merged",
+      "rawSha256": "c2a0a211b1a7d386b49a1a0d177bf55bd4ec15b4b66ec3ccf0385ebc71ac4c08",
+      "rawPath": "data/phase-3a/raw/502-grid-120m-00-part-00.json",
+      "sources": [
+        {
+          "rawPath": "data/phase-3a/raw/502-grid-120m-00-part-00.json",
+          "rawSha256": "c2a0a211b1a7d386b49a1a0d177bf55bd4ec15b4b66ec3ccf0385ebc71ac4c08",
+          "requestPath": "data/phase-3a/raw/502-grid-120m-00-part-00.request.json",
+          "solution": "jup365_merged",
+          "centerSolution": "jup365_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:58:55.170698+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/502-grid-120m-00-part-01.json",
+          "rawSha256": "24b5b082833424826c8e8d33f0a8665b8572f77890699c44e7ebd4a05f448aee",
+          "requestPath": "data/phase-3a/raw/502-grid-120m-00-part-01.request.json",
+          "solution": "jup365_merged",
+          "centerSolution": "jup365_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:58:57.208374+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/502-grid-120m-00-part-02.json",
+          "rawSha256": "a0b638b5c7a918e58725e0a9ae93756be3fa2936ec2992f48d1177232a480dc5",
+          "requestPath": "data/phase-3a/raw/502-grid-120m-00-part-02.request.json",
+          "solution": "jup365_merged",
+          "centerSolution": "jup365_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:00.703904+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/502-grid-120m-01-part-00.json",
+          "rawSha256": "7e8a9aeab2defacc13a6b965af4429698e51e352a86e605160b78cad2fa88998",
+          "requestPath": "data/phase-3a/raw/502-grid-120m-01-part-00.request.json",
+          "solution": "jup365_merged",
+          "centerSolution": "jup365_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:01.648684+00:00"
+        }
+      ],
+      "physical": {
+        "radiusKm": 1560.8,
+        "radiusUncertaintyKm": 0.3,
+        "gmKm3PerSec2": 3202.7121,
+        "radiusReference": "1",
+        "gmReference": "JUP365",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "sourceSha256": "9a9c004d950923ea368a8c4815d813c9c232c332d1586402a23b15d9581370d1"
+      },
+      "orientation": {
+        "modelAvailable": true,
+        "frame": "IAU_EUROPA",
+        "source": "NAIF pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "status": "METADATA_ONLY_NOT_RENDERED_3A",
+        "quality": "generic IAU model; no lunar binary PCK or physical libration validation"
+      },
+      "characteristicRadiusKm": 671121.9716890713,
+      "sampledMeanPeriodDays": 3.551180864376619,
+      "periodMethod": "Least-squares unwrapped longitude in sampled mean angular-momentum plane over cache",
+      "asset": {
+        "status": "NOT_IMPLEMENTED_3B",
+        "shape": "NO_SURFACE_MESH",
+        "rights": "No satellite imagery distributed in 3A",
+        "colorProcessing": "diagnostic point colors only, not surface albedo"
+      }
+    },
+    {
+      "id": "503",
+      "parentPlanetId": "599",
+      "name": "Ganymede",
+      "zh": "木卫三",
+      "file": "/satellites/503.f64",
+      "sha256": "6f4c1cc2e83a65d891b73909de635e960dbaf5b983aab4882213b4e6825aec2e",
+      "count": 20473,
+      "stepSeconds": 10800,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "centerId": "599",
+      "centerKind": "planetCenter",
+      "frame": "ICRF",
+      "referencePlane": "FRAME",
+      "correction": "NONE",
+      "positionUnit": "km",
+      "velocityUnit": "km/s",
+      "timeScale": "TDB",
+      "solution": "jup365_merged",
+      "rawSha256": "77ef275f352baa784dbeb8da7433ee747b07223f7b4778cbb297bccec5f50fde",
+      "rawPath": "data/phase-3a/raw/503-grid-180m-00-part-00.json",
+      "sources": [
+        {
+          "rawPath": "data/phase-3a/raw/503-grid-180m-00-part-00.json",
+          "rawSha256": "77ef275f352baa784dbeb8da7433ee747b07223f7b4778cbb297bccec5f50fde",
+          "requestPath": "data/phase-3a/raw/503-grid-180m-00-part-00.request.json",
+          "solution": "jup365_merged",
+          "centerSolution": "jup365_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:08.400281+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/503-grid-180m-00-part-01.json",
+          "rawSha256": "fca660acde8d08a3db1510983d420d06a5a97a4af14361606b9828347d1862b7",
+          "requestPath": "data/phase-3a/raw/503-grid-180m-00-part-01.request.json",
+          "solution": "jup365_merged",
+          "centerSolution": "jup365_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:10.542742+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/503-grid-180m-00-part-02.json",
+          "rawSha256": "5a54e49f32c1f7e1f3aafdabe92dcf1f7f9d48d352b4955e70472e2f7aa80221",
+          "requestPath": "data/phase-3a/raw/503-grid-180m-00-part-02.request.json",
+          "solution": "jup365_merged",
+          "centerSolution": "jup365_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:11.392045+00:00"
+        }
+      ],
+      "physical": {
+        "radiusKm": 2631.2,
+        "radiusUncertaintyKm": 1.7,
+        "gmKm3PerSec2": 9887.83275,
+        "radiusReference": "1",
+        "gmReference": "JUP365",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "sourceSha256": "9a9c004d950923ea368a8c4815d813c9c232c332d1586402a23b15d9581370d1"
+      },
+      "orientation": {
+        "modelAvailable": true,
+        "frame": "IAU_GANYMEDE",
+        "source": "NAIF pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "status": "METADATA_ONLY_NOT_RENDERED_3A",
+        "quality": "generic IAU model; no lunar binary PCK or physical libration validation"
+      },
+      "characteristicRadiusKm": 1070430.9805389405,
+      "sampledMeanPeriodDays": 7.154551689647784,
+      "periodMethod": "Least-squares unwrapped longitude in sampled mean angular-momentum plane over cache",
+      "asset": {
+        "status": "NOT_IMPLEMENTED_3B",
+        "shape": "NO_SURFACE_MESH",
+        "rights": "No satellite imagery distributed in 3A",
+        "colorProcessing": "diagnostic point colors only, not surface albedo"
+      }
+    },
+    {
+      "id": "504",
+      "parentPlanetId": "599",
+      "name": "Callisto",
+      "zh": "木卫四",
+      "file": "/satellites/504.f64",
+      "sha256": "c1a2c7d4115d0ef4419c8d35d5bc2f5adf05dc9799f94dd53b2e3137559b1b6f",
+      "count": 10237,
+      "stepSeconds": 21600,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "centerId": "599",
+      "centerKind": "planetCenter",
+      "frame": "ICRF",
+      "referencePlane": "FRAME",
+      "correction": "NONE",
+      "positionUnit": "km",
+      "velocityUnit": "km/s",
+      "timeScale": "TDB",
+      "solution": "jup365_merged",
+      "rawSha256": "0a3f62b852a21110decf47c82a35a62903a362802af18fc8134153652f0a67cc",
+      "rawPath": "data/phase-3a/raw/504-grid-360m-00-part-00.json",
+      "sources": [
+        {
+          "rawPath": "data/phase-3a/raw/504-grid-360m-00-part-00.json",
+          "rawSha256": "0a3f62b852a21110decf47c82a35a62903a362802af18fc8134153652f0a67cc",
+          "requestPath": "data/phase-3a/raw/504-grid-360m-00-part-00.request.json",
+          "solution": "jup365_merged",
+          "centerSolution": "jup365_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:16.592359+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/504-grid-360m-00-part-01.json",
+          "rawSha256": "9cee2dbf3ece0b8def838813fd4a632d814e639730a9678c0c82043a26ad2b92",
+          "requestPath": "data/phase-3a/raw/504-grid-360m-00-part-01.request.json",
+          "solution": "jup365_merged",
+          "centerSolution": "jup365_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:18.052844+00:00"
+        }
+      ],
+      "physical": {
+        "radiusKm": 2410.3,
+        "radiusUncertaintyKm": 1.5,
+        "gmKm3PerSec2": 7179.2834,
+        "radiusReference": "1",
+        "gmReference": "JUP365",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "sourceSha256": "9a9c004d950923ea368a8c4815d813c9c232c332d1586402a23b15d9581370d1"
+      },
+      "orientation": {
+        "modelAvailable": true,
+        "frame": "IAU_CALLISTO",
+        "source": "NAIF pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "status": "METADATA_ONLY_NOT_RENDERED_3A",
+        "quality": "generic IAU model; no lunar binary PCK or physical libration validation"
+      },
+      "characteristicRadiusKm": 1882902.4778795426,
+      "sampledMeanPeriodDays": 16.68899826426298,
+      "periodMethod": "Least-squares unwrapped longitude in sampled mean angular-momentum plane over cache",
+      "asset": {
+        "status": "NOT_IMPLEMENTED_3B",
+        "shape": "NO_SURFACE_MESH",
+        "rights": "No satellite imagery distributed in 3A",
+        "colorProcessing": "diagnostic point colors only, not surface albedo"
+      }
+    },
+    {
+      "id": "601",
+      "parentPlanetId": "699",
+      "name": "Mimas",
+      "zh": "土卫一",
+      "file": "/satellites/601.f64",
+      "sha256": "7f2abb25b49808779d91c30bbbb47c614eeafe6f845293c25306f453990205bf",
+      "count": 122833,
+      "stepSeconds": 1800,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "centerId": "699",
+      "centerKind": "planetCenter",
+      "frame": "ICRF",
+      "referencePlane": "FRAME",
+      "correction": "NONE",
+      "positionUnit": "km",
+      "velocityUnit": "km/s",
+      "timeScale": "TDB",
+      "solution": "sat441l",
+      "rawSha256": "2017dd5310ad8b3048382fd2ac7f9e33bcfad02cae93676ae4c90665cb9c4bcb",
+      "rawPath": "data/phase-3a/raw/601-grid-30m-00-part-00.json",
+      "sources": [
+        {
+          "rawPath": "data/phase-3a/raw/601-grid-30m-00-part-00.json",
+          "rawSha256": "2017dd5310ad8b3048382fd2ac7f9e33bcfad02cae93676ae4c90665cb9c4bcb",
+          "requestPath": "data/phase-3a/raw/601-grid-30m-00-part-00.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:24.592095+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/601-grid-30m-00-part-01.json",
+          "rawSha256": "2cc0dfa61dbacbbe810aa229d239c62c84645e6f61afe9f761698ae026676313",
+          "requestPath": "data/phase-3a/raw/601-grid-30m-00-part-01.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:26.482779+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/601-grid-30m-00-part-02.json",
+          "rawSha256": "2557a6a1291203eb226bd7d922a053e045717ed354a7bedadb0fef6646d86383",
+          "requestPath": "data/phase-3a/raw/601-grid-30m-00-part-02.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:28.165642+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/601-grid-30m-01-part-00.json",
+          "rawSha256": "591d2d23ccc19256c14787fac307026adf7abab88c2a919de4c288dd0025ffe3",
+          "requestPath": "data/phase-3a/raw/601-grid-30m-01-part-00.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:30.414756+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/601-grid-30m-01-part-01.json",
+          "rawSha256": "0e9241a29840c4ac1ab44acd3d36b6771142f7419ae58b206906e60fbaeb5b9c",
+          "requestPath": "data/phase-3a/raw/601-grid-30m-01-part-01.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:32.657320+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/601-grid-30m-01-part-02.json",
+          "rawSha256": "7b1edcd6ac22b3f49e077d5019761dc67659989e7ef6f2cd7b99b4a7fa4ba585",
+          "requestPath": "data/phase-3a/raw/601-grid-30m-01-part-02.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:35.136195+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/601-grid-30m-02-part-00.json",
+          "rawSha256": "5765ebfabfff843bdc254eb121d55dbcc72c91eb83180081453e4419318a24f6",
+          "requestPath": "data/phase-3a/raw/601-grid-30m-02-part-00.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:37.800762+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/601-grid-30m-02-part-01.json",
+          "rawSha256": "55dc21576f0783c220a5eab07817d0ea72d04b3e0b7a6f1f1a8c2273c83c59d1",
+          "requestPath": "data/phase-3a/raw/601-grid-30m-02-part-01.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:39.762615+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/601-grid-30m-02-part-02.json",
+          "rawSha256": "c89017e395f15b3f4d5d6ae916016c2432332a522d04a0d5faeed11ce6e5d1ef",
+          "requestPath": "data/phase-3a/raw/601-grid-30m-02-part-02.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:41.374002+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/601-grid-30m-03-part-00.json",
+          "rawSha256": "8605ddd740d441a9116d39076057b9932449d933776fe86ece521bff5a82ba3b",
+          "requestPath": "data/phase-3a/raw/601-grid-30m-03-part-00.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:43.024841+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/601-grid-30m-03-part-01.json",
+          "rawSha256": "41eac8439588f891080a8e35c069def4349412feede2b3fe51458d21fc2251c1",
+          "requestPath": "data/phase-3a/raw/601-grid-30m-03-part-01.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:45.828504+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/601-grid-30m-03-part-02.json",
+          "rawSha256": "8c98a5628f8263637021c255c4786237cbb88ceba22e71e8a2fc0eec2ae4a5ab",
+          "requestPath": "data/phase-3a/raw/601-grid-30m-03-part-02.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:47.518560+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/601-grid-30m-04-part-00.json",
+          "rawSha256": "6e6db9ad81607738fa4a1aad25ac802b9c21fcaeab50c8e343ae33ec32e25624",
+          "requestPath": "data/phase-3a/raw/601-grid-30m-04-part-00.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:48.550446+00:00"
+        }
+      ],
+      "physical": {
+        "radiusKm": 198.2,
+        "radiusUncertaintyKm": 0.4,
+        "gmKm3PerSec2": 2.50349,
+        "radiusReference": "1",
+        "gmReference": "SAT441",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "sourceSha256": "9a9c004d950923ea368a8c4815d813c9c232c332d1586402a23b15d9581370d1"
+      },
+      "orientation": {
+        "modelAvailable": true,
+        "frame": "IAU_MIMAS",
+        "source": "NAIF pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "status": "METADATA_ONLY_NOT_RENDERED_3A",
+        "quality": "generic IAU model; no lunar binary PCK or physical libration validation"
+      },
+      "characteristicRadiusKm": 185608.00955534104,
+      "sampledMeanPeriodDays": 0.9424177627322172,
+      "periodMethod": "Least-squares unwrapped longitude in sampled mean angular-momentum plane over cache",
+      "asset": {
+        "status": "NOT_IMPLEMENTED_3B",
+        "shape": "NO_SURFACE_MESH",
+        "rights": "No satellite imagery distributed in 3A",
+        "colorProcessing": "diagnostic point colors only, not surface albedo"
+      }
+    },
+    {
+      "id": "602",
+      "parentPlanetId": "699",
+      "name": "Enceladus",
+      "zh": "土卫二",
+      "file": "/satellites/602.f64",
+      "sha256": "b19e6411976fbdc2854ef711a5378e46d3a8fd2a47234f54cb5898ff125daa78",
+      "count": 61417,
+      "stepSeconds": 3600,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "centerId": "699",
+      "centerKind": "planetCenter",
+      "frame": "ICRF",
+      "referencePlane": "FRAME",
+      "correction": "NONE",
+      "positionUnit": "km",
+      "velocityUnit": "km/s",
+      "timeScale": "TDB",
+      "solution": "sat441l",
+      "rawSha256": "74694e3243ce789bc5313ecff4fd8329246d6ad446e6d57fd8b38d9b4f31a43c",
+      "rawPath": "data/phase-3a/raw/602-grid-60m-00-part-00.json",
+      "sources": [
+        {
+          "rawPath": "data/phase-3a/raw/602-grid-60m-00-part-00.json",
+          "rawSha256": "74694e3243ce789bc5313ecff4fd8329246d6ad446e6d57fd8b38d9b4f31a43c",
+          "requestPath": "data/phase-3a/raw/602-grid-60m-00-part-00.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:54.254250+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/602-grid-60m-00-part-01.json",
+          "rawSha256": "703c8687aec7262cec1832c77b42915f605ef1a96b0c8f77e7c98ce2f165a386",
+          "requestPath": "data/phase-3a/raw/602-grid-60m-00-part-01.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:55.484547+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/602-grid-60m-00-part-02.json",
+          "rawSha256": "e9519a8ba2e5f18a939a7b9b6003398b59558e2f07a9bb5ec099064229a95268",
+          "requestPath": "data/phase-3a/raw/602-grid-60m-00-part-02.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:56.982141+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/602-grid-60m-01-part-00.json",
+          "rawSha256": "715372be7e03b7d323d497df17650464bc73167bac87ccb7583dabee406e0afc",
+          "requestPath": "data/phase-3a/raw/602-grid-60m-01-part-00.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:58.335904+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/602-grid-60m-01-part-01.json",
+          "rawSha256": "9d752b6c57bfb0c78e78a50e84a270c55759229698226679a432502100cc2a91",
+          "requestPath": "data/phase-3a/raw/602-grid-60m-01-part-01.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T08:59:59.730613+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/602-grid-60m-01-part-02.json",
+          "rawSha256": "9456bda89bf576ec88281a23f9c359dcbad549fa3e774c327e53d27ce43183e0",
+          "requestPath": "data/phase-3a/raw/602-grid-60m-01-part-02.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:01.604953+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/602-grid-60m-02-part-00.json",
+          "rawSha256": "a01ff339a79a61d44a2ea67312378e0c496f8631c1ed84f828b8295a969fa9f5",
+          "requestPath": "data/phase-3a/raw/602-grid-60m-02-part-00.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:02.583298+00:00"
+        }
+      ],
+      "physical": {
+        "radiusKm": 252.1,
+        "radiusUncertaintyKm": 0.2,
+        "gmKm3PerSec2": 7.21037,
+        "radiusReference": "1",
+        "gmReference": "SAT441",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "sourceSha256": "9a9c004d950923ea368a8c4815d813c9c232c332d1586402a23b15d9581370d1"
+      },
+      "orientation": {
+        "modelAvailable": true,
+        "frame": "IAU_ENCELADUS",
+        "source": "NAIF pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "status": "METADATA_ONLY_NOT_RENDERED_3A",
+        "quality": "generic IAU model; no lunar binary PCK or physical libration validation"
+      },
+      "characteristicRadiusKm": 238041.94345240138,
+      "sampledMeanPeriodDays": 1.3702189337317199,
+      "periodMethod": "Least-squares unwrapped longitude in sampled mean angular-momentum plane over cache",
+      "asset": {
+        "status": "NOT_IMPLEMENTED_3B",
+        "shape": "NO_SURFACE_MESH",
+        "rights": "No satellite imagery distributed in 3A",
+        "colorProcessing": "diagnostic point colors only, not surface albedo"
+      }
+    },
+    {
+      "id": "605",
+      "parentPlanetId": "699",
+      "name": "Rhea",
+      "zh": "土卫五",
+      "file": "/satellites/605.f64",
+      "sha256": "bfdd0481cd30c79778af98436a2372c24005458e5bf906e376cf16a1227f61c4",
+      "count": 30709,
+      "stepSeconds": 7200,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "centerId": "699",
+      "centerKind": "planetCenter",
+      "frame": "ICRF",
+      "referencePlane": "FRAME",
+      "correction": "NONE",
+      "positionUnit": "km",
+      "velocityUnit": "km/s",
+      "timeScale": "TDB",
+      "solution": "sat441l",
+      "rawSha256": "c5c99c14590f9870ab6685c67bcd23c27b1eb16dbebb9bc1ca9558a85259fab6",
+      "rawPath": "data/phase-3a/raw/605-grid-120m-00-part-00.json",
+      "sources": [
+        {
+          "rawPath": "data/phase-3a/raw/605-grid-120m-00-part-00.json",
+          "rawSha256": "c5c99c14590f9870ab6685c67bcd23c27b1eb16dbebb9bc1ca9558a85259fab6",
+          "requestPath": "data/phase-3a/raw/605-grid-120m-00-part-00.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:08.608563+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/605-grid-120m-00-part-01.json",
+          "rawSha256": "e089b683c3e4fd83878d50340d3a24646c3d71d3655233c0f23cc3bb49ef444f",
+          "requestPath": "data/phase-3a/raw/605-grid-120m-00-part-01.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:09.815380+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/605-grid-120m-00-part-02.json",
+          "rawSha256": "b8c8ecba24428e05b7f16b78a67ed7862d260563c0c5a0fd8faf47dab09d8749",
+          "requestPath": "data/phase-3a/raw/605-grid-120m-00-part-02.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:11.014356+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/605-grid-120m-01-part-00.json",
+          "rawSha256": "c371dd8a9ad899a03e5170647cf493fceeb29da90ba0c4dbd93d45ed132f8233",
+          "requestPath": "data/phase-3a/raw/605-grid-120m-01-part-00.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:11.919676+00:00"
+        }
+      ],
+      "physical": {
+        "radiusKm": 763.5,
+        "radiusUncertaintyKm": 0.6,
+        "gmKm3PerSec2": 153.94175,
+        "radiusReference": "1",
+        "gmReference": "SAT441",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "sourceSha256": "9a9c004d950923ea368a8c4815d813c9c232c332d1586402a23b15d9581370d1"
+      },
+      "orientation": {
+        "modelAvailable": true,
+        "frame": "IAU_RHEA",
+        "source": "NAIF pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "status": "METADATA_ONLY_NOT_RENDERED_3A",
+        "quality": "generic IAU model; no lunar binary PCK or physical libration validation"
+      },
+      "characteristicRadiusKm": 527067.4849306562,
+      "sampledMeanPeriodDays": 4.51750281716121,
+      "periodMethod": "Least-squares unwrapped longitude in sampled mean angular-momentum plane over cache",
+      "asset": {
+        "status": "NOT_IMPLEMENTED_3B",
+        "shape": "NO_SURFACE_MESH",
+        "rights": "No satellite imagery distributed in 3A",
+        "colorProcessing": "diagnostic point colors only, not surface albedo"
+      }
+    },
+    {
+      "id": "606",
+      "parentPlanetId": "699",
+      "name": "Titan",
+      "zh": "土卫六",
+      "file": "/satellites/606.f64",
+      "sha256": "bb5308c418948d066dd8f3444c8b629ea9f8178ce84286ca70a803f45b742239",
+      "count": 10237,
+      "stepSeconds": 21600,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "centerId": "699",
+      "centerKind": "planetCenter",
+      "frame": "ICRF",
+      "referencePlane": "FRAME",
+      "correction": "NONE",
+      "positionUnit": "km",
+      "velocityUnit": "km/s",
+      "timeScale": "TDB",
+      "solution": "sat441l",
+      "rawSha256": "0e455957d468c648e4ec8270a94fac70e7bc0a1358a28a399f700241c72a54dc",
+      "rawPath": "data/phase-3a/raw/606-grid-360m-00-part-00.json",
+      "sources": [
+        {
+          "rawPath": "data/phase-3a/raw/606-grid-360m-00-part-00.json",
+          "rawSha256": "0e455957d468c648e4ec8270a94fac70e7bc0a1358a28a399f700241c72a54dc",
+          "requestPath": "data/phase-3a/raw/606-grid-360m-00-part-00.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:17.163425+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/606-grid-360m-00-part-01.json",
+          "rawSha256": "6620852b956b0522aef19f5c28f37a3a40c28d3b0ba98effa61554caee079e6a",
+          "requestPath": "data/phase-3a/raw/606-grid-360m-00-part-01.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:18.834262+00:00"
+        }
+      ],
+      "physical": {
+        "radiusKm": 2574.76,
+        "radiusUncertaintyKm": 0.02,
+        "gmKm3PerSec2": 8978.1371,
+        "radiusReference": "1",
+        "gmReference": "SAT441",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "sourceSha256": "9a9c004d950923ea368a8c4815d813c9c232c332d1586402a23b15d9581370d1"
+      },
+      "orientation": {
+        "modelAvailable": true,
+        "frame": "IAU_TITAN",
+        "source": "NAIF pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "status": "METADATA_ONLY_NOT_RENDERED_3A",
+        "quality": "generic IAU model; no lunar binary PCK or physical libration validation"
+      },
+      "characteristicRadiusKm": 1222912.4372516244,
+      "sampledMeanPeriodDays": 15.94545409276961,
+      "periodMethod": "Least-squares unwrapped longitude in sampled mean angular-momentum plane over cache",
+      "asset": {
+        "status": "NOT_IMPLEMENTED_3B",
+        "shape": "NO_SURFACE_MESH",
+        "rights": "No satellite imagery distributed in 3A",
+        "colorProcessing": "diagnostic point colors only, not surface albedo"
+      }
+    },
+    {
+      "id": "608",
+      "parentPlanetId": "699",
+      "name": "Iapetus",
+      "zh": "土卫八",
+      "file": "/satellites/608.f64",
+      "sha256": "b77f86b7eb0029e2ad366fa90975f1c4463948fd82d42018168553099d40e527",
+      "count": 5119,
+      "stepSeconds": 43200,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "centerId": "699",
+      "centerKind": "planetCenter",
+      "frame": "ICRF",
+      "referencePlane": "FRAME",
+      "correction": "NONE",
+      "positionUnit": "km",
+      "velocityUnit": "km/s",
+      "timeScale": "TDB",
+      "solution": "sat441l",
+      "rawSha256": "0cbb9f576edec2979961e9a44cb08b43bc7bb3f68a2597ae10c1dc73b0d1201e",
+      "rawPath": "data/phase-3a/raw/608-grid-720m-00-part-00.json",
+      "sources": [
+        {
+          "rawPath": "data/phase-3a/raw/608-grid-720m-00-part-00.json",
+          "rawSha256": "0cbb9f576edec2979961e9a44cb08b43bc7bb3f68a2597ae10c1dc73b0d1201e",
+          "requestPath": "data/phase-3a/raw/608-grid-720m-00-part-00.request.json",
+          "solution": "sat441l",
+          "centerSolution": "sat441l",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:25.936184+00:00"
+        }
+      ],
+      "physical": {
+        "radiusKm": 734.3,
+        "radiusUncertaintyKm": 2.8,
+        "gmKm3PerSec2": 120.51511,
+        "radiusReference": "1",
+        "gmReference": "SAT441",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "sourceSha256": "9a9c004d950923ea368a8c4815d813c9c232c332d1586402a23b15d9581370d1"
+      },
+      "orientation": {
+        "modelAvailable": true,
+        "frame": "IAU_IAPETUS",
+        "source": "NAIF pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "status": "METADATA_ONLY_NOT_RENDERED_3A",
+        "quality": "generic IAU model; no lunar binary PCK or physical libration validation"
+      },
+      "characteristicRadiusKm": 3563233.811881447,
+      "sampledMeanPeriodDays": 79.33131679384901,
+      "periodMethod": "Least-squares unwrapped longitude in sampled mean angular-momentum plane over cache",
+      "asset": {
+        "status": "NOT_IMPLEMENTED_3B",
+        "shape": "NO_SURFACE_MESH",
+        "rights": "No satellite imagery distributed in 3A",
+        "colorProcessing": "diagnostic point colors only, not surface albedo"
+      }
+    },
+    {
+      "id": "705",
+      "parentPlanetId": "799",
+      "name": "Miranda",
+      "zh": "天卫五",
+      "file": "/satellites/705.f64",
+      "sha256": "2073ca0aaf307e35ae2e98408a51c8acdfc989d81ea9e1d8a1393643c306f788",
+      "count": 61417,
+      "stepSeconds": 3600,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "centerId": "799",
+      "centerKind": "planetCenter",
+      "frame": "ICRF",
+      "referencePlane": "FRAME",
+      "correction": "NONE",
+      "positionUnit": "km",
+      "velocityUnit": "km/s",
+      "timeScale": "TDB",
+      "solution": "ura184_merged",
+      "rawSha256": "b1a56fd89adbfb3b0a6ff9b97d0f1ff2e434d56dfa9595ad221c051d60d8b1b6",
+      "rawPath": "data/phase-3a/raw/705-grid-60m-00-part-00.json",
+      "sources": [
+        {
+          "rawPath": "data/phase-3a/raw/705-grid-60m-00-part-00.json",
+          "rawSha256": "b1a56fd89adbfb3b0a6ff9b97d0f1ff2e434d56dfa9595ad221c051d60d8b1b6",
+          "requestPath": "data/phase-3a/raw/705-grid-60m-00-part-00.request.json",
+          "solution": "ura184_merged",
+          "centerSolution": "ura184_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:31.204060+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/705-grid-60m-00-part-01.json",
+          "rawSha256": "b99b0012914112cb039e65571b5ab6efd0149837c46f9e1ad5935f6594c29215",
+          "requestPath": "data/phase-3a/raw/705-grid-60m-00-part-01.request.json",
+          "solution": "ura184_merged",
+          "centerSolution": "ura184_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:32.485404+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/705-grid-60m-00-part-02.json",
+          "rawSha256": "edb95172f090de31c84af1d559cd4e84cf1c573acb16a7bb3189bb67291c06c6",
+          "requestPath": "data/phase-3a/raw/705-grid-60m-00-part-02.request.json",
+          "solution": "ura184_merged",
+          "centerSolution": "ura184_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:34.115325+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/705-grid-60m-01-part-00.json",
+          "rawSha256": "ff6951fc7fdfd47b6eab4368220f92babe99657f73b4add1ed320510987150d4",
+          "requestPath": "data/phase-3a/raw/705-grid-60m-01-part-00.request.json",
+          "solution": "ura184_merged",
+          "centerSolution": "ura184_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:35.367170+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/705-grid-60m-01-part-01.json",
+          "rawSha256": "c46a3507132b20c5dfbb8ec442dc2a0a3450b481a314f11614b72622911fb107",
+          "requestPath": "data/phase-3a/raw/705-grid-60m-01-part-01.request.json",
+          "solution": "ura184_merged",
+          "centerSolution": "ura184_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:36.585353+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/705-grid-60m-01-part-02.json",
+          "rawSha256": "71b61d4de8b97fc57567441160bb16d1e75e300b3d543d84bbdd0172bfeccd2f",
+          "requestPath": "data/phase-3a/raw/705-grid-60m-01-part-02.request.json",
+          "solution": "ura184_merged",
+          "centerSolution": "ura184_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:37.925739+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/705-grid-60m-02-part-00.json",
+          "rawSha256": "fac7e006a6fcaecd516dc4af5c0ce8d3b3f7c74c6bd48d6b2b17d96c4e131270",
+          "requestPath": "data/phase-3a/raw/705-grid-60m-02-part-00.request.json",
+          "solution": "ura184_merged",
+          "centerSolution": "ura184_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:38.853690+00:00"
+        }
+      ],
+      "physical": {
+        "radiusKm": 235.8,
+        "radiusUncertaintyKm": 0.7,
+        "gmKm3PerSec2": 4.3,
+        "radiusReference": "1",
+        "gmReference": "URA111",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "sourceSha256": "9a9c004d950923ea368a8c4815d813c9c232c332d1586402a23b15d9581370d1"
+      },
+      "orientation": {
+        "modelAvailable": true,
+        "frame": "IAU_MIRANDA",
+        "source": "NAIF pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "status": "METADATA_ONLY_NOT_RENDERED_3A",
+        "quality": "generic IAU model; no lunar binary PCK or physical libration validation"
+      },
+      "characteristicRadiusKm": 129847.99225503998,
+      "sampledMeanPeriodDays": 1.413471369097253,
+      "periodMethod": "Least-squares unwrapped longitude in sampled mean angular-momentum plane over cache",
+      "asset": {
+        "status": "NOT_IMPLEMENTED_3B",
+        "shape": "NO_SURFACE_MESH",
+        "rights": "No satellite imagery distributed in 3A",
+        "colorProcessing": "diagnostic point colors only, not surface albedo"
+      }
+    },
+    {
+      "id": "701",
+      "parentPlanetId": "799",
+      "name": "Ariel",
+      "zh": "天卫一",
+      "file": "/satellites/701.f64",
+      "sha256": "935d1a6e798493acdf4e7c639894d9b87af9d54189e0142f2fdc1b89e94ddd23",
+      "count": 30709,
+      "stepSeconds": 7200,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "centerId": "799",
+      "centerKind": "planetCenter",
+      "frame": "ICRF",
+      "referencePlane": "FRAME",
+      "correction": "NONE",
+      "positionUnit": "km",
+      "velocityUnit": "km/s",
+      "timeScale": "TDB",
+      "solution": "ura184_merged",
+      "rawSha256": "1650b88b9befa58f049186cde00850e339e7713676c5d06116150ba9d0a9c3d5",
+      "rawPath": "data/phase-3a/raw/701-grid-120m-00-part-00.json",
+      "sources": [
+        {
+          "rawPath": "data/phase-3a/raw/701-grid-120m-00-part-00.json",
+          "rawSha256": "1650b88b9befa58f049186cde00850e339e7713676c5d06116150ba9d0a9c3d5",
+          "requestPath": "data/phase-3a/raw/701-grid-120m-00-part-00.request.json",
+          "solution": "ura184_merged",
+          "centerSolution": "ura184_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:44.258699+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/701-grid-120m-00-part-01.json",
+          "rawSha256": "31b4c2427608d7628fdc2344b9cccdcd3442c93a6d67eb8aa15f4c87ff94da0a",
+          "requestPath": "data/phase-3a/raw/701-grid-120m-00-part-01.request.json",
+          "solution": "ura184_merged",
+          "centerSolution": "ura184_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:45.460705+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/701-grid-120m-00-part-02.json",
+          "rawSha256": "34866c8b27286c08a39cb6941974cd911a64ccfce1a9c366530bed366bbd4809",
+          "requestPath": "data/phase-3a/raw/701-grid-120m-00-part-02.request.json",
+          "solution": "ura184_merged",
+          "centerSolution": "ura184_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:46.627078+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/701-grid-120m-01-part-00.json",
+          "rawSha256": "89a9d28b4b48c707819f3d840167c409a9f692e241714ee0f97f30b6bd003560",
+          "requestPath": "data/phase-3a/raw/701-grid-120m-01-part-00.request.json",
+          "solution": "ura184_merged",
+          "centerSolution": "ura184_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:47.491160+00:00"
+        }
+      ],
+      "physical": {
+        "radiusKm": 578.9,
+        "radiusUncertaintyKm": 0.6,
+        "gmKm3PerSec2": 83.5,
+        "radiusReference": "1",
+        "gmReference": "URA111",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "sourceSha256": "9a9c004d950923ea368a8c4815d813c9c232c332d1586402a23b15d9581370d1"
+      },
+      "orientation": {
+        "modelAvailable": true,
+        "frame": "IAU_ARIEL",
+        "source": "NAIF pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "status": "METADATA_ONLY_NOT_RENDERED_3A",
+        "quality": "generic IAU model; no lunar binary PCK or physical libration validation"
+      },
+      "characteristicRadiusKm": 190929.4270120321,
+      "sampledMeanPeriodDays": 2.5203808107706744,
+      "periodMethod": "Least-squares unwrapped longitude in sampled mean angular-momentum plane over cache",
+      "asset": {
+        "status": "NOT_IMPLEMENTED_3B",
+        "shape": "NO_SURFACE_MESH",
+        "rights": "No satellite imagery distributed in 3A",
+        "colorProcessing": "diagnostic point colors only, not surface albedo"
+      }
+    },
+    {
+      "id": "702",
+      "parentPlanetId": "799",
+      "name": "Umbriel",
+      "zh": "天卫二",
+      "file": "/satellites/702.f64",
+      "sha256": "66b82ded7fe562fef456ad3cd831ced499e9cf29bf26e5fb6801d781909ad9e2",
+      "count": 20473,
+      "stepSeconds": 10800,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "centerId": "799",
+      "centerKind": "planetCenter",
+      "frame": "ICRF",
+      "referencePlane": "FRAME",
+      "correction": "NONE",
+      "positionUnit": "km",
+      "velocityUnit": "km/s",
+      "timeScale": "TDB",
+      "solution": "ura184_merged",
+      "rawSha256": "ceccb4ce6891a32d3f9cc2b1cd0ab75b49aa93ecfb362a6bdbca463ba19f5f41",
+      "rawPath": "data/phase-3a/raw/702-grid-180m-00-part-00.json",
+      "sources": [
+        {
+          "rawPath": "data/phase-3a/raw/702-grid-180m-00-part-00.json",
+          "rawSha256": "ceccb4ce6891a32d3f9cc2b1cd0ab75b49aa93ecfb362a6bdbca463ba19f5f41",
+          "requestPath": "data/phase-3a/raw/702-grid-180m-00-part-00.request.json",
+          "solution": "ura184_merged",
+          "centerSolution": "ura184_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:52.737917+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/702-grid-180m-00-part-01.json",
+          "rawSha256": "6cb7477a580616ce241a2efa5abb84f5beda51b6758248246d4ac6a067671154",
+          "requestPath": "data/phase-3a/raw/702-grid-180m-00-part-01.request.json",
+          "solution": "ura184_merged",
+          "centerSolution": "ura184_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:53.883081+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/702-grid-180m-00-part-02.json",
+          "rawSha256": "816f3b4c0cd12c4d9c6be34529099b20de00f824eda76166f80d48ce2d6a11f5",
+          "requestPath": "data/phase-3a/raw/702-grid-180m-00-part-02.request.json",
+          "solution": "ura184_merged",
+          "centerSolution": "ura184_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:00:54.726702+00:00"
+        }
+      ],
+      "physical": {
+        "radiusKm": 584.7,
+        "radiusUncertaintyKm": 2.8,
+        "gmKm3PerSec2": 85.1,
+        "radiusReference": "1",
+        "gmReference": "URA111",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "sourceSha256": "9a9c004d950923ea368a8c4815d813c9c232c332d1586402a23b15d9581370d1"
+      },
+      "orientation": {
+        "modelAvailable": true,
+        "frame": "IAU_UMBRIEL",
+        "source": "NAIF pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "status": "METADATA_ONLY_NOT_RENDERED_3A",
+        "quality": "generic IAU model; no lunar binary PCK or physical libration validation"
+      },
+      "characteristicRadiusKm": 265985.46266931074,
+      "sampledMeanPeriodDays": 4.144175588784832,
+      "periodMethod": "Least-squares unwrapped longitude in sampled mean angular-momentum plane over cache",
+      "asset": {
+        "status": "NOT_IMPLEMENTED_3B",
+        "shape": "NO_SURFACE_MESH",
+        "rights": "No satellite imagery distributed in 3A",
+        "colorProcessing": "diagnostic point colors only, not surface albedo"
+      }
+    },
+    {
+      "id": "703",
+      "parentPlanetId": "799",
+      "name": "Titania",
+      "zh": "天卫三",
+      "file": "/satellites/703.f64",
+      "sha256": "257ccc5513b566a45a29c384c0405e5750fddfbbe049196b8b3e13b73dde2182",
+      "count": 10237,
+      "stepSeconds": 21600,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "centerId": "799",
+      "centerKind": "planetCenter",
+      "frame": "ICRF",
+      "referencePlane": "FRAME",
+      "correction": "NONE",
+      "positionUnit": "km",
+      "velocityUnit": "km/s",
+      "timeScale": "TDB",
+      "solution": "ura184_merged",
+      "rawSha256": "a7a5055b8759f4b42ac51a1291274356c21396b1f3dcabb0bd36a7abe2843bad",
+      "rawPath": "data/phase-3a/raw/703-grid-360m-00-part-00.json",
+      "sources": [
+        {
+          "rawPath": "data/phase-3a/raw/703-grid-360m-00-part-00.json",
+          "rawSha256": "a7a5055b8759f4b42ac51a1291274356c21396b1f3dcabb0bd36a7abe2843bad",
+          "requestPath": "data/phase-3a/raw/703-grid-360m-00-part-00.request.json",
+          "solution": "ura184_merged",
+          "centerSolution": "ura184_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:01:00.031610+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/703-grid-360m-00-part-01.json",
+          "rawSha256": "1584ba5e736026ab6de413e1aaf337ac5e1a9753db3db152dd30f49b2f055961",
+          "requestPath": "data/phase-3a/raw/703-grid-360m-00-part-01.request.json",
+          "solution": "ura184_merged",
+          "centerSolution": "ura184_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:01:00.885666+00:00"
+        }
+      ],
+      "physical": {
+        "radiusKm": 788.9,
+        "radiusUncertaintyKm": 1.8,
+        "gmKm3PerSec2": 226.9,
+        "radiusReference": "1",
+        "gmReference": "URA111",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "sourceSha256": "9a9c004d950923ea368a8c4815d813c9c232c332d1586402a23b15d9581370d1"
+      },
+      "orientation": {
+        "modelAvailable": true,
+        "frame": "IAU_TITANIA",
+        "source": "NAIF pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "status": "METADATA_ONLY_NOT_RENDERED_3A",
+        "quality": "generic IAU model; no lunar binary PCK or physical libration validation"
+      },
+      "characteristicRadiusKm": 436282.87872360874,
+      "sampledMeanPeriodDays": 8.705868109307735,
+      "periodMethod": "Least-squares unwrapped longitude in sampled mean angular-momentum plane over cache",
+      "asset": {
+        "status": "NOT_IMPLEMENTED_3B",
+        "shape": "NO_SURFACE_MESH",
+        "rights": "No satellite imagery distributed in 3A",
+        "colorProcessing": "diagnostic point colors only, not surface albedo"
+      }
+    },
+    {
+      "id": "704",
+      "parentPlanetId": "799",
+      "name": "Oberon",
+      "zh": "天卫四",
+      "file": "/satellites/704.f64",
+      "sha256": "a402829ae9535e62f93e90d60e62ac94afd3d90ce00f8273a3b7402d041ded1f",
+      "count": 10237,
+      "stepSeconds": 21600,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "centerId": "799",
+      "centerKind": "planetCenter",
+      "frame": "ICRF",
+      "referencePlane": "FRAME",
+      "correction": "NONE",
+      "positionUnit": "km",
+      "velocityUnit": "km/s",
+      "timeScale": "TDB",
+      "solution": "ura184_merged",
+      "rawSha256": "b5932a32446185d0fd77f804b1af05ffeb6d609205fd98809b7f0515366a5549",
+      "rawPath": "data/phase-3a/raw/704-grid-360m-00-part-00.json",
+      "sources": [
+        {
+          "rawPath": "data/phase-3a/raw/704-grid-360m-00-part-00.json",
+          "rawSha256": "b5932a32446185d0fd77f804b1af05ffeb6d609205fd98809b7f0515366a5549",
+          "requestPath": "data/phase-3a/raw/704-grid-360m-00-part-00.request.json",
+          "solution": "ura184_merged",
+          "centerSolution": "ura184_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:01:06.248538+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/704-grid-360m-00-part-01.json",
+          "rawSha256": "79f2ba4a6fadd6a315a3807a21ff536d8a6e792687d5579d5ee27723f7b29ba1",
+          "requestPath": "data/phase-3a/raw/704-grid-360m-00-part-01.request.json",
+          "solution": "ura184_merged",
+          "centerSolution": "ura184_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:01:07.096535+00:00"
+        }
+      ],
+      "physical": {
+        "radiusKm": 761.4,
+        "radiusUncertaintyKm": 2.6,
+        "gmKm3PerSec2": 205.3,
+        "radiusReference": "1",
+        "gmReference": "URA111",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "sourceSha256": "9a9c004d950923ea368a8c4815d813c9c232c332d1586402a23b15d9581370d1"
+      },
+      "orientation": {
+        "modelAvailable": true,
+        "frame": "IAU_OBERON",
+        "source": "NAIF pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "status": "METADATA_ONLY_NOT_RENDERED_3A",
+        "quality": "generic IAU model; no lunar binary PCK or physical libration validation"
+      },
+      "characteristicRadiusKm": 583450.2856652399,
+      "sampledMeanPeriodDays": 13.46323358548309,
+      "periodMethod": "Least-squares unwrapped longitude in sampled mean angular-momentum plane over cache",
+      "asset": {
+        "status": "NOT_IMPLEMENTED_3B",
+        "shape": "NO_SURFACE_MESH",
+        "rights": "No satellite imagery distributed in 3A",
+        "colorProcessing": "diagnostic point colors only, not surface albedo"
+      }
+    },
+    {
+      "id": "801",
+      "parentPlanetId": "899",
+      "name": "Triton",
+      "zh": "海卫一",
+      "file": "/satellites/801.f64",
+      "sha256": "9a538ac3366c272e5b6eb11f13f6fc9b4fe71bb66c879fb3b0137db62f3de4f4",
+      "count": 20473,
+      "stepSeconds": 10800,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "centerId": "899",
+      "centerKind": "planetCenter",
+      "frame": "ICRF",
+      "referencePlane": "FRAME",
+      "correction": "NONE",
+      "positionUnit": "km",
+      "velocityUnit": "km/s",
+      "timeScale": "TDB",
+      "solution": "nep098_merged",
+      "rawSha256": "ba4ef6e9217c80919729af7ec292073e46525005083b6376913f2dbdcf1b7e42",
+      "rawPath": "data/phase-3a/raw/801-grid-180m-00-part-00.json",
+      "sources": [
+        {
+          "rawPath": "data/phase-3a/raw/801-grid-180m-00-part-00.json",
+          "rawSha256": "ba4ef6e9217c80919729af7ec292073e46525005083b6376913f2dbdcf1b7e42",
+          "requestPath": "data/phase-3a/raw/801-grid-180m-00-part-00.request.json",
+          "solution": "nep098_merged",
+          "centerSolution": "nep098_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:01:12.441821+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/801-grid-180m-00-part-01.json",
+          "rawSha256": "41f0bbd8f9908242c962d33668c0d950fc03265272546396c4c0cccf0d48f6f8",
+          "requestPath": "data/phase-3a/raw/801-grid-180m-00-part-01.request.json",
+          "solution": "nep098_merged",
+          "centerSolution": "nep098_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:01:13.882590+00:00"
+        },
+        {
+          "rawPath": "data/phase-3a/raw/801-grid-180m-00-part-02.json",
+          "rawSha256": "e4c284ffb1d5fdaff603d247e8b52221ceb8801e245d5e60a96a35285a976dcb",
+          "requestPath": "data/phase-3a/raw/801-grid-180m-00-part-02.request.json",
+          "solution": "nep098_merged",
+          "centerSolution": "nep098_merged",
+          "apiVersion": "1.2",
+          "retrievedAtUtc": "2026-10-29T09:01:14.774794+00:00"
+        }
+      ],
+      "physical": {
+        "radiusKm": 1352.6,
+        "radiusUncertaintyKm": 2.4,
+        "gmKm3PerSec2": 1428.49546,
+        "radiusReference": "1",
+        "gmReference": "NEP097",
+        "source": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "sourceSha256": "9a9c004d950923ea368a8c4815d813c9c232c332d1586402a23b15d9581370d1"
+      },
+      "orientation": {
+        "modelAvailable": true,
+        "frame": "IAU_TRITON",
+        "source": "NAIF pck00011.tpc",
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+        "status": "METADATA_ONLY_NOT_RENDERED_3A",
+        "quality": "generic IAU model; no lunar binary PCK or physical libration validation"
+      },
+      "characteristicRadiusKm": 354759.3600932612,
+      "sampledMeanPeriodDays": 5.876843423298163,
+      "periodMethod": "Least-squares unwrapped longitude in sampled mean angular-momentum plane over cache",
+      "asset": {
+        "status": "NOT_IMPLEMENTED_3B",
+        "shape": "NO_SURFACE_MESH",
+        "rights": "No satellite imagery distributed in 3A",
+        "colorProcessing": "diagnostic point colors only, not surface albedo"
+      }
+    }
+  ]
+}

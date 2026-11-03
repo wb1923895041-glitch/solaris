@@ -1,0 +1,122 @@
+[
+    {
+        "command": "npx tsc --noEmit",
+        "log": "typecheck.log",
+        "exitCode": 0
+    },
+    {
+        "command": "npm run build",
+        "log": "build.log",
+        "exitCode": 0
+    },
+    {
+        "command": "npm run check:contracts",
+        "log": "contracts.log",
+        "exitCode": 0
+    },
+    {
+        "command": "npm run check:science",
+        "log": "science.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/verify-satellites.mjs",
+        "log": "satellites.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/verify-moon-assets.mjs",
+        "log": "moon-assets.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/verify-moon-orientation.mjs",
+        "log": "moon-orientation.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/verify-moon-locking.mjs",
+        "log": "moon-locking.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/verify-local-system.mjs",
+        "log": "local-system.log",
+        "exitCode": 0
+    },
+    {
+        "command": ".venv-phase1/Scripts/python.exe scripts/validate-phase4.py",
+        "log": "phase4-validation.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/verify-events.mjs",
+        "log": "events.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/verify-lab.mjs",
+        "log": "lab.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/verify-minor-rings.mjs",
+        "log": "minor-rings.log",
+        "exitCode": 0
+    },
+    {
+        "command": "py -3 scripts/phase2-freeze.py --check",
+        "log": "freeze.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node scripts/qa-moons-final.mjs chrome",
+        "log": "full-browser-rerun.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node scripts/qa-moons-final.mjs msedge",
+        "log": "full-browser-rerun.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node scripts/qa-local-system.mjs chrome",
+        "log": "full-browser-rerun.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node scripts/qa-local-system.mjs msedge",
+        "log": "full-browser-rerun.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node scripts/qa-phases-4-7.mjs chrome",
+        "log": "full-browser-rerun.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node scripts/qa-phases-4-7.mjs msedge",
+        "log": "full-browser-rerun.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node scripts/record-local-system.mjs",
+        "log": "full-browser-rerun.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node scripts/record-final-tour.mjs",
+        "log": "full-browser-rerun.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node scripts/audit-phase8.mjs",
+        "log": "full-browser-rerun.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node scripts/perf-phase7.mjs chrome",
+        "log": "full-browser-rerun.log",
+        "exitCode": 0
+    }
+]

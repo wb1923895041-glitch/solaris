@@ -1,0 +1,42 @@
+{
+  "bodyId": "10",
+  "utcMs": 1793232000000,
+  "physicsUnchanged": true,
+  "visuals": [
+    {
+      "id": "10",
+      "status": "ready",
+      "error": null,
+      "loadedWidth": 4096,
+      "material": "solar-photosphere",
+      "layers": [
+        "corona",
+        "illustrative-prominences"
+      ]
+    }
+  ],
+  "performance": {
+    "meanMs": 3.6359999999999966,
+    "fps": 275.0275027502753,
+    "p50": 3.600000000000364,
+    "p95": 3.7000000000007276
+  },
+  "camera": [
+    31.818905726238977,
+    87.08332093496983,
+    103.83011342246401
+  ],
+  "target": [
+    0,
+    0,
+    0
+  ],
+  "baselineCamera": [
+    31.818905726238977,
+    87.08332093496983,
+    103.83011342246401
+  ],
+  "manualVisualReview": "Standard, surface, limb and no-enhancement screenshots reopened; observed HMI texture and restrained limb visible. JPEG absolute longitude and unseen hemisphere remain declared limitations.",
+  "gate": "accepted-with-declared-limitations",
+  "acceptedAt": "2026-10-28T18:30:54.124706+00:00"
+}

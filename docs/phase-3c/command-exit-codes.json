@@ -1,0 +1,67 @@
+[
+    {
+        "command": "npx tsc --noEmit",
+        "log": "typecheck.log",
+        "exitCode": 0
+    },
+    {
+        "command": "npm run build",
+        "log": "build.log",
+        "exitCode": 0
+    },
+    {
+        "command": "npm run check:contracts",
+        "log": "contracts.log",
+        "exitCode": 0
+    },
+    {
+        "command": "npm run check:science",
+        "log": "science.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/verify-satellites.mjs",
+        "log": "satellites.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/verify-moon-assets.mjs",
+        "log": "moon-assets.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/verify-moon-orientation.mjs",
+        "log": "moon-orientation.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/verify-moon-locking.mjs",
+        "log": "moon-locking.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/verify-local-system.mjs",
+        "log": "local-system.log",
+        "exitCode": 0
+    },
+    {
+        "command": "py -3 scripts/phase2-freeze.py --check",
+        "log": "freeze.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/qa-local-system.mjs chrome",
+        "log": "chrome-run.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/qa-local-system.mjs msedge",
+        "log": "msedge-run.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node scripts/record-local-system.mjs",
+        "log": "recording.json",
+        "exitCode": 0
+    }
+]

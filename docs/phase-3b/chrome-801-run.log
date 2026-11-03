@@ -1,0 +1,20 @@
+chrome 801 PASS Asset loaded with no fallback
+chrome 801 PASS Solar-only illumination and non-emissive material
+chrome 801 PASS Same original TDB instant
+chrome 801 PASS Body orientation is a unit quaternion
+chrome 801 PASS Satellite absolute position available
+chrome 801 PASS Light points to Sun from the actual satellite centre
+chrome 801 PASS standard camera rendered without error
+chrome 801 PASS standard camera framing matches asset envelope
+chrome 801 PASS side camera rendered without error
+chrome 801 PASS side camera framing matches asset envelope
+chrome 801 PASS detail camera rendered without error
+chrome 801 PASS detail camera framing matches asset envelope
+chrome 801 PASS parent camera rendered without error
+chrome 801 PASS parent camera framing matches asset envelope
+chrome 801 PASS Actual mouse drag rotates inspection camera
+chrome 801 PASS Camera does not alter physical orientation
+chrome 801 PASS Optional fill is explicit and reversible
+chrome 801 PASS Close restores unchanged main scene and camera
+chrome 801 PASS No browser console/runtime errors
+ALL PASS 19

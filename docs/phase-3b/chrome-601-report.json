@@ -1,0 +1,683 @@
+{
+  "browser": "156.0.8078.79",
+  "viewport": {
+    "width": 2560,
+    "height": 1440
+  },
+  "checks": [
+    "Asset loaded with no fallback",
+    "Solar-only illumination and non-emissive material",
+    "Same original TDB instant",
+    "Body orientation is a unit quaternion",
+    "Satellite absolute position available",
+    "Light points to Sun from the actual satellite centre",
+    "standard camera rendered without error",
+    "side camera rendered without error",
+    "detail camera rendered without error",
+    "parent camera rendered without error",
+    "Actual mouse drag rotates inspection camera",
+    "Camera does not alter physical orientation",
+    "Optional fill is explicit and reversible",
+    "Close restores unchanged main scene and camera",
+    "No browser console/runtime errors"
+  ],
+  "errors": [],
+  "captures": [
+    {
+      "view": "standard",
+      "file": "output/playwright/phase-3b/chrome-601-standard-2560.png",
+      "snapshot": {
+        "id": "601",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "standard",
+        "bodyToIcrfQuaternion": [
+          -0.007451861929117594,
+          0.05252219131855709,
+          0.7142596196308548,
+          0.6978675267826073
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.5875032609680105,
+          0.6259386993050203,
+          0.34803179384713673,
+          0.3767154543363432
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          -0.9781507638037207,
+          0.04242095428340023,
+          0.2035228387869119
+        ],
+        "camera": [
+          -5.230194851444312,
+          0.226825827772819,
+          1.0882413457770772
+        ],
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "601",
+          "displayNameZh": "土卫一",
+          "displayNameEn": "Mimas",
+          "parentPlanetId": "699",
+          "version": "3b-601-mosaic-v1",
+          "kind": "cassini-ice",
+          "shapeType": "pck-ellipsoid",
+          "meanRadiusKm": 198.2,
+          "meshFrame": "sphere-y-up",
+          "geometry": {
+            "axesKm": [
+              207.8,
+              196.7,
+              190.6
+            ],
+            "source": "NAIF pck00011.tpc BODY601_RADII; retained physical catalog radius"
+          },
+          "geometrySource": {
+            "provider": "NASA/NAIF",
+            "title": "IAU generic PCK triaxial radii",
+            "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+          },
+          "albedo": {
+            "title": "Cassini ISS 2014 global mosaic / PIA18437",
+            "provider": "NASA/JPL-Caltech/SSI / Paul Schenk, LPI",
+            "uri": "https://science.nasa.gov/photojournal/color-maps-of-mimas-2014/",
+            "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18437/PIA18437.jpg",
+            "rawPath": "data/phase-3b/raw/mimas-global.jpg",
+            "rawSha256": "303d5653875d507e8859a26d0afdedd0173c7d4e691f27c3266ca63d1aa4f97f",
+            "observationEpoch": "Cassini 2004–2014 composite",
+            "rights": "NASA/JPL-Caltech/SSI/LPI credit; retain Paul Schenk and mission credits. NASA media guidelines.",
+            "colorProcessing": "保留源 IR-Green-UV 增强色；超出人眼波段，不声称自然色。",
+            "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+            "processingCategory": "OBSERVED_ENHANCED_COLOR_COMPOSITE",
+            "nativeDimensions": [
+              6356,
+              3178
+            ]
+          },
+          "lods": [
+            {
+              "width": 1024,
+              "height": 512,
+              "url": "/assets/moons/601/albedo-1024.jpg",
+              "sha256": "37348bbe778eac4a23c0f9adfca5d65d831a4293ab3d663a8d48dd3eda806271"
+            },
+            {
+              "width": 2048,
+              "height": 1024,
+              "url": "/assets/moons/601/albedo-2048.jpg",
+              "sha256": "5c72099e32283bd8226324f0cbd0f647320c55aea0cf675dcc16f83b8cdcccdd"
+            },
+            {
+              "width": 4096,
+              "height": 2048,
+              "url": "/assets/moons/601/albedo-4096.jpg",
+              "sha256": "c84266c1072f971e2792554793b62ff9109ce274f59ba39d15017f51a631452c"
+            }
+          ],
+          "coverage": {
+            "file": "/assets/moons/601/coverage.png",
+            "sha256": "db18ad38f680bfc15635a67532fbd25b02a62497b7f6630faf7a89794315a0a3",
+            "missingSurfaceFraction": 0.00012229655549796507,
+            "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+          },
+          "georeferencing": {
+            "method": "audited equirectangular image grid",
+            "centralLongitudeEast": 180,
+            "sourceMetadataPage": "mimas-product.html",
+            "longitudeConvention": "east positive; zero centred on derived map",
+            "verification": "Cassini annotated map 360W to 0W"
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+          "reconstructionNotes": "Herschel 撞击坑来自 Cassini 拼图；采用 PCK 三轴外形，没有虚构陨石坑高程。 蓝灰色区域为未测，未加入虚构地貌。",
+          "visualEnhancements": [
+            "未测区蓝灰色分类标识",
+            "固定观察曝光；可选补光默认关闭"
+          ],
+          "limitations": [
+            "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+            "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+            "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+          ],
+          "verifiedAt": "2026-11-01T08:19:18.746313+00:00"
+        },
+        "loadedWidth": 2048,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 2,
+            "textures": 5
+          },
+          "drawCalls": 1,
+          "triangles": 48768
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 5,
+          "geometryCount": 2,
+          "textureCount": 5
+        }
+      }
+    },
+    {
+      "view": "side",
+      "file": "output/playwright/phase-3b/chrome-601-side-2560.png",
+      "snapshot": {
+        "id": "601",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "side",
+        "bodyToIcrfQuaternion": [
+          -0.007451861929117594,
+          0.05252219131855709,
+          0.7142596196308548,
+          0.6978675267826073
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.5875032609680105,
+          0.6259386993050203,
+          0.34803179384713673,
+          0.3767154543363432
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          -0.9781507638037207,
+          0.04242095428340023,
+          0.2035228387869119
+        ],
+        "camera": [
+          -1.587855966110814,
+          0.11015635986661124,
+          5.104628916399833
+        ],
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "601",
+          "displayNameZh": "土卫一",
+          "displayNameEn": "Mimas",
+          "parentPlanetId": "699",
+          "version": "3b-601-mosaic-v1",
+          "kind": "cassini-ice",
+          "shapeType": "pck-ellipsoid",
+          "meanRadiusKm": 198.2,
+          "meshFrame": "sphere-y-up",
+          "geometry": {
+            "axesKm": [
+              207.8,
+              196.7,
+              190.6
+            ],
+            "source": "NAIF pck00011.tpc BODY601_RADII; retained physical catalog radius"
+          },
+          "geometrySource": {
+            "provider": "NASA/NAIF",
+            "title": "IAU generic PCK triaxial radii",
+            "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+          },
+          "albedo": {
+            "title": "Cassini ISS 2014 global mosaic / PIA18437",
+            "provider": "NASA/JPL-Caltech/SSI / Paul Schenk, LPI",
+            "uri": "https://science.nasa.gov/photojournal/color-maps-of-mimas-2014/",
+            "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18437/PIA18437.jpg",
+            "rawPath": "data/phase-3b/raw/mimas-global.jpg",
+            "rawSha256": "303d5653875d507e8859a26d0afdedd0173c7d4e691f27c3266ca63d1aa4f97f",
+            "observationEpoch": "Cassini 2004–2014 composite",
+            "rights": "NASA/JPL-Caltech/SSI/LPI credit; retain Paul Schenk and mission credits. NASA media guidelines.",
+            "colorProcessing": "保留源 IR-Green-UV 增强色；超出人眼波段，不声称自然色。",
+            "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+            "processingCategory": "OBSERVED_ENHANCED_COLOR_COMPOSITE",
+            "nativeDimensions": [
+              6356,
+              3178
+            ]
+          },
+          "lods": [
+            {
+              "width": 1024,
+              "height": 512,
+              "url": "/assets/moons/601/albedo-1024.jpg",
+              "sha256": "37348bbe778eac4a23c0f9adfca5d65d831a4293ab3d663a8d48dd3eda806271"
+            },
+            {
+              "width": 2048,
+              "height": 1024,
+              "url": "/assets/moons/601/albedo-2048.jpg",
+              "sha256": "5c72099e32283bd8226324f0cbd0f647320c55aea0cf675dcc16f83b8cdcccdd"
+            },
+            {
+              "width": 4096,
+              "height": 2048,
+              "url": "/assets/moons/601/albedo-4096.jpg",
+              "sha256": "c84266c1072f971e2792554793b62ff9109ce274f59ba39d15017f51a631452c"
+            }
+          ],
+          "coverage": {
+            "file": "/assets/moons/601/coverage.png",
+            "sha256": "db18ad38f680bfc15635a67532fbd25b02a62497b7f6630faf7a89794315a0a3",
+            "missingSurfaceFraction": 0.00012229655549796507,
+            "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+          },
+          "georeferencing": {
+            "method": "audited equirectangular image grid",
+            "centralLongitudeEast": 180,
+            "sourceMetadataPage": "mimas-product.html",
+            "longitudeConvention": "east positive; zero centred on derived map",
+            "verification": "Cassini annotated map 360W to 0W"
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+          "reconstructionNotes": "Herschel 撞击坑来自 Cassini 拼图；采用 PCK 三轴外形，没有虚构陨石坑高程。 蓝灰色区域为未测，未加入虚构地貌。",
+          "visualEnhancements": [
+            "未测区蓝灰色分类标识",
+            "固定观察曝光；可选补光默认关闭"
+          ],
+          "limitations": [
+            "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+            "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+            "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+          ],
+          "verifiedAt": "2026-11-01T08:19:18.746313+00:00"
+        },
+        "loadedWidth": 2048,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 2,
+            "textures": 5
+          },
+          "drawCalls": 1,
+          "triangles": 48768
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 5,
+          "geometryCount": 2,
+          "textureCount": 5
+        }
+      }
+    },
+    {
+      "view": "detail",
+      "file": "output/playwright/phase-3b/chrome-601-detail-2560.png",
+      "snapshot": {
+        "id": "601",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "detail",
+        "bodyToIcrfQuaternion": [
+          -0.007451861929117594,
+          0.05252219131855709,
+          0.7142596196308548,
+          0.6978675267826073
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.5875032609680105,
+          0.6259386993050203,
+          0.34803179384713673,
+          0.3767154543363432
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          -0.9781507638037207,
+          0.04242095428340023,
+          0.2035228387869119
+        ],
+        "camera": [
+          -2.9740323665075636,
+          0.1289793922629761,
+          0.6188039025006938
+        ],
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "601",
+          "displayNameZh": "土卫一",
+          "displayNameEn": "Mimas",
+          "parentPlanetId": "699",
+          "version": "3b-601-mosaic-v1",
+          "kind": "cassini-ice",
+          "shapeType": "pck-ellipsoid",
+          "meanRadiusKm": 198.2,
+          "meshFrame": "sphere-y-up",
+          "geometry": {
+            "axesKm": [
+              207.8,
+              196.7,
+              190.6
+            ],
+            "source": "NAIF pck00011.tpc BODY601_RADII; retained physical catalog radius"
+          },
+          "geometrySource": {
+            "provider": "NASA/NAIF",
+            "title": "IAU generic PCK triaxial radii",
+            "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+          },
+          "albedo": {
+            "title": "Cassini ISS 2014 global mosaic / PIA18437",
+            "provider": "NASA/JPL-Caltech/SSI / Paul Schenk, LPI",
+            "uri": "https://science.nasa.gov/photojournal/color-maps-of-mimas-2014/",
+            "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18437/PIA18437.jpg",
+            "rawPath": "data/phase-3b/raw/mimas-global.jpg",
+            "rawSha256": "303d5653875d507e8859a26d0afdedd0173c7d4e691f27c3266ca63d1aa4f97f",
+            "observationEpoch": "Cassini 2004–2014 composite",
+            "rights": "NASA/JPL-Caltech/SSI/LPI credit; retain Paul Schenk and mission credits. NASA media guidelines.",
+            "colorProcessing": "保留源 IR-Green-UV 增强色；超出人眼波段，不声称自然色。",
+            "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+            "processingCategory": "OBSERVED_ENHANCED_COLOR_COMPOSITE",
+            "nativeDimensions": [
+              6356,
+              3178
+            ]
+          },
+          "lods": [
+            {
+              "width": 1024,
+              "height": 512,
+              "url": "/assets/moons/601/albedo-1024.jpg",
+              "sha256": "37348bbe778eac4a23c0f9adfca5d65d831a4293ab3d663a8d48dd3eda806271"
+            },
+            {
+              "width": 2048,
+              "height": 1024,
+              "url": "/assets/moons/601/albedo-2048.jpg",
+              "sha256": "5c72099e32283bd8226324f0cbd0f647320c55aea0cf675dcc16f83b8cdcccdd"
+            },
+            {
+              "width": 4096,
+              "height": 2048,
+              "url": "/assets/moons/601/albedo-4096.jpg",
+              "sha256": "c84266c1072f971e2792554793b62ff9109ce274f59ba39d15017f51a631452c"
+            }
+          ],
+          "coverage": {
+            "file": "/assets/moons/601/coverage.png",
+            "sha256": "db18ad38f680bfc15635a67532fbd25b02a62497b7f6630faf7a89794315a0a3",
+            "missingSurfaceFraction": 0.00012229655549796507,
+            "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+          },
+          "georeferencing": {
+            "method": "audited equirectangular image grid",
+            "centralLongitudeEast": 180,
+            "sourceMetadataPage": "mimas-product.html",
+            "longitudeConvention": "east positive; zero centred on derived map",
+            "verification": "Cassini annotated map 360W to 0W"
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+          "reconstructionNotes": "Herschel 撞击坑来自 Cassini 拼图；采用 PCK 三轴外形，没有虚构陨石坑高程。 蓝灰色区域为未测，未加入虚构地貌。",
+          "visualEnhancements": [
+            "未测区蓝灰色分类标识",
+            "固定观察曝光；可选补光默认关闭"
+          ],
+          "limitations": [
+            "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+            "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+            "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+          ],
+          "verifiedAt": "2026-11-01T08:19:18.746313+00:00"
+        },
+        "loadedWidth": 4096,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 2,
+            "textures": 6
+          },
+          "drawCalls": 1,
+          "triangles": 48768
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 6,
+          "geometryCount": 2,
+          "textureCount": 6
+        }
+      }
+    },
+    {
+      "view": "parent",
+      "file": "output/playwright/phase-3b/chrome-601-parent-2560.png",
+      "snapshot": {
+        "id": "601",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "parent",
+        "bodyToIcrfQuaternion": [
+          -0.007451861929117594,
+          0.05252219131855709,
+          0.7142596196308548,
+          0.6978675267826073
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.5875032609680105,
+          0.6259386993050203,
+          0.34803179384713673,
+          0.3767154543363432
+        ],
+        "meshFrame": "sphere-y-up",
+        "meshRotation": [
+          0.7071067811865475,
+          0,
+          0,
+          0.7071067811865476
+        ],
+        "sunDirection": [
+          -0.9781507638037207,
+          0.04242095428340023,
+          0.2035228387869119
+        ],
+        "camera": [
+          -0.7456170445261802,
+          -2.4954649214311786,
+          -4.669835908861966
+        ],
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "601",
+          "displayNameZh": "土卫一",
+          "displayNameEn": "Mimas",
+          "parentPlanetId": "699",
+          "version": "3b-601-mosaic-v1",
+          "kind": "cassini-ice",
+          "shapeType": "pck-ellipsoid",
+          "meanRadiusKm": 198.2,
+          "meshFrame": "sphere-y-up",
+          "geometry": {
+            "axesKm": [
+              207.8,
+              196.7,
+              190.6
+            ],
+            "source": "NAIF pck00011.tpc BODY601_RADII; retained physical catalog radius"
+          },
+          "geometrySource": {
+            "provider": "NASA/NAIF",
+            "title": "IAU generic PCK triaxial radii",
+            "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+          },
+          "albedo": {
+            "title": "Cassini ISS 2014 global mosaic / PIA18437",
+            "provider": "NASA/JPL-Caltech/SSI / Paul Schenk, LPI",
+            "uri": "https://science.nasa.gov/photojournal/color-maps-of-mimas-2014/",
+            "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18437/PIA18437.jpg",
+            "rawPath": "data/phase-3b/raw/mimas-global.jpg",
+            "rawSha256": "303d5653875d507e8859a26d0afdedd0173c7d4e691f27c3266ca63d1aa4f97f",
+            "observationEpoch": "Cassini 2004–2014 composite",
+            "rights": "NASA/JPL-Caltech/SSI/LPI credit; retain Paul Schenk and mission credits. NASA media guidelines.",
+            "colorProcessing": "保留源 IR-Green-UV 增强色；超出人眼波段，不声称自然色。",
+            "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+            "processingCategory": "OBSERVED_ENHANCED_COLOR_COMPOSITE",
+            "nativeDimensions": [
+              6356,
+              3178
+            ]
+          },
+          "lods": [
+            {
+              "width": 1024,
+              "height": 512,
+              "url": "/assets/moons/601/albedo-1024.jpg",
+              "sha256": "37348bbe778eac4a23c0f9adfca5d65d831a4293ab3d663a8d48dd3eda806271"
+            },
+            {
+              "width": 2048,
+              "height": 1024,
+              "url": "/assets/moons/601/albedo-2048.jpg",
+              "sha256": "5c72099e32283bd8226324f0cbd0f647320c55aea0cf675dcc16f83b8cdcccdd"
+            },
+            {
+              "width": 4096,
+              "height": 2048,
+              "url": "/assets/moons/601/albedo-4096.jpg",
+              "sha256": "c84266c1072f971e2792554793b62ff9109ce274f59ba39d15017f51a631452c"
+            }
+          ],
+          "coverage": {
+            "file": "/assets/moons/601/coverage.png",
+            "sha256": "db18ad38f680bfc15635a67532fbd25b02a62497b7f6630faf7a89794315a0a3",
+            "missingSurfaceFraction": 0.00012229655549796507,
+            "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+          },
+          "georeferencing": {
+            "method": "audited equirectangular image grid",
+            "centralLongitudeEast": 180,
+            "sourceMetadataPage": "mimas-product.html",
+            "longitudeConvention": "east positive; zero centred on derived map",
+            "verification": "Cassini annotated map 360W to 0W"
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+          "reconstructionNotes": "Herschel 撞击坑来自 Cassini 拼图；采用 PCK 三轴外形，没有虚构陨石坑高程。 蓝灰色区域为未测，未加入虚构地貌。",
+          "visualEnhancements": [
+            "未测区蓝灰色分类标识",
+            "固定观察曝光；可选补光默认关闭"
+          ],
+          "limitations": [
+            "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+            "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+            "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+          ],
+          "verifiedAt": "2026-11-01T08:19:18.746313+00:00"
+        },
+        "loadedWidth": 4096,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 2,
+            "textures": 6
+          },
+          "drawCalls": 1,
+          "triangles": 48768
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 6,
+          "geometryCount": 2,
+          "textureCount": 6
+        }
+      }
+    }
+  ]
+}

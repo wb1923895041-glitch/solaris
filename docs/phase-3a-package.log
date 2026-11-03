@@ -1,0 +1,5 @@
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/main.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/main.ts', CRLF will be replaced by LF the next time Git touches it
+{"archive": "SOLARIS_第3期_3A_天然卫星数据与轨道_验收包.zip", "bytes": 225289560, "sha256": "c89b3938ab1010aea620470e51b71ff07be5d70fe332a1349065631192cb79c7", "files": 632, "crcAndPerFileSha256": "PASS"}

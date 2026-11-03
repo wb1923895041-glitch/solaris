@@ -1,0 +1,191 @@
+{
+  "sourceUrl": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc",
+  "pckSha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+  "toolkit": "CSPICE_N0067",
+  "model": "IAU generic PCK: visual attitude approximation, not high precision lunar binary-PCK physical libration or surface registration",
+  "startTdb": 757339269.1839061,
+  "endTdb": 978264069.1839114,
+  "format": "little-endian Float32 XYZW, body-fixed IAU XYZ to ICRF/J2000-aligned axes",
+  "objects": [
+    {
+      "bodyId": "301",
+      "frame": "IAU_MOON",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/moons/orientation/301.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "0bddf83e9c0159384ed5d311bfb12cc8598bb7bb504bd1a85db89fe2515f5fbf",
+      "maxInterpolationAngleDegrees": 3.410685719805998e-06
+    },
+    {
+      "bodyId": "401",
+      "frame": "IAU_PHOBOS",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/moons/orientation/401.f32",
+      "stepSeconds": 450,
+      "count": 490946,
+      "sha256": "7845f2c5fbd5ad70aec48b344cb6251414d859ed93856b215fff2af119c3c2f7",
+      "maxInterpolationAngleDegrees": 0.0015051172424539858
+    },
+    {
+      "bodyId": "402",
+      "frame": "IAU_DEIMOS",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/moons/orientation/402.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "5727195bf26bc05847dd5fc1e17bb6e7355a7ea07488bcd656e2984e05dad6ab",
+      "maxInterpolationAngleDegrees": 3.96381429441268e-06
+    },
+    {
+      "bodyId": "501",
+      "frame": "IAU_IO",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/moons/orientation/501.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "a59ed2d7553ce5bdc7c66474c92e798be23bcb780bbf10f172b271e876a3c813",
+      "maxInterpolationAngleDegrees": 2.988808784995065e-06
+    },
+    {
+      "bodyId": "502",
+      "frame": "IAU_EUROPA",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/moons/orientation/502.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "f62f9e64846b9cec4b77054be0d42c7bc11719f2317cfebd0d28e27afd187430",
+      "maxInterpolationAngleDegrees": 4.185885927638538e-06
+    },
+    {
+      "bodyId": "503",
+      "frame": "IAU_GANYMEDE",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/moons/orientation/503.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "a5d4d761fb9b0ee00e25ea0500227e1b074e7216ed28491bcc3c24ce9324cde0",
+      "maxInterpolationAngleDegrees": 3.7579439119437592e-06
+    },
+    {
+      "bodyId": "504",
+      "frame": "IAU_CALLISTO",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/moons/orientation/504.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "ebfd48cf0ec9a9bbbc64dcd8e39aa8d4c760fbebcf459855c441fb4fa32eba5a",
+      "maxInterpolationAngleDegrees": 2.6831790075786825e-06
+    },
+    {
+      "bodyId": "601",
+      "frame": "IAU_MIMAS",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/moons/orientation/601.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "0bc4b8c045297db59e252755986d757b6f776027c96600978d18c6442ed87587",
+      "maxInterpolationAngleDegrees": 4.7865337287700465e-05
+    },
+    {
+      "bodyId": "602",
+      "frame": "IAU_ENCELADUS",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/moons/orientation/602.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "1b1fbd67849530f758ecc3674e17e54e3cf38dade312e291c86ebf22b2961ffd",
+      "maxInterpolationAngleDegrees": 3.357388159717945e-06
+    },
+    {
+      "bodyId": "605",
+      "frame": "IAU_RHEA",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/moons/orientation/605.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "b92d320456f17df83ed57f38c81cae5011f3fbf0931feac46117949f6b400124",
+      "maxInterpolationAngleDegrees": 3.90348083548966e-06
+    },
+    {
+      "bodyId": "606",
+      "frame": "IAU_TITAN",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/moons/orientation/606.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "9fc262fb862bd5744f97b81b1fa368bdf32a6a06fa9264741acb05ad09cedf30",
+      "maxInterpolationAngleDegrees": 3.1314552559018165e-06
+    },
+    {
+      "bodyId": "608",
+      "frame": "IAU_IAPETUS",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/moons/orientation/608.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "3b9763c78eb30174312261ee660170c3c4382962d5610fe8a9e021fd97e2ea50",
+      "maxInterpolationAngleDegrees": 3.973394249369041e-06
+    },
+    {
+      "bodyId": "705",
+      "frame": "IAU_MIRANDA",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/moons/orientation/705.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "bdddb73a7e3c219881e74484724a42d28d5540f610e988e571287bb855bf8ac3",
+      "maxInterpolationAngleDegrees": 6.018192757231364e-06
+    },
+    {
+      "bodyId": "701",
+      "frame": "IAU_ARIEL",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/moons/orientation/701.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "5e2a0b416372199c6235926301c1c4c7f522f9226669cd74cf6cac80a6fe288d",
+      "maxInterpolationAngleDegrees": 4.103959216426994e-06
+    },
+    {
+      "bodyId": "702",
+      "frame": "IAU_UMBRIEL",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/moons/orientation/702.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "2c5a2640463437f9c661e6082727682c525689337de3d63031e3e29ae9968970",
+      "maxInterpolationAngleDegrees": 4.081446142224304e-06
+    },
+    {
+      "bodyId": "703",
+      "frame": "IAU_TITANIA",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/moons/orientation/703.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "d591d276262ea378e90aad975449d5e2bcd7b0cf0679b3b8419f01f31bcc0f5e",
+      "maxInterpolationAngleDegrees": 4.289331511912102e-06
+    },
+    {
+      "bodyId": "704",
+      "frame": "IAU_OBERON",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/moons/orientation/704.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "8dbe84c2421788dcea2f5bcc94ca07af0922959bce661bd05e2d7580e0940f72",
+      "maxInterpolationAngleDegrees": 4.539674527814132e-06
+    },
+    {
+      "bodyId": "801",
+      "frame": "IAU_TRITON",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/moons/orientation/801.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "6425329d00f8b5929763df3c68247c8b58d4e5abaf53bc4f457c4bdbac619013",
+      "maxInterpolationAngleDegrees": 4.368388407714049e-06
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "checks": 9,
+  "results": [
+    {
+      "name": "Second-order convergence against the analytic Kepler solution (error ratio ≈ 4 per dt halving)",
+      "detail": {
+        "errorsKm": [
+          79320.24485417626,
+          19869.175040355076,
+          4962.384780239736,
+          1240.595796638915
+        ],
+        "ratios": [
+          3.9921257270658557,
+          4.003956952204578,
+          4.000001284611861
+        ]
+      }
+    },
+    {
+      "name": "Symplectic energy behaviour: bounded over two orbits, error ∝ dt² (≈4× smaller per dt halving)",
+      "detail": {
+        "velocity-verlet": {
+          "rows": [
+            {
+              "dt": 21600,
+              "final": 0.0000061849170839685145,
+              "max": 0.000006282242167372584
+            },
+            {
+              "dt": 10800,
+              "final": 0.0000015466584521386417,
+              "max": 0.0000015704699593727115
+            }
+          ],
+          "ratio": 4.000230714302796
+        },
+        "leapfrog-dkd": {
+          "rows": [
+            {
+              "dt": 21600,
+              "final": 0.0000014353769103422281,
+              "max": 0.0000014840939830404215
+            },
+            {
+              "dt": 10800,
+              "final": 3.5778818039558587e-7,
+              "max": 3.7102696559227986e-7
+            }
+          ],
+          "ratio": 3.999962592129454
+        }
+      }
+    },
+    {
+      "name": "Reproducible: identical inputs give bit-identical states",
+      "detail": null
+    },
+    {
+      "name": "Figure-eight returns close to its initial configuration after one period",
+      "detail": {
+        "maxReturnDistance": 0.00010438945443649797,
+        "energyDrift": 8.340848730599339e-13
+      }
+    },
+    {
+      "name": "Test body 4° from L4 librates (tadpole) around 60° for 60 years without escaping",
+      "detail": {
+        "minAngleDeg": 56.57635686067929,
+        "maxAngleDeg": 64.00124353001472
+      }
+    },
+    {
+      "name": "Divergence is detected and paused (huge step on a close orbit)",
+      "detail": {
+        "warning": "能量相对误差 62.40% 超过 1%：数值可能发散，已暂停。请减小步长或增加子步。"
+      }
+    },
+    {
+      "name": "Contact is detected and paused instead of passing through",
+      "detail": {
+        "warning": "近距离接触：两天体半径之和内相遇（模型不含碰撞），已暂停。"
+      }
+    },
+    {
+      "name": "Ephemeris buffers are untouched by every preset (copy-only initial conditions)",
+      "detail": null
+    },
+    {
+      "name": "Hypothetical preset is labelled and changes only the copied GM",
+      "detail": null
+    }
+  ]
+}

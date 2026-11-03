@@ -1,0 +1,87 @@
+{
+  "naifId": "704",
+  "displayNameZh": "天卫四",
+  "displayNameEn": "Oberon",
+  "parentPlanetId": "799",
+  "version": "3b-704-mosaic-v1",
+  "kind": "voyager-partial",
+  "shapeType": "pck-ellipsoid",
+  "meanRadiusKm": 761.4,
+  "meshFrame": "sphere-y-up",
+  "geometry": {
+    "axesKm": [
+      761.4,
+      761.4,
+      761.4
+    ],
+    "source": "NAIF pck00011.tpc BODY704_RADII; retained physical catalog radius"
+  },
+  "geometrySource": {
+    "provider": "NASA/NAIF",
+    "title": "IAU generic PCK triaxial radii",
+    "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+  },
+  "albedo": {
+    "title": "Oberon Voyager 2 grayscale mosaic",
+    "provider": "NASA Voyager 2 / Caltech-JPL-USGS",
+    "uri": "https://space.jpl.nasa.gov/tmaps/uranus.html",
+    "downloadUrl": "https://space.jpl.nasa.gov/tmaps/pix/ura4vuu2.tif",
+    "rawPath": "data/phase-3b/raw/uranus-moon-4.tif",
+    "rawSha256": "0d609cc834478c95be1078dff8527634b66bf58afaad8ea59a6c2d8bce64a4d0",
+    "observationEpoch": "Voyager 2 January 1986",
+    "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+    "colorProcessing": "保留 Voyager 灰度；未测区使用独立蓝灰标识，不填充虚构坑纹。",
+    "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+    "processingCategory": "OBSERVED_MONOCHROME",
+    "nativeDimensions": [
+      1440,
+      720
+    ]
+  },
+  "lods": [
+    {
+      "width": 1024,
+      "height": 512,
+      "url": "/assets/moons/704/albedo-1024.jpg",
+      "sha256": "93f39c895df1e3ab63cab4bdec0b05eb3180838430a0b69bf825be37a385b4f5"
+    },
+    {
+      "width": 1440,
+      "height": 720,
+      "url": "/assets/moons/704/albedo-1440.jpg",
+      "sha256": "85aeb1f5e5bcc107b60462195036394738a823859b1dfd5335363a4ab4dd9920"
+    }
+  ],
+  "coverage": {
+    "file": "/assets/moons/704/coverage.png",
+    "sha256": "008e7a516b1d0c870c32cd6ceae6f8621aae9f6a3aadd9b4511e7d9d2f8b4ddc",
+    "missingSurfaceFraction": 0.6591152327371606,
+    "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+  },
+  "georeferencing": {
+    "method": "audited equirectangular image grid",
+    "centralLongitudeEast": 0,
+    "sourceMetadataPage": "jpl-uranus.html",
+    "longitudeConvention": "east positive; zero centred on derived map",
+    "verification": "IAU Miranda coronae and Umbriel Wunda landmark comparison"
+  },
+  "material": {
+    "roughness": 1,
+    "metalness": 0,
+    "tint": "#ffffff"
+  },
+  "orientationModel": "IAU_GENERIC_APPROX",
+  "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+  "reconstructionNotes": "源图仅 1440×720，主要覆盖南半球；不放大文件冒充高分辨率。已保留原图缺测掩膜。 蓝灰色区域为未测，未加入虚构地貌。",
+  "visualEnhancements": [
+    "未测区蓝灰色分类标识",
+    "固定观察曝光；可选补光默认关闭"
+  ],
+  "limitations": [
+    "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+    "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+    "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标",
+    "仅 1440 像素源地图；近景细节受原始 Voyager 覆盖限制，北部未测"
+  ],
+  "verifiedAt": "2026-11-01T08:38:02.023787+00:00"
+}

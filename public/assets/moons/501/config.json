@@ -1,0 +1,104 @@
+{
+  "naifId": "501",
+  "displayNameZh": "木卫一",
+  "displayNameEn": "Io",
+  "parentPlanetId": "599",
+  "version": "3b-501-mosaic-v1",
+  "kind": "galileo-volcanic",
+  "shapeType": "pck-ellipsoid",
+  "meanRadiusKm": 1821.49,
+  "meshFrame": "sphere-y-up",
+  "geometry": {
+    "axesKm": [
+      1829.4,
+      1819.4,
+      1815.7
+    ],
+    "source": "NAIF pck00011.tpc BODY501_RADII; retained physical catalog radius"
+  },
+  "geometrySource": {
+    "provider": "NASA/NAIF",
+    "title": "IAU generic PCK triaxial radii",
+    "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+  },
+  "albedo": {
+    "title": "Galileo SSI / Voyager 1 km colour merge",
+    "provider": "NASA Voyager / Galileo / USGS",
+    "uri": "https://astrogeology.usgs.gov/search/map/io_galileo_ssi_voyager_color_merged_global_mosaic_1km",
+    "downloadUrl": "https://planetarymaps.usgs.gov/mosaic/Io_GalileoSSI-Voyager_Global_Mosaic_ClrMerge_1km.tif",
+    "rawPath": "data/phase-3b/raw/io-color-1km.tif",
+    "rawSha256": "135f88cb645bfdb4e045b380971ab2ba14e230590c96c9c86cfe7310fda881ac",
+    "observationEpoch": "Voyager 1979 / Galileo 1995–2003 composite",
+    "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+    "colorProcessing": "红外/绿/紫波段颜色比与黑白影像合成；保留源增强色，不声称自然色或实时火山活动。",
+    "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+    "processingCategory": "OBSERVED_ENHANCED_COLOR_COMPOSITE",
+    "nativeDimensions": [
+      11445,
+      5723
+    ]
+  },
+  "lods": [
+    {
+      "width": 1024,
+      "height": 512,
+      "url": "/assets/moons/501/albedo-1024.jpg",
+      "sha256": "f5fef9342fe26d63571a29ddc88b0f79e66af5898aac118f0a9506a7eaa8874b"
+    },
+    {
+      "width": 2048,
+      "height": 1024,
+      "url": "/assets/moons/501/albedo-2048.jpg",
+      "sha256": "a5f9982b736dc464b31898741e887b3e95f3a793d773270a0bc1390a16ee35aa"
+    },
+    {
+      "width": 4096,
+      "height": 2048,
+      "url": "/assets/moons/501/albedo-4096.jpg",
+      "sha256": "aa14ebb124045bd245fb2a87e5d0816bba054b9b90cbd29b7c3fe1782ccbf967"
+    }
+  ],
+  "coverage": {
+    "file": "/assets/moons/501/coverage.png",
+    "sha256": "2085f3d6c506a8c6d97b384d5d5eb3fa940ebd63451b6ded4598858c8b37b1de",
+    "missingSurfaceFraction": 0.0038201714043030748,
+    "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+  },
+  "georeferencing": {
+    "method": "GeoTIFF SimpleCylindrical affine inverse at output pixel centres",
+    "centralLongitudeEast": 0.0,
+    "radiusMeters": 1821460.0,
+    "pixelScale": [
+      1000.0,
+      1000.0,
+      0.0
+    ],
+    "tiePoint": [
+      0.0,
+      0.0,
+      0.0,
+      -5723000.0,
+      2862000.0,
+      0.0
+    ],
+    "sourceMetadataPage": "io-usgs.html"
+  },
+  "material": {
+    "roughness": 1,
+    "metalness": 0,
+    "tint": "#ffffff"
+  },
+  "orientationModel": "IAU_GENERIC_APPROX",
+  "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+  "reconstructionNotes": "火山地貌来自历史拼图；两次任务跨越二十余年，部分区域不同时。极区 ±85° 外标记为未测。 蓝灰色区域为未测，未加入虚构地貌。",
+  "visualEnhancements": [
+    "未测区蓝灰色分类标识",
+    "固定观察曝光；可选补光默认关闭"
+  ],
+  "limitations": [
+    "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+    "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+    "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+  ],
+  "verifiedAt": "2026-11-01T08:11:00.057662+00:00"
+}

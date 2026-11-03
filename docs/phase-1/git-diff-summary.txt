@@ -1,0 +1,145 @@
+ .gitattributes                                     |    4 +
+ .gitignore                                         |    8 +
+ 02-启动SOLARIS.cmd                                 |   10 +
+ README.md                                          |   51 +-
+ SOLARIS_phase1_reference/01_第1期_Codex提示词.md   |  Bin 0 -> 12011 bytes
+ SOLARIS_phase1_reference/02_桌面端效果参考.png     |  Bin 0 -> 2246436 bytes
+ SOLARIS_phase1_reference/03_总览与资产方向参考.png |  Bin 0 -> 2442847 bytes
+ .../README_科学边界与阶段范围.txt                  |  Bin 0 -> 892 bytes
+ data/asset-manifest.json                           |   42 +-
+ data/phase-1/catalog-provenance.json               |  168 +
+ data/phase-1/input-manifest.json                   |   22 +
+ data/phase-1/manifest.json                         |  544 +++
+ data/phase-1/raw/10-grid.json                      |  Bin 0 -> 508035 bytes
+ data/phase-1/raw/10-grid.request.json              |  Bin 0 -> 978 bytes
+ data/phase-1/raw/10-validation.json                |  Bin 0 -> 15689 bytes
+ data/phase-1/raw/10-validation.request.json        |  Bin 0 -> 2899 bytes
+ data/phase-1/raw/199-grid.json                     |  Bin 0 -> 2012719 bytes
+ data/phase-1/raw/199-grid.request.json             |  Bin 0 -> 978 bytes
+ data/phase-1/raw/199-validation.json               |  Bin 0 -> 15682 bytes
+ data/phase-1/raw/199-validation.request.json       |  Bin 0 -> 2901 bytes
+ data/phase-1/raw/299-grid.json                     |  Bin 0 -> 1009580 bytes
+ data/phase-1/raw/299-grid.request.json             |  Bin 0 -> 980 bytes
+ data/phase-1/raw/299-validation.json               |  Bin 0 -> 15671 bytes
+ data/phase-1/raw/299-validation.request.json       |  Bin 0 -> 2901 bytes
+ data/phase-1/raw/399-grid.json                     |  Bin 0 -> 1010152 bytes
+ data/phase-1/raw/399-grid.request.json             |  Bin 0 -> 980 bytes
+ data/phase-1/raw/399-validation.json               |  Bin 0 -> 16243 bytes
+ data/phase-1/raw/399-validation.request.json       |  Bin 0 -> 2901 bytes
+ data/phase-1/raw/499-grid.json                     |  Bin 0 -> 1009690 bytes
+ data/phase-1/raw/499-grid.request.json             |  Bin 0 -> 980 bytes
+ data/phase-1/raw/499-validation.json               |  Bin 0 -> 15781 bytes
+ data/phase-1/raw/499-validation.request.json       |  Bin 0 -> 2901 bytes
+ data/phase-1/raw/599-grid.json                     |  Bin 0 -> 2012773 bytes
+ data/phase-1/raw/599-grid.request.json             |  Bin 0 -> 978 bytes
+ data/phase-1/raw/599-validation.json               |  Bin 0 -> 15736 bytes
+ data/phase-1/raw/599-validation.request.json       |  Bin 0 -> 2901 bytes
+ data/phase-1/raw/699-grid.json                     |  Bin 0 -> 2012745 bytes
+ data/phase-1/raw/699-grid.request.json             |  Bin 0 -> 978 bytes
+ data/phase-1/raw/699-validation.json               |  Bin 0 -> 15708 bytes
+ data/phase-1/raw/699-validation.request.json       |  Bin 0 -> 2901 bytes
+ data/phase-1/raw/799-grid.json                     |  Bin 0 -> 2012737 bytes
+ data/phase-1/raw/799-grid.request.json             |  Bin 0 -> 978 bytes
+ data/phase-1/raw/799-validation.json               |  Bin 0 -> 15700 bytes
+ data/phase-1/raw/799-validation.request.json       |  Bin 0 -> 2901 bytes
+ data/phase-1/raw/899-grid.json                     |  Bin 0 -> 2012735 bytes
+ data/phase-1/raw/899-grid.request.json             |  Bin 0 -> 978 bytes
+ data/phase-1/raw/899-validation.json               |  Bin 0 -> 15698 bytes
+ data/phase-1/raw/899-validation.request.json       |  Bin 0 -> 2901 bytes
+ data/phase-1/raw/naif0012.tls                      |  Bin 0 -> 5257 bytes
+ .../phase-1/raw/planetary-physical-parameters.html |  Bin 0 -> 58244 bytes
+ data/phase-1/validation.json                       | 4461 ++++++++++++++++++++
+ data/phase-1/visual-assets.json                    |   12 +
+ data/source-registry.json                          |   16 +-
+ docs/phase-1/00-验收总览.md                        |   17 +
+ docs/phase-1/01-工程与科学实现.md                  |   70 +
+ docs/phase-1/02-科学误差报告.md                    |   67 +
+ docs/phase-1/03-浏览器与视觉验收.md                |   68 +
+ docs/phase-1/build-log.txt                         |   19 +
+ docs/phase-1/chrome-browser-report.json            |  368 ++
+ docs/phase-1/chrome-final-layout.json              |   41 +
+ docs/phase-1/continuous-playback-performance.json  |   78 +
+ docs/phase-1/contracts-log.txt                     |   20 +
+ docs/phase-1/cpu.json                              |    3 +
+ docs/phase-1/data-build-summary.json               |    6 +
+ docs/phase-1/dependencies.json                     |  248 ++
+ docs/phase-1/edge-browser-report.json              |  368 ++
+ docs/phase-1/edge-final-layout.json                |   41 +
+ docs/phase-1/evidence-inventory.json               |   98 +
+ docs/phase-1/final-build-hashes.json               |    5 +
+ docs/phase-1/gpu.json                              |   14 +
+ docs/phase-1/npm-audit.json                        |   22 +
+ docs/phase-1/phase0-checkpoint-tree.txt            |    1 +
+ docs/phase-1/recording-report.json                 |   17 +
+ docs/phase-1/science-log.txt                       |   34 +
+ docs/phase-1/scientific-error-report.json          | 3142 ++++++++++++++
+ docs/phase-1/视觉并排对照.html                     |    9 +
+ index.html                                         |   65 +-
+ .../phase-1/chrome-01-overview-2560x1440.png       |  Bin 0 -> 839521 bytes
+ .../phase-1/chrome-02-earth-focus-2560x1440.png    |  Bin 0 -> 606666 bytes
+ .../phase-1/chrome-03-scientific-2560x1440.png     |  Bin 0 -> 474008 bytes
+ .../phase-1/chrome-04-playing-2030-2560x1440.png   |  Bin 0 -> 846989 bytes
+ output/playwright/phase-1/chrome-console.txt       |    2 +
+ output/playwright/phase-1/chrome-final-layout.txt  |   24 +
+ .../phase-1/chrome-overview-1920x1080.png          |  Bin 0 -> 557285 bytes
+ .../phase-1/chrome-overview-2560x1440.png          |  Bin 0 -> 839579 bytes
+ .../phase-1/chrome-overview-3840x2160.png          |  Bin 0 -> 1401152 bytes
+ output/playwright/phase-1/chrome-performance.txt   |   26 +
+ output/playwright/phase-1/chrome-qa.txt            |   65 +
+ output/playwright/phase-1/demo-log.txt             |   23 +
+ output/playwright/phase-1/dev-final-console.txt    |    3 +
+ .../phase-1/edge-01-overview-2560x1440.png         |  Bin 0 -> 839513 bytes
+ .../phase-1/edge-02-earth-focus-2560x1440.png      |  Bin 0 -> 606717 bytes
+ .../phase-1/edge-03-scientific-2560x1440.png       |  Bin 0 -> 474051 bytes
+ output/playwright/phase-1/edge-console.txt         |    2 +
+ output/playwright/phase-1/edge-final-layout.txt    |   24 +
+ .../playwright/phase-1/edge-overview-1920x1080.png |  Bin 0 -> 557379 bytes
+ .../playwright/phase-1/edge-overview-2560x1440.png |  Bin 0 -> 839611 bytes
+ .../playwright/phase-1/edge-overview-3840x2160.png |  Bin 0 -> 1401263 bytes
+ output/playwright/phase-1/edge-performance.txt     |   26 +
+ output/playwright/phase-1/edge-qa.txt              |   65 +
+ output/playwright/phase-1/extra-interactions.txt   |   29 +
+ output/playwright/phase-1/failure-test.txt         |   14 +
+ .../playwright/phase-1/phase1-continuous-demo.webm |  Bin 0 -> 4808621 bytes
+ output/playwright/phase-1/video-check.txt          |    2 +
+ package-lock.json                                  |   38 +-
+ package.json                                       |    9 +-
+ public/assets/earth-blue-marble.png                |  Bin 0 -> 1511379 bytes
+ public/data/10.f64                                 |  Bin 0 -> 143360 bytes
+ public/data/199.f64                                |  Bin 0 -> 573272 bytes
+ public/data/299.f64                                |  Bin 0 -> 286664 bytes
+ public/data/399.f64                                |  Bin 0 -> 286664 bytes
+ public/data/499.f64                                |  Bin 0 -> 286664 bytes
+ public/data/599.f64                                |  Bin 0 -> 573272 bytes
+ public/data/699.f64                                |  Bin 0 -> 573272 bytes
+ public/data/799.f64                                |  Bin 0 -> 573272 bytes
+ public/data/899.f64                                |  Bin 0 -> 573272 bytes
+ public/data/manifest.json                          |  544 +++
+ scripts/browser-phase1-demo.js                     |   17 +
+ scripts/browser-phase1-edge-qa.js                  |   59 +
+ scripts/browser-phase1-extra.js                    |   23 +
+ scripts/browser-phase1-failure.js                  |    8 +
+ scripts/browser-phase1-final-layout.js             |   18 +
+ scripts/browser-phase1-performance.js              |   20 +
+ scripts/browser-phase1-qa.js                       |   59 +
+ scripts/browser-phase1-template.js                 |   59 +
+ scripts/browser-phase1-video-check.js              |   10 +
+ scripts/build-ephemeris.py                         |   87 +
+ scripts/build-phase1-reports.py                    |   56 +
+ scripts/check-contracts.mjs                        |    9 +-
+ scripts/fetch-basic-assets.py                      |   21 +
+ scripts/package-phase-one.py                       |   29 +
+ scripts/prepare-browser-qa.mjs                     |   10 +
+ scripts/record-phase1.mjs                          |   25 +
+ scripts/requirements-phase1.txt                    |    3 +
+ scripts/verify-phase1.mjs                          |   54 +
+ src/main.ts                                        |  122 +-
+ src/render/scene.ts                                |   98 +
+ src/render/textures.ts                             |   36 +
+ src/science/catalog.ts                             |   15 +
+ src/science/coordinates.ts                         |   18 +
+ src/science/ephemeris.ts                           |   43 +
+ src/science/time.ts                                |   41 +
+ src/style.css                                      |   52 +-
+ tsconfig.json                                      |    2 +-
+ 144 files changed, 11878 insertions(+), 171 deletions(-)

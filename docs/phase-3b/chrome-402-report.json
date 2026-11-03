@@ -1,0 +1,619 @@
+{
+  "browser": "156.0.8078.79",
+  "viewport": {
+    "width": 2560,
+    "height": 1440
+  },
+  "checks": [
+    "Asset loaded with no fallback",
+    "Solar-only illumination and non-emissive material",
+    "Same original TDB instant",
+    "Body orientation is a unit quaternion",
+    "Satellite absolute position available",
+    "Light points to Sun from the actual satellite centre",
+    "standard camera rendered without error",
+    "side camera rendered without error",
+    "detail camera rendered without error",
+    "parent camera rendered without error",
+    "Actual mouse drag rotates inspection camera",
+    "Camera does not alter physical orientation",
+    "Optional fill is explicit and reversible",
+    "Close restores unchanged main scene and camera",
+    "No browser console/runtime errors"
+  ],
+  "errors": [],
+  "captures": [
+    {
+      "view": "standard",
+      "file": "output/playwright/phase-3b/chrome-402-standard-2560.png",
+      "snapshot": {
+        "id": "402",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "standard",
+        "bodyToIcrfQuaternion": [
+          0.27814458862182345,
+          0.1257984435785041,
+          0.3210245251001789,
+          0.896523058096013
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.5968612910394111,
+          0.3374052383974827,
+          0.0709908390181955,
+          0.7244823014651205
+        ],
+        "meshFrame": "native-body-fixed-xyz",
+        "meshRotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "sunDirection": [
+          0.15627476067441384,
+          -0.024553202355851896,
+          0.9874083954627018
+        ],
+        "camera": [
+          1.0694352980498294,
+          -0.168024965555473,
+          6.757133315331625
+        ],
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "402",
+          "displayNameZh": "火卫二",
+          "displayNameEn": "Deimos",
+          "parentPlanetId": "499",
+          "version": "3b-402-spc-v1",
+          "kind": "spc-observed-albedo",
+          "shapeType": "irregular-mesh",
+          "meanRadiusKm": 6.2,
+          "geometrySource": {
+            "title": "deimos_g_083m_spc_obj_0000n00000_v002",
+            "provider": "JHUAPL SBMT / Ernst et al. 2023",
+            "uri": "https://sbmt.jhuapl.edu/shared-files/",
+            "publication": "https://doi.org/10.1186/s40623-023-01814-7",
+            "rights": "Publicly downloadable research data. SBMT requests acknowledgement; no separate data redistribution license stated on the download page. Retain author/model and SBMT citation."
+          },
+          "albedo": {
+            "title": "SPC 逐三角面反照率",
+            "provider": "JHUAPL SBMT / Ernst et al. 2023",
+            "uri": "https://sbmt.jhuapl.edu/shared-files/",
+            "observationEpoch": "Multi-mission SPC; 2025-03-10 product",
+            "rights": "Acknowledge SBMT and Ernst et al. 2023. Research download; standalone redistribution license not stated.",
+            "colorProcessing": "实测反照率作为线性 RGB 的中性灰亮度；不添加虚构彩色地貌。",
+            "projection": "Native body-fixed mesh; X-Y longitude / +Z north; no spherical texture projection",
+            "processingCategory": "OBSERVED_SHAPE_AND_ALBEDO",
+            "rawPath": "data/phase-3b/raw/deimos_g_083m_spc_obj_0000n00000_v002.csv.zip",
+            "rawSha256": "ddb6fdcca05fab3ce471999ded12b0f532d28274ad983e261d85e5d1f8a4c4f1"
+          },
+          "lods": [],
+          "geometry": {
+            "file": "/assets/moons/402/vertices-km.f32",
+            "sha256": "eaa77743afdb896072528751482948239bbfc07d0bfd4ca80c2f6c825753356a",
+            "indexFile": "/assets/moons/402/indices.u32",
+            "indexSha256": "08d0cbdd41732ac8a43f04fd8eba289ab878c2b5a6ec9f1d031feac3d8dafd35",
+            "vertexCount": 98306,
+            "indexCount": 589824,
+            "units": "native body-fixed XYZ km; no axis swap, recentering or radius fitting",
+            "rawPath": "data/phase-3b/raw/deimos_g_083m_spc_obj_0000n00000_v002.obj.zip",
+            "rawSha256": "1572a49fa5dbe08eaf6f340ecd5c92f0cfcc41ceaae4c232b6a5d30bde53a68b",
+            "labelPath": "data/phase-3b/raw/deimos_g_083m_spc_obj_0000n00000_v002.lbl",
+            "labelSha256": "472575bf00e8731739bd7aeb9cb0360363db1b427af32b08262089fedd7247a5",
+            "boundsKm": [
+              [
+                -8.32861042022705,
+                -6.535280227661133,
+                -5.667359828948975
+              ],
+              [
+                7.619369983673096,
+                5.886350154876709,
+                5.461390018463135
+              ]
+            ],
+            "colorFile": "/assets/moons/402/observed-albedo.f32",
+            "colorSha256": "6eb2c461b8b5aa05c0cdf84d413ad226425fda0ebe42c93ad1d17d440959b794"
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "meshFrame": "native-body-fixed-xyz",
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "NATIVE_IAU_SHAPE_GENERIC_PCK_APPROX",
+          "reconstructionNotes": "SPC 实测形状与逐面反照率；反照率按三角面面积插值到顶点。",
+          "visualEnhancements": [
+            "固定观察曝光；不模拟真实相机辐射定标",
+            "可选观察补光，默认关闭"
+          ],
+          "limitations": [
+            "网格分辨率 83 m；不得据此声称更细地形",
+            "通用 IAU PCK 姿态，非导航级表面配准",
+            "独立数据再分发许可未明确，公开分发前需核对权利"
+          ],
+          "verifiedAt": "2026-11-01T07:59:48.697913+00:00"
+        },
+        "loadedWidth": 0,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 2,
+            "textures": 4
+          },
+          "drawCalls": 1,
+          "triangles": 196608
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 3,
+          "geometryCount": 2,
+          "textureCount": 4
+        }
+      }
+    },
+    {
+      "view": "side",
+      "file": "output/playwright/phase-3b/chrome-402-side-2560.png",
+      "snapshot": {
+        "id": "402",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "side",
+        "bodyToIcrfQuaternion": [
+          0.27814458862182345,
+          0.1257984435785041,
+          0.3210245251001789,
+          0.896523058096013
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.5968612910394111,
+          0.3374052383974827,
+          0.0709908390181955,
+          0.7244823014651205
+        ],
+        "meshFrame": "native-body-fixed-xyz",
+        "meshRotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "sunDirection": [
+          0.15627476067441384,
+          -0.024553202355851896,
+          0.9874083954627018
+        ],
+        "camera": [
+          6.4279422367586605,
+          -0.08160013678354854,
+          2.346417461898112
+        ],
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "402",
+          "displayNameZh": "火卫二",
+          "displayNameEn": "Deimos",
+          "parentPlanetId": "499",
+          "version": "3b-402-spc-v1",
+          "kind": "spc-observed-albedo",
+          "shapeType": "irregular-mesh",
+          "meanRadiusKm": 6.2,
+          "geometrySource": {
+            "title": "deimos_g_083m_spc_obj_0000n00000_v002",
+            "provider": "JHUAPL SBMT / Ernst et al. 2023",
+            "uri": "https://sbmt.jhuapl.edu/shared-files/",
+            "publication": "https://doi.org/10.1186/s40623-023-01814-7",
+            "rights": "Publicly downloadable research data. SBMT requests acknowledgement; no separate data redistribution license stated on the download page. Retain author/model and SBMT citation."
+          },
+          "albedo": {
+            "title": "SPC 逐三角面反照率",
+            "provider": "JHUAPL SBMT / Ernst et al. 2023",
+            "uri": "https://sbmt.jhuapl.edu/shared-files/",
+            "observationEpoch": "Multi-mission SPC; 2025-03-10 product",
+            "rights": "Acknowledge SBMT and Ernst et al. 2023. Research download; standalone redistribution license not stated.",
+            "colorProcessing": "实测反照率作为线性 RGB 的中性灰亮度；不添加虚构彩色地貌。",
+            "projection": "Native body-fixed mesh; X-Y longitude / +Z north; no spherical texture projection",
+            "processingCategory": "OBSERVED_SHAPE_AND_ALBEDO",
+            "rawPath": "data/phase-3b/raw/deimos_g_083m_spc_obj_0000n00000_v002.csv.zip",
+            "rawSha256": "ddb6fdcca05fab3ce471999ded12b0f532d28274ad983e261d85e5d1f8a4c4f1"
+          },
+          "lods": [],
+          "geometry": {
+            "file": "/assets/moons/402/vertices-km.f32",
+            "sha256": "eaa77743afdb896072528751482948239bbfc07d0bfd4ca80c2f6c825753356a",
+            "indexFile": "/assets/moons/402/indices.u32",
+            "indexSha256": "08d0cbdd41732ac8a43f04fd8eba289ab878c2b5a6ec9f1d031feac3d8dafd35",
+            "vertexCount": 98306,
+            "indexCount": 589824,
+            "units": "native body-fixed XYZ km; no axis swap, recentering or radius fitting",
+            "rawPath": "data/phase-3b/raw/deimos_g_083m_spc_obj_0000n00000_v002.obj.zip",
+            "rawSha256": "1572a49fa5dbe08eaf6f340ecd5c92f0cfcc41ceaae4c232b6a5d30bde53a68b",
+            "labelPath": "data/phase-3b/raw/deimos_g_083m_spc_obj_0000n00000_v002.lbl",
+            "labelSha256": "472575bf00e8731739bd7aeb9cb0360363db1b427af32b08262089fedd7247a5",
+            "boundsKm": [
+              [
+                -8.32861042022705,
+                -6.535280227661133,
+                -5.667359828948975
+              ],
+              [
+                7.619369983673096,
+                5.886350154876709,
+                5.461390018463135
+              ]
+            ],
+            "colorFile": "/assets/moons/402/observed-albedo.f32",
+            "colorSha256": "6eb2c461b8b5aa05c0cdf84d413ad226425fda0ebe42c93ad1d17d440959b794"
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "meshFrame": "native-body-fixed-xyz",
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "NATIVE_IAU_SHAPE_GENERIC_PCK_APPROX",
+          "reconstructionNotes": "SPC 实测形状与逐面反照率；反照率按三角面面积插值到顶点。",
+          "visualEnhancements": [
+            "固定观察曝光；不模拟真实相机辐射定标",
+            "可选观察补光，默认关闭"
+          ],
+          "limitations": [
+            "网格分辨率 83 m；不得据此声称更细地形",
+            "通用 IAU PCK 姿态，非导航级表面配准",
+            "独立数据再分发许可未明确，公开分发前需核对权利"
+          ],
+          "verifiedAt": "2026-11-01T07:59:48.697913+00:00"
+        },
+        "loadedWidth": 0,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 2,
+            "textures": 4
+          },
+          "drawCalls": 1,
+          "triangles": 196608
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 3,
+          "geometryCount": 2,
+          "textureCount": 4
+        }
+      }
+    },
+    {
+      "view": "detail",
+      "file": "output/playwright/phase-3b/chrome-402-detail-2560.png",
+      "snapshot": {
+        "id": "402",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "detail",
+        "bodyToIcrfQuaternion": [
+          0.27814458862182345,
+          0.1257984435785041,
+          0.3210245251001789,
+          0.896523058096013
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.5968612910394111,
+          0.3374052383974827,
+          0.0709908390181955,
+          0.7244823014651205
+        ],
+        "meshFrame": "native-body-fixed-xyz",
+        "meshRotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "sunDirection": [
+          0.15627476067441384,
+          -0.024553202355851896,
+          0.9874083954627018
+        ],
+        "camera": [
+          0.6081102675185307,
+          -0.09554360786487683,
+          3.84229149303171
+        ],
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "402",
+          "displayNameZh": "火卫二",
+          "displayNameEn": "Deimos",
+          "parentPlanetId": "499",
+          "version": "3b-402-spc-v1",
+          "kind": "spc-observed-albedo",
+          "shapeType": "irregular-mesh",
+          "meanRadiusKm": 6.2,
+          "geometrySource": {
+            "title": "deimos_g_083m_spc_obj_0000n00000_v002",
+            "provider": "JHUAPL SBMT / Ernst et al. 2023",
+            "uri": "https://sbmt.jhuapl.edu/shared-files/",
+            "publication": "https://doi.org/10.1186/s40623-023-01814-7",
+            "rights": "Publicly downloadable research data. SBMT requests acknowledgement; no separate data redistribution license stated on the download page. Retain author/model and SBMT citation."
+          },
+          "albedo": {
+            "title": "SPC 逐三角面反照率",
+            "provider": "JHUAPL SBMT / Ernst et al. 2023",
+            "uri": "https://sbmt.jhuapl.edu/shared-files/",
+            "observationEpoch": "Multi-mission SPC; 2025-03-10 product",
+            "rights": "Acknowledge SBMT and Ernst et al. 2023. Research download; standalone redistribution license not stated.",
+            "colorProcessing": "实测反照率作为线性 RGB 的中性灰亮度；不添加虚构彩色地貌。",
+            "projection": "Native body-fixed mesh; X-Y longitude / +Z north; no spherical texture projection",
+            "processingCategory": "OBSERVED_SHAPE_AND_ALBEDO",
+            "rawPath": "data/phase-3b/raw/deimos_g_083m_spc_obj_0000n00000_v002.csv.zip",
+            "rawSha256": "ddb6fdcca05fab3ce471999ded12b0f532d28274ad983e261d85e5d1f8a4c4f1"
+          },
+          "lods": [],
+          "geometry": {
+            "file": "/assets/moons/402/vertices-km.f32",
+            "sha256": "eaa77743afdb896072528751482948239bbfc07d0bfd4ca80c2f6c825753356a",
+            "indexFile": "/assets/moons/402/indices.u32",
+            "indexSha256": "08d0cbdd41732ac8a43f04fd8eba289ab878c2b5a6ec9f1d031feac3d8dafd35",
+            "vertexCount": 98306,
+            "indexCount": 589824,
+            "units": "native body-fixed XYZ km; no axis swap, recentering or radius fitting",
+            "rawPath": "data/phase-3b/raw/deimos_g_083m_spc_obj_0000n00000_v002.obj.zip",
+            "rawSha256": "1572a49fa5dbe08eaf6f340ecd5c92f0cfcc41ceaae4c232b6a5d30bde53a68b",
+            "labelPath": "data/phase-3b/raw/deimos_g_083m_spc_obj_0000n00000_v002.lbl",
+            "labelSha256": "472575bf00e8731739bd7aeb9cb0360363db1b427af32b08262089fedd7247a5",
+            "boundsKm": [
+              [
+                -8.32861042022705,
+                -6.535280227661133,
+                -5.667359828948975
+              ],
+              [
+                7.619369983673096,
+                5.886350154876709,
+                5.461390018463135
+              ]
+            ],
+            "colorFile": "/assets/moons/402/observed-albedo.f32",
+            "colorSha256": "6eb2c461b8b5aa05c0cdf84d413ad226425fda0ebe42c93ad1d17d440959b794"
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "meshFrame": "native-body-fixed-xyz",
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "NATIVE_IAU_SHAPE_GENERIC_PCK_APPROX",
+          "reconstructionNotes": "SPC 实测形状与逐面反照率；反照率按三角面面积插值到顶点。",
+          "visualEnhancements": [
+            "固定观察曝光；不模拟真实相机辐射定标",
+            "可选观察补光，默认关闭"
+          ],
+          "limitations": [
+            "网格分辨率 83 m；不得据此声称更细地形",
+            "通用 IAU PCK 姿态，非导航级表面配准",
+            "独立数据再分发许可未明确，公开分发前需核对权利"
+          ],
+          "verifiedAt": "2026-11-01T07:59:48.697913+00:00"
+        },
+        "loadedWidth": 0,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 2,
+            "textures": 4
+          },
+          "drawCalls": 1,
+          "triangles": 196608
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 3,
+          "geometryCount": 2,
+          "textureCount": 4
+        }
+      }
+    },
+    {
+      "view": "parent",
+      "file": "output/playwright/phase-3b/chrome-402-parent-2560.png",
+      "snapshot": {
+        "id": "402",
+        "visible": true,
+        "loading": false,
+        "error": null,
+        "tdb": 846504069.1824756,
+        "utc": "2026-10-29 00:00:00 UTC",
+        "view": "parent",
+        "bodyToIcrfQuaternion": [
+          0.27814458862182345,
+          0.1257984435785041,
+          0.3210245251001789,
+          0.896523058096013
+        ],
+        "bodyToDisplayQuaternion": [
+          -0.5968612910394111,
+          0.3374052383974827,
+          0.0709908390181955,
+          0.7244823014651205
+        ],
+        "meshFrame": "native-body-fixed-xyz",
+        "meshRotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "sunDirection": [
+          0.15627476067441384,
+          -0.024553202355851896,
+          0.9874083954627018
+        ],
+        "camera": [
+          5.21404215755733,
+          -2.0512779716361544,
+          -3.928969069517419
+        ],
+        "materialEmissive": 0,
+        "fillIntensity": 0,
+        "source": {
+          "naifId": "402",
+          "displayNameZh": "火卫二",
+          "displayNameEn": "Deimos",
+          "parentPlanetId": "499",
+          "version": "3b-402-spc-v1",
+          "kind": "spc-observed-albedo",
+          "shapeType": "irregular-mesh",
+          "meanRadiusKm": 6.2,
+          "geometrySource": {
+            "title": "deimos_g_083m_spc_obj_0000n00000_v002",
+            "provider": "JHUAPL SBMT / Ernst et al. 2023",
+            "uri": "https://sbmt.jhuapl.edu/shared-files/",
+            "publication": "https://doi.org/10.1186/s40623-023-01814-7",
+            "rights": "Publicly downloadable research data. SBMT requests acknowledgement; no separate data redistribution license stated on the download page. Retain author/model and SBMT citation."
+          },
+          "albedo": {
+            "title": "SPC 逐三角面反照率",
+            "provider": "JHUAPL SBMT / Ernst et al. 2023",
+            "uri": "https://sbmt.jhuapl.edu/shared-files/",
+            "observationEpoch": "Multi-mission SPC; 2025-03-10 product",
+            "rights": "Acknowledge SBMT and Ernst et al. 2023. Research download; standalone redistribution license not stated.",
+            "colorProcessing": "实测反照率作为线性 RGB 的中性灰亮度；不添加虚构彩色地貌。",
+            "projection": "Native body-fixed mesh; X-Y longitude / +Z north; no spherical texture projection",
+            "processingCategory": "OBSERVED_SHAPE_AND_ALBEDO",
+            "rawPath": "data/phase-3b/raw/deimos_g_083m_spc_obj_0000n00000_v002.csv.zip",
+            "rawSha256": "ddb6fdcca05fab3ce471999ded12b0f532d28274ad983e261d85e5d1f8a4c4f1"
+          },
+          "lods": [],
+          "geometry": {
+            "file": "/assets/moons/402/vertices-km.f32",
+            "sha256": "eaa77743afdb896072528751482948239bbfc07d0bfd4ca80c2f6c825753356a",
+            "indexFile": "/assets/moons/402/indices.u32",
+            "indexSha256": "08d0cbdd41732ac8a43f04fd8eba289ab878c2b5a6ec9f1d031feac3d8dafd35",
+            "vertexCount": 98306,
+            "indexCount": 589824,
+            "units": "native body-fixed XYZ km; no axis swap, recentering or radius fitting",
+            "rawPath": "data/phase-3b/raw/deimos_g_083m_spc_obj_0000n00000_v002.obj.zip",
+            "rawSha256": "1572a49fa5dbe08eaf6f340ecd5c92f0cfcc41ceaae4c232b6a5d30bde53a68b",
+            "labelPath": "data/phase-3b/raw/deimos_g_083m_spc_obj_0000n00000_v002.lbl",
+            "labelSha256": "472575bf00e8731739bd7aeb9cb0360363db1b427af32b08262089fedd7247a5",
+            "boundsKm": [
+              [
+                -8.32861042022705,
+                -6.535280227661133,
+                -5.667359828948975
+              ],
+              [
+                7.619369983673096,
+                5.886350154876709,
+                5.461390018463135
+              ]
+            ],
+            "colorFile": "/assets/moons/402/observed-albedo.f32",
+            "colorSha256": "6eb2c461b8b5aa05c0cdf84d413ad226425fda0ebe42c93ad1d17d440959b794"
+          },
+          "material": {
+            "roughness": 1,
+            "metalness": 0,
+            "tint": "#ffffff"
+          },
+          "meshFrame": "native-body-fixed-xyz",
+          "orientationModel": "IAU_GENERIC_APPROX",
+          "surfaceRegistration": "NATIVE_IAU_SHAPE_GENERIC_PCK_APPROX",
+          "reconstructionNotes": "SPC 实测形状与逐面反照率；反照率按三角面面积插值到顶点。",
+          "visualEnhancements": [
+            "固定观察曝光；不模拟真实相机辐射定标",
+            "可选观察补光，默认关闭"
+          ],
+          "limitations": [
+            "网格分辨率 83 m；不得据此声称更细地形",
+            "通用 IAU PCK 姿态，非导航级表面配准",
+            "独立数据再分发许可未明确，公开分发前需核对权利"
+          ],
+          "verifiedAt": "2026-11-01T07:59:48.697913+00:00"
+        },
+        "loadedWidth": 0,
+        "render": {
+          "gpuTimerAvailable": true,
+          "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "gpuVendor": "Google Inc. (NVIDIA)",
+          "cpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuRender": {
+            "samples": 0,
+            "p50Ms": null,
+            "p95Ms": null
+          },
+          "gpuMemoryObjectCounts": {
+            "geometries": 2,
+            "textures": 4
+          },
+          "drawCalls": 1,
+          "triangles": 196608
+        },
+        "resources": {
+          "models": 2,
+          "textureRequests": 3,
+          "geometryCount": 2,
+          "textureCount": 4
+        }
+      }
+    }
+  ]
+}

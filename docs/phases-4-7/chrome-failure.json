@@ -1,0 +1,4 @@
+{
+  "message": "Error: P6 Kepler ellipse runs with bounded energy error {\"preset\":\"kepler-ellipse\",\"kind\":\"ideal\",\"integrator\":\"velocity-verlet\",\"dt\":43200,\"substeps\":4,\"t\":63244800,\"relEnergyDrift\":0.000001546712762393704,\"relAngularMomentumDrift\":1.0485452675742526e-15,\"warning\":null,\"paused\":false,\"playing\":false,\"bodies\":[{\"name\":\"中心天体（GM☉）\",\"gm\":132712440041.93938},{\"name\":\"试验体\",\"gm\":0}],\"convergence\":\"\"}",
+  "errors": []
+}

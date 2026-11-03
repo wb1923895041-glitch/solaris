@@ -1,0 +1,47 @@
+{
+  "bodyId": "499",
+  "utcMs": 1793232000000,
+  "physicsUnchanged": true,
+  "matchedCamera": [
+    -9.728940115137064,
+    17.602172278018642,
+    -56.146298016727755
+  ],
+  "baselineCamera": [
+    -9.728940115137064,
+    17.602172278018642,
+    -56.146298016727755
+  ],
+  "visual": {
+    "id": "499",
+    "status": "ready",
+    "error": null,
+    "loadedWidth": 4096,
+    "material": "viking-mola-rock",
+    "layers": [
+      "IAU-pole",
+      "atmosphere"
+    ]
+  },
+  "performance": {
+    "meanMs": 3.6364000000000014,
+    "p50": 3.600000000000364,
+    "p95": 3.7000000000007276,
+    "headlessRafFps": 274.9972500274996
+  },
+  "gpuMemory": {
+    "geometries": 12,
+    "textures": 19
+  },
+  "errors": [],
+  "gate": "accepted-with-declared-limitations",
+  "checkedAt": "2026-10-28T18:50:18.833943+00:00",
+  "visualInspection": "Standard / detail / terminator / backlight browser PNGs reviewed by agent; see screenshots",
+  "limitations": [
+    "Viking imagery is a colorized composite, not calibrated surface reflectance",
+    "MOLA bump mapping affects normals only; no mesh displacement or crater detail below 3.705km sampling",
+    "Height display quantization about 115m; reference IAU2000 grid attached to current generic IAU attitude",
+    "Fixed observed polar caps and atmosphere, no seasonal frost simulation"
+  ],
+  "independentAcceptanceOrder": 5
+}

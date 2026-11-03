@@ -1,0 +1,17 @@
+{
+  "sourceUrl": "https://sdo.gsfc.nasa.gov/assets/img/browse/2025/09/07/20250907_000000_4096_HMIIF.jpg",
+  "provider": "NASA/SDO HMI",
+  "title": "HMI flattened continuum intensity 2025-09-07 00:00 UTC",
+  "observationEpoch": "2025-09-07T00:00:00Z",
+  "acquisitionDate": "2026-10-28T18:18:18.732602+00:00",
+  "processing": "reconstruction",
+  "rights": "NASA media usage guidelines; credit NASA/SDO and HMI science team; no endorsement",
+  "credit": "Courtesy NASA/SDO and the AIA, EVE, and HMI science teams",
+  "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "referenceUrl": "https://sdo.gsfc.nasa.gov/data/channels.php",
+  "projection": "orthographic full disk source; derived equirectangular",
+  "longitudeConvention": "east-positive",
+  "primeMeridianOrOrientationNotes": "Visual reprojection; JPEG browse disk lacks full WCS. Texture prime-meridian registration unverified; backside mirrored reconstruction.",
+  "sha256": "b0f51d42d2e2cd1cfb571a19bd85bbd6c9436f9b9c05e9593e0c235a7e7b405b",
+  "rawPath": "data/phase-2/raw/sun-HMIIF-20250907.jpg"
+}

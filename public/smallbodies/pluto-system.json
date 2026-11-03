@@ -1,0 +1,36 @@
+{
+  "charon": {
+    "id": "901",
+    "parentPlanetId": "999",
+    "zh": "卡戎",
+    "name": "Charon",
+    "characteristicRadiusKm": 19595.762706497248,
+    "sampledMeanPeriodDays": 6.387222060429769,
+    "periodMethod": "Least-squares unwrapped longitude in the mean angular-momentum plane over the Horizons cache",
+    "physical": {
+      "radiusKm": 606.0,
+      "radiusUncertaintyKm": 0.5,
+      "gmKm3PerSec2": 106.1,
+      "source": "JPL Horizons object data (data/phase-4/raw/901-grid.json, sha256 f4d1465fed45…)"
+    },
+    "solution": "plu060_merged",
+    "stepSeconds": 7200,
+    "orientation": {
+      "frame": "IAU_CHARON",
+      "modelAvailable": true,
+      "status": "IAU_GENERIC_APPROX"
+    }
+  },
+  "pluto": {
+    "radiusKm": 1188.3,
+    "radiusUncertaintyKm": 1.6,
+    "gmKm3PerSec2": 869.326,
+    "gmSigma": 0.4,
+    "source": "JPL Horizons object data (data/phase-4/raw/999-grid.json, sha256 43446cdce7a0…)"
+  },
+  "charonGm": {
+    "gmKm3PerSec2": 106.1,
+    "sigma": 0.3,
+    "source": "JPL Horizons object data (data/phase-4/raw/901-grid.json, sha256 f4d1465fed45…)"
+  }
+}

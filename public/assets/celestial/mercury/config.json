@@ -1,0 +1,78 @@
+{
+  "bodyId": "199",
+  "name": "Mercury",
+  "version": "2.0.0-mercury",
+  "kind": "mdis-airless-regolith",
+  "roughness": 0.98,
+  "albedo": {
+    "provider": "NASA / MESSENGER MDIS",
+    "title": "PIA17386 enhanced-color global map: luminance reconstruction",
+    "sourceUrl": "https://science.nasa.gov/photojournal/enhanced-color-mercury-map/",
+    "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/p/i/a/1/PIA17386-1.jpg",
+    "observationEpoch": "MESSENGER orbital mosaic, released 2013-07-18",
+    "credit": "NASA / Johns Hopkins University Applied Physics Laboratory / Carnegie Institution of Washington",
+    "rights": "NASA mission imagery; credit retained",
+    "processing": "4096x2048 observed enhanced-color map converted to luminance; restrained gray-brown display tint; no fabricated elevation",
+    "primeMeridianOrOrientationNotes": "180-degree wrap from 0..360 to -180..180. Cross-check with USGS MDIS reference has correlation 0.256; absolute feature longitude NOT certified.",
+    "sha256": "5e1c8607693605d18ae11c0401f925759762d3affa4a5f057ab9a611a125fdb1",
+    "lods": [
+      {
+        "width": 1024,
+        "height": 512,
+        "url": "/assets/celestial/mercury/mdis-1024.jpg",
+        "sha256": "04f0b49ce2951d852995b409feeaac10c422081ebbd2f5798cab2a9f46f7d4b6"
+      },
+      {
+        "width": 2048,
+        "height": 1024,
+        "url": "/assets/celestial/mercury/mdis-2048.jpg",
+        "sha256": "126b9e2535c96b8bd2142dbd944ce5849ae0433451ffce567da9ce0daded7966"
+      },
+      {
+        "width": 4096,
+        "height": 2048,
+        "url": "/assets/celestial/mercury/mdis-4096.jpg",
+        "sha256": "7fbeaba44362b40a9a9f3f2d36c9ad76a858c079ecf24a6b0aca8519d7c8efe2"
+      }
+    ],
+    "acquisitionDate": "2026-10-28T19:08:23.005578+00:00",
+    "projection": "equirectangular",
+    "longitudeConvention": "east-positive after processing",
+    "licenseNotes": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "processingCategory": "reconstruction"
+  },
+  "hasVerifiedOrientation": false,
+  "axisVerified": true,
+  "lods": [
+    {
+      "width": 1024,
+      "height": 512,
+      "url": "/assets/celestial/mercury/mdis-1024.jpg",
+      "sha256": "04f0b49ce2951d852995b409feeaac10c422081ebbd2f5798cab2a9f46f7d4b6"
+    },
+    {
+      "width": 2048,
+      "height": 1024,
+      "url": "/assets/celestial/mercury/mdis-2048.jpg",
+      "sha256": "126b9e2535c96b8bd2142dbd944ce5849ae0433451ffce567da9ce0daded7966"
+    },
+    {
+      "width": 4096,
+      "height": 2048,
+      "url": "/assets/celestial/mercury/mdis-4096.jpg",
+      "sha256": "7fbeaba44362b40a9a9f3f2d36c9ad76a858c079ecf24a6b0aca8519d7c8efe2"
+    }
+  ],
+  "referenceLinks": [
+    "https://astrogeology.usgs.gov/search/map/mercury_messenger_mdis_global_mosaic_250m"
+  ],
+  "visualEnhancements": [
+    "VISUAL_ENHANCEMENT: restrained gray-brown tint, not calibrated natural RGB"
+  ],
+  "limitations": [
+    "RECONSTRUCTED: luminance of enhanced-color MDIS map, not a monochromatic photometric albedo map",
+    "Source mosaic contains baked illumination; no DEM/bump has been fabricated",
+    "Absolute longitude registration remains unverified; pole and rotation use IAU PCK"
+  ],
+  "description": "MESSENGER \u5b9e\u6d4b\u5168\u7403\u62fc\u63a5\u5448\u73b0\u649e\u51fb\u5751\u4e0e\u55b7\u5c04\u7eb9\u3002\u9ed8\u8ba4\u7070\u8910\u8272\u4eae\u5ea6\u91cd\u5efa\uff0c\u65e0\u53ef\u89c1\u539a\u5927\u6c14\u3002"
+}

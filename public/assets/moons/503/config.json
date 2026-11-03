@@ -1,0 +1,104 @@
+{
+  "naifId": "503",
+  "displayNameZh": "木卫三",
+  "displayNameEn": "Ganymede",
+  "parentPlanetId": "599",
+  "version": "3b-503-mosaic-v1",
+  "kind": "galileo-ice",
+  "shapeType": "pck-ellipsoid",
+  "meanRadiusKm": 2631.2,
+  "meshFrame": "sphere-y-up",
+  "geometry": {
+    "axesKm": [
+      2631.2,
+      2631.2,
+      2631.2
+    ],
+    "source": "NAIF pck00011.tpc BODY503_RADII; retained physical catalog radius"
+  },
+  "geometrySource": {
+    "provider": "NASA/NAIF",
+    "title": "IAU generic PCK triaxial radii",
+    "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+  },
+  "albedo": {
+    "title": "Voyager / Galileo SSI 1435 m colour mosaic",
+    "provider": "NASA Voyager / Galileo / USGS",
+    "uri": "https://astrogeology.usgs.gov/search/map/ganymede_voyager_galileo_ssi_color_global_mosaic_1_4km",
+    "downloadUrl": "https://planetarymaps.usgs.gov/mosaic/Ganymede_Voyager_GalileoSSI_Global_ClrMosaic_1435m.tif",
+    "rawPath": "data/phase-3b/raw/ganymede-global.tif",
+    "rawSha256": "da47087e75bc530456d8206d5100ad3c687706353700b0cb44a8400957005a33",
+    "observationEpoch": "Voyager 1979 / Galileo 1995–2003 composite",
+    "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+    "colorProcessing": "保留 USGS 拼图颜色；只进行投影重采样和显示 LOD 转码。",
+    "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+    "processingCategory": "OBSERVED_ENHANCED_COLOR_COMPOSITE",
+    "nativeDimensions": [
+      11520,
+      5760
+    ]
+  },
+  "lods": [
+    {
+      "width": 1024,
+      "height": 512,
+      "url": "/assets/moons/503/albedo-1024.jpg",
+      "sha256": "232b32a7a604b4d2bc94652c8a5c0d8b3fb8a6db4c4c6462488f3dfce46294b0"
+    },
+    {
+      "width": 2048,
+      "height": 1024,
+      "url": "/assets/moons/503/albedo-2048.jpg",
+      "sha256": "99e3401894e59ab91c592d52f6e4f8fa9a55e7231ca2c13d67841c9995e0c0ba"
+    },
+    {
+      "width": 4096,
+      "height": 2048,
+      "url": "/assets/moons/503/albedo-4096.jpg",
+      "sha256": "1de348cc13c489a1e2ebe2800a434e0faf4dae7621e1e16655cd83d8213c875c"
+    }
+  ],
+  "coverage": {
+    "file": "/assets/moons/503/coverage.png",
+    "sha256": "661441fea1b6d20087f58c6185d9489209873af524a1bcfd856705c546e2e063",
+    "missingSurfaceFraction": 0.004056981452026837,
+    "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+  },
+  "georeferencing": {
+    "method": "GeoTIFF SimpleCylindrical affine inverse at output pixel centres",
+    "centralLongitudeEast": 180.0,
+    "radiusMeters": 2632345.0,
+    "pixelScale": [
+      1435.72146209,
+      1435.72146209,
+      0.0
+    ],
+    "tiePoint": [
+      0.0,
+      0.0,
+      0.0,
+      -8269755.621665,
+      4134877.810833,
+      0.0
+    ],
+    "sourceMetadataPage": "ganymede-verified.html"
+  },
+  "material": {
+    "roughness": 1,
+    "metalness": 0,
+    "tint": "#ffffff"
+  },
+  "orientationModel": "IAU_GENERIC_APPROX",
+  "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+  "reconstructionNotes": "明暗地质单元、沟槽和撞击坑取自观测拼图；区域分辨率约 400 m 至 20 km，不补造缺失地形。 蓝灰色区域为未测，未加入虚构地貌。",
+  "visualEnhancements": [
+    "未测区蓝灰色分类标识",
+    "固定观察曝光；可选补光默认关闭"
+  ],
+  "limitations": [
+    "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+    "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+    "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+  ],
+  "verifiedAt": "2026-11-01T08:16:17.963298+00:00"
+}

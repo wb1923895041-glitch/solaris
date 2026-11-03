@@ -1,0 +1,15 @@
+warning: in the working copy of 'data/phase-2/visual-manifest.json', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'public/assets/celestial/manifest.json', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'public/assets/celestial/sun/config.json', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/main.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/render/celestial/profiling.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/render/celestial/system.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/render/scene.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'data/phase-2/visual-manifest.json', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'public/assets/celestial/manifest.json', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'public/assets/celestial/sun/config.json', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/main.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/render/celestial/profiling.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/render/celestial/system.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/render/scene.ts', CRLF will be replaced by LF the next time Git touches it
+{"archive": "SOLARIS_太阳与总览_B阶段_返修材料包.zip", "bytes": 160342887, "sha256": "b5a2013ba97ae32d91ef7621498eccff164e0366ff3435adbfb097cecc116daa", "files": 179, "crcAndPerFileSha256": "PASS", "scienceRecoveryPoint": "a046fa5"}

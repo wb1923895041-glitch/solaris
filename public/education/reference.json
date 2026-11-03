@@ -1,0 +1,301 @@
+{
+ "planets": {
+  "10": {
+   "gm": 132712440041.93938,
+   "gmSigma": null,
+   "source": "JPL Horizons object data (data/phase-1/raw/10-grid.json, sha256 ea3995ecc1bd…)",
+   "meanRadiusKm": 695700.0,
+   "densityGcm3": null
+  },
+  "199": {
+   "gm": 22031.86855,
+   "gmSigma": null,
+   "source": "JPL Horizons object data (data/phase-1/raw/199-grid.json, sha256 e93df41ec8e6…)",
+   "meanRadiusKm": 2439.4,
+   "densityGcm3": 5.4289,
+   "massE24Kg": 0.330103,
+   "tableSource": "JPL planetary physical parameters (data/phase-1/raw/planetary-physical-parameters.html, sha256 e49a48794729…)"
+  },
+  "299": {
+   "gm": 324858.592,
+   "gmSigma": null,
+   "source": "JPL Horizons object data (data/phase-1/raw/299-grid.json, sha256 c1ea348f66cb…)",
+   "meanRadiusKm": 6051.8,
+   "densityGcm3": 5.243,
+   "massE24Kg": 4.86731,
+   "tableSource": "JPL planetary physical parameters (data/phase-1/raw/planetary-physical-parameters.html, sha256 e49a48794729…)"
+  },
+  "399": {
+   "gm": 398600.435436,
+   "gmSigma": null,
+   "source": "JPL Horizons object data (data/phase-1/raw/399-grid.json, sha256 f9536b31bc2c…)",
+   "meanRadiusKm": 6371.0084,
+   "densityGcm3": 5.5134,
+   "massE24Kg": 5.97217,
+   "tableSource": "JPL planetary physical parameters (data/phase-1/raw/planetary-physical-parameters.html, sha256 e49a48794729…)"
+  },
+  "499": {
+   "gm": 42828.375662,
+   "gmSigma": null,
+   "source": "JPL Horizons object data (data/phase-1/raw/499-grid.json, sha256 99e888ea1a81…)",
+   "meanRadiusKm": 3389.5,
+   "densityGcm3": 3.934,
+   "massE24Kg": 0.641691,
+   "tableSource": "JPL planetary physical parameters (data/phase-1/raw/planetary-physical-parameters.html, sha256 e49a48794729…)"
+  },
+  "599": {
+   "gm": 126686531.9,
+   "gmSigma": null,
+   "source": "JPL Horizons object data (data/phase-1/raw/599-grid.json, sha256 171686b2a3c1…)",
+   "meanRadiusKm": 69911.0,
+   "densityGcm3": 1.3262,
+   "massE24Kg": 1898.125,
+   "tableSource": "JPL planetary physical parameters (data/phase-1/raw/planetary-physical-parameters.html, sha256 e49a48794729…)"
+  },
+  "699": {
+   "gm": 37931206.234,
+   "gmSigma": null,
+   "source": "JPL Horizons object data (data/phase-1/raw/699-grid.json, sha256 681f43332f8b…)",
+   "meanRadiusKm": 58232.0,
+   "densityGcm3": 0.6871,
+   "massE24Kg": 568.317,
+   "tableSource": "JPL planetary physical parameters (data/phase-1/raw/planetary-physical-parameters.html, sha256 e49a48794729…)"
+  },
+  "799": {
+   "gm": 5793950.6103,
+   "gmSigma": null,
+   "source": "JPL Horizons object data (data/phase-1/raw/799-grid.json, sha256 72e19aac70a2…)",
+   "meanRadiusKm": 25362.0,
+   "densityGcm3": 1.27,
+   "massE24Kg": 86.8099,
+   "tableSource": "JPL planetary physical parameters (data/phase-1/raw/planetary-physical-parameters.html, sha256 e49a48794729…)"
+  },
+  "899": {
+   "gm": 6835099.97,
+   "gmSigma": null,
+   "source": "JPL Horizons object data (data/phase-1/raw/899-grid.json, sha256 7782efb1258c…)",
+   "meanRadiusKm": 24622.0,
+   "densityGcm3": 1.638,
+   "massE24Kg": 102.4092,
+   "tableSource": "JPL planetary physical parameters (data/phase-1/raw/planetary-physical-parameters.html, sha256 e49a48794729…)"
+  }
+ },
+ "pluto": {
+  "eqRadiusKm": 1188.3,
+  "meanRadiusKm": 1188.3,
+  "massE24Kg": 13024.6,
+  "densityGcm3": 1.853,
+  "densitySigma": "0.004"
+ },
+ "nasaEclipses": {
+  "source": "NASA GSFC Five Millennium Canon of Solar/Lunar Eclipses (Espenak & Meeus); times are Terrestrial Dynamical Time (TD)",
+  "pages": {
+   "solar": {
+    "url": "https://eclipse.gsfc.nasa.gov/SEcat5/SE2001-2100.html",
+    "rawPath": "data/phase-5/raw/solar-2001-2100.html",
+    "sha256": "a9c08f5b4b51d5c85ccfa18d8bfccd98ec8a7d93f06e2d40691943b4105acf9e"
+   },
+   "lunar": {
+    "url": "https://eclipse.gsfc.nasa.gov/LEcat5/LE2001-2100.html",
+    "rawPath": "data/phase-5/raw/lunar-2001-2100.html",
+    "sha256": "0f640913669a640418f05c173cea0bdeca194fcac6b5b196b6b9ab1b08122792"
+   }
+  },
+  "solar": [
+   {
+    "date": "2024-04-08",
+    "tdGreatest": "18:18:29",
+    "type": "T",
+    "gamma": 0.3431
+   },
+   {
+    "date": "2024-10-02",
+    "tdGreatest": "18:46:13",
+    "type": "A",
+    "gamma": -0.3509
+   },
+   {
+    "date": "2025-03-29",
+    "tdGreatest": "10:48:36",
+    "type": "P",
+    "gamma": 1.0405
+   },
+   {
+    "date": "2025-09-21",
+    "tdGreatest": "19:43:04",
+    "type": "P",
+    "gamma": -1.0651
+   },
+   {
+    "date": "2026-02-17",
+    "tdGreatest": "12:13:06",
+    "type": "A",
+    "gamma": -0.9743
+   },
+   {
+    "date": "2026-08-12",
+    "tdGreatest": "17:47:06",
+    "type": "T",
+    "gamma": 0.8977
+   },
+   {
+    "date": "2027-02-06",
+    "tdGreatest": "16:00:48",
+    "type": "A",
+    "gamma": -0.2952
+   },
+   {
+    "date": "2027-08-02",
+    "tdGreatest": "10:07:50",
+    "type": "T",
+    "gamma": 0.1421
+   },
+   {
+    "date": "2028-01-26",
+    "tdGreatest": "15:08:59",
+    "type": "A",
+    "gamma": 0.3901
+   },
+   {
+    "date": "2028-07-22",
+    "tdGreatest": "02:56:40",
+    "type": "T",
+    "gamma": -0.6056
+   },
+   {
+    "date": "2029-01-14",
+    "tdGreatest": "17:13:48",
+    "type": "P",
+    "gamma": 1.0553
+   },
+   {
+    "date": "2029-06-12",
+    "tdGreatest": "04:06:13",
+    "type": "P",
+    "gamma": 1.2943
+   },
+   {
+    "date": "2029-07-11",
+    "tdGreatest": "15:37:19",
+    "type": "P",
+    "gamma": -1.4191
+   },
+   {
+    "date": "2029-12-05",
+    "tdGreatest": "15:03:58",
+    "type": "P",
+    "gamma": -1.0609
+   },
+   {
+    "date": "2030-06-01",
+    "tdGreatest": "06:29:13",
+    "type": "A",
+    "gamma": 0.5626
+   },
+   {
+    "date": "2030-11-25",
+    "tdGreatest": "06:51:37",
+    "type": "T",
+    "gamma": -0.3867
+   }
+  ],
+  "lunar": [
+   {
+    "date": "2024-03-25",
+    "tdGreatest": "07:13:59",
+    "type": "N",
+    "gamma": 1.0609
+   },
+   {
+    "date": "2024-09-18",
+    "tdGreatest": "02:45:25",
+    "type": "P",
+    "gamma": -0.9792
+   },
+   {
+    "date": "2025-03-14",
+    "tdGreatest": "06:59:56",
+    "type": "T",
+    "gamma": 0.3484
+   },
+   {
+    "date": "2025-09-07",
+    "tdGreatest": "18:12:58",
+    "type": "T",
+    "gamma": -0.2752
+   },
+   {
+    "date": "2026-03-03",
+    "tdGreatest": "11:34:52",
+    "type": "T",
+    "gamma": -0.3765
+   },
+   {
+    "date": "2026-08-28",
+    "tdGreatest": "04:14:04",
+    "type": "P",
+    "gamma": 0.4964
+   },
+   {
+    "date": "2027-02-20",
+    "tdGreatest": "23:14:06",
+    "type": "N",
+    "gamma": -1.048
+   },
+   {
+    "date": "2027-07-18",
+    "tdGreatest": "16:04:09",
+    "type": "Ne",
+    "gamma": -1.5758
+   },
+   {
+    "date": "2027-08-17",
+    "tdGreatest": "07:14:59",
+    "type": "N",
+    "gamma": 1.2797
+   },
+   {
+    "date": "2028-01-12",
+    "tdGreatest": "04:14:13",
+    "type": "P",
+    "gamma": 0.9817
+   },
+   {
+    "date": "2028-07-06",
+    "tdGreatest": "18:20:57",
+    "type": "P",
+    "gamma": -0.7903
+   },
+   {
+    "date": "2028-12-31",
+    "tdGreatest": "16:53:15",
+    "type": "T",
+    "gamma": 0.3258
+   },
+   {
+    "date": "2029-06-26",
+    "tdGreatest": "03:23:22",
+    "type": "T+",
+    "gamma": 0.0124
+   },
+   {
+    "date": "2029-12-20",
+    "tdGreatest": "22:43:12",
+    "type": "T",
+    "gamma": -0.3811
+   },
+   {
+    "date": "2030-06-15",
+    "tdGreatest": "18:34:34",
+    "type": "P",
+    "gamma": 0.7534
+   },
+   {
+    "date": "2030-12-09",
+    "tdGreatest": "22:28:51",
+    "type": "N",
+    "gamma": -1.0731
+   }
+  ]
+ }
+}

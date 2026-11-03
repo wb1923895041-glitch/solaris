@@ -1,0 +1,300 @@
+{
+  "interpolation": [
+    {
+      "id": "2000001",
+      "name": "Ceres",
+      "stepHours": 24.0,
+      "samples": 48,
+      "maxPositionKm": 0.0009024026951787298,
+      "meanPositionKm": 0.00013181808440247865,
+      "maxVelocityKmS": 1.359133767677994e-08,
+      "maxRelative": 2.142936233891897e-12
+    },
+    {
+      "id": "2000002",
+      "name": "Pallas",
+      "stepHours": 24.0,
+      "samples": 48,
+      "maxPositionKm": 0.0011923735081563695,
+      "meanPositionKm": 0.00021066121831773488,
+      "maxVelocityKmS": 4.6567399128891145e-08,
+      "maxRelative": 2.678993231828126e-12
+    },
+    {
+      "id": "2000004",
+      "name": "Vesta",
+      "stepHours": 24.0,
+      "samples": 48,
+      "maxPositionKm": 0.0010922981121615836,
+      "meanPositionKm": 0.00029407885894318326,
+      "maxVelocityKmS": 3.1395116348858184e-08,
+      "maxRelative": 3.0716684405428795e-12
+    },
+    {
+      "id": "2000010",
+      "name": "Hygiea",
+      "stepHours": 24.0,
+      "samples": 48,
+      "maxPositionKm": 0.0008451550136628164,
+      "meanPositionKm": 8.33145063298078e-05,
+      "maxVelocityKmS": 8.939008471128054e-09,
+      "maxRelative": 1.748659898210669e-12
+    },
+    {
+      "id": "2000016",
+      "name": "Psyche",
+      "stepHours": 24.0,
+      "samples": 48,
+      "maxPositionKm": 0.0010853320981963892,
+      "meanPositionKm": 0.00014921203385110464,
+      "maxVelocityKmS": 1.620516787798128e-08,
+      "maxRelative": 2.5387714109129422e-12
+    },
+    {
+      "id": "2000433",
+      "name": "Eros",
+      "stepHours": 6.0,
+      "samples": 48,
+      "maxPositionKm": 0.001521767117629959,
+      "meanPositionKm": 5.457233155771848e-05,
+      "maxVelocityKmS": 1.6059356534533872e-08,
+      "maxRelative": 6.939539029475973e-12
+    },
+    {
+      "id": "2101955",
+      "name": "Bennu",
+      "stepHours": 6.0,
+      "samples": 48,
+      "maxPositionKm": 0.0014639133631904886,
+      "meanPositionKm": 7.853971918236844e-05,
+      "maxVelocityKmS": 4.91532386395053e-08,
+      "maxRelative": 8.276262401269805e-12
+    },
+    {
+      "id": "2099942",
+      "name": "Apophis",
+      "stepHours": 0.75,
+      "samples": 61,
+      "maxPositionKm": 0.6819438149955758,
+      "meanPositionKm": 0.024671890657622972,
+      "maxVelocityKmS": 0.0016066935311413813,
+      "maxRelative": 4.7023014128818895e-09
+    },
+    {
+      "id": "999",
+      "name": "Pluto",
+      "stepHours": 6.0,
+      "samples": 48,
+      "maxPositionKm": 0.019693549625321237,
+      "meanPositionKm": 0.009160172600216074,
+      "maxVelocityKmS": 2.8926099568778376e-06,
+      "maxRelative": 3.679806707538501e-12
+    },
+    {
+      "id": "2136199",
+      "name": "Eris",
+      "stepHours": 120.0,
+      "samples": 48,
+      "maxPositionKm": 0.0001347352019463369,
+      "meanPositionKm": 7.19687442148887e-06,
+      "maxVelocityKmS": 2.972148403377227e-11,
+      "maxRelative": 9.441212885761294e-15
+    },
+    {
+      "id": "2136108",
+      "name": "Haumea",
+      "stepHours": 120.0,
+      "samples": 48,
+      "maxPositionKm": 0.00021538106842896766,
+      "meanPositionKm": 6.4001632462364e-06,
+      "maxVelocityKmS": 8.862880997070751e-12,
+      "maxRelative": 2.8974139070187487e-14
+    },
+    {
+      "id": "2136472",
+      "name": "Makemake",
+      "stepHours": 120.0,
+      "samples": 48,
+      "maxPositionKm": 0.0002098495269595417,
+      "meanPositionKm": 6.022588808283049e-06,
+      "maxVelocityKmS": 1.0972407277101636e-11,
+      "maxRelative": 2.6596752327935066e-14
+    },
+    {
+      "id": "2486958",
+      "name": "Arrokoth",
+      "stepHours": 120.0,
+      "samples": 48,
+      "maxPositionKm": 0.0002555798238314381,
+      "meanPositionKm": 7.1028447806319325e-06,
+      "maxVelocityKmS": 9.691923054162303e-12,
+      "maxRelative": 3.96952858014978e-14
+    },
+    {
+      "id": "901",
+      "name": "Charon",
+      "stepHours": 2.0,
+      "samples": 48,
+      "maxPositionKm": 0.002291643696179055,
+      "meanPositionKm": 0.00116984070603532,
+      "maxVelocityKmS": 9.866840993895668e-07,
+      "maxRelative": 1.1694387595328957e-07
+    }
+  ],
+  "twoBody": [
+    {
+      "id": "2000001",
+      "name": "Ceres",
+      "epochJd": 2461200.5,
+      "samples": 45,
+      "maxKm": 2184647.182501544,
+      "medianKm": 191474.85080936944,
+      "maxAu": 0.014603464422849863
+    },
+    {
+      "id": "2000002",
+      "name": "Pallas",
+      "epochJd": 2461200.5,
+      "samples": 45,
+      "maxKm": 362538.374085216,
+      "medianKm": 121390.06440210382,
+      "maxAu": 0.0024234193467381755
+    },
+    {
+      "id": "2000004",
+      "name": "Vesta",
+      "epochJd": 2461200.5,
+      "samples": 45,
+      "maxKm": 600670.9360251437,
+      "medianKm": 176965.63294022324,
+      "maxAu": 0.004015237203674609
+    },
+    {
+      "id": "2000010",
+      "name": "Hygiea",
+      "epochJd": 2461200.5,
+      "samples": 45,
+      "maxKm": 4799867.542590163,
+      "medianKm": 1115714.616145736,
+      "maxAu": 0.0320851327637925
+    },
+    {
+      "id": "2000016",
+      "name": "Psyche",
+      "epochJd": 2461200.5,
+      "samples": 45,
+      "maxKm": 6192396.1657231655,
+      "medianKm": 786978.0290710619,
+      "maxAu": 0.041393611665377576
+    },
+    {
+      "id": "2000433",
+      "name": "Eros",
+      "epochJd": 2461200.5,
+      "samples": 45,
+      "maxKm": 174285.22758939015,
+      "medianKm": 82472.02006073478,
+      "maxAu": 0.0011650247879456627
+    },
+    {
+      "id": "2101955",
+      "name": "Bennu",
+      "epochJd": 2455562.5,
+      "samples": 45,
+      "maxKm": 10614310.282576168,
+      "medianKm": 7786359.44127688,
+      "maxAu": 0.0709522818266702
+    },
+    {
+      "id": "2099942",
+      "name": "Apophis",
+      "epochJd": 2461200.5,
+      "samples": 58,
+      "maxKm": 289695113.9734319,
+      "medianKm": 58946.86383381393,
+      "maxAu": 1.9364922282508925
+    },
+    {
+      "id": "999",
+      "name": "Pluto",
+      "epochJd": 2457588.5,
+      "samples": 45,
+      "maxKm": 6669227.279497411,
+      "medianKm": 5769392.7647441,
+      "maxAu": 0.04458103078800982
+    },
+    {
+      "id": "2136199",
+      "name": "Eris",
+      "epochJd": 2461200.5,
+      "samples": 45,
+      "maxKm": 1478003.208506787,
+      "medianKm": 216709.29156874472,
+      "maxAu": 0.009879841214255914
+    },
+    {
+      "id": "2136108",
+      "name": "Haumea",
+      "epochJd": 2461200.5,
+      "samples": 45,
+      "maxKm": 1496721.6208113804,
+      "medianKm": 217300.01542974345,
+      "maxAu": 0.01000496607209651
+    },
+    {
+      "id": "2136472",
+      "name": "Makemake",
+      "epochJd": 2461200.5,
+      "samples": 45,
+      "maxKm": 1503493.1298320112,
+      "medianKm": 218365.78737465892,
+      "maxAu": 0.010050230814094143
+    },
+    {
+      "id": "2486958",
+      "name": "Arrokoth",
+      "epochJd": 2461200.5,
+      "samples": 45,
+      "maxKm": 1459229.555326555,
+      "medianKm": 213000.02980115035,
+      "maxAu": 0.0097543470939694
+    }
+  ],
+  "structure": {
+    "jupiterOsculatingAAu": 5.207568278542261,
+    "neptuneOsculatingAAu": 30.116219521578156,
+    "kirkwoodGaps": {
+      "3:1": {
+        "aAu": 2.5035377040246884,
+        "densityRatio": 0.03451676528599606
+      },
+      "5:2": {
+        "aAu": 2.827103014979185,
+        "densityRatio": 0.21132484421565975
+      },
+      "7:3": {
+        "aAu": 2.9601731563351694,
+        "densityRatio": 0.8081832783836336
+      },
+      "2:1": {
+        "aAu": 3.280562446450101,
+        "densityRatio": 0.02552552552552553
+      }
+    },
+    "trojans": {
+      "count": 10128,
+      "fractionNearL4": 0.6121642969984202,
+      "fractionNearL5": 0.3662124802527646,
+      "fractionWithin30degOfJupiter": 0.0012835703001579778
+    },
+    "plutinos": {
+      "aAu": 39.46341156864096,
+      "densityRatio": 5.717717717717718
+    },
+    "counts": {
+      "mainbelt": 74597,
+      "tno": 8306
+    }
+  },
+  "failures": []
+}

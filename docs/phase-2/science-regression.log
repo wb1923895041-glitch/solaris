@@ -1,0 +1,32 @@
+
+> solaris@0.1.0 check:science
+> node --experimental-transform-types scripts/verify-phase1.mjs
+
+PASS catalog values match unit-bearing provenance and archived official values
+PASS all nine exact target center IDs
+PASS UTC repeat gives identical states
+PASS reject UTC leap second, invalid day, timezone ambiguity and outside window
+PASS leap day is a real 86400-second UTC day
+PASS data boundary accepted, outside rejected, unknown body rejected
+PASS reject wrong center/frame/units and corrupt samples
+PASS heliocentric position and velocity both subtract Sun at same epoch
+PASS scientific radii and distances use one linear mapping
+PASS exploration mapping preserves state, direction and finite origin
+PASS CPU camera-relative subtraction retains small offsets
+PASS paused clock does not drift with frames
+PASS clock is independent of frame partition; rate changes are continuous
+PASS zero/reverse rate, limits and reset are deterministic
+┌─────────┬───────┬───────────┬─────────┬──────────────────────────┬────────────────────────┬─────────────────────────┐
+│ (index) │ id    │ name      │ samples │ maxPositionKm            │ maxPositionAU          │ maxVelocityKmPerS       │
+├─────────┼───────┼───────────┼─────────┼──────────────────────────┼────────────────────────┼─────────────────────────┤
+│ 0       │ '10'  │ 'Sun'     │ 48      │ 0.0000034138795666440985 │ 2.2820375388164524e-14 │ 1.0909056698097733e-10  │
+│ 1       │ '199' │ 'Mercury' │ 48      │ 0.06472299972015551      │ 4.3264653044393574e-10 │ 0.00000960185052510667  │
+│ 2       │ '299' │ 'Venus'   │ 48      │ 0.01106757625487005      │ 7.398217770802837e-11  │ 8.058494534873935e-7    │
+│ 3       │ '399' │ 'Earth'   │ 48      │ 0.005454387978831864     │ 3.64603316431553e-11   │ 3.677408707620857e-7    │
+│ 4       │ '499' │ 'Mars'    │ 48      │ 0.0016514999912089145    │ 1.1039595573661562e-11 │ 7.511824502868003e-8    │
+│ 5       │ '599' │ 'Jupiter' │ 48      │ 0.0329264542273974       │ 2.200997519104221e-10  │ 0.000004734887652169218 │
+│ 6       │ '699' │ 'Saturn'  │ 48      │ 0.00080303583325585      │ 5.3679629897021654e-12 │ 1.3523310453334018e-7   │
+│ 7       │ '799' │ 'Uranus'  │ 48      │ 0.007069202693082322     │ 4.725470128688351e-11  │ 9.264775968758069e-7    │
+│ 8       │ '899' │ 'Neptune' │ 48      │ 0.003397047980140486     │ 2.270786318177513e-11  │ 5.177822853535693e-7    │
+└─────────┴───────┴───────────┴─────────┴──────────────────────────┴────────────────────────┴─────────────────────────┘
+14 behavior checks; 432 held-out states; max UTC/TDB error 1.1920928955078125e-7 s

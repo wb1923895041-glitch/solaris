@@ -1,0 +1,41 @@
+{
+  "base": "99fd0fe6fc2d1ebc92339f35140ba784898904ad",
+  "modified": [
+    ".gitignore",
+    "README.md",
+    "index.html",
+    "src/main.ts"
+  ],
+  "addedCode": [
+    "scripts/activate-solaris-browser.ps1",
+    "scripts/build-mapped-moon.py",
+    "scripts/build-mars-moon.py",
+    "scripts/build-moon-asset.py",
+    "scripts/build-titan-haze.py",
+    "scripts/debug-moon-camera.mjs",
+    "scripts/inspect-moon-sources.py",
+    "scripts/overview-profile.js",
+    "scripts/package-phase3b.py",
+    "scripts/phase3b-additional-sources.py",
+    "scripts/phase3b-download-products.py",
+    "scripts/phase3b-orientation.py",
+    "scripts/phase3b-source-audit.py",
+    "scripts/qa-moon-asset.mjs",
+    "scripts/qa-moons-final.mjs",
+    "scripts/verify-moon-assets.mjs",
+    "scripts/verify-moon-locking.mjs",
+    "scripts/verify-moon-orientation.mjs",
+    "src/satellites/asset-contract.ts",
+    "src/satellites/asset-features.ts",
+    "src/satellites/asset-inspector.css",
+    "src/satellites/asset-inspector.ts",
+    "src/satellites/enceladus-plume.ts",
+    "src/satellites/moon-visual.ts",
+    "src/satellites/titan-haze.ts"
+  ],
+  "addedData": [
+    "public/assets/moons",
+    "data/phase-3b (raw rasters excluded by .gitignore)"
+  ],
+  "frozenScienceFiles": 59
+}

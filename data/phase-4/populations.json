@@ -1,0 +1,64 @@
+{
+  "mainbelt": {
+    "file": "/smallbodies/mainbelt.f32",
+    "sha256": "bac35e72c54487116cd00c69aa9d4cb5305196867724074ea562667a76dd5824",
+    "count": 74597,
+    "droppedIncomplete": 0,
+    "columns": [
+      "aAu",
+      "e",
+      "iRad",
+      "nodeRad",
+      "periRad",
+      "meanAnomalyRad",
+      "meanMotionRadPerDay",
+      "epochDaysFromJ2000TDB"
+    ],
+    "frame": "heliocentric ecliptic J2000 (SBDB osculating)",
+    "label": "已编号小行星 H<15、a<5.5 au（含主带、Hilda、木星特洛伊）",
+    "query": {
+      "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+      "version": "1.0"
+    },
+    "rawPath": "data/phase-4/raw/population-mainbelt.json",
+    "rawSha256": "4dca6842e075a86d89d1ae84504111215d7d289b5d533ea3b677994a6ab7ab08",
+    "epochRangeJd": [
+      2461200.5,
+      2461200.5
+    ],
+    "identities": "omitted in runtime file (illustrative-population layer)",
+    "propagation": "two-body Kepler from each epoch with GM_sun; not a precise ephemeris",
+    "gmSunKm3s2": 132712440041.93938
+  },
+  "tno": {
+    "file": "/smallbodies/tno.f32",
+    "sha256": "2a51cc7b43aea727baa12e5a0fca75b56800673d206680396e6edeb170ca3f16",
+    "count": 8306,
+    "droppedIncomplete": 1,
+    "columns": [
+      "aAu",
+      "e",
+      "iRad",
+      "nodeRad",
+      "periRad",
+      "meanAnomalyRad",
+      "meanMotionRadPerDay",
+      "epochDaysFromJ2000TDB"
+    ],
+    "frame": "heliocentric ecliptic J2000 (SBDB osculating)",
+    "label": "全部已登记海王星外天体（含观测选择偏差）",
+    "query": {
+      "source": "NASA/JPL SBDB (Small-Body DataBase) Query API",
+      "version": "1.0"
+    },
+    "rawPath": "data/phase-4/raw/population-tno.json",
+    "rawSha256": "9310c587b69f76ce50d196d708729d399b4111cb9cd143c82e4119425cac492b",
+    "epochRangeJd": [
+      2449629.5,
+      2461200.5
+    ],
+    "identities": "omitted in runtime file (illustrative-population layer)",
+    "propagation": "two-body Kepler from each epoch with GM_sun; not a precise ephemeris",
+    "gmSunKm3s2": 132712440041.93938
+  }
+}

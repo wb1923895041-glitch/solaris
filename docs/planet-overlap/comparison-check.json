@@ -1,0 +1,14 @@
+{
+  "images": 5,
+  "overflow": false,
+  "sourceImages": [
+    {
+      "width": 2560,
+      "height": 1440
+    },
+    {
+      "width": 2560,
+      "height": 1440
+    }
+  ]
+}

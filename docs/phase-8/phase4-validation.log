@@ -1,0 +1,64 @@
+Ceres     step    24 h  max 0.000902 km  rel 2.14e-12  v 1.36e-08
+Pallas    step    24 h  max 0.001192 km  rel 2.68e-12  v 4.66e-08
+Vesta     step    24 h  max 0.001092 km  rel 3.07e-12  v 3.14e-08
+Hygiea    step    24 h  max 0.000845 km  rel 1.75e-12  v 8.94e-09
+Psyche    step    24 h  max 0.001085 km  rel 2.54e-12  v 1.62e-08
+Eros      step     6 h  max 0.001522 km  rel 6.94e-12  v 1.61e-08
+Bennu     step     6 h  max 0.001464 km  rel 8.28e-12  v 4.92e-08
+Apophis   step     1 h  max 0.681944 km  rel 4.70e-09  v 1.61e-03
+Pluto     step     6 h  max 0.019694 km  rel 3.68e-12  v 2.89e-06
+Eris      step   120 h  max 0.000135 km  rel 9.44e-15  v 2.97e-11
+Haumea    step   120 h  max 0.000215 km  rel 2.90e-14  v 8.86e-12
+Makemake  step   120 h  max 0.000210 km  rel 2.66e-14  v 1.10e-11
+Arrokoth  step   120 h  max 0.000256 km  rel 3.97e-14  v 9.69e-12
+Charon    step     2 h  max 0.002292 km  rel 1.17e-07  v 9.87e-07
+two-body Ceres     max 2184647 km (1.46e-02 au) median 191475 km
+two-body Pallas    max 362538 km (2.42e-03 au) median 121390 km
+two-body Vesta     max 600671 km (4.02e-03 au) median 176966 km
+two-body Hygiea    max 4799868 km (3.21e-02 au) median 1115715 km
+two-body Psyche    max 6192396 km (4.14e-02 au) median 786978 km
+two-body Eros      max 174285 km (1.17e-03 au) median 82472 km
+two-body Bennu     max 10614310 km (7.10e-02 au) median 7786359 km
+two-body Apophis   max 289695114 km (1.94e+00 au) median 58947 km
+two-body Pluto     max 6669227 km (4.46e-02 au) median 5769393 km
+two-body Eris      max 1478003 km (9.88e-03 au) median 216709 km
+two-body Haumea    max 1496722 km (1.00e-02 au) median 217300 km
+two-body Makemake  max 1503493 km (1.01e-02 au) median 218366 km
+two-body Arrokoth  max 1459230 km (9.75e-03 au) median 213000 km
+{
+ "jupiterOsculatingAAu": 5.207568278542261,
+ "neptuneOsculatingAAu": 30.116219521578156,
+ "kirkwoodGaps": {
+  "3:1": {
+   "aAu": 2.5035377040246884,
+   "densityRatio": 0.03451676528599606
+  },
+  "5:2": {
+   "aAu": 2.827103014979185,
+   "densityRatio": 0.21132484421565975
+  },
+  "7:3": {
+   "aAu": 2.9601731563351694,
+   "densityRatio": 0.8081832783836336
+  },
+  "2:1": {
+   "aAu": 3.280562446450101,
+   "densityRatio": 0.02552552552552553
+  }
+ },
+ "trojans": {
+  "count": 10128,
+  "fractionNearL4": 0.6121642969984202,
+  "fractionNearL5": 0.3662124802527646,
+  "fractionWithin30degOfJupiter": 0.0012835703001579778
+ },
+ "plutinos": {
+  "aAu": 39.46341156864096,
+  "densityRatio": 5.717717717717718
+ },
+ "counts": {
+  "mainbelt": 74597,
+  "tno": 8306
+ }
+}
+FAILURES []

@@ -1,0 +1,114 @@
+{
+  "checks": 16,
+  "samples": 1530,
+  "summaries": [
+    {
+      "id": "301",
+      "samples": 85,
+      "maxPositionKm": 0.0191473052073816,
+      "maxVelocityKmPerSec": 0.0000020670603788363897
+    },
+    {
+      "id": "401",
+      "samples": 85,
+      "maxPositionKm": 0.15324592318717933,
+      "maxVelocityKmPerSec": 0.00039226618990400767
+    },
+    {
+      "id": "402",
+      "samples": 85,
+      "maxPositionKm": 0.11318584411620468,
+      "maxVelocityKmPerSec": 0.00009676056313605298
+    },
+    {
+      "id": "501",
+      "samples": 85,
+      "maxPositionKm": 0.5442463747633084,
+      "maxVelocityKmPerSec": 0.00046194141331447477
+    },
+    {
+      "id": "502",
+      "samples": 85,
+      "maxPositionKm": 0.8865530417020702,
+      "maxVelocityKmPerSec": 0.000373035785069965
+    },
+    {
+      "id": "503",
+      "samples": 85,
+      "maxPositionKm": 0.41388518103282534,
+      "maxVelocityKmPerSec": 0.00011526000150020342
+    },
+    {
+      "id": "504",
+      "samples": 85,
+      "maxPositionKm": 0.43695517626126085,
+      "maxVelocityKmPerSec": 0.00006125828864038797
+    },
+    {
+      "id": "601",
+      "samples": 85,
+      "maxPositionKm": 0.21036779560761526,
+      "maxVelocityKmPerSec": 0.00035554176333044596
+    },
+    {
+      "id": "602",
+      "samples": 85,
+      "maxPositionKm": 0.8564583260318198,
+      "maxVelocityKmPerSec": 0.0007109543025813482
+    },
+    {
+      "id": "605",
+      "samples": 85,
+      "maxPositionKm": 0.24997942175751758,
+      "maxVelocityKmPerSec": 0.00010656663499888626
+    },
+    {
+      "id": "606",
+      "samples": 85,
+      "maxPositionKm": 0.3764264813141837,
+      "maxVelocityKmPerSec": 0.00005089916945642896
+    },
+    {
+      "id": "608",
+      "samples": 85,
+      "maxPositionKm": 0.03708426872228812,
+      "maxVelocityKmPerSec": 0.000002123526453150254
+    },
+    {
+      "id": "705",
+      "samples": 85,
+      "maxPositionKm": 0.40242237026306416,
+      "maxVelocityKmPerSec": 0.00034052451223221274
+    },
+    {
+      "id": "701",
+      "samples": 85,
+      "maxPositionKm": 0.9298934910499169,
+      "maxVelocityKmPerSec": 0.00039522258097621503
+    },
+    {
+      "id": "702",
+      "samples": 85,
+      "maxPositionKm": 0.9221729346513233,
+      "maxVelocityKmPerSec": 0.0002628804543686842
+    },
+    {
+      "id": "703",
+      "samples": 85,
+      "maxPositionKm": 1.2222099093393715,
+      "maxVelocityKmPerSec": 0.00017346643910608463
+    },
+    {
+      "id": "704",
+      "samples": 85,
+      "maxPositionKm": 0.29024756086066267,
+      "maxVelocityKmPerSec": 0.00004081200498271256
+    },
+    {
+      "id": "801",
+      "samples": 85,
+      "maxPositionKm": 0.2950160463614275,
+      "maxVelocityKmPerSec": 0.00008406473647012283
+    }
+  ]
+}

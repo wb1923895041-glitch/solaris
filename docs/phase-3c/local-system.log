@@ -1,0 +1,16 @@
+PASS Scientific and closeup scales are one linear km→parent-radius map of the 3A truth (18 moons × 3 dates) {"maxRelativeError":1.1218025811069547e-16}
+PASS Exploration keeps every direction and is exactly invertible to the true distance {"maxAngleRad":1.216716912785663e-16,"maxRelativeDistanceError":1.1868766184221982e-15}
+PASS Exploration preserves each system’s distance order and is continuous at one parent radius 
+PASS Display radius: scientific is the true ratio; exploration only enlarges (minimum sphere 0.09 R) 
+PASS Mapping is pure: frozen truth objects are unchanged after every scale 
+PASS Orbit tracks are samples of the same relativeState function and pass through the body {"maxTrackVsStateKm":0}
+PASS Planet spin vectors from attitude samples; Uranus spins opposite its IAU north pole {"399":0.999999999999999,"499":0.9999999999999961,"599":0.9999999999999999,"699":1,"799":0.9999999999999978,"899":0.999999999999997}
+PASS Triton retrograde and inclined; the other 17 moons prograde (r×v vs true parent spin) {"tritonInclinationDegrees":[157.33310799475032,157.33351369576278,157.33351039079548]}
+PASS Uranian moons follow Uranus’ equator, not the ecliptic {"701":["0.02","97.73"],"702":["0.08","97.73"],"703":["0.04","97.76"],"704":["0.19","97.91"],"705":["4.42","93.83"]}
+PASS Io–Europa–Ganymede near 4:2:1 with a librating Laplace combination; Callisto not a member {"europaIo":2.0072947132704875,"ganymedeEuropa":2.014696508819949,"callistoGanymede":2.332640672428292,"laplaceMaxDeviationFrom180Deg":3.9512695624204275,"samples":1460}
+PASS Phobos and Deimos are distinct in distance, period, speed and size {"distanceKm":[9510.75003285742,23456.16107855984],"periodDays":[0.3189100526084382,1.2624411425593831],"speedKmS":[2.106966315330805,1.3513271479511715]}
+PASS Earth–Moon barycentre marker stays inside the Earth and off the origin in every scale 
+PASS One clock: pause, rate, reverse and jump give every moon the same TDB as direct evaluation 
+13 local-system science checks passed; same 3A state function and 3B/phase-2 attitude caches
+(node:45336) ExperimentalWarning: Transform Types is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)

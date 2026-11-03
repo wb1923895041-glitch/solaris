@@ -1,0 +1,24 @@
+PASS 18 verified identities, parent BODY CENTER contracts and source hashes
+PASS Reject wrong frame
+PASS Reject wrong timeScale
+PASS Reject wrong positionUnit
+PASS Reject wrong velocityUnit
+PASS Reject wrong correction
+PASS Reject system barycentre or wrong parent
+PASS Reject incomplete and duplicate catalog
+PASS Reject missing, non-finite or discontinuous buffers
+PASS Reject extrapolation, NaN and unknown satellite
+C:\Users\19238\Documents\ChatGPT\前端\src\science\ephemeris.ts:25
+    if(!Number.isFinite(t)||t<this.manifest.startTdb||t>this.manifest.endTdb) throw new Error('禁止星历外推');
+                                                                                    ^
+
+
+Error: 禁止星历外推
+    at Object.state (C:\Users\19238\Documents\ChatGPT\前端\src\science\ephemeris.ts:25:85)
+    at SatelliteEphemeris.relativeState (C:\Users\19238\Documents\ChatGPT\前端\src\satellites\ephemeris.ts:45:37)
+    at file:///C:/Users/19238/Documents/ChatGPT/%E5%89%8D%E7%AB%AF/scripts/verify-satellites.mjs:17:140
+    at ModuleJob.run (node:internal/modules/esm/module_job:345:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
+Node.js v22.20.0

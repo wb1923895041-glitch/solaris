@@ -1,0 +1,21 @@
+(node:6376) ExperimentalWarning: Transform Types is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS 301 tidal-lock meridian range max 6.997135474239732
+PASS 401 tidal-lock meridian range max 2.8843659780701905
+PASS 402 tidal-lock meridian range max 0.048552121059151694
+PASS 501 tidal-lock meridian range max 0.8620365637044758
+PASS 502 tidal-lock meridian range max 2.544883769196235
+PASS 503 tidal-lock meridian range max 2.6414879502340494
+PASS 504 tidal-lock meridian range max 1.6684734436854265
+PASS 601 tidal-lock meridian range max 10.555296953834912
+PASS 602 tidal-lock meridian range max 4.854671693616219
+PASS 605 tidal-lock meridian range max 2.9093903165011197
+PASS 606 tidal-lock meridian range max 5.371130943572326
+PASS 608 tidal-lock meridian range max 6.036406420568891
+PASS 705 tidal-lock meridian range max 1.227053432882614
+PASS 701 tidal-lock meridian range max 0.9242138536023967
+PASS 702 tidal-lock meridian range max 1.3446051729057165
+PASS 703 tidal-lock meridian range max 1.174296480420502
+PASS 704 tidal-lock meridian range max 1.0420976178088561
+PASS 801 tidal-lock meridian range max 2.776902940457963
+ALL PASS 18 separate IAU models; parent direction not used to rotate a surface

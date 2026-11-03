@@ -1,0 +1,444 @@
+{
+  "satellites": 18,
+  "samples": 1530,
+  "allPositionBudgetsPassed": true,
+  "failures": [],
+  "summaries": [
+    {
+      "id": "301",
+      "name": "Moon",
+      "kernel": "DE441",
+      "samples": 85,
+      "stepSeconds": 21600,
+      "meanPositionKm": 0.00809045708908082,
+      "maxPositionKm": 0.019147305207381605,
+      "meanVelocityKmPerSec": 6.066135322363544e-07,
+      "maxVelocityKmPerSec": 2.0670603788363897e-06,
+      "maxRelativePosition": 4.963151157838112e-08,
+      "positionBudgetKm": 38.578928181832644,
+      "maxGlobalPositionKm": 0.0012172364991114377,
+      "passed": true
+    },
+    {
+      "id": "401",
+      "name": "Phobos",
+      "kernel": "mar099",
+      "samples": 85,
+      "stepSeconds": 1200,
+      "meanPositionKm": 0.0939350672602078,
+      "maxPositionKm": 0.15324592318717933,
+      "meanVelocityKmPerSec": 0.0001523966296236451,
+      "maxVelocityKmPerSec": 0.0003922661899040076,
+      "maxRelativePosition": 1.634262171529478e-05,
+      "positionBudgetKm": 0.9377070941057095,
+      "maxGlobalPositionKm": 0.007713935786543123,
+      "passed": true
+    },
+    {
+      "id": "402",
+      "name": "Deimos",
+      "kernel": "mar099",
+      "samples": 85,
+      "stepSeconds": 3600,
+      "meanPositionKm": 0.07373541587314901,
+      "maxPositionKm": 0.11318584411620468,
+      "meanVelocityKmPerSec": 3.915845049025415e-05,
+      "maxVelocityKmPerSec": 9.676056313605297e-05,
+      "maxRelativePosition": 4.825134054235431e-06,
+      "positionBudgetKm": 2.345755430708745,
+      "maxGlobalPositionKm": 0.0013836377933730563,
+      "passed": true
+    },
+    {
+      "id": "501",
+      "name": "Io",
+      "kernel": "jup365_merged",
+      "samples": 85,
+      "stepSeconds": 3600,
+      "meanPositionKm": 0.34578921280952657,
+      "maxPositionKm": 0.5442463747633084,
+      "meanVelocityKmPerSec": 0.00018334284228923282,
+      "maxVelocityKmPerSec": 0.0004619414133144747,
+      "maxRelativePosition": 1.2903706778854669e-06,
+      "positionBudgetKm": 42.177521861792926,
+      "maxGlobalPositionKm": 0.002822093775113668,
+      "passed": true
+    },
+    {
+      "id": "502",
+      "name": "Europa",
+      "kernel": "jup365_merged",
+      "samples": 85,
+      "stepSeconds": 7200,
+      "meanPositionKm": 0.5228743261295092,
+      "maxPositionKm": 0.8865530417047374,
+      "meanVelocityKmPerSec": 0.00012564359896479008,
+      "maxVelocityKmPerSec": 0.000373035785069965,
+      "maxRelativePosition": 1.3210013665227974e-06,
+      "positionBudgetKm": 67.11219716890713,
+      "maxGlobalPositionKm": 0.0017495175796143094,
+      "passed": true
+    },
+    {
+      "id": "503",
+      "name": "Ganymede",
+      "kernel": "jup365_merged",
+      "samples": 85,
+      "stepSeconds": 10800,
+      "meanPositionKm": 0.2741396506166317,
+      "maxPositionKm": 0.41388518103282534,
+      "meanVelocityKmPerSec": 4.4167580380193096e-05,
+      "maxVelocityKmPerSec": 0.0001152600014999,
+      "maxRelativePosition": 3.866528422266352e-07,
+      "positionBudgetKm": 107.04309805389406,
+      "maxGlobalPositionKm": 0.0007590413938168024,
+      "passed": true
+    },
+    {
+      "id": "504",
+      "name": "Callisto",
+      "kernel": "jup365_merged",
+      "samples": 85,
+      "stepSeconds": 21600,
+      "meanPositionKm": 0.2772158900731416,
+      "maxPositionKm": 0.43695517626126085,
+      "meanVelocityKmPerSec": 2.0508684981540097e-05,
+      "maxVelocityKmPerSec": 6.125828864038797e-05,
+      "maxRelativePosition": 2.3206468810500698e-07,
+      "positionBudgetKm": 188.29024778795426,
+      "maxGlobalPositionKm": 0.0005950276369926562,
+      "passed": true
+    },
+    {
+      "id": "601",
+      "name": "Mimas",
+      "kernel": "sat441l",
+      "samples": 85,
+      "stepSeconds": 1800,
+      "meanPositionKm": 0.11830992677505743,
+      "maxPositionKm": 0.2103677956076153,
+      "meanVelocityKmPerSec": 0.00012392657382147748,
+      "maxVelocityKmPerSec": 0.00035554176333118436,
+      "maxRelativePosition": 1.1333982628852655e-06,
+      "positionBudgetKm": 18.560800955534106,
+      "maxGlobalPositionKm": 0.0044323792064289635,
+      "passed": true
+    },
+    {
+      "id": "602",
+      "name": "Enceladus",
+      "kernel": "sat441l",
+      "samples": 85,
+      "stepSeconds": 3600,
+      "meanPositionKm": 0.6159281623481978,
+      "maxPositionKm": 0.8564583260318198,
+      "meanVelocityKmPerSec": 0.00022291276875399283,
+      "maxVelocityKmPerSec": 0.0007109543025809319,
+      "maxRelativePosition": 3.597930321061575e-06,
+      "positionBudgetKm": 23.804194345240138,
+      "maxGlobalPositionKm": 0.0047959950176396544,
+      "passed": true
+    },
+    {
+      "id": "605",
+      "name": "Rhea",
+      "kernel": "sat441l",
+      "samples": 85,
+      "stepSeconds": 7200,
+      "meanPositionKm": 0.15653756696122237,
+      "maxPositionKm": 0.2499794217575176,
+      "meanVelocityKmPerSec": 4.21806581501579e-05,
+      "maxVelocityKmPerSec": 0.00010656663499888627,
+      "maxRelativePosition": 4.742835194821518e-07,
+      "positionBudgetKm": 52.70674849306562,
+      "maxGlobalPositionKm": 0.0007718639505557025,
+      "passed": true
+    },
+    {
+      "id": "606",
+      "name": "Titan",
+      "kernel": "sat441l",
+      "samples": 85,
+      "stepSeconds": 21600,
+      "meanPositionKm": 0.19762498462362343,
+      "maxPositionKm": 0.37642648131418366,
+      "meanVelocityKmPerSec": 1.6572863410617765e-05,
+      "maxVelocityKmPerSec": 5.089916945642896e-05,
+      "maxRelativePosition": 3.0781147517001725e-07,
+      "positionBudgetKm": 122.29124372516245,
+      "maxGlobalPositionKm": 0.0004696506843357041,
+      "passed": true
+    },
+    {
+      "id": "608",
+      "name": "Iapetus",
+      "kernel": "sat441l",
+      "samples": 85,
+      "stepSeconds": 43200,
+      "meanPositionKm": 0.015848895332076587,
+      "maxPositionKm": 0.03708426872228812,
+      "meanVelocityKmPerSec": 6.791990893081844e-07,
+      "maxVelocityKmPerSec": 2.123526453150254e-06,
+      "maxRelativePosition": 1.040747553490098e-08,
+      "positionBudgetKm": 356.32338118814477,
+      "maxGlobalPositionKm": 0.0005207704646565361,
+      "passed": true
+    },
+    {
+      "id": "705",
+      "name": "Miranda",
+      "kernel": "ura184_merged",
+      "samples": 85,
+      "stepSeconds": 3600,
+      "meanPositionKm": 0.2784850826758893,
+      "maxPositionKm": 0.4024223702630641,
+      "meanVelocityKmPerSec": 0.00011521499250499747,
+      "maxVelocityKmPerSec": 0.0003405245122322128,
+      "maxRelativePosition": 3.09918053621229e-06,
+      "positionBudgetKm": 12.984799225503998,
+      "maxGlobalPositionKm": 0.0024741813378806083,
+      "passed": true
+    },
+    {
+      "id": "701",
+      "name": "Ariel",
+      "kernel": "ura184_merged",
+      "samples": 85,
+      "stepSeconds": 7200,
+      "meanPositionKm": 0.6433562059678583,
+      "maxPositionKm": 0.9298934910499169,
+      "meanVelocityKmPerSec": 0.0001428547107863726,
+      "maxVelocityKmPerSec": 0.00039522258097621503,
+      "maxRelativePosition": 4.8703518656205696e-06,
+      "positionBudgetKm": 19.09294270120321,
+      "maxGlobalPositionKm": 0.0016067426982310526,
+      "passed": true
+    },
+    {
+      "id": "702",
+      "name": "Umbriel",
+      "kernel": "ura184_merged",
+      "samples": 85,
+      "stepSeconds": 10800,
+      "meanPositionKm": 0.6121329906519355,
+      "maxPositionKm": 0.9221729346513234,
+      "meanVelocityKmPerSec": 9.322669527861809e-05,
+      "maxVelocityKmPerSec": 0.00026288045436868423,
+      "maxRelativePosition": 3.4670050212399194e-06,
+      "positionBudgetKm": 26.598546266931077,
+      "maxGlobalPositionKm": 0.0007591952990967108,
+      "passed": true
+    },
+    {
+      "id": "703",
+      "name": "Titania",
+      "kernel": "ura184_merged",
+      "samples": 85,
+      "stepSeconds": 21600,
+      "meanPositionKm": 0.7732148631313951,
+      "maxPositionKm": 1.2222099093393715,
+      "meanVelocityKmPerSec": 7.01987802970668e-05,
+      "maxVelocityKmPerSec": 0.00017346643910630868,
+      "maxRelativePosition": 2.801416165848806e-06,
+      "positionBudgetKm": 43.62828787236088,
+      "maxGlobalPositionKm": 0.00043439145401520955,
+      "passed": true
+    },
+    {
+      "id": "704",
+      "name": "Oberon",
+      "kernel": "ura184_merged",
+      "samples": 85,
+      "stepSeconds": 21600,
+      "meanPositionKm": 0.1883254878398119,
+      "maxPositionKm": 0.2902475608606627,
+      "meanVelocityKmPerSec": 1.4775843304354126e-05,
+      "maxVelocityKmPerSec": 4.081200498478712e-05,
+      "maxRelativePosition": 4.974675100719635e-07,
+      "positionBudgetKm": 58.34502856652399,
+      "maxGlobalPositionKm": 0.00030425034309013627,
+      "passed": true
+    },
+    {
+      "id": "801",
+      "name": "Triton",
+      "kernel": "nep098_merged",
+      "samples": 85,
+      "stepSeconds": 10800,
+      "meanPositionKm": 0.1865419761046187,
+      "maxPositionKm": 0.2950160463614275,
+      "meanVelocityKmPerSec": 3.0662635295905366e-05,
+      "maxVelocityKmPerSec": 8.406473647012283e-05,
+      "maxRelativePosition": 8.315948204548344e-07,
+      "positionBudgetKm": 35.47593600932612,
+      "maxGlobalPositionKm": 0.000399312929495345,
+      "passed": true
+    }
+  ],
+  "resonance": {
+    "intervalUtc": [
+      "2026-01-01",
+      "2027-01-01"
+    ],
+    "samples": 4380,
+    "meanAngularRatesRadPerDay": {
+      "501": 3.55155223271089,
+      "502": 1.7693196248429577,
+      "503": 0.8782084875988974,
+      "504": 0.3764846180228873
+    },
+    "ioEuropaRatio": 2.007298276039933,
+    "europaGanymedeRatio": 2.014692012007809,
+    "ioGanymedeRatio": 4.044087802454699,
+    "callistoIncluded": false,
+    "projectedTrueLongitudeCombination": {
+      "centerDegrees": -179.8971691291981,
+      "maxDeviationDegrees": 4.024697848327306
+    },
+    "limitation": "Projected true-longitude combination, not filtered osculating mean elements or a long-term stability proof"
+  },
+  "orbitalNormals": [
+    {
+      "id": "301",
+      "name": "Moon",
+      "samples": 512,
+      "inclinationToEclipticNorthDegrees": [
+        4.991136172898143,
+        5.304306443566712
+      ],
+      "angularMomentumDotParentSpin": [
+        0.8769514285251844,
+        0.9278955195035978
+      ]
+    },
+    {
+      "id": "401",
+      "name": "Phobos",
+      "samples": 501,
+      "inclinationToEclipticNorthDegrees": [
+        25.62488439105613,
+        27.79309138765131
+      ],
+      "angularMomentumDotParentSpin": [
+        0.9998174808754625,
+        0.9998275260740976
+      ]
+    },
+    {
+      "id": "402",
+      "name": "Deimos",
+      "samples": 504,
+      "inclinationToEclipticNorthDegrees": [
+        24.018271982465162,
+        24.38178409351454
+      ],
+      "angularMomentumDotParentSpin": [
+        0.9988875636760557,
+        0.9989879090615353
+      ]
+    },
+    {
+      "id": "705",
+      "name": "Miranda",
+      "samples": 504,
+      "inclinationToEclipticNorthDegrees": [
+        93.34429244585513,
+        101.55777092843505
+      ],
+      "angularMomentumDotParentSpin": [
+        0.997012512726591,
+        0.9970216633027849
+      ]
+    },
+    {
+      "id": "701",
+      "name": "Ariel",
+      "samples": 504,
+      "inclinationToEclipticNorthDegrees": [
+        97.7101399598576,
+        97.72960056768713
+      ],
+      "angularMomentumDotParentSpin": [
+        0.9999999420056799,
+        0.9999999653858155
+      ]
+    },
+    {
+      "id": "702",
+      "name": "Umbriel",
+      "samples": 512,
+      "inclinationToEclipticNorthDegrees": [
+        97.70428258316772,
+        97.73095356817727
+      ],
+      "angularMomentumDotParentSpin": [
+        0.999998997410227,
+        0.9999991405754013
+      ]
+    },
+    {
+      "id": "703",
+      "name": "Titania",
+      "samples": 512,
+      "inclinationToEclipticNorthDegrees": [
+        97.7572749369029,
+        97.76700160474785
+      ],
+      "angularMomentumDotParentSpin": [
+        0.9999996785997705,
+        0.9999998034481898
+      ]
+    },
+    {
+      "id": "704",
+      "name": "Oberon",
+      "samples": 512,
+      "inclinationToEclipticNorthDegrees": [
+        97.90525290839841,
+        97.90805692190685
+      ],
+      "angularMomentumDotParentSpin": [
+        0.9999941960904819,
+        0.9999943116303318
+      ]
+    },
+    {
+      "id": "801",
+      "name": "Triton",
+      "samples": 512,
+      "inclinationToEclipticNorthDegrees": [
+        129.02153203004042,
+        129.20671119404133
+      ],
+      "angularMomentumDotParentSpin": [
+        -0.9227646524202795,
+        -0.9227600997920278
+      ]
+    }
+  ],
+  "earthMoonBarycenter": [
+    {
+      "tdb": 788961669.1839337,
+      "earthToEmbKm": 4638.311591608821,
+      "fractionAlongEarthToMoon": 0.012150584996944847,
+      "perpendicularResidualKm": 0.0009952441947405815
+    },
+    {
+      "tdb": 838814469.1833303,
+      "earthToEmbKm": 4767.181396169143,
+      "fractionAlongEarthToMoon": 0.012150583029205119,
+      "perpendicularResidualKm": 0.0010541666185021217
+    },
+    {
+      "tdb": 946728069.1839337,
+      "earthToEmbKm": 4429.1566153613185,
+      "fractionAlongEarthToMoon": 0.012150582513515485,
+      "perpendicularResidualKm": 0.0007572970311167063
+    }
+  ],
+  "limitations": [
+    "Same-source JPL held-out cross-validation, not independent astrometric observations",
+    "Cache coverage only 2024–2031 UTC; inherited future-leap-second assumption",
+    "Orientation metadata only, no satellite surface or attitude rendering in 3A"
+  ]
+}

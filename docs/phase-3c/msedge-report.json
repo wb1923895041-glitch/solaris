@@ -1,0 +1,1512 @@
+{
+  "browser": "156.0.4314.58",
+  "foreground": {
+    "ActualForeground": 9309134,
+    "Pid": 41116,
+    "ExpectedWindow": 9309134,
+    "Activated": true
+  },
+  "viewport": {
+    "width": 2560,
+    "height": 1440
+  },
+  "checks": [
+    "Actual Windows foreground test window",
+    "Entry button hidden for the Sun",
+    "399 entry offered",
+    "399 main scene focuses first (smooth hand-over)",
+    "399 exploration no moon asset errors",
+    "399 exploration 301 truth equals node evaluation",
+    "399 exploration 301 display radius follows declared map",
+    "399 exploration rendered positions follow the declared map of the truth",
+    "399 breadcrumb",
+    "399 list sorted by real distance",
+    "399 same TDB as global clock",
+    "399 scientific no moon asset errors",
+    "399 scientific 301 truth equals node evaluation",
+    "399 scientific 301 display radius follows declared map",
+    "399 scientific rendered positions follow the declared map of the truth",
+    "399 scale switch leaves truth unchanged",
+    "399 scientific labels or locator rings for sub-pixel moons",
+    "399 orbit toggle hides tracks only",
+    "301 hover thumbnail or source note",
+    "301 selected, focused and followed",
+    "301 breadcrumb shows moon",
+    "301 camera outside every body",
+    "301 panel has five science cards",
+    "301 closeup no moon asset errors",
+    "301 closeup 301 truth equals node evaluation",
+    "301 closeup 301 display radius follows declared map",
+    "301 closeup rendered positions follow the declared map of the truth",
+    "301 closeup uses linear truth scale",
+    "399 follow keeps a constant camera/target offset from the moving moon",
+    "399 follow off freezes camera target (≤1e-12 relative; only float round-off)",
+    "399 pause: every moon on the global TDB",
+    "399 paused state stays fixed",
+    "399 return to planet",
+    "499 entry offered",
+    "499 main scene focuses first (smooth hand-over)",
+    "499 exploration no moon asset errors",
+    "499 exploration 401 truth equals node evaluation",
+    "499 exploration 401 display radius follows declared map",
+    "499 exploration 402 truth equals node evaluation",
+    "499 exploration 402 display radius follows declared map",
+    "499 exploration rendered positions follow the declared map of the truth",
+    "499 breadcrumb",
+    "499 list sorted by real distance",
+    "499 same TDB as global clock",
+    "499 scientific no moon asset errors",
+    "499 scientific 401 truth equals node evaluation",
+    "499 scientific 401 display radius follows declared map",
+    "499 scientific 402 truth equals node evaluation",
+    "499 scientific 402 display radius follows declared map",
+    "499 scientific rendered positions follow the declared map of the truth",
+    "499 scale switch leaves truth unchanged",
+    "499 scientific labels or locator rings for sub-pixel moons",
+    "499 orbit toggle hides tracks only",
+    "401 hover thumbnail or source note",
+    "401 selected, focused and followed",
+    "401 breadcrumb shows moon",
+    "401 camera outside every body",
+    "401 panel has five science cards",
+    "401 closeup no moon asset errors",
+    "401 closeup 401 truth equals node evaluation",
+    "401 closeup 401 display radius follows declared map",
+    "401 closeup 402 truth equals node evaluation",
+    "401 closeup 402 display radius follows declared map",
+    "401 closeup rendered positions follow the declared map of the truth",
+    "401 closeup uses linear truth scale",
+    "402 hover thumbnail or source note",
+    "402 selected, focused and followed",
+    "402 breadcrumb shows moon",
+    "402 camera outside every body",
+    "402 panel has five science cards",
+    "499 follow keeps a constant camera/target offset from the moving moon",
+    "499 follow off freezes camera target (≤1e-12 relative; only float round-off)",
+    "499 pause: every moon on the global TDB",
+    "499 paused state stays fixed",
+    "499 return to planet",
+    "599 entry offered",
+    "599 main scene focuses first (smooth hand-over)",
+    "599 exploration no moon asset errors",
+    "599 exploration 501 truth equals node evaluation",
+    "599 exploration 501 display radius follows declared map",
+    "599 exploration 502 truth equals node evaluation",
+    "599 exploration 502 display radius follows declared map",
+    "599 exploration 503 truth equals node evaluation",
+    "599 exploration 503 display radius follows declared map",
+    "599 exploration 504 truth equals node evaluation",
+    "599 exploration 504 display radius follows declared map",
+    "599 exploration rendered positions follow the declared map of the truth",
+    "599 breadcrumb",
+    "599 list sorted by real distance",
+    "599 same TDB as global clock",
+    "599 scientific no moon asset errors",
+    "599 scientific 501 truth equals node evaluation",
+    "599 scientific 501 display radius follows declared map",
+    "599 scientific 502 truth equals node evaluation",
+    "599 scientific 502 display radius follows declared map",
+    "599 scientific 503 truth equals node evaluation",
+    "599 scientific 503 display radius follows declared map",
+    "599 scientific 504 truth equals node evaluation",
+    "599 scientific 504 display radius follows declared map",
+    "599 scientific rendered positions follow the declared map of the truth",
+    "599 scale switch leaves truth unchanged",
+    "599 scientific labels or locator rings for sub-pixel moons",
+    "599 orbit toggle hides tracks only",
+    "501 hover thumbnail or source note",
+    "501 selected, focused and followed",
+    "501 breadcrumb shows moon",
+    "501 camera outside every body",
+    "501 panel has five science cards",
+    "501 closeup no moon asset errors",
+    "501 closeup 501 truth equals node evaluation",
+    "501 closeup 501 display radius follows declared map",
+    "501 closeup 502 truth equals node evaluation",
+    "501 closeup 502 display radius follows declared map",
+    "501 closeup 503 truth equals node evaluation",
+    "501 closeup 503 display radius follows declared map",
+    "501 closeup 504 truth equals node evaluation",
+    "501 closeup 504 display radius follows declared map",
+    "501 closeup rendered positions follow the declared map of the truth",
+    "501 closeup uses linear truth scale",
+    "502 hover thumbnail or source note",
+    "502 selected, focused and followed",
+    "502 breadcrumb shows moon",
+    "502 camera outside every body",
+    "502 panel has five science cards",
+    "502 closeup no moon asset errors",
+    "502 closeup 501 truth equals node evaluation",
+    "502 closeup 501 display radius follows declared map",
+    "502 closeup 502 truth equals node evaluation",
+    "502 closeup 502 display radius follows declared map",
+    "502 closeup 503 truth equals node evaluation",
+    "502 closeup 503 display radius follows declared map",
+    "502 closeup 504 truth equals node evaluation",
+    "502 closeup 504 display radius follows declared map",
+    "502 closeup rendered positions follow the declared map of the truth",
+    "502 closeup uses linear truth scale",
+    "503 hover thumbnail or source note",
+    "503 selected, focused and followed",
+    "503 breadcrumb shows moon",
+    "503 camera outside every body",
+    "503 panel has five science cards",
+    "503 closeup no moon asset errors",
+    "503 closeup 501 truth equals node evaluation",
+    "503 closeup 501 display radius follows declared map",
+    "503 closeup 502 truth equals node evaluation",
+    "503 closeup 502 display radius follows declared map",
+    "503 closeup 503 truth equals node evaluation",
+    "503 closeup 503 display radius follows declared map",
+    "503 closeup 504 truth equals node evaluation",
+    "503 closeup 504 display radius follows declared map",
+    "503 closeup rendered positions follow the declared map of the truth",
+    "503 closeup uses linear truth scale",
+    "504 hover thumbnail or source note",
+    "504 selected, focused and followed",
+    "504 breadcrumb shows moon",
+    "504 camera outside every body",
+    "504 panel has five science cards",
+    "599 follow keeps a constant camera/target offset from the moving moon",
+    "599 follow off freezes camera target (≤1e-12 relative; only float round-off)",
+    "599 pause: every moon on the global TDB",
+    "599 paused state stays fixed",
+    "599 return to planet",
+    "699 entry offered",
+    "699 main scene focuses first (smooth hand-over)",
+    "699 exploration no moon asset errors",
+    "699 exploration 601 truth equals node evaluation",
+    "699 exploration 601 display radius follows declared map",
+    "699 exploration 602 truth equals node evaluation",
+    "699 exploration 602 display radius follows declared map",
+    "699 exploration 605 truth equals node evaluation",
+    "699 exploration 605 display radius follows declared map",
+    "699 exploration 606 truth equals node evaluation",
+    "699 exploration 606 display radius follows declared map",
+    "699 exploration 608 truth equals node evaluation",
+    "699 exploration 608 display radius follows declared map",
+    "699 exploration rendered positions follow the declared map of the truth",
+    "699 breadcrumb",
+    "699 list sorted by real distance",
+    "699 same TDB as global clock",
+    "699 scientific no moon asset errors",
+    "699 scientific 601 truth equals node evaluation",
+    "699 scientific 601 display radius follows declared map",
+    "699 scientific 602 truth equals node evaluation",
+    "699 scientific 602 display radius follows declared map",
+    "699 scientific 605 truth equals node evaluation",
+    "699 scientific 605 display radius follows declared map",
+    "699 scientific 606 truth equals node evaluation",
+    "699 scientific 606 display radius follows declared map",
+    "699 scientific 608 truth equals node evaluation",
+    "699 scientific 608 display radius follows declared map",
+    "699 scientific rendered positions follow the declared map of the truth",
+    "699 scale switch leaves truth unchanged",
+    "699 scientific labels or locator rings for sub-pixel moons",
+    "699 orbit toggle hides tracks only",
+    "601 hover thumbnail or source note",
+    "601 selected, focused and followed",
+    "601 breadcrumb shows moon",
+    "601 camera outside every body",
+    "601 panel has five science cards",
+    "602 hover thumbnail or source note",
+    "602 selected, focused and followed",
+    "602 breadcrumb shows moon",
+    "602 camera outside every body",
+    "602 panel has five science cards",
+    "602 closeup no moon asset errors",
+    "602 closeup 601 truth equals node evaluation",
+    "602 closeup 601 display radius follows declared map",
+    "602 closeup 602 truth equals node evaluation",
+    "602 closeup 602 display radius follows declared map",
+    "602 closeup 605 truth equals node evaluation",
+    "602 closeup 605 display radius follows declared map",
+    "602 closeup 606 truth equals node evaluation",
+    "602 closeup 606 display radius follows declared map",
+    "602 closeup 608 truth equals node evaluation",
+    "602 closeup 608 display radius follows declared map",
+    "602 closeup rendered positions follow the declared map of the truth",
+    "602 closeup uses linear truth scale",
+    "605 hover thumbnail or source note",
+    "605 selected, focused and followed",
+    "605 breadcrumb shows moon",
+    "605 camera outside every body",
+    "605 panel has five science cards",
+    "606 hover thumbnail or source note",
+    "606 selected, focused and followed",
+    "606 breadcrumb shows moon",
+    "606 camera outside every body",
+    "606 panel has five science cards",
+    "606 closeup no moon asset errors",
+    "606 closeup 601 truth equals node evaluation",
+    "606 closeup 601 display radius follows declared map",
+    "606 closeup 602 truth equals node evaluation",
+    "606 closeup 602 display radius follows declared map",
+    "606 closeup 605 truth equals node evaluation",
+    "606 closeup 605 display radius follows declared map",
+    "606 closeup 606 truth equals node evaluation",
+    "606 closeup 606 display radius follows declared map",
+    "606 closeup 608 truth equals node evaluation",
+    "606 closeup 608 display radius follows declared map",
+    "606 closeup rendered positions follow the declared map of the truth",
+    "606 closeup uses linear truth scale",
+    "608 hover thumbnail or source note",
+    "608 selected, focused and followed",
+    "608 breadcrumb shows moon",
+    "608 camera outside every body",
+    "608 panel has five science cards",
+    "699 follow keeps a constant camera/target offset from the moving moon",
+    "699 follow off freezes camera target (≤1e-12 relative; only float round-off)",
+    "699 pause: every moon on the global TDB",
+    "699 paused state stays fixed",
+    "699 return to planet",
+    "799 entry offered",
+    "799 main scene focuses first (smooth hand-over)",
+    "799 exploration no moon asset errors",
+    "799 exploration 705 truth equals node evaluation",
+    "799 exploration 705 display radius follows declared map",
+    "799 exploration 701 truth equals node evaluation",
+    "799 exploration 701 display radius follows declared map",
+    "799 exploration 702 truth equals node evaluation",
+    "799 exploration 702 display radius follows declared map",
+    "799 exploration 703 truth equals node evaluation",
+    "799 exploration 703 display radius follows declared map",
+    "799 exploration 704 truth equals node evaluation",
+    "799 exploration 704 display radius follows declared map",
+    "799 exploration rendered positions follow the declared map of the truth",
+    "799 breadcrumb",
+    "799 list sorted by real distance",
+    "799 same TDB as global clock",
+    "799 scientific no moon asset errors",
+    "799 scientific 705 truth equals node evaluation",
+    "799 scientific 705 display radius follows declared map",
+    "799 scientific 701 truth equals node evaluation",
+    "799 scientific 701 display radius follows declared map",
+    "799 scientific 702 truth equals node evaluation",
+    "799 scientific 702 display radius follows declared map",
+    "799 scientific 703 truth equals node evaluation",
+    "799 scientific 703 display radius follows declared map",
+    "799 scientific 704 truth equals node evaluation",
+    "799 scientific 704 display radius follows declared map",
+    "799 scientific rendered positions follow the declared map of the truth",
+    "799 scale switch leaves truth unchanged",
+    "799 scientific labels or locator rings for sub-pixel moons",
+    "799 orbit toggle hides tracks only",
+    "705 hover thumbnail or source note",
+    "705 selected, focused and followed",
+    "705 breadcrumb shows moon",
+    "705 camera outside every body",
+    "705 panel has five science cards",
+    "701 hover thumbnail or source note",
+    "701 selected, focused and followed",
+    "701 breadcrumb shows moon",
+    "701 camera outside every body",
+    "701 panel has five science cards",
+    "702 hover thumbnail or source note",
+    "702 selected, focused and followed",
+    "702 breadcrumb shows moon",
+    "702 camera outside every body",
+    "702 panel has five science cards",
+    "703 hover thumbnail or source note",
+    "703 selected, focused and followed",
+    "703 breadcrumb shows moon",
+    "703 camera outside every body",
+    "703 panel has five science cards",
+    "704 hover thumbnail or source note",
+    "704 selected, focused and followed",
+    "704 breadcrumb shows moon",
+    "704 camera outside every body",
+    "704 panel has five science cards",
+    "799 follow keeps a constant camera/target offset from the moving moon",
+    "799 follow off freezes camera target (≤1e-12 relative; only float round-off)",
+    "799 pause: every moon on the global TDB",
+    "799 paused state stays fixed",
+    "799 return to planet",
+    "899 entry offered",
+    "899 main scene focuses first (smooth hand-over)",
+    "899 exploration no moon asset errors",
+    "899 exploration 801 truth equals node evaluation",
+    "899 exploration 801 display radius follows declared map",
+    "899 exploration rendered positions follow the declared map of the truth",
+    "899 breadcrumb",
+    "899 list sorted by real distance",
+    "899 same TDB as global clock",
+    "899 scientific no moon asset errors",
+    "899 scientific 801 truth equals node evaluation",
+    "899 scientific 801 display radius follows declared map",
+    "899 scientific rendered positions follow the declared map of the truth",
+    "899 scale switch leaves truth unchanged",
+    "899 scientific labels or locator rings for sub-pixel moons",
+    "899 orbit toggle hides tracks only",
+    "801 hover thumbnail or source note",
+    "801 selected, focused and followed",
+    "801 breadcrumb shows moon",
+    "801 camera outside every body",
+    "801 panel has five science cards",
+    "801 closeup no moon asset errors",
+    "801 closeup 801 truth equals node evaluation",
+    "801 closeup 801 display radius follows declared map",
+    "801 closeup rendered positions follow the declared map of the truth",
+    "801 closeup uses linear truth scale",
+    "899 follow keeps a constant camera/target offset from the moving moon",
+    "899 follow off freezes camera target (≤1e-12 relative; only float round-off)",
+    "899 pause: every moon on the global TDB",
+    "899 paused state stays fixed",
+    "899 return to planet",
+    "Local search jumps across systems",
+    "Real mouse drag orbits the camera",
+    "Drag leaves moon truth unchanged",
+    "jump 2024-01-01T00:00 no moon asset errors",
+    "jump 2024-01-01T00:00 801 truth equals node evaluation",
+    "jump 2024-01-01T00:00 801 display radius follows declared map",
+    "jump 2024-01-01T00:00 rendered positions follow the declared map of the truth",
+    "Jump 2024-01-01T00:00 shared TDB",
+    "jump 2027-03-15T06:30 no moon asset errors",
+    "jump 2027-03-15T06:30 801 truth equals node evaluation",
+    "jump 2027-03-15T06:30 801 display radius follows declared map",
+    "jump 2027-03-15T06:30 rendered positions follow the declared map of the truth",
+    "Jump 2027-03-15T06:30 shared TDB",
+    "jump 2031-01-01T00:00 no moon asset errors",
+    "jump 2031-01-01T00:00 801 truth equals node evaluation",
+    "jump 2031-01-01T00:00 801 display radius follows declared map",
+    "jump 2031-01-01T00:00 rendered positions follow the declared map of the truth",
+    "Jump 2031-01-01T00:00 shared TDB",
+    "Esc returns from moon to planet",
+    "Esc again leaves the local system",
+    "Main catalog search reaches moons",
+    "Planet breadcrumb returns to system",
+    "Solar-system breadcrumb returns to overview",
+    "Main-scene physical states untouched by local exploration",
+    "3A data layer retained",
+    "3B asset bench retained",
+    "Layout 1920×1080 no overflow and stage dominant",
+    "Layout 3840×2160 no overflow and stage dominant",
+    "Layout 2560×1440 no overflow and stage dominant",
+    "No transition cancelled except by deliberate user input",
+    "Camera never inside a body in any transition",
+    "Measurable transitions animated (≥ 20 frames) with no flip (< 12°/frame)",
+    "Steady-state pacing (rAF P95 < 25 ms) in every system without hidden samples",
+    "No console or runtime errors"
+  ],
+  "errors": [],
+  "shots": [
+    {
+      "path": "output/playwright/phase-3c/msedge-overview-2560.png",
+      "caption": "进入局部系统前的太阳系总览"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-system-399-exploration-2560.png",
+      "caption": "399 局部系统 · 探索比例"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-system-399-scientific-2560.png",
+      "caption": "399 局部系统 · 科学比例（同一线性映射）"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-301-2560.png",
+      "caption": "月球 · 局部系统聚焦"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-301-closeup-2560.png",
+      "caption": "月球 · 近景（科学线性比例）"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-system-499-exploration-2560.png",
+      "caption": "499 局部系统 · 探索比例"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-system-499-scientific-2560.png",
+      "caption": "499 局部系统 · 科学比例（同一线性映射）"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-401-2560.png",
+      "caption": "火卫一 · 局部系统聚焦"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-401-closeup-2560.png",
+      "caption": "火卫一 · 近景（科学线性比例）"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-402-2560.png",
+      "caption": "火卫二 · 局部系统聚焦"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-system-599-exploration-2560.png",
+      "caption": "599 局部系统 · 探索比例"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-system-599-scientific-2560.png",
+      "caption": "599 局部系统 · 科学比例（同一线性映射）"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-501-2560.png",
+      "caption": "木卫一 · 局部系统聚焦"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-501-closeup-2560.png",
+      "caption": "木卫一 · 近景（科学线性比例）"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-502-2560.png",
+      "caption": "木卫二 · 局部系统聚焦"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-502-closeup-2560.png",
+      "caption": "木卫二 · 近景（科学线性比例）"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-503-2560.png",
+      "caption": "木卫三 · 局部系统聚焦"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-503-closeup-2560.png",
+      "caption": "木卫三 · 近景（科学线性比例）"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-504-2560.png",
+      "caption": "木卫四 · 局部系统聚焦"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-system-699-exploration-2560.png",
+      "caption": "699 局部系统 · 探索比例"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-system-699-scientific-2560.png",
+      "caption": "699 局部系统 · 科学比例（同一线性映射）"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-601-2560.png",
+      "caption": "土卫一 · 局部系统聚焦"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-602-2560.png",
+      "caption": "土卫二 · 局部系统聚焦"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-602-closeup-2560.png",
+      "caption": "土卫二 · 近景（科学线性比例）"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-605-2560.png",
+      "caption": "土卫五 · 局部系统聚焦"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-606-2560.png",
+      "caption": "土卫六 · 局部系统聚焦"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-606-closeup-2560.png",
+      "caption": "土卫六 · 近景（科学线性比例）"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-608-2560.png",
+      "caption": "土卫八 · 局部系统聚焦"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-system-799-exploration-2560.png",
+      "caption": "799 局部系统 · 探索比例"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-system-799-scientific-2560.png",
+      "caption": "799 局部系统 · 科学比例（同一线性映射）"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-705-2560.png",
+      "caption": "天卫五 · 局部系统聚焦"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-701-2560.png",
+      "caption": "天卫一 · 局部系统聚焦"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-702-2560.png",
+      "caption": "天卫二 · 局部系统聚焦"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-703-2560.png",
+      "caption": "天卫三 · 局部系统聚焦"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-704-2560.png",
+      "caption": "天卫四 · 局部系统聚焦"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-system-899-exploration-2560.png",
+      "caption": "899 局部系统 · 探索比例"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-system-899-scientific-2560.png",
+      "caption": "899 局部系统 · 科学比例（同一线性映射）"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-801-2560.png",
+      "caption": "海卫一 · 局部系统聚焦"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-moon-801-closeup-2560.png",
+      "caption": "海卫一 · 近景（科学线性比例）"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-layout-1920-2560.png",
+      "caption": "1920×1080 局部系统布局"
+    },
+    {
+      "path": "output/playwright/phase-3c/msedge-layout-3840-2560.png",
+      "caption": "3840×2160 局部系统布局"
+    }
+  ],
+  "performance": [
+    {
+      "planet": "399",
+      "rafP50Ms": 16.69999999999709,
+      "rafP95Ms": 16.900000000001455,
+      "rafMaxMs": 17,
+      "hiddenSamples": 0,
+      "rejectedAttempts": [],
+      "memory": {
+        "used": 99293947,
+        "total": 123223419
+      },
+      "render": {
+        "gpuTimerAvailable": true,
+        "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "gpuVendor": "Google Inc. (NVIDIA)",
+        "cpuRender": {
+          "samples": 181,
+          "p50Ms": 0.09999999962747097,
+          "p95Ms": 0.20000000018626451
+        },
+        "gpuRender": {
+          "samples": 45,
+          "p50Ms": 0.20656,
+          "p95Ms": 0.228768
+        },
+        "gpuMemoryObjectCounts": {
+          "geometries": 5,
+          "textures": 10
+        },
+        "drawCalls": 2,
+        "triangles": 261120
+      },
+      "gpuMemory": {
+        "geometries": 5,
+        "textures": 10
+      },
+      "resources": {
+        "models": 1,
+        "textureRequests": 4,
+        "texturesCreated": 4,
+        "texturesDisposed": 0,
+        "geometryCount": 5,
+        "textureCount": 10
+      }
+    },
+    {
+      "planet": "499",
+      "rafP50Ms": 16.69999999999709,
+      "rafP95Ms": 16.80000000000291,
+      "rafMaxMs": 17.099999999998545,
+      "hiddenSamples": 0,
+      "rejectedAttempts": [],
+      "memory": {
+        "used": 116803602,
+        "total": 184286610
+      },
+      "render": {
+        "gpuTimerAvailable": true,
+        "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "gpuVendor": "Google Inc. (NVIDIA)",
+        "cpuRender": {
+          "samples": 181,
+          "p50Ms": 0.09999999962747097,
+          "p95Ms": 0.20000000018626451
+        },
+        "gpuRender": {
+          "samples": 45,
+          "p50Ms": 0.139968,
+          "p95Ms": 0.164416
+        },
+        "gpuMemoryObjectCounts": {
+          "geometries": 10,
+          "textures": 13
+        },
+        "drawCalls": 3,
+        "triangles": 196608
+      },
+      "gpuMemory": {
+        "geometries": 10,
+        "textures": 13
+      },
+      "resources": {
+        "models": 3,
+        "textureRequests": 4,
+        "texturesCreated": 4,
+        "texturesDisposed": 0,
+        "geometryCount": 10,
+        "textureCount": 13
+      }
+    },
+    {
+      "planet": "599",
+      "rafP50Ms": 16.69999999999709,
+      "rafP95Ms": 16.80000000000291,
+      "rafMaxMs": 16.89999999999418,
+      "hiddenSamples": 0,
+      "rejectedAttempts": [],
+      "memory": {
+        "used": 139530069,
+        "total": 193359997
+      },
+      "render": {
+        "gpuTimerAvailable": true,
+        "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "gpuVendor": "Google Inc. (NVIDIA)",
+        "cpuRender": {
+          "samples": 181,
+          "p50Ms": 0.09999999962747097,
+          "p95Ms": 0.20000000018626451
+        },
+        "gpuRender": {
+          "samples": 45,
+          "p50Ms": 0.122528,
+          "p95Ms": 0.148
+        },
+        "gpuMemoryObjectCounts": {
+          "geometries": 19,
+          "textures": 26
+        },
+        "drawCalls": 5,
+        "triangles": 48768
+      },
+      "gpuMemory": {
+        "geometries": 19,
+        "textures": 26
+      },
+      "resources": {
+        "models": 7,
+        "textureRequests": 15,
+        "texturesCreated": 15,
+        "texturesDisposed": 0,
+        "geometryCount": 19,
+        "textureCount": 26
+      }
+    },
+    {
+      "planet": "699",
+      "rafP50Ms": 16.69999999999709,
+      "rafP95Ms": 16.80000000000291,
+      "rafMaxMs": 16.90000000000873,
+      "hiddenSamples": 0,
+      "rejectedAttempts": [],
+      "memory": {
+        "used": 142286083,
+        "total": 187564115
+      },
+      "render": {
+        "gpuTimerAvailable": true,
+        "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "gpuVendor": "Google Inc. (NVIDIA)",
+        "cpuRender": {
+          "samples": 241,
+          "p50Ms": 0.10000000055879354,
+          "p95Ms": 0.20000000018626451
+        },
+        "gpuRender": {
+          "samples": 60,
+          "p50Ms": 0.123616,
+          "p95Ms": 0.154176
+        },
+        "gpuMemoryObjectCounts": {
+          "geometries": 24,
+          "textures": 28
+        },
+        "drawCalls": 6,
+        "triangles": 48768
+      },
+      "gpuMemory": {
+        "geometries": 24,
+        "textures": 28
+      },
+      "resources": {
+        "models": 7,
+        "textureRequests": 15,
+        "texturesCreated": 25,
+        "texturesDisposed": 10,
+        "geometryCount": 24,
+        "textureCount": 28
+      }
+    },
+    {
+      "planet": "799",
+      "rafP50Ms": 16.699999999982538,
+      "rafP95Ms": 16.800000000017462,
+      "rafMaxMs": 17,
+      "hiddenSamples": 0,
+      "rejectedAttempts": [],
+      "memory": {
+        "used": 147956583,
+        "total": 200203887
+      },
+      "render": {
+        "gpuTimerAvailable": true,
+        "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "gpuVendor": "Google Inc. (NVIDIA)",
+        "cpuRender": {
+          "samples": 181,
+          "p50Ms": 0.10000000055879354,
+          "p95Ms": 0.20000000018626451
+        },
+        "gpuRender": {
+          "samples": 45,
+          "p50Ms": 0.1232,
+          "p95Ms": 0.149216
+        },
+        "gpuMemoryObjectCounts": {
+          "geometries": 27,
+          "textures": 26
+        },
+        "drawCalls": 6,
+        "triangles": 48768
+      },
+      "gpuMemory": {
+        "geometries": 27,
+        "textures": 26
+      },
+      "resources": {
+        "models": 7,
+        "textureRequests": 12,
+        "texturesCreated": 35,
+        "texturesDisposed": 23,
+        "geometryCount": 27,
+        "textureCount": 26
+      }
+    },
+    {
+      "planet": "899",
+      "rafP50Ms": 16.699999999982538,
+      "rafP95Ms": 16.800000000017462,
+      "rafMaxMs": 19.800000000017462,
+      "hiddenSamples": 0,
+      "rejectedAttempts": [],
+      "memory": {
+        "used": 146057017,
+        "total": 195377417
+      },
+      "render": {
+        "gpuTimerAvailable": true,
+        "gpuRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "gpuVendor": "Google Inc. (NVIDIA)",
+        "cpuRender": {
+          "samples": 181,
+          "p50Ms": 0.10000000055879354,
+          "p95Ms": 0.20000000018626451
+        },
+        "gpuRender": {
+          "samples": 45,
+          "p50Ms": 0.11552,
+          "p95Ms": 0.1288
+        },
+        "gpuMemoryObjectCounts": {
+          "geometries": 25,
+          "textures": 31
+        },
+        "drawCalls": 2,
+        "triangles": 48768
+      },
+      "gpuMemory": {
+        "geometries": 25,
+        "textures": 31
+      },
+      "resources": {
+        "models": 7,
+        "textureRequests": 15,
+        "texturesCreated": 38,
+        "texturesDisposed": 23,
+        "geometryCount": 25,
+        "textureCount": 31
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "planet": "399",
+      "to": "planet",
+      "minClearance": 3.6126582961410802,
+      "maxStepDegrees": 5.950899140965299,
+      "durationMs": 1500,
+      "frames": 53,
+      "maxFrameMs": 192.40000000037253,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "399",
+      "to": "planet",
+      "minClearance": 31.672291232498047,
+      "maxStepDegrees": 0.0000017075472925031877,
+      "durationMs": 1100,
+      "frames": 66,
+      "maxFrameMs": 17.600000000558794,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "399",
+      "to": "planet",
+      "minClearance": 31.650418496982702,
+      "maxStepDegrees": 0.0000017075472925031877,
+      "durationMs": 1100,
+      "frames": 66,
+      "maxFrameMs": 17,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "399",
+      "to": "301",
+      "minClearance": 1.4992891279561684,
+      "maxStepDegrees": 0.98663829932927,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 18.90000000037253,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "399",
+      "to": "301",
+      "minClearance": 0.4089125385994582,
+      "maxStepDegrees": 0.26609716888864154,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 21.59999999962747,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "399",
+      "to": "301",
+      "minClearance": 1.1027623077264486,
+      "maxStepDegrees": 0.08857338326386331,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.200000000186265,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "399",
+      "to": "planet",
+      "minClearance": 1.4539535157683416,
+      "maxStepDegrees": 0.34761150756308773,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.100000000558794,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "499",
+      "to": "planet",
+      "minClearance": 3.600032568129251,
+      "maxStepDegrees": 0.06844869869790869,
+      "durationMs": 1500,
+      "frames": 80,
+      "maxFrameMs": 89.20000000018626,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "499",
+      "to": "planet",
+      "minClearance": 14.809191781475736,
+      "maxStepDegrees": 0.0000017075472925031877,
+      "durationMs": 1100,
+      "frames": 66,
+      "maxFrameMs": 17.199999999254942,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "499",
+      "to": "planet",
+      "minClearance": 15.04702286497376,
+      "maxStepDegrees": 0.0000017075472925031877,
+      "durationMs": 1100,
+      "frames": 66,
+      "maxFrameMs": 17.100000000558794,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "499",
+      "to": "401",
+      "minClearance": 0.4694508142065681,
+      "maxStepDegrees": 0.29828568979432923,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.399999999441206,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "499",
+      "to": "401",
+      "minClearance": 0.00397924622450017,
+      "maxStepDegrees": 0.09802916041581183,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.200000000186265,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "499",
+      "to": "401",
+      "minClearance": 0.0469132638501569,
+      "maxStepDegrees": 0.03284691390126399,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "499",
+      "to": "402",
+      "minClearance": 0.10609871535997957,
+      "maxStepDegrees": 0.011015010920787405,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "499",
+      "to": "planet",
+      "minClearance": 0.2532419905125711,
+      "maxStepDegrees": 0.43565446560550414,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.5,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "599",
+      "to": "planet",
+      "minClearance": 3.600013191437947,
+      "maxStepDegrees": 0.08739701855371243,
+      "durationMs": 1500,
+      "frames": 84,
+      "maxFrameMs": 76.40000000037253,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "599",
+      "to": "planet",
+      "minClearance": 24.734437800575368,
+      "maxStepDegrees": 0,
+      "durationMs": 1100,
+      "frames": 66,
+      "maxFrameMs": 17.200000000186265,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "599",
+      "to": "planet",
+      "minClearance": 24.880186750633158,
+      "maxStepDegrees": 0,
+      "durationMs": 1100,
+      "frames": 66,
+      "maxFrameMs": 17,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "599",
+      "to": "501",
+      "minClearance": 0.49467045611495253,
+      "maxStepDegrees": 0.37541056696377134,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.5,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "599",
+      "to": "501",
+      "minClearance": 0.038969244913560123,
+      "maxStepDegrees": 0.12219446988202592,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 32.09999999962747,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "599",
+      "to": "501",
+      "minClearance": 0.359484689636396,
+      "maxStepDegrees": 0.041279375519930425,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.700000000186265,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "599",
+      "to": "502",
+      "minClearance": 0.4953399344356011,
+      "maxStepDegrees": 0.013911128847047174,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.09999999962747,
+      "aroundPlanet": true
+    },
+    {
+      "planet": "599",
+      "to": "502",
+      "minClearance": 0.0334966084423729,
+      "maxStepDegrees": 0.004704772181571216,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 38.90000000037253,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "599",
+      "to": "502",
+      "minClearance": 0.40316821117134954,
+      "maxStepDegrees": 0.0015688113401116756,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.09999999962747,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "599",
+      "to": "503",
+      "minClearance": 0.49540898386544335,
+      "maxStepDegrees": 0.0005311817083274668,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.100000000558794,
+      "aroundPlanet": true
+    },
+    {
+      "planet": "599",
+      "to": "503",
+      "minClearance": 0.05138557947816008,
+      "maxStepDegrees": 0.00017838762174114957,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 34.40000000037253,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "599",
+      "to": "503",
+      "minClearance": 0.4950519645271713,
+      "maxStepDegrees": 0.00006012894492345132,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "599",
+      "to": "504",
+      "minClearance": 0.14416353596483295,
+      "maxStepDegrees": 0.000020276000680978274,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.199999999254942,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "599",
+      "to": "planet",
+      "minClearance": 0.520854233309433,
+      "maxStepDegrees": 0.5307946209450745,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.100000000558794,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "699",
+      "to": "planet",
+      "minClearance": 3.6000533007346522,
+      "maxStepDegrees": 0.6351616049370599,
+      "durationMs": 1500,
+      "frames": 82,
+      "maxFrameMs": 91.5,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "699",
+      "to": "planet",
+      "minClearance": 31.921234014300488,
+      "maxStepDegrees": 0,
+      "durationMs": 1100,
+      "frames": 66,
+      "maxFrameMs": 17,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "699",
+      "to": "planet",
+      "minClearance": 31.70774115202275,
+      "maxStepDegrees": 0,
+      "durationMs": 1100,
+      "frames": 66,
+      "maxFrameMs": 17.299999999813735,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "699",
+      "to": "601",
+      "minClearance": 0.4907322174620503,
+      "maxStepDegrees": 0.6162681792673244,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.09999999962747,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "699",
+      "to": "602",
+      "minClearance": 0.22444700158761233,
+      "maxStepDegrees": 0.1944492060341893,
+      "durationMs": 1500,
+      "frames": 89,
+      "maxFrameMs": 48.59999999962747,
+      "aroundPlanet": true
+    },
+    {
+      "planet": "699",
+      "to": "602",
+      "minClearance": 0.0064178153289922175,
+      "maxStepDegrees": 0.06523424900146187,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.200000000186265,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "699",
+      "to": "602",
+      "minClearance": 0.013929316343965242,
+      "maxStepDegrees": 0.022883806550117704,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.59999999962747,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "699",
+      "to": "605",
+      "minClearance": 0.16829750494158466,
+      "maxStepDegrees": 0.007397605699943429,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 43.59999999962747,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "699",
+      "to": "606",
+      "minClearance": 0.4779879162133499,
+      "maxStepDegrees": 0.0024943309403260266,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17,
+      "aroundPlanet": true
+    },
+    {
+      "planet": "699",
+      "to": "606",
+      "minClearance": 0.057845826233214444,
+      "maxStepDegrees": 0.000839300748846522,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "699",
+      "to": "606",
+      "minClearance": 0.3902040502126562,
+      "maxStepDegrees": 0.00028275766407122815,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.100000000558794,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "699",
+      "to": "608",
+      "minClearance": 0.46278829330524407,
+      "maxStepDegrees": 0.00009521011765471218,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.199999999254942,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "699",
+      "to": "planet",
+      "minClearance": 0.45513150453155937,
+      "maxStepDegrees": 0.41042503852067447,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.09999999962747,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "799",
+      "to": "planet",
+      "minClearance": 3.6001159646770136,
+      "maxStepDegrees": 0.8897031250686256,
+      "durationMs": 1500,
+      "frames": 86,
+      "maxFrameMs": 58.90000000037253,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "799",
+      "to": "planet",
+      "minClearance": 14.766830379234804,
+      "maxStepDegrees": 0.0000024148365394514667,
+      "durationMs": 1100,
+      "frames": 66,
+      "maxFrameMs": 17.799999999813735,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "799",
+      "to": "planet",
+      "minClearance": 20.212432965674356,
+      "maxStepDegrees": 0,
+      "durationMs": 1100,
+      "frames": 66,
+      "maxFrameMs": 17.59999999962747,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "799",
+      "to": "705",
+      "minClearance": 0.4933219548094348,
+      "maxStepDegrees": 0.9209861186721996,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.100000000558794,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "799",
+      "to": "701",
+      "minClearance": 0.4951184389034802,
+      "maxStepDegrees": 0.2666844349839852,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.40000000037253,
+      "aroundPlanet": true
+    },
+    {
+      "planet": "799",
+      "to": "702",
+      "minClearance": 0.4671166309091424,
+      "maxStepDegrees": 0.08857913730999771,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.40000000037253,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "799",
+      "to": "703",
+      "minClearance": 0.46131994833607326,
+      "maxStepDegrees": 0.0300072825139334,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "799",
+      "to": "704",
+      "minClearance": 0.4957675755959183,
+      "maxStepDegrees": 0.01010270121442937,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.09999999962747,
+      "aroundPlanet": true
+    },
+    {
+      "planet": "799",
+      "to": "planet",
+      "minClearance": 0.9784679491897903,
+      "maxStepDegrees": 0.6055572020937646,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.100000000558794,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "899",
+      "to": "planet",
+      "minClearance": 3.6000015639197125,
+      "maxStepDegrees": 0.34190591562902706,
+      "durationMs": 1500,
+      "frames": 87,
+      "maxFrameMs": 85.3999999994412,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "899",
+      "to": "planet",
+      "minClearance": 21.653418974591947,
+      "maxStepDegrees": 0,
+      "durationMs": 1100,
+      "frames": 66,
+      "maxFrameMs": 17.09999999962747,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "899",
+      "to": "planet",
+      "minClearance": 21.647089223444627,
+      "maxStepDegrees": 0,
+      "durationMs": 1100,
+      "frames": 66,
+      "maxFrameMs": 17,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "899",
+      "to": "801",
+      "minClearance": 0.49502185166691265,
+      "maxStepDegrees": 0.6546010037659099,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 20.90000000037253,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "899",
+      "to": "801",
+      "minClearance": 0.08152136588704836,
+      "maxStepDegrees": 0.19194971563279173,
+      "durationMs": 1500,
+      "frames": 89,
+      "maxFrameMs": 54.90000000037253,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "899",
+      "to": "801",
+      "minClearance": 0.49500383183160196,
+      "maxStepDegrees": 0.06364617092916204,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "899",
+      "to": "planet",
+      "minClearance": 1.1998760446262653,
+      "maxStepDegrees": 0.26003598544866807,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "899",
+      "to": "801",
+      "minClearance": 0.49504350579659256,
+      "maxStepDegrees": 0.1524241369093937,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.09999999962747,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "899",
+      "to": "planet",
+      "minClearance": 0.18741362646600118,
+      "maxStepDegrees": 0.5248578250830703,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "599",
+      "to": "502",
+      "minClearance": 0.49529551389882054,
+      "maxStepDegrees": 0.33229332712067966,
+      "durationMs": 1500,
+      "frames": 89,
+      "maxFrameMs": 44.299999999813735,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "599",
+      "to": "planet",
+      "minClearance": 1.0602943502928814,
+      "maxStepDegrees": 0.3757373664104944,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.100000000558794,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "599",
+      "to": "planet",
+      "minClearance": 3.6000626983085846,
+      "maxStepDegrees": 0.06302357936024881,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17.199999999254942,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "599",
+      "to": "planet",
+      "minClearance": 3.6000027235634295,
+      "maxStepDegrees": 0.061268093412921845,
+      "durationMs": 1500,
+      "frames": 90,
+      "maxFrameMs": 17,
+      "aroundPlanet": false
+    },
+    {
+      "planet": "599",
+      "to": "planet",
+      "minClearance": 3.6000279154016646,
+      "maxStepDegrees": 0.06126406709000054,
+      "durationMs": 1500,
+      "frames": 91,
+      "maxFrameMs": 17,
+      "aroundPlanet": false
+    }
+  ],
+  "throttledTransitions": 7,
+  "cancelledTransitions": 0,
+  "activationFailures": [],
+  "soak": null,
+  "layouts": [
+    {
+      "w": 1920,
+      "h": 1080,
+      "scrollW": 1920,
+      "clientW": 1920,
+      "stage": 1220,
+      "panel": 400
+    },
+    {
+      "w": 3840,
+      "h": 2160,
+      "scrollW": 3840,
+      "clientW": 3840,
+      "stage": 3070,
+      "panel": 440
+    },
+    {
+      "w": 2560,
+      "h": 1440,
+      "scrollW": 2560,
+      "clientW": 2560,
+      "stage": 1790,
+      "panel": 440
+    }
+  ]
+}

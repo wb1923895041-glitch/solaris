@@ -1,0 +1,16 @@
+PASS complete structural fixture accepted (not scientific validation)
+PASS reject AU supplied as canonical km
+PASS reject UTC supplied as TDB
+PASS reject planet center supplied as SSB
+PASS reject ecliptic supplied as ICRF plane
+PASS reject apparent supplied as geometric
+PASS reject missing provenance
+PASS reject missing data version
+PASS reject invalid hash
+PASS reject two-dimensional vector
+PASS reject nonfinite component
+PASS reject hypothetical experiment entering ephemeris
+PASS reject legacy fate field entering scientific state
+PASS reference PNG bytes unchanged
+PASS approved assets have a local file and provenance; planned assets remain absent
+15 contract checks passed. No ephemeris accuracy tested.

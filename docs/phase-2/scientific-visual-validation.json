@@ -1,0 +1,611 @@
+{
+  "assetChecks": [
+    {
+      "bodyId": "10",
+      "materialVersion": "2.0.0-sun",
+      "uniqueAlbedoHash": "b0f51d42d2e2cd1cfb571a19bd85bbd6c9436f9b9c05e9593e0c235a7e7b405b",
+      "verifiedMapRegistration": false,
+      "textureIntegrity": "PASS"
+    },
+    {
+      "bodyId": "199",
+      "materialVersion": "2.0.0-mercury",
+      "uniqueAlbedoHash": "5e1c8607693605d18ae11c0401f925759762d3affa4a5f057ab9a611a125fdb1",
+      "verifiedMapRegistration": false,
+      "textureIntegrity": "PASS"
+    },
+    {
+      "bodyId": "299",
+      "materialVersion": "2.0.0-venus",
+      "uniqueAlbedoHash": "853268f7922ea572a0966df4a378e6b54221102d6740bdc78f4011708ee71007",
+      "verifiedMapRegistration": false,
+      "textureIntegrity": "PASS"
+    },
+    {
+      "bodyId": "499",
+      "materialVersion": "2.0.0-mars",
+      "uniqueAlbedoHash": "fdfcd335559c3dc67052b7e8a9565d850e336ac0d1f3ea7f5eb7826ffb44ecb2",
+      "verifiedMapRegistration": true,
+      "textureIntegrity": "PASS"
+    },
+    {
+      "bodyId": "599",
+      "materialVersion": "2.0.0-jupiter",
+      "uniqueAlbedoHash": "f92ffc7a2fa0235c47ec8f1f168dd36bffeb6acc318292b237878a00a48cf7d9",
+      "verifiedMapRegistration": true,
+      "textureIntegrity": "PASS"
+    },
+    {
+      "bodyId": "699",
+      "materialVersion": "2.0.0-saturn",
+      "uniqueAlbedoHash": "32a62eca9b82255c7dd763ba0752cee1664ae73d5ec4d5d5260227deecd422af",
+      "verifiedMapRegistration": true,
+      "textureIntegrity": "PASS"
+    },
+    {
+      "bodyId": "799",
+      "materialVersion": "2.0.0-uranus",
+      "uniqueAlbedoHash": "2f7d106d547adde83f356a3bd5f97053cd314a199fd6fb2c7d8d9c470df55ec7",
+      "verifiedMapRegistration": false,
+      "textureIntegrity": "PASS"
+    },
+    {
+      "bodyId": "899",
+      "materialVersion": "2.0.0-neptune",
+      "uniqueAlbedoHash": "2f7d106d547adde83f356a3bd5f97053cd314a199fd6fb2c7d8d9c470df55ec7",
+      "verifiedMapRegistration": false,
+      "textureIntegrity": "PASS"
+    },
+    {
+      "bodyId": "399",
+      "materialVersion": "2.0.0-earth",
+      "uniqueAlbedoHash": "f55226d46d27e05511f2118dc6aa24f5dbf9b6b2cddc87cc6e0e7dd067c00b11",
+      "verifiedMapRegistration": true,
+      "textureIntegrity": "PASS"
+    }
+  ],
+  "orientationAndLighting": [
+    {
+      "bodyId": "199",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 7.349937489868528e-07,
+      "localSunVectorError": 1.957190824697005e-09
+    },
+    {
+      "bodyId": "299",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.116260046202434e-07,
+      "localSunVectorError": 2.830509883324778e-08
+    },
+    {
+      "bodyId": "399",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.5635879705936435e-09,
+      "localSunVectorError": 6.464009030567063e-09
+    },
+    {
+      "bodyId": "499",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 1.5618786889095245e-06,
+      "localSunVectorError": 3.8556607399846756e-08
+    },
+    {
+      "bodyId": "599",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.714999794514828e-07,
+      "localSunVectorError": 5.622260062704904e-09
+    },
+    {
+      "bodyId": "699",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 2.914547538169721e-07,
+      "localSunVectorError": 2.84088323814e-09
+    },
+    {
+      "bodyId": "799",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 2.405114822374607e-06,
+      "localSunVectorError": 4.4496349715290676e-08
+    },
+    {
+      "bodyId": "899",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 1.7350936639120278e-06,
+      "localSunVectorError": 8.533599010639813e-09
+    },
+    {
+      "bodyId": "199",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 7.349937489868528e-07,
+      "localSunVectorError": 1.957190824697005e-09
+    },
+    {
+      "bodyId": "299",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.116260046202434e-07,
+      "localSunVectorError": 2.830509883324778e-08
+    },
+    {
+      "bodyId": "399",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.5635879705936435e-09,
+      "localSunVectorError": 6.464009030567063e-09
+    },
+    {
+      "bodyId": "499",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 1.5618786889095245e-06,
+      "localSunVectorError": 3.8556607399846756e-08
+    },
+    {
+      "bodyId": "599",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.714999794514828e-07,
+      "localSunVectorError": 5.622260062704904e-09
+    },
+    {
+      "bodyId": "699",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 2.914547538169721e-07,
+      "localSunVectorError": 2.84088323814e-09
+    },
+    {
+      "bodyId": "799",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 2.405114822374607e-06,
+      "localSunVectorError": 4.4496349715290676e-08
+    },
+    {
+      "bodyId": "899",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 1.7350936639120278e-06,
+      "localSunVectorError": 8.533599010639813e-09
+    },
+    {
+      "bodyId": "199",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 7.349937489868528e-07,
+      "localSunVectorError": 1.957190824697005e-09
+    },
+    {
+      "bodyId": "299",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.116260046202434e-07,
+      "localSunVectorError": 2.830509883324778e-08
+    },
+    {
+      "bodyId": "399",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.5635879705936435e-09,
+      "localSunVectorError": 6.464009030567063e-09
+    },
+    {
+      "bodyId": "499",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 1.5618786889095245e-06,
+      "localSunVectorError": 3.8556607399846756e-08
+    },
+    {
+      "bodyId": "599",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.714999794514828e-07,
+      "localSunVectorError": 5.622260062704904e-09
+    },
+    {
+      "bodyId": "699",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 2.914547538169721e-07,
+      "localSunVectorError": 2.84088323814e-09
+    },
+    {
+      "bodyId": "799",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 2.405114822374607e-06,
+      "localSunVectorError": 4.4496349715290676e-08
+    },
+    {
+      "bodyId": "899",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 1.7350936639120278e-06,
+      "localSunVectorError": 8.533599010639813e-09
+    },
+    {
+      "bodyId": "199",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 7.349937489868528e-07,
+      "localSunVectorError": 1.957190824697005e-09
+    },
+    {
+      "bodyId": "299",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.116260046202434e-07,
+      "localSunVectorError": 2.830509883324778e-08
+    },
+    {
+      "bodyId": "399",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.5635879705936435e-09,
+      "localSunVectorError": 6.464009030567063e-09
+    },
+    {
+      "bodyId": "499",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 1.5618786889095245e-06,
+      "localSunVectorError": 3.8556607399846756e-08
+    },
+    {
+      "bodyId": "599",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.714999794514828e-07,
+      "localSunVectorError": 5.622260062704904e-09
+    },
+    {
+      "bodyId": "699",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 2.914547538169721e-07,
+      "localSunVectorError": 2.84088323814e-09
+    },
+    {
+      "bodyId": "799",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 2.405114822374607e-06,
+      "localSunVectorError": 4.4496349715290676e-08
+    },
+    {
+      "bodyId": "899",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 1.7350936639120278e-06,
+      "localSunVectorError": 8.533599010639813e-09
+    },
+    {
+      "bodyId": "199",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 7.349937489868528e-07,
+      "localSunVectorError": 1.957190824697005e-09
+    },
+    {
+      "bodyId": "299",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.116260046202434e-07,
+      "localSunVectorError": 2.830509883324778e-08
+    },
+    {
+      "bodyId": "399",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.5635879705936435e-09,
+      "localSunVectorError": 6.464009030567063e-09
+    },
+    {
+      "bodyId": "499",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 1.5618786889095245e-06,
+      "localSunVectorError": 3.8556607399846756e-08
+    },
+    {
+      "bodyId": "599",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.714999794514828e-07,
+      "localSunVectorError": 5.622260062704904e-09
+    },
+    {
+      "bodyId": "699",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 2.914547538169721e-07,
+      "localSunVectorError": 2.84088323814e-09
+    },
+    {
+      "bodyId": "799",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 2.405114822374607e-06,
+      "localSunVectorError": 4.4496349715290676e-08
+    },
+    {
+      "bodyId": "899",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 1.7350936639120278e-06,
+      "localSunVectorError": 8.533599010639813e-09
+    },
+    {
+      "bodyId": "199",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 7.349937489868528e-07,
+      "localSunVectorError": 1.957190824697005e-09
+    },
+    {
+      "bodyId": "299",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.116260046202434e-07,
+      "localSunVectorError": 2.830509883324778e-08
+    },
+    {
+      "bodyId": "399",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.5635879705936435e-09,
+      "localSunVectorError": 6.464009030567063e-09
+    },
+    {
+      "bodyId": "499",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 1.5618786889095245e-06,
+      "localSunVectorError": 3.8556607399846756e-08
+    },
+    {
+      "bodyId": "599",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.714999794514828e-07,
+      "localSunVectorError": 5.622260062704904e-09
+    },
+    {
+      "bodyId": "699",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 2.914547538169721e-07,
+      "localSunVectorError": 2.84088323814e-09
+    },
+    {
+      "bodyId": "799",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 2.405114822374607e-06,
+      "localSunVectorError": 4.4496349715290676e-08
+    },
+    {
+      "bodyId": "899",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 1.7350936639120278e-06,
+      "localSunVectorError": 8.533599010639813e-09
+    },
+    {
+      "bodyId": "199",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 7.349937489868528e-07,
+      "localSunVectorError": 1.957190824697005e-09
+    },
+    {
+      "bodyId": "299",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.116260046202434e-07,
+      "localSunVectorError": 2.830509883324778e-08
+    },
+    {
+      "bodyId": "399",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.5635879705936435e-09,
+      "localSunVectorError": 6.464009030567063e-09
+    },
+    {
+      "bodyId": "499",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 1.5618786889095245e-06,
+      "localSunVectorError": 3.8556607399846756e-08
+    },
+    {
+      "bodyId": "599",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.714999794514828e-07,
+      "localSunVectorError": 5.622260062704904e-09
+    },
+    {
+      "bodyId": "699",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 2.914547538169721e-07,
+      "localSunVectorError": 2.84088323814e-09
+    },
+    {
+      "bodyId": "799",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 2.405114822374607e-06,
+      "localSunVectorError": 4.4496349715290676e-08
+    },
+    {
+      "bodyId": "899",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 1.7350936639120278e-06,
+      "localSunVectorError": 8.533599010639813e-09
+    },
+    {
+      "bodyId": "199",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 7.349937489868528e-07,
+      "localSunVectorError": 1.957190824697005e-09
+    },
+    {
+      "bodyId": "299",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.116260046202434e-07,
+      "localSunVectorError": 2.830509883324778e-08
+    },
+    {
+      "bodyId": "399",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.5635879705936435e-09,
+      "localSunVectorError": 6.464009030567063e-09
+    },
+    {
+      "bodyId": "499",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 1.5618786889095245e-06,
+      "localSunVectorError": 3.8556607399846756e-08
+    },
+    {
+      "bodyId": "599",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.714999794514828e-07,
+      "localSunVectorError": 5.622260062704904e-09
+    },
+    {
+      "bodyId": "699",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 2.914547538169721e-07,
+      "localSunVectorError": 2.84088323814e-09
+    },
+    {
+      "bodyId": "799",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 2.405114822374607e-06,
+      "localSunVectorError": 4.4496349715290676e-08
+    },
+    {
+      "bodyId": "899",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 1.7350936639120278e-06,
+      "localSunVectorError": 8.533599010639813e-09
+    },
+    {
+      "bodyId": "199",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 7.349937489868528e-07,
+      "localSunVectorError": 1.957190824697005e-09
+    },
+    {
+      "bodyId": "299",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.116260046202434e-07,
+      "localSunVectorError": 2.830509883324778e-08
+    },
+    {
+      "bodyId": "399",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.5635879705936435e-09,
+      "localSunVectorError": 6.464009030567063e-09
+    },
+    {
+      "bodyId": "499",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 1.5618786889095245e-06,
+      "localSunVectorError": 3.8556607399846756e-08
+    },
+    {
+      "bodyId": "599",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 6.714999794514828e-07,
+      "localSunVectorError": 5.622260062704904e-09
+    },
+    {
+      "bodyId": "699",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 2.914547538169721e-07,
+      "localSunVectorError": 2.84088323814e-09
+    },
+    {
+      "bodyId": "799",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 2.405114822374607e-06,
+      "localSunVectorError": 4.4496349715290676e-08
+    },
+    {
+      "bodyId": "899",
+      "utcMs": 1793232000000,
+      "poleErrorDegrees": 1.7350936639120278e-06,
+      "localSunVectorError": 8.533599010639813e-09
+    },
+    {
+      "bodyId": "199",
+      "utcMs": 1774008000000,
+      "poleErrorDegrees": 6.249160896274396e-07,
+      "localSunVectorError": 2.017186512593405e-08
+    },
+    {
+      "bodyId": "299",
+      "utcMs": 1774008000000,
+      "poleErrorDegrees": 7.324588753719147e-07,
+      "localSunVectorError": 9.117868255932051e-09
+    },
+    {
+      "bodyId": "399",
+      "utcMs": 1774008000000,
+      "poleErrorDegrees": 8.812356767949563e-09,
+      "localSunVectorError": 9.875781523443507e-10
+    },
+    {
+      "bodyId": "499",
+      "utcMs": 1774008000000,
+      "poleErrorDegrees": 1.4859239044357188e-06,
+      "localSunVectorError": 3.62236910260778e-08
+    },
+    {
+      "bodyId": "599",
+      "utcMs": 1774008000000,
+      "poleErrorDegrees": 9.147667158632388e-07,
+      "localSunVectorError": 2.677198117836903e-08
+    },
+    {
+      "bodyId": "699",
+      "utcMs": 1774008000000,
+      "poleErrorDegrees": 1.509313777686593e-07,
+      "localSunVectorError": 1.9200606346079343e-08
+    },
+    {
+      "bodyId": "799",
+      "utcMs": 1774008000000,
+      "poleErrorDegrees": 2.457249117648455e-06,
+      "localSunVectorError": 4.469322449234387e-08
+    },
+    {
+      "bodyId": "899",
+      "utcMs": 1774008000000,
+      "poleErrorDegrees": 1.2854495385489524e-06,
+      "localSunVectorError": 3.634783145469883e-08
+    },
+    {
+      "bodyId": "199",
+      "utcMs": 1782043200000,
+      "poleErrorDegrees": 2.386404273474459e-07,
+      "localSunVectorError": 2.6062400526337145e-08
+    },
+    {
+      "bodyId": "299",
+      "utcMs": 1782043200000,
+      "poleErrorDegrees": 5.521383257787557e-07,
+      "localSunVectorError": 8.023609676531292e-09
+    },
+    {
+      "bodyId": "399",
+      "utcMs": 1782043200000,
+      "poleErrorDegrees": 5.6080470090148415e-09,
+      "localSunVectorError": 6.557182496806691e-08
+    },
+    {
+      "bodyId": "499",
+      "utcMs": 1782043200000,
+      "poleErrorDegrees": 2.0193284072224348e-06,
+      "localSunVectorError": 8.8215781401261e-09
+    },
+    {
+      "bodyId": "599",
+      "utcMs": 1782043200000,
+      "poleErrorDegrees": 7.670333145035525e-07,
+      "localSunVectorError": 1.1319926912979921e-08
+    },
+    {
+      "bodyId": "699",
+      "utcMs": 1782043200000,
+      "poleErrorDegrees": 2.1757719008766515e-07,
+      "localSunVectorError": 2.6996026087688028e-08
+    },
+    {
+      "bodyId": "799",
+      "utcMs": 1782043200000,
+      "poleErrorDegrees": 2.8684990959771943e-06,
+      "localSunVectorError": 4.183749721679476e-08
+    },
+    {
+      "bodyId": "899",
+      "utcMs": 1782043200000,
+      "poleErrorDegrees": 2.520617424982288e-06,
+      "localSunVectorError": 3.5383499682780186e-08
+    }
+  ],
+  "maxPoleErrorDegrees": 2.8684990959771943e-06,
+  "maxSunLocalError": 6.557182496806691e-08,
+  "scientificStatesUnchanged": true,
+  "earthDatesValidated": [
+    1774008000000,
+    1782043200000,
+    1793232000000
+  ],
+  "ringPlane": "Child geometry in local XZ plane: normal local Y equals PCK IAU north pole",
+  "limitations": [
+    "Generic PCK is reference model, not an independent astronomical observation",
+    "Earth generic IAU rotation is not EOP; texture feature registration separately flagged",
+    "Ring shadow intersection verified by browser captures, not particle scattering validation"
+  ]
+}

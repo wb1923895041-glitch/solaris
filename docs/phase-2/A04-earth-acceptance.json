@@ -1,0 +1,48 @@
+{
+  "bodyId": "399",
+  "utcMs": 1793232000000,
+  "physicsUnchanged": true,
+  "matchedCamera": [
+    31.703011322313717,
+    18.68363476550328,
+    -16.14254356821357
+  ],
+  "baselineCamera": [
+    31.703011322313717,
+    18.68363476550328,
+    -16.14254356821357
+  ],
+  "visual": {
+    "id": "399",
+    "status": "ready",
+    "error": null,
+    "loadedWidth": 4096,
+    "material": "layered-earth-ocean-cloud-night",
+    "layers": [
+      "IAU-pole",
+      "clouds",
+      "atmosphere"
+    ]
+  },
+  "performance": {
+    "meanMs": 3.6364000000000014,
+    "p50": 3.600000000000364,
+    "p95": 3.7999999999992724,
+    "headlessRafFps": 274.9972500274996
+  },
+  "gpuMemory": {
+    "geometries": 12,
+    "textures": 22
+  },
+  "errors": [],
+  "gate": "accepted-with-declared-limitations",
+  "checkedAt": "2026-10-28T18:48:07.671626+00:00",
+  "visualInspection": "Standard / detail / terminator / backlight browser PNGs reviewed by agent; see screenshots",
+  "limitations": [
+    "Surface July 2004, clouds 2001 era, lights 2016: not selected-date weather or population",
+    "Cloud source 2048 and night source 3600; 4K derivatives do not add information",
+    "Generic IAU_EARTH rotation, no EOP/polar motion",
+    "No fabricated elevation or ocean wave normal; land relief baked into source only"
+  ],
+  "independentAcceptanceOrder": 4
+}

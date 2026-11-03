@@ -1,0 +1,20 @@
+[
+  {
+    "path": "SOLARIS_visual_baseline/01_总览与资产规范.png",
+    "sha256": "f43b6efb5ca60fe679af77ebb35d97e658b5f65cbc4eda66e49c0cf2e08c4bb9",
+    "role": "visual-reference-only",
+    "runtimeAllowed": false,
+    "scientificSource": false,
+    "textureExtractionAllowed": false,
+    "rights": "user-supplied; redistribution not assessed"
+  },
+  {
+    "path": "SOLARIS_visual_baseline/02_交互与天体参考.png",
+    "sha256": "b4b2afac74b7709029adb5cfd6a0aad6b253226cc3832e1ca9f97c8c88d373e8",
+    "role": "visual-reference-only",
+    "runtimeAllowed": false,
+    "scientificSource": false,
+    "textureExtractionAllowed": false,
+    "rights": "user-supplied; redistribution not assessed"
+  }
+]

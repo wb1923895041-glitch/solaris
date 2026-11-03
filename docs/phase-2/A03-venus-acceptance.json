@@ -1,0 +1,46 @@
+{
+  "bodyId": "299",
+  "utcMs": 1793232000000,
+  "physicsUnchanged": true,
+  "matchedCamera": [
+    22.013079626412832,
+    17.135569893428404,
+    -11.222483824607835
+  ],
+  "baselineCamera": [
+    22.013079626412832,
+    17.135569893428404,
+    -11.222483824607835
+  ],
+  "visual": {
+    "id": "299",
+    "status": "ready",
+    "error": null,
+    "loadedWidth": 4096,
+    "material": "opaque-acid-cloudtops",
+    "layers": [
+      "atmosphere"
+    ]
+  },
+  "performance": {
+    "meanMs": 3.6364000000000014,
+    "p50": 3.600000000000364,
+    "p95": 3.7000000000007276,
+    "headlessRafFps": 274.9972500274996
+  },
+  "gpuMemory": {
+    "geometries": 12,
+    "textures": 14
+  },
+  "errors": [],
+  "gate": "accepted-with-declared-limitations",
+  "checkedAt": "2026-10-28T18:41:59.256808+00:00",
+  "visualInspection": "Standard / detail / terminator / backlight browser PNGs reviewed by agent; see screenshots",
+  "limitations": [
+    "Static 1974 snapshot, not current clouds or simulated superrotation",
+    "RECONSTRUCTED unseen hemisphere; sub-view geometry and prime meridian not certified",
+    "4K derivative; source disk is about 900 pixels across, no 4K observation detail claimed",
+    "Radar source is a representative NASA texture, not calibrated backscatter or height"
+  ],
+  "independentAcceptanceOrder": 3
+}

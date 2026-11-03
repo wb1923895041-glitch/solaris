@@ -1,0 +1,28 @@
+{
+  "sourceUrl": "https://svs.gsfc.nasa.gov/4851/",
+  "downloadUrl": "https://svs.gsfc.nasa.gov/vis/a000000/a004800/a004851/starmap_2020_4k.exr",
+  "title": "Deep Star Maps 2020",
+  "credit": "NASA/Goddard Space Flight Center Scientific Visualization Studio / Ernie Wright",
+  "rights": "NASA SVS credit and NASA media usage guidelines retained; catalog acknowledgements on source page",
+  "catalogs": [
+    "Hipparcos-2",
+    "Tycho-2",
+    "Gaia DR2",
+    "Yale Bright Star Catalog",
+    "UCAC3",
+    "XHIP"
+  ],
+  "projection": "celestial equirectangular; RA0 center, RA increases left; north up",
+  "processing": "VISUAL_ENHANCEMENT: linear HDR to sRGB LDR by 1-exp(-0.65*HDR); display background not a radiometric or navigation instrument",
+  "width": 4096,
+  "height": 2048,
+  "rawSha256": "69b841cd048c2ef35543eb1c5819b322530e78aa4b0cab97ec1de3ef56a4ddcd",
+  "sha256": "3d4e1cb5b9b40cd0208c00c1e7b3e276b894b2bc9294ad2bfcccb2565ea28b7f",
+  "runtimeLinearGain": 0.18,
+  "runtimeToneMapping": "ACES Filmic, scene exposure 1.15",
+  "limitations": [
+    "Catalog-derived static celestial map, not selected-date astrometric navigation",
+    "No per-star identification or proper-motion propagation",
+    "NASA HDR display product, not a radiometric sky-brightness model"
+  ]
+}

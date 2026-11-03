@@ -1,0 +1,26 @@
+{
+  "days": 2558,
+  "pairChecks": 184176,
+  "heroChecks": 2558,
+  "scientificScaleUnchanged": true,
+  "positionsAndInputsUnchanged": true,
+  "defaultCase": {
+    "utc": "2026-10-29T00:00:00.000Z",
+    "distance": 12.331421207747407,
+    "previousRadiusSum": 13.64564570392491,
+    "previousIntersection": 1.314224496177502,
+    "earth": {
+      "baseRadius": 6.856525590495314,
+      "radius": 4.285886542287022,
+      "extent": 1.012,
+      "factor": 0.6250813893596816
+    },
+    "venus": {
+      "baseRadius": 6.789120113429595,
+      "radius": 4.24375263303233,
+      "extent": 1.012,
+      "factor": 0.6250813893596816
+    },
+    "newEnvelopeGap": 3.699426362324223
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "naifId": "2000001",
+  "displayNameZh": "谷神星",
+  "displayNameEn": "Ceres",
+  "parentPlanetId": "10",
+  "version": "4-2000001-mosaic-v1",
+  "kind": "dawn-mosaic",
+  "shapeType": "pck-ellipsoid",
+  "meanRadiusKm": 469.7,
+  "meshFrame": "sphere-y-up",
+  "geometry": {
+    "axesKm": [
+      487.3,
+      487.3,
+      446.0
+    ],
+    "source": "NAIF pck00011.tpc BODY2000001_RADII; mean radius SBDB diameter/2"
+  },
+  "geometrySource": {
+    "provider": "NASA/NAIF",
+    "title": "IAU generic PCK triaxial radii",
+    "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+  },
+  "albedo": {
+    "title": "Dawn Framing Camera global mosaic 400 m (DLR, October 2015)",
+    "provider": "NASA / JPL-Caltech / UCLA / MPS / DLR / IDA / USGS",
+    "uri": "https://astrogeology.usgs.gov/search/map/ceres_dawn_fc_global_mosaic_400m",
+    "downloadUrl": "https://planetarymaps.usgs.gov/mosaic/Ceres_Dawn_FC_DLR_global_20ppd_Oct2015.tif",
+    "rawPath": "data/phase-4/raw/assets/Ceres_Dawn_FC_DLR_global_20ppd_Oct2015.tif",
+    "rawSha256": "920f65e7d0718c9f8d5e86783f35e0b466096251a8c1f2d01a7748a6d534c154",
+    "observationEpoch": "Dawn approach / survey orbit, 2015",
+    "rights": "NASA/USGS public product; retain mission and USGS Astrogeology credit (NASA media guidelines).",
+    "colorProcessing": "保留 Framing Camera 全色灰度。",
+    "projection": "Equirectangular: +90 latitude at top; −180…+180 east longitude; prime meridian centred",
+    "processingCategory": "OBSERVED_MONOCHROME",
+    "nativeDimensions": [
+      7383,
+      3691
+    ]
+  },
+  "lods": [
+    {
+      "width": 1024,
+      "height": 512,
+      "url": "/assets/smallbodies/2000001/albedo-1024.jpg",
+      "sha256": "f47d740d8c067b1bcabda6b853994f5cb9143f6e62841625a07df7509bd7c659"
+    },
+    {
+      "width": 2048,
+      "height": 1024,
+      "url": "/assets/smallbodies/2000001/albedo-2048.jpg",
+      "sha256": "d600f175ee818082fcae38237b32728602297f1b5d6aa01f7f113f9a05bbf7c5"
+    },
+    {
+      "width": 4096,
+      "height": 2048,
+      "url": "/assets/smallbodies/2000001/albedo-4096.jpg",
+      "sha256": "669239c22e4219bdd95c557edfb60be167764bf964dde26b696fd45ba4945c48"
+    }
+  ],
+  "coverage": {
+    "file": "/assets/smallbodies/2000001/coverage.png",
+    "sha256": "86fcad12f14bb2afe4f6928849dfe7408bcc14d615c7dc0fcb2033f1a3890dcb",
+    "missingSurfaceFraction": 0.00364329520520704,
+    "display": "蓝灰色平整区域 = 未测 / 极夜未成像；非地形"
+  },
+  "georeferencing": {
+    "method": "GeoTIFF SimpleCylindrical affine inverse at output pixel centres",
+    "centralLongitudeEast": 180.0,
+    "radiusMeters": 470000.0,
+    "pixelScale": [
+      400.0,
+      400.0,
+      0.0
+    ],
+    "tiePoint": [
+      0.0,
+      0.0,
+      0.0,
+      -1476600.0,
+      738200.0,
+      0.0
+    ],
+    "sourceReduceFactor": 1
+  },
+  "material": {
+    "roughness": 1,
+    "metalness": 0,
+    "tint": "#ffffff"
+  },
+  "orientationModel": "IAU_GENERIC_APPROX",
+  "surfaceRegistration": "GRID_CONVENTION_DOCUMENTED_NOT_NAVIGATION",
+  "reconstructionNotes": "Dawn 接近与巡测阶段 400 m 全球拼图；拼图含原始入射光阴影，分辨率低于后期 HAMO/LAMO 产品。 蓝灰色区域为未测，未加入虚构地貌。",
+  "visualEnhancements": [
+    "未测区蓝灰色分类标识",
+    "固定观察曝光；可选补光默认关闭"
+  ],
+  "limitations": [
+    "通用 IAU PCK 姿态；USGS 控制网与当前参考经线存在配准误差，非导航级",
+    "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+    "单色源影像，未合成未观测颜色"
+  ],
+  "verifiedAt": "2026-11-02T05:29:19.494753+00:00"
+}

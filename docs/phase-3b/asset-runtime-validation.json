@@ -1,0 +1,149 @@
+{
+  "scope": "production geometry/UV path; browser separately tests actual image decoding and render",
+  "results": [
+    {
+      "id": "401",
+      "vertices": 98306,
+      "triangles": 196608,
+      "normalisedBound": 1.2840552850622051,
+      "maxUvError": 0,
+      "maxSourceLod": 0
+    },
+    {
+      "id": "402",
+      "vertices": 98306,
+      "triangles": 196608,
+      "normalisedBound": 1.3418238158938811,
+      "maxUvError": 0,
+      "maxSourceLod": 0
+    },
+    {
+      "id": "501",
+      "vertices": 24897,
+      "triangles": 48768,
+      "normalisedBound": 1.0043425559997559,
+      "maxUvError": 2.9800866108153912e-8,
+      "maxSourceLod": 4096
+    },
+    {
+      "id": "502",
+      "vertices": 24897,
+      "triangles": 48768,
+      "normalisedBound": 1.0011532306671143,
+      "maxUvError": 2.9677913016001867e-8,
+      "maxSourceLod": 4096
+    },
+    {
+      "id": "503",
+      "vertices": 24897,
+      "triangles": 48768,
+      "normalisedBound": 1.0000000393499633,
+      "maxUvError": 2.3246511049457297e-8,
+      "maxSourceLod": 4096
+    },
+    {
+      "id": "504",
+      "vertices": 24897,
+      "triangles": 48768,
+      "normalisedBound": 1.0000000393499633,
+      "maxUvError": 2.3246511049457297e-8,
+      "maxSourceLod": 4096
+    },
+    {
+      "id": "601",
+      "vertices": 24897,
+      "triangles": 48768,
+      "normalisedBound": 1.048435926437378,
+      "maxUvError": 2.9498913090009182e-8,
+      "maxSourceLod": 4096
+    },
+    {
+      "id": "602",
+      "vertices": 24897,
+      "triangles": 48768,
+      "normalisedBound": 1.0178500413894653,
+      "maxUvError": 2.9716252125666642e-8,
+      "maxSourceLod": 4096
+    },
+    {
+      "id": "605",
+      "vertices": 24897,
+      "triangles": 48768,
+      "normalisedBound": 1.0019646883010864,
+      "maxUvError": 2.9800458767326177e-8,
+      "maxSourceLod": 4096
+    },
+    {
+      "id": "606",
+      "vertices": 24897,
+      "triangles": 48768,
+      "normalisedBound": 1.1941928568099551,
+      "maxUvError": 2.5305170625600226e-8,
+      "maxSourceLod": 0
+    },
+    {
+      "id": "608",
+      "vertices": 24897,
+      "triangles": 48768,
+      "normalisedBound": 1.015525041780324,
+      "maxUvError": 2.9227859132952005e-8,
+      "maxSourceLod": 4096
+    },
+    {
+      "id": "705",
+      "vertices": 24897,
+      "triangles": 48768,
+      "normalisedBound": 1.0195080041885376,
+      "maxUvError": 2.9792072142598158e-8,
+      "maxSourceLod": 1440
+    },
+    {
+      "id": "701",
+      "vertices": 24897,
+      "triangles": 48768,
+      "normalisedBound": 1.0038002729415894,
+      "maxUvError": 2.9727978967386548e-8,
+      "maxSourceLod": 1440
+    },
+    {
+      "id": "702",
+      "vertices": 24897,
+      "triangles": 48768,
+      "normalisedBound": 1.0000000393499633,
+      "maxUvError": 2.3246511049457297e-8,
+      "maxSourceLod": 1440
+    },
+    {
+      "id": "703",
+      "vertices": 24897,
+      "triangles": 48768,
+      "normalisedBound": 1.0000000393499633,
+      "maxUvError": 2.3246511049457297e-8,
+      "maxSourceLod": 1440
+    },
+    {
+      "id": "704",
+      "vertices": 24897,
+      "triangles": 48768,
+      "normalisedBound": 1.0000000393499633,
+      "maxUvError": 2.3246511049457297e-8,
+      "maxSourceLod": 1440
+    },
+    {
+      "id": "801",
+      "vertices": 24897,
+      "triangles": 48768,
+      "normalisedBound": 1.0000000393499633,
+      "maxUvError": 2.3246511049457297e-8,
+      "maxSourceLod": 4096
+    },
+    {
+      "id": "301",
+      "vertices": 131841,
+      "triangles": 261120,
+      "normalisedBound": 1.0038481004245383,
+      "maxUvError": 2.140316363030692e-8,
+      "maxSourceLod": 4096
+    }
+  ]
+}

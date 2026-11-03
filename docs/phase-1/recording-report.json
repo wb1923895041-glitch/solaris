@@ -1,0 +1,17 @@
+{
+  "output": "output/playwright/phase-1/phase1-continuous-demo.webm",
+  "bytes": 4808621,
+  "durationSeconds": 36.44,
+  "width": 1280,
+  "height": 720,
+  "decodedPlaybackSeconds": 2.018696,
+  "errors": [],
+  "actions": {
+    "elapsedWallSeconds": 33.477,
+    "utcMs": 1895279022720.006,
+    "playing": false,
+    "focused": null,
+    "frameSamples": 600
+  },
+  "method": "Playwright context.recordVideo; context closed and saved, then video decoded/played in Chrome"
+}

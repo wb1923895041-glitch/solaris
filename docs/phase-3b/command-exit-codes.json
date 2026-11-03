@@ -1,0 +1,47 @@
+[
+    {
+        "command": "npm run build",
+        "log": "build.log",
+        "exitCode": 0
+    },
+    {
+        "command": "npm run check:contracts",
+        "log": "final-contracts.log",
+        "exitCode": 0
+    },
+    {
+        "command": "npm run check:science",
+        "log": "final-science.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/verify-satellites.mjs",
+        "log": "final-satellites.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/verify-moon-assets.mjs",
+        "log": "final-moon-assets.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/verify-moon-orientation.mjs",
+        "log": "final-moon-orientation.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node --experimental-transform-types scripts/verify-moon-locking.mjs",
+        "log": "final-moon-locking.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node scripts/qa-moons-final.mjs chrome",
+        "log": "chrome-final-run.log",
+        "exitCode": 0
+    },
+    {
+        "command": "node scripts/qa-moons-final.mjs msedge",
+        "log": "msedge-final-run.log",
+        "exitCode": 0
+    }
+]

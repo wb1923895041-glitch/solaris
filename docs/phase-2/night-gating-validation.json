@@ -1,0 +1,11 @@
+{
+  "utcMs": 1793232000000,
+  "changedPixelsOnDayBeyondTolerance": 0,
+  "changedPixelsOnNight": 5126,
+  "dayToleranceNormalDotSun": 0.03,
+  "rgbDifferenceThreshold": 3,
+  "physicsUnchanged": true,
+  "sameCamera": true,
+  "method": "Independent ray-sphere intersections on screenshot pixel grid; world Sun direction from frozen body positions, not shader uniforms",
+  "errors": []
+}

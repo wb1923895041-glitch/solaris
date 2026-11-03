@@ -1,0 +1,27 @@
+{
+  "results": [
+    {
+      "id": "2000001",
+      "name": "Ceres",
+      "source": "https://planetarymaps.usgs.gov/mosaic/Ceres_Dawn_FC_DLR_global_20ppd_Oct2015.tif",
+      "nativeSize": [
+        7383,
+        3691
+      ],
+      "lods": [
+        1024,
+        2048,
+        4096
+      ],
+      "missingSurfaceFraction": 0.00364329520520704,
+      "attitudeStepSeconds": 3600,
+      "attitudeMaxErrorDeg": 3.6355075134026644e-06,
+      "axesKm": [
+        487.3,
+        487.3,
+        446.0
+      ],
+      "meanRadiusKm": 469.7
+    }
+  ]
+}

@@ -1,0 +1,729 @@
+{
+  "version": "phase4-v1",
+  "frame": "ICRF",
+  "referencePlane": "FRAME",
+  "correction": "NONE",
+  "positionUnit": "km",
+  "velocityUnit": "km/s",
+  "timeScale": "TDB",
+  "startTdb": 757339269.1839061,
+  "endTdb": 978264069.1839114,
+  "objects": [
+    {
+      "id": "2000001",
+      "name": "Ceres",
+      "zh": "谷神星",
+      "kind": "dwarf-planet",
+      "centerId": "0",
+      "file": "/smallbodies/2000001.f64",
+      "sha256": "2fa0765e958159c5df280c272f3e8e8395709470207477712551ff3b1527f4e3",
+      "count": 2560,
+      "stepSeconds": 86400,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "physical": {
+        "fullName": "1 Ceres (A801 AA)",
+        "orbitClass": "Main-belt Asteroid",
+        "source": "JPL SBDB API 1.3",
+        "H": {
+          "value": "3.34",
+          "sigma": null,
+          "units": null,
+          "reference": "MPO980521"
+        },
+        "diameter": {
+          "value": "939.4",
+          "sigma": "0.2",
+          "units": "km",
+          "reference": "Nature vol. 537, pp515-517 (22 September 2016)"
+        },
+        "extent": {
+          "value": "964.4 x 964.2 x 891.8",
+          "sigma": "0.2 x 0.2 x 0.2",
+          "units": "km",
+          "reference": "Nature vol. 537, pp515-517 (22 September 2016)"
+        },
+        "GM": {
+          "value": "62.6284",
+          "sigma": "0.0009",
+          "units": "km^3/s^2",
+          "reference": "Nature vol. 537, pp515-517 (22 September 2016)"
+        },
+        "rot_per": {
+          "value": "9.074170",
+          "sigma": "0.000001",
+          "units": "h",
+          "reference": "Nature vol. 537, pp515-517 (22 September 2016)"
+        },
+        "albedo": {
+          "value": "0.090",
+          "sigma": "0.003",
+          "units": null,
+          "reference": "Li et al. (2006) Icarus v182:pp143-160"
+        },
+        "orbitRawPath": "data/phase-4/raw/sbdb-orbit-1.json",
+        "orbitEpochJd": 2461200.5
+      },
+      "rawPath": "data/phase-4/raw/2000001-grid.json",
+      "rawSha256": "5c628ada6f6b26b3b7ebbb585b766c4c7958e58715dc5e2627f0ddd2ad003fd3",
+      "solution": "JPL#48",
+      "targetHeader": "1 Ceres (A801 AA)               {source: JPL#48}",
+      "apiVersion": "1.2",
+      "retrievedAtUtc": "2026-11-01T18:35:34.883925+00:00"
+    },
+    {
+      "id": "2000002",
+      "name": "Pallas",
+      "zh": "智神星",
+      "kind": "asteroid",
+      "centerId": "0",
+      "file": "/smallbodies/2000002.f64",
+      "sha256": "bbaa60b8325a9df911181ed86985f7a581d91a916580e5a825bbf2073b3581c3",
+      "count": 2560,
+      "stepSeconds": 86400,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "physical": {
+        "fullName": "2 Pallas (A802 FA)",
+        "orbitClass": "Main-belt Asteroid",
+        "source": "JPL SBDB API 1.3",
+        "H": {
+          "value": "4.12",
+          "sigma": null,
+          "units": null,
+          "reference": "MPO980521"
+        },
+        "diameter": {
+          "value": "513",
+          "sigma": "6",
+          "units": "km",
+          "reference": "Marsset et al., Nature Astronomy 4, 569-576 (2020)"
+        },
+        "extent": {
+          "value": "568x532x448",
+          "sigma": "12",
+          "units": "km",
+          "reference": "Marsset et al., Nature Astronomy 4, 569-576 (2020)"
+        },
+        "GM": {
+          "value": "13.63",
+          "sigma": "0.18",
+          "units": "km^3/s^2",
+          "reference": "Vernazza et al., A&A 654, A56 (2021)"
+        },
+        "rot_per": {
+          "value": "7.8132214",
+          "sigma": "0.000002",
+          "units": "h",
+          "reference": "Carry et al., Icarus 205, 460-472 (2010)"
+        },
+        "albedo": {
+          "value": "0.155",
+          "sigma": null,
+          "units": null,
+          "reference": "Vernazza et al., A&A 654, A56 (2021)"
+        },
+        "orbitRawPath": "data/phase-4/raw/sbdb-orbit-2.json",
+        "orbitEpochJd": 2461200.5
+      },
+      "rawPath": "data/phase-4/raw/2000002-grid.json",
+      "rawSha256": "4f8e3113d78e8225331245ab5b8f402c0f046475d14b1618579d61dc7ad17841",
+      "solution": "JPL#74",
+      "targetHeader": "2 Pallas (A802 FA)              {source: JPL#74}",
+      "apiVersion": "1.2",
+      "retrievedAtUtc": "2026-11-01T18:35:39.785769+00:00"
+    },
+    {
+      "id": "2000004",
+      "name": "Vesta",
+      "zh": "灶神星",
+      "kind": "asteroid",
+      "centerId": "0",
+      "file": "/smallbodies/2000004.f64",
+      "sha256": "08b59964ee05bd1fc9ef1702a773674399cabf1a2d925b2dfc7d0ea370997d7a",
+      "count": 2560,
+      "stepSeconds": 86400,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "physical": {
+        "fullName": "4 Vesta (A807 FA)",
+        "orbitClass": "Main-belt Asteroid",
+        "source": "JPL SBDB API 1.3",
+        "H": {
+          "value": "3.25",
+          "sigma": null,
+          "units": null,
+          "reference": "E2024D82"
+        },
+        "diameter": {
+          "value": "522.77",
+          "sigma": "0.1",
+          "units": "km",
+          "reference": "Park, R.S. et al. 2025, Nat Astron, DOI: 10.1038/s41550-025-02533-7"
+        },
+        "extent": {
+          "value": "569.24 x 554.48 x 452.66",
+          "sigma": "0.1 x 0.1 x 0.1",
+          "units": "km",
+          "reference": "Park, R.S. et al. 2025, Nat Astron, DOI: 10.1038/s41550-025-02533-7"
+        },
+        "GM": {
+          "value": "17.2882844",
+          "sigma": "0.0000030",
+          "units": "km^3/s^2",
+          "reference": "Park, R.S. et al. 2025, Nat Astron, DOI: 10.1038/s41550-025-02533-7"
+        },
+        "rot_per": {
+          "value": "5.3421276322",
+          "sigma": "0.0000000004",
+          "units": "h",
+          "reference": "Park, R.S. et al. 2025, Nat Astron, DOI: 10.1038/s41550-025-02533-7"
+        },
+        "albedo": {
+          "value": "0.4228",
+          "sigma": "0.053",
+          "units": null,
+          "reference": "IRAS-A-FPA-3-RDR-IMPS-V6.0"
+        },
+        "orbitRawPath": "data/phase-4/raw/sbdb-orbit-4.json",
+        "orbitEpochJd": 2461200.5
+      },
+      "rawPath": "data/phase-4/raw/2000004-grid.json",
+      "rawSha256": "5f5748507c08f896deb235a6e5dbe13c44459d7733ff53fd8b74308fb3e787b2",
+      "solution": "JPL#36",
+      "targetHeader": "4 Vesta (A807 FA)               {source: JPL#36}",
+      "apiVersion": "1.2",
+      "retrievedAtUtc": "2026-11-01T18:35:45.873622+00:00"
+    },
+    {
+      "id": "2000010",
+      "name": "Hygiea",
+      "zh": "健神星",
+      "kind": "asteroid",
+      "centerId": "0",
+      "file": "/smallbodies/2000010.f64",
+      "sha256": "d93b4db30d9a694aab3013c8578eca4f42e342e5437d0bb94547f2092fc619c7",
+      "count": 2560,
+      "stepSeconds": 86400,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "physical": {
+        "fullName": "10 Hygiea (A849 GA)",
+        "orbitClass": "Main-belt Asteroid",
+        "source": "JPL SBDB API 1.3",
+        "H": {
+          "value": "5.65",
+          "sigma": null,
+          "units": null,
+          "reference": "E2026E39"
+        },
+        "diameter": {
+          "value": "407.12",
+          "sigma": "6.8",
+          "units": "km",
+          "reference": "IRAS-A-FPA-3-RDR-IMPS-V6.0"
+        },
+        "GM": {
+          "value": "7.",
+          "sigma": null,
+          "units": "km^3/s^2",
+          "reference": "Scholl et al., A&A, v.179, p.311, 1987"
+        },
+        "rot_per": {
+          "value": "13.828",
+          "sigma": null,
+          "units": "h",
+          "reference": "LCDB (Rev. 2023-October); Warner et al., 2009"
+        },
+        "albedo": {
+          "value": "0.0717",
+          "sigma": "0.002",
+          "units": null,
+          "reference": "IRAS-A-FPA-3-RDR-IMPS-V6.0"
+        },
+        "orbitRawPath": "data/phase-4/raw/sbdb-orbit-10.json",
+        "orbitEpochJd": 2461200.5
+      },
+      "rawPath": "data/phase-4/raw/2000010-grid.json",
+      "rawSha256": "d0815583e8f9e102b7a904ac66df6c8745d8bfaa64f8c972553974b7d207163b",
+      "solution": "JPL#129",
+      "targetHeader": "10 Hygiea (A849 GA)             {source: JPL#129}",
+      "apiVersion": "1.2",
+      "retrievedAtUtc": "2026-11-01T18:35:50.508941+00:00"
+    },
+    {
+      "id": "2000016",
+      "name": "Psyche",
+      "zh": "灵神星",
+      "kind": "asteroid",
+      "centerId": "0",
+      "file": "/smallbodies/2000016.f64",
+      "sha256": "ee8e68ecdf52256788d3158130a60d416dcdbf83c2892f5b1de89200fa6ee572",
+      "count": 2560,
+      "stepSeconds": 86400,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "physical": {
+        "fullName": "16 Psyche (A852 FA)",
+        "orbitClass": "Main-belt Asteroid",
+        "source": "JPL SBDB API 1.3",
+        "H": {
+          "value": "6.20",
+          "sigma": null,
+          "units": null,
+          "reference": "E2024-XU9"
+        },
+        "diameter": {
+          "value": "222",
+          "sigma": "-1/+4",
+          "units": "km",
+          "reference": "Shepard et al. (2021), The Planetary Science Journal 2, 125"
+        },
+        "extent": {
+          "value": "278 x 238 x 171",
+          "sigma": "6 x 5 x 3",
+          "units": "km",
+          "reference": "Shepard et al. (2021), The Planetary Science Journal 2, 125"
+        },
+        "GM": {
+          "value": "1.601",
+          "sigma": "0.017",
+          "units": "km^3/s^2",
+          "reference": "Farnocchia et al. (2024), AJ 168, 21"
+        },
+        "rot_per": {
+          "value": "4.196",
+          "sigma": null,
+          "units": "h",
+          "reference": "LCDB (Rev. 2023-October); Warner et al., 2009"
+        },
+        "albedo": {
+          "value": "0.1203",
+          "sigma": "0.004",
+          "units": null,
+          "reference": "IRAS-A-FPA-3-RDR-IMPS-V6.0"
+        },
+        "orbitRawPath": "data/phase-4/raw/sbdb-orbit-16.json",
+        "orbitEpochJd": 2461200.5
+      },
+      "rawPath": "data/phase-4/raw/2000016-grid.json",
+      "rawSha256": "0b55cb7de4120cb83022cbf08effeb6977e80fd3c0dfee8207a2920d3dfdbf37",
+      "solution": "JPL#92",
+      "targetHeader": "16 Psyche (A852 FA)             {source: JPL#92}",
+      "apiVersion": "1.2",
+      "retrievedAtUtc": "2026-11-01T18:35:54.185988+00:00"
+    },
+    {
+      "id": "2000433",
+      "name": "Eros",
+      "zh": "爱神星",
+      "kind": "near-earth",
+      "centerId": "0",
+      "file": "/smallbodies/2000433.f64",
+      "sha256": "62e3daa88c397249bd40056be6cf303d4e190a68c60259fc7ab702ca5e2eeaad",
+      "count": 10237,
+      "stepSeconds": 21600,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "physical": {
+        "fullName": "433 Eros (A898 PA)",
+        "orbitClass": "Amor",
+        "source": "JPL SBDB API 1.3",
+        "H": {
+          "value": "10.40",
+          "sigma": null,
+          "units": null,
+          "reference": "E2026L10"
+        },
+        "diameter": {
+          "value": "16.84",
+          "sigma": "0.06",
+          "units": "km",
+          "reference": "Yeomans et al. (2000) Science v.289,pp.2085-2088"
+        },
+        "extent": {
+          "value": "34.4x11.2x11.2",
+          "sigma": null,
+          "units": "km",
+          "reference": "Veverka et al. (2000) Science v.289,pp.2088-2097"
+        },
+        "GM": {
+          "value": "4.463e-04",
+          "sigma": "0.001e-04",
+          "units": "km^3/s^2",
+          "reference": "Yeomans et al. (2000) Science v.289,pp.2085-2088"
+        },
+        "rot_per": {
+          "value": "5.27",
+          "sigma": null,
+          "units": "h",
+          "reference": "LCDB (Rev. 2023-October); Warner et al., 2009"
+        },
+        "albedo": {
+          "value": "0.25",
+          "sigma": "0.06",
+          "units": null,
+          "reference": "Veverka et al. (2000) Science v.289,pp.2088-2097"
+        },
+        "orbitRawPath": "data/phase-4/raw/sbdb-orbit-433.json",
+        "orbitEpochJd": 2461200.5
+      },
+      "rawPath": "data/phase-4/raw/2000433-grid.json",
+      "rawSha256": "231940d70d93b9bc5e96a45241a2384bb5168dde3814c7b8b81ebb2322d9f7ea",
+      "solution": "JPL#659",
+      "targetHeader": "433 Eros (A898 PA)              {source: JPL#659}",
+      "apiVersion": "1.2",
+      "retrievedAtUtc": "2026-11-01T18:36:02.430721+00:00"
+    },
+    {
+      "id": "2101955",
+      "name": "Bennu",
+      "zh": "贝努",
+      "kind": "near-earth",
+      "centerId": "0",
+      "file": "/smallbodies/2101955.f64",
+      "sha256": "7a801491e38eb663c833b6f0fd9606c590f6a3a6897c002dc49422b464be7e5f",
+      "count": 10237,
+      "stepSeconds": 21600,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "physical": {
+        "fullName": "101955 Bennu (1999 RQ36)",
+        "orbitClass": "Apollo",
+        "source": "JPL SBDB API 1.3",
+        "H": {
+          "value": "20.21",
+          "sigma": "0.03",
+          "units": null,
+          "reference": "Hergenrother, M.C., et al., Nat. Commun. 10, 1291 (2019)"
+        },
+        "diameter": {
+          "value": "0.48444",
+          "sigma": "0.00030",
+          "units": "km",
+          "reference": "Daly, M.G., et al., Sci. Adv. 6, eabd3649 (2020)"
+        },
+        "extent": {
+          "value": "0.5047 x 0.4918 x 0.4567",
+          "sigma": "0.002 x 0.002 x 0.002",
+          "units": "km",
+          "reference": "Daly, M.G., et al., Sci. Adv. 6, eabd3649 (2020)"
+        },
+        "GM": {
+          "value": "4.8904e-9",
+          "sigma": "0.0009e-9",
+          "units": "km^3/s^2",
+          "reference": "Chesley, S.R., et al., J. Geophys. Res. (Planets) 125, e06363 (2020)"
+        },
+        "rot_per": {
+          "value": "4.296061",
+          "sigma": "0.000002",
+          "units": "h",
+          "reference": "Hergenrother, M.C., et al., Nat. Commun. 10, 1291 (2019)"
+        },
+        "albedo": {
+          "value": "0.044",
+          "sigma": "0.002",
+          "units": null,
+          "reference": "Hergenrother, M.C., et al., Nat. Commun. 10, 1291 (2019)"
+        },
+        "orbitRawPath": "data/phase-4/raw/sbdb-orbit-101955.json",
+        "orbitEpochJd": 2455562.5
+      },
+      "rawPath": "data/phase-4/raw/2101955-grid.json",
+      "rawSha256": "6fe1a5ab9c6f7b81f7f5c1190fa13a1ab74b322d2f4ed6f380a0f5d4a772fe3c",
+      "solution": "ORX_merged_DE424",
+      "targetHeader": "101955 Bennu (1999 RQ36) (2101955) {source: ORX_merged_DE424}",
+      "apiVersion": "1.2",
+      "retrievedAtUtc": "2026-11-01T18:36:13.296724+00:00"
+    },
+    {
+      "id": "2099942",
+      "name": "Apophis",
+      "zh": "阿波菲斯",
+      "kind": "near-earth",
+      "centerId": "0",
+      "file": "/smallbodies/2099942.f64",
+      "sha256": "295a46c6538c38c355ba1f77bbb857853eed995ba37b7af102e70b435feab840",
+      "count": 81889,
+      "stepSeconds": 2700.0,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "physical": {
+        "fullName": "99942 Apophis (2004 MN4)",
+        "orbitClass": "Aten",
+        "source": "JPL SBDB API 1.3",
+        "H": {
+          "value": "19.09",
+          "sigma": "0.19",
+          "units": null,
+          "reference": "Pravec et al., Icarus 233, 48-60 (2014)"
+        },
+        "diameter": {
+          "value": "0.34",
+          "sigma": "0.04",
+          "units": "km",
+          "reference": "Brozovic et al., Icarus 300, 115-128 (2018)"
+        },
+        "rot_per": {
+          "value": "30.56",
+          "sigma": "0.01",
+          "units": "h",
+          "reference": "Pravec et al., Icarus 233, 48-60 (2014)"
+        },
+        "albedo": {
+          "value": "0.35",
+          "sigma": "0.10",
+          "units": null,
+          "reference": "Brozovic et al., Icarus 300, 115-128 (2018)"
+        },
+        "orbitRawPath": "data/phase-4/raw/sbdb-orbit-99942.json",
+        "orbitEpochJd": 2461200.5
+      },
+      "rawPath": "data/phase-4/raw/2099942-grid.json",
+      "rawSha256": "546db8f3cc689dce1de974ac95546366ea2619ccd28e6b82e2348256cd0b4851",
+      "solution": "JPL#220",
+      "targetHeader": "99942 Apophis (2004 MN4)        {source: JPL#220}",
+      "apiVersion": "1.2",
+      "retrievedAtUtc": "2026-11-01T18:40:21.677133+00:00"
+    },
+    {
+      "id": "999",
+      "name": "Pluto",
+      "zh": "冥王星",
+      "kind": "dwarf-planet",
+      "centerId": "0",
+      "file": "/smallbodies/999.f64",
+      "sha256": "31ed8f7eace45ba256be18d0dcd1b3ca9df66de07711708ab2f093379c6d0bcd",
+      "count": 10237,
+      "stepSeconds": 21600,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "physical": {
+        "fullName": "134340 Pluto (1930 BM)",
+        "orbitClass": "TransNeptunian Object",
+        "source": "JPL SBDB API 1.3",
+        "H": {
+          "value": "-0.55",
+          "sigma": null,
+          "units": null,
+          "reference": "MPO966248"
+        },
+        "rot_per": {
+          "value": "153.2935",
+          "sigma": null,
+          "units": "h",
+          "reference": "LCDB (Rev. 2023-October); Warner et al., 2009"
+        },
+        "orbitRawPath": "data/phase-4/raw/sbdb-orbit-134340.json",
+        "orbitEpochJd": 2457588.5
+      },
+      "rawPath": "data/phase-4/raw/999-grid.json",
+      "rawSha256": "43446cdce7a0ef06cec1ff753bf92ca9d72e85a39d442ad2933c36ddd9c74155",
+      "solution": "plu060_merged",
+      "targetHeader": "Pluto (999)                     {source: plu060_merged}",
+      "apiVersion": "1.2",
+      "retrievedAtUtc": "2026-11-02T09:07:05.376730+00:00"
+    },
+    {
+      "id": "2136199",
+      "name": "Eris",
+      "zh": "阋神星",
+      "kind": "dwarf-planet",
+      "centerId": "0",
+      "file": "/smallbodies/2136199.f64",
+      "sha256": "53f02ba90bc941bffb3b3e571548c090f69ff443a048115a6d6918a58b9af0c8",
+      "count": 515,
+      "stepSeconds": 432000,
+      "coverageTdb": [
+        756734400.0,
+        978782400.0
+      ],
+      "physical": {
+        "fullName": "136199 Eris (2003 UB313)",
+        "orbitClass": "TransNeptunian Object",
+        "source": "JPL SBDB API 1.3",
+        "H": {
+          "value": "-1.26",
+          "sigma": null,
+          "units": null,
+          "reference": "MPO966273"
+        },
+        "rot_per": {
+          "value": "25.9",
+          "sigma": null,
+          "units": "h",
+          "reference": "LCDB (Rev. 2023-October); Warner et al., 2009"
+        },
+        "orbitRawPath": "data/phase-4/raw/sbdb-orbit-136199.json",
+        "orbitEpochJd": 2461200.5
+      },
+      "rawPath": "data/phase-4/raw/2136199-grid.json",
+      "rawSha256": "d43ceb994fa273d60a2f8e1592c959e011d3993f458f6863b0e44a4492705abb",
+      "solution": "JPL#103",
+      "targetHeader": "136199 Eris (2003 UB313)        {source: JPL#103}",
+      "apiVersion": "1.2",
+      "retrievedAtUtc": "2026-11-01T18:36:52.736593+00:00"
+    },
+    {
+      "id": "2136108",
+      "name": "Haumea",
+      "zh": "妊神星",
+      "kind": "dwarf-planet",
+      "centerId": "0",
+      "file": "/smallbodies/2136108.f64",
+      "sha256": "a815554233df98cb27f8d576364b6e995b524325dfb1ce8a90eb961466a39aaf",
+      "count": 515,
+      "stepSeconds": 432000,
+      "coverageTdb": [
+        756734400.0,
+        978782400.0
+      ],
+      "physical": {
+        "fullName": "136108 Haumea (2003 EL61)",
+        "orbitClass": "TransNeptunian Object",
+        "source": "JPL SBDB API 1.3",
+        "H": {
+          "value": "0.14",
+          "sigma": null,
+          "units": null,
+          "reference": "E2025R45"
+        },
+        "rot_per": {
+          "value": "3.9154",
+          "sigma": null,
+          "units": "h",
+          "reference": "LCDB (Rev. 2023-October); Warner et al., 2009"
+        },
+        "orbitRawPath": "data/phase-4/raw/sbdb-orbit-136108.json",
+        "orbitEpochJd": 2461200.5
+      },
+      "rawPath": "data/phase-4/raw/2136108-grid.json",
+      "rawSha256": "eae39076293b88fe7614ba460f3ef29ba8dcb1650db5ea612effc352b02b5889",
+      "solution": "JPL#132",
+      "targetHeader": "136108 Haumea (2003 EL61)       {source: JPL#132}",
+      "apiVersion": "1.2",
+      "retrievedAtUtc": "2026-11-01T18:36:57.527278+00:00"
+    },
+    {
+      "id": "2136472",
+      "name": "Makemake",
+      "zh": "鸟神星",
+      "kind": "dwarf-planet",
+      "centerId": "0",
+      "file": "/smallbodies/2136472.f64",
+      "sha256": "4a0a5ee08e95bdc866077a47e299fdaeae50e18ef8f00069c052c89701fcd15c",
+      "count": 515,
+      "stepSeconds": 432000,
+      "coverageTdb": [
+        756734400.0,
+        978782400.0
+      ],
+      "physical": {
+        "fullName": "136472 Makemake (2005 FY9)",
+        "orbitClass": "TransNeptunian Object",
+        "source": "JPL SBDB API 1.3",
+        "H": {
+          "value": "-0.25",
+          "sigma": null,
+          "units": null,
+          "reference": "MPO938351"
+        },
+        "rot_per": {
+          "value": "22.8266",
+          "sigma": null,
+          "units": "h",
+          "reference": "LCDB (Rev. 2023-October); Warner et al., 2009"
+        },
+        "orbitRawPath": "data/phase-4/raw/sbdb-orbit-136472.json",
+        "orbitEpochJd": 2461200.5
+      },
+      "rawPath": "data/phase-4/raw/2136472-grid.json",
+      "rawSha256": "c24d3b1983207206cd0fa7a2b1159146473e51fd06b389fe789fae270d419adb",
+      "solution": "JPL#130",
+      "targetHeader": "136472 Makemake (2005 FY9)      {source: JPL#130}",
+      "apiVersion": "1.2",
+      "retrievedAtUtc": "2026-11-01T18:37:00.555348+00:00"
+    },
+    {
+      "id": "2486958",
+      "name": "Arrokoth",
+      "zh": "阿罗科斯",
+      "kind": "kuiper-belt",
+      "centerId": "0",
+      "file": "/smallbodies/2486958.f64",
+      "sha256": "4b431e5d153a9e7f0df0a805f266f11a0aad52c77040a9dd485f83c2569edfd4",
+      "count": 515,
+      "stepSeconds": 432000,
+      "coverageTdb": [
+        756734400.0,
+        978782400.0
+      ],
+      "physical": {
+        "fullName": "486958 Arrokoth (2014 MU69)",
+        "orbitClass": "TransNeptunian Object",
+        "source": "JPL SBDB API 1.3",
+        "H": {
+          "value": "11.06",
+          "sigma": null,
+          "units": null,
+          "reference": "MPO700677"
+        },
+        "rot_per": {
+          "value": "15.918",
+          "sigma": null,
+          "units": "h",
+          "reference": "LCDB (Rev. 2023-October); Warner et al., 2009"
+        },
+        "orbitRawPath": "data/phase-4/raw/sbdb-orbit-486958.json",
+        "orbitEpochJd": 2461200.5
+      },
+      "rawPath": "data/phase-4/raw/2486958-grid.json",
+      "rawSha256": "8e021868756fa65cbaf9d4372671fd235e50ccc404cd1323e315a3abab2341b6",
+      "solution": "JPL#3",
+      "targetHeader": "486958 Arrokoth (2014 MU69)     {source: JPL#3}",
+      "apiVersion": "1.2",
+      "retrievedAtUtc": "2026-11-01T18:37:03.537769+00:00"
+    },
+    {
+      "id": "901",
+      "name": "Charon",
+      "zh": "卡戎",
+      "kind": "satellite",
+      "centerId": "999",
+      "file": "/smallbodies/901.f64",
+      "sha256": "800f919c40ffb76cc92b60369134dab0a26b771fa361d2c2e7fd555965fe6e8a",
+      "count": 30709,
+      "stepSeconds": 7200,
+      "coverageTdb": [
+        757252800.0,
+        978350400.0
+      ],
+      "physical": null,
+      "rawPath": "data/phase-4/raw/901-grid.json",
+      "rawSha256": "f4d1465fed45892a1275871855d8c84f805dcc9b531afec475e84d19c185ca71",
+      "solution": "plu060_merged",
+      "targetHeader": "Charon (901)                    {source: plu060_merged}",
+      "apiVersion": "1.2",
+      "retrievedAtUtc": "2026-11-01T18:37:12.588902+00:00"
+    }
+  ]
+}

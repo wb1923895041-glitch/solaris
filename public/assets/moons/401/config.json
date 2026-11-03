@@ -1,0 +1,76 @@
+{
+  "naifId": "401",
+  "displayNameZh": "火卫一",
+  "displayNameEn": "Phobos",
+  "parentPlanetId": "499",
+  "version": "3b-401-spc-v1",
+  "kind": "spc-observed-albedo",
+  "shapeType": "irregular-mesh",
+  "meanRadiusKm": 11.08,
+  "geometrySource": {
+    "title": "phobos_g_148m_spc_obj_0000n00000_v004",
+    "provider": "JHUAPL SBMT / Ernst et al. 2023",
+    "uri": "https://sbmt.jhuapl.edu/shared-files/",
+    "publication": "https://doi.org/10.1186/s40623-023-01814-7",
+    "rights": "Publicly downloadable research data. SBMT requests acknowledgement; no separate data redistribution license stated on the download page. Retain author/model and SBMT citation."
+  },
+  "albedo": {
+    "title": "SPC 逐三角面反照率",
+    "provider": "JHUAPL SBMT / Ernst et al. 2023",
+    "uri": "https://sbmt.jhuapl.edu/shared-files/",
+    "observationEpoch": "Multi-mission SPC; PCK11 migrated 2026-01-31 product",
+    "rights": "Acknowledge SBMT and Ernst et al. 2023. Research download; standalone redistribution license not stated.",
+    "colorProcessing": "实测反照率作为线性 RGB 的中性灰亮度；不添加虚构彩色地貌。",
+    "projection": "Native body-fixed mesh; X-Y longitude / +Z north; no spherical texture projection",
+    "processingCategory": "OBSERVED_SHAPE_AND_ALBEDO",
+    "rawPath": "data/phase-3b/raw/phobos_g_148m_spc_obj_0000n00000_v004.csv.zip",
+    "rawSha256": "ac77f93a5fe2c547f118b566f37444713de7e25579bafc77bbd5499c8259e49d"
+  },
+  "lods": [],
+  "geometry": {
+    "file": "/assets/moons/401/vertices-km.f32",
+    "sha256": "a6f6137fb60d648e90429fe3e9904b30d0f42b9702734f0694cd9f38d3a2f655",
+    "indexFile": "/assets/moons/401/indices.u32",
+    "indexSha256": "15d606455e1e8b5f12b9da5150c51b2764d8cfa691b8cf0a589c4a463e2b8230",
+    "vertexCount": 98306,
+    "indexCount": 589824,
+    "units": "native body-fixed XYZ km; no axis swap, recentering or radius fitting",
+    "rawPath": "data/phase-3b/raw/phobos_g_148m_spc_obj_0000n00000_v004.obj.zip",
+    "rawSha256": "69fffc77f4fd799767e50fc03631bea43f8d9110edcae8f355fad926136339fa",
+    "labelPath": "data/phase-3b/raw/phobos_g_148m_spc_obj_0000n00000_v004.lbl",
+    "labelSha256": "03e3bec05bcf4e10bb02c68c39773eeef9c7f4126faacf57e794acbf259e9925",
+    "boundsKm": [
+      [
+        -13.348999977111816,
+        -11.425000190734863,
+        -9.478099822998047
+      ],
+      [
+        12.75,
+        11.984000205993652,
+        9.99839973449707
+      ]
+    ],
+    "colorFile": "/assets/moons/401/observed-albedo.f32",
+    "colorSha256": "c1da879abd1e2a152e8c5982e0369978929c580b0f8d814d14e04ef84dea9c3b"
+  },
+  "material": {
+    "roughness": 1,
+    "metalness": 0,
+    "tint": "#ffffff"
+  },
+  "meshFrame": "native-body-fixed-xyz",
+  "orientationModel": "IAU_GENERIC_APPROX",
+  "surfaceRegistration": "PCK11_NATIVE_SHAPE_FRAME",
+  "reconstructionNotes": "SPC 实测形状与逐面反照率；反照率按三角面面积插值到顶点。",
+  "visualEnhancements": [
+    "固定观察曝光；不模拟真实相机辐射定标",
+    "可选观察补光，默认关闭"
+  ],
+  "limitations": [
+    "网格分辨率 148 m；不得据此声称更细地形",
+    "通用 IAU PCK 姿态，非导航级表面配准",
+    "独立数据再分发许可未明确，公开分发前需核对权利"
+  ],
+  "verifiedAt": "2026-11-01T07:58:38.038131+00:00"
+}

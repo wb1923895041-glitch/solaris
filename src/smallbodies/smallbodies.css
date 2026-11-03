@@ -1,0 +1,12 @@
+.sb-layers{position:absolute;z-index:4;left:calc(var(--left) + 28px);bottom:236px;max-width:430px;background:#07101bdd;border:1px solid #7894ad33;border-radius:6px;padding:8px 12px;font-size:12px;color:#a9bccb}
+.sb-layers summary{cursor:pointer;font-size:13px;color:#d6e2ea;list-style:none}.sb-layers summary small{color:#7f97a9;margin-left:8px;font-size:11px}.sb-layers[open]{padding-bottom:12px}
+.sb-layers label{display:block;margin:7px 0;font-size:12px}.sb-layers p{font-size:11px;line-height:1.75;color:#7f98ab;margin:8px 0 0}
+.sb-legend{display:grid;grid-template-columns:1fr 1fr;gap:3px;margin-top:6px}.sb-legend button{display:flex;align-items:center;gap:6px;font-size:11px;padding:4px 6px;text-align:left;background:transparent;border-color:transparent}.sb-legend button span{margin-left:auto;color:#6f899e}.sb-legend button.active{border-color:#789bae;background:#183142}
+.sb-legend i{width:8px;height:8px;border-radius:50%;display:inline-block}.sb-legend .g0{background:#9e9485}.sb-legend .g1{background:#cca870}.sb-legend .g2{background:#db9e6b}.sb-legend .g3{background:#8c99a8}.sb-legend .g4{background:#85a8d1}.sb-legend .g5{background:#b39ecc}
+#smallbody-panel{position:absolute;right:18px;top:116px;bottom:193px;width:calc(var(--right) - 36px);padding:22px;background:linear-gradient(140deg,#0b1623f2,#050b14f5);border:1px solid #6388a63d;border-radius:7px;z-index:6;overflow:auto;scrollbar-width:thin}#smallbody-panel[hidden]{display:none}
+#smallbody-panel h2{margin:10px 0 4px;font-size:28px}.sb-top{display:flex;justify-content:space-between;align-items:center}.sb-close{font-size:20px;padding:2px 10px}.sb-en{font-size:13px;color:#a7bccd;margin:0 0 12px}
+.sb-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}.sb-tags span{font-size:11px;border:1px solid #4b6a80;color:#a9c5d8;padding:3px 7px;border-radius:3px}
+#smallbody-panel dl div{padding:9px 0}#smallbody-panel dd{text-align:right;max-width:60%}.sb-note,.sb-source{font-size:12px;line-height:1.85;color:#91a9bb}.sb-source{color:#6f8aa0;font-size:11px}.sb-actions{display:grid;gap:8px;margin:14px 0}
+.smallbody-selected .details-panel{visibility:hidden}.small-body-label{border-left-color:#c8b08a66}
+@media(min-width:2400px){#smallbody-panel{top:126px}}
+.system-open #smallbody-panel,.system-open .sb-layers,.moon-assets-open #smallbody-panel,.moon-assets-open .sb-layers,.satellite-open #smallbody-panel,.satellite-open .sb-layers{visibility:hidden}

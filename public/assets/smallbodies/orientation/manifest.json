@@ -1,0 +1,41 @@
+{
+  "sourceUrl": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc",
+  "pckSha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1",
+  "toolkit": "CSPICE_N0067",
+  "model": "IAU generic PCK: visual attitude approximation, not navigation-grade surface registration",
+  "startTdb": 757339269.1839061,
+  "endTdb": 978264069.1839114,
+  "format": "little-endian Float32 XYZW, body-fixed IAU XYZ to ICRF/J2000-aligned axes",
+  "objects": [
+    {
+      "bodyId": "901",
+      "frame": "IAU_CHARON",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/smallbodies/orientation/901.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "ab6ab5ae173da7e5f387d6d68b1087043e064a6e4fc412097b712d7b178f3f79",
+      "maxInterpolationAngleDegrees": 4.28801445505009e-06
+    },
+    {
+      "bodyId": "999",
+      "frame": "IAU_PLUTO",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/smallbodies/orientation/999.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "74205d13da574f7cbfdefa123c8a781d1b5d2153bdcc82a7e0cf7742a402a8d0",
+      "maxInterpolationAngleDegrees": 4.37406772145104e-06
+    },
+    {
+      "bodyId": "2000001",
+      "frame": "IAU_CERES",
+      "quality": "IAU_GENERIC_APPROX",
+      "file": "/assets/smallbodies/orientation/2000001.f32",
+      "stepSeconds": 3600,
+      "count": 61370,
+      "sha256": "25e6a94387c68213d34996d0832154de44ea49301b8b4b47f39b9b3623397398",
+      "maxInterpolationAngleDegrees": 3.6355075134026644e-06
+    }
+  ]
+}

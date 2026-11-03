@@ -1,0 +1,1622 @@
+{
+  "version": "3b-v1",
+  "bodies": [
+    {
+      "naifId": "401",
+      "displayNameZh": "火卫一",
+      "displayNameEn": "Phobos",
+      "parentPlanetId": "499",
+      "version": "3b-401-spc-v1",
+      "kind": "spc-observed-albedo",
+      "shapeType": "irregular-mesh",
+      "meanRadiusKm": 11.08,
+      "geometrySource": {
+        "title": "phobos_g_148m_spc_obj_0000n00000_v004",
+        "provider": "JHUAPL SBMT / Ernst et al. 2023",
+        "uri": "https://sbmt.jhuapl.edu/shared-files/",
+        "publication": "https://doi.org/10.1186/s40623-023-01814-7",
+        "rights": "Publicly downloadable research data. SBMT requests acknowledgement; no separate data redistribution license stated on the download page. Retain author/model and SBMT citation."
+      },
+      "albedo": {
+        "title": "SPC 逐三角面反照率",
+        "provider": "JHUAPL SBMT / Ernst et al. 2023",
+        "uri": "https://sbmt.jhuapl.edu/shared-files/",
+        "observationEpoch": "Multi-mission SPC; PCK11 migrated 2026-01-31 product",
+        "rights": "Acknowledge SBMT and Ernst et al. 2023. Research download; standalone redistribution license not stated.",
+        "colorProcessing": "实测反照率作为线性 RGB 的中性灰亮度；不添加虚构彩色地貌。",
+        "projection": "Native body-fixed mesh; X-Y longitude / +Z north; no spherical texture projection",
+        "processingCategory": "OBSERVED_SHAPE_AND_ALBEDO",
+        "rawPath": "data/phase-3b/raw/phobos_g_148m_spc_obj_0000n00000_v004.csv.zip",
+        "rawSha256": "ac77f93a5fe2c547f118b566f37444713de7e25579bafc77bbd5499c8259e49d"
+      },
+      "lods": [],
+      "geometry": {
+        "file": "/assets/moons/401/vertices-km.f32",
+        "sha256": "a6f6137fb60d648e90429fe3e9904b30d0f42b9702734f0694cd9f38d3a2f655",
+        "indexFile": "/assets/moons/401/indices.u32",
+        "indexSha256": "15d606455e1e8b5f12b9da5150c51b2764d8cfa691b8cf0a589c4a463e2b8230",
+        "vertexCount": 98306,
+        "indexCount": 589824,
+        "units": "native body-fixed XYZ km; no axis swap, recentering or radius fitting",
+        "rawPath": "data/phase-3b/raw/phobos_g_148m_spc_obj_0000n00000_v004.obj.zip",
+        "rawSha256": "69fffc77f4fd799767e50fc03631bea43f8d9110edcae8f355fad926136339fa",
+        "labelPath": "data/phase-3b/raw/phobos_g_148m_spc_obj_0000n00000_v004.lbl",
+        "labelSha256": "03e3bec05bcf4e10bb02c68c39773eeef9c7f4126faacf57e794acbf259e9925",
+        "boundsKm": [
+          [
+            -13.348999977111816,
+            -11.425000190734863,
+            -9.478099822998047
+          ],
+          [
+            12.75,
+            11.984000205993652,
+            9.99839973449707
+          ]
+        ],
+        "colorFile": "/assets/moons/401/observed-albedo.f32",
+        "colorSha256": "c1da879abd1e2a152e8c5982e0369978929c580b0f8d814d14e04ef84dea9c3b"
+      },
+      "material": {
+        "roughness": 1,
+        "metalness": 0,
+        "tint": "#ffffff"
+      },
+      "meshFrame": "native-body-fixed-xyz",
+      "orientationModel": "IAU_GENERIC_APPROX",
+      "surfaceRegistration": "PCK11_NATIVE_SHAPE_FRAME",
+      "reconstructionNotes": "SPC 实测形状与逐面反照率；反照率按三角面面积插值到顶点。",
+      "visualEnhancements": [
+        "固定观察曝光；不模拟真实相机辐射定标",
+        "可选观察补光，默认关闭"
+      ],
+      "limitations": [
+        "网格分辨率 148 m；不得据此声称更细地形",
+        "通用 IAU PCK 姿态，非导航级表面配准",
+        "独立数据再分发许可未明确，公开分发前需核对权利"
+      ],
+      "verifiedAt": "2026-11-01T07:58:38.038131+00:00"
+    },
+    {
+      "naifId": "402",
+      "displayNameZh": "火卫二",
+      "displayNameEn": "Deimos",
+      "parentPlanetId": "499",
+      "version": "3b-402-spc-v1",
+      "kind": "spc-observed-albedo",
+      "shapeType": "irregular-mesh",
+      "meanRadiusKm": 6.2,
+      "geometrySource": {
+        "title": "deimos_g_083m_spc_obj_0000n00000_v002",
+        "provider": "JHUAPL SBMT / Ernst et al. 2023",
+        "uri": "https://sbmt.jhuapl.edu/shared-files/",
+        "publication": "https://doi.org/10.1186/s40623-023-01814-7",
+        "rights": "Publicly downloadable research data. SBMT requests acknowledgement; no separate data redistribution license stated on the download page. Retain author/model and SBMT citation."
+      },
+      "albedo": {
+        "title": "SPC 逐三角面反照率",
+        "provider": "JHUAPL SBMT / Ernst et al. 2023",
+        "uri": "https://sbmt.jhuapl.edu/shared-files/",
+        "observationEpoch": "Multi-mission SPC; 2025-03-10 product",
+        "rights": "Acknowledge SBMT and Ernst et al. 2023. Research download; standalone redistribution license not stated.",
+        "colorProcessing": "实测反照率作为线性 RGB 的中性灰亮度；不添加虚构彩色地貌。",
+        "projection": "Native body-fixed mesh; X-Y longitude / +Z north; no spherical texture projection",
+        "processingCategory": "OBSERVED_SHAPE_AND_ALBEDO",
+        "rawPath": "data/phase-3b/raw/deimos_g_083m_spc_obj_0000n00000_v002.csv.zip",
+        "rawSha256": "ddb6fdcca05fab3ce471999ded12b0f532d28274ad983e261d85e5d1f8a4c4f1"
+      },
+      "lods": [],
+      "geometry": {
+        "file": "/assets/moons/402/vertices-km.f32",
+        "sha256": "eaa77743afdb896072528751482948239bbfc07d0bfd4ca80c2f6c825753356a",
+        "indexFile": "/assets/moons/402/indices.u32",
+        "indexSha256": "08d0cbdd41732ac8a43f04fd8eba289ab878c2b5a6ec9f1d031feac3d8dafd35",
+        "vertexCount": 98306,
+        "indexCount": 589824,
+        "units": "native body-fixed XYZ km; no axis swap, recentering or radius fitting",
+        "rawPath": "data/phase-3b/raw/deimos_g_083m_spc_obj_0000n00000_v002.obj.zip",
+        "rawSha256": "1572a49fa5dbe08eaf6f340ecd5c92f0cfcc41ceaae4c232b6a5d30bde53a68b",
+        "labelPath": "data/phase-3b/raw/deimos_g_083m_spc_obj_0000n00000_v002.lbl",
+        "labelSha256": "472575bf00e8731739bd7aeb9cb0360363db1b427af32b08262089fedd7247a5",
+        "boundsKm": [
+          [
+            -8.32861042022705,
+            -6.535280227661133,
+            -5.667359828948975
+          ],
+          [
+            7.619369983673096,
+            5.886350154876709,
+            5.461390018463135
+          ]
+        ],
+        "colorFile": "/assets/moons/402/observed-albedo.f32",
+        "colorSha256": "6eb2c461b8b5aa05c0cdf84d413ad226425fda0ebe42c93ad1d17d440959b794"
+      },
+      "material": {
+        "roughness": 1,
+        "metalness": 0,
+        "tint": "#ffffff"
+      },
+      "meshFrame": "native-body-fixed-xyz",
+      "orientationModel": "IAU_GENERIC_APPROX",
+      "surfaceRegistration": "NATIVE_IAU_SHAPE_GENERIC_PCK_APPROX",
+      "reconstructionNotes": "SPC 实测形状与逐面反照率；反照率按三角面面积插值到顶点。",
+      "visualEnhancements": [
+        "固定观察曝光；不模拟真实相机辐射定标",
+        "可选观察补光，默认关闭"
+      ],
+      "limitations": [
+        "网格分辨率 83 m；不得据此声称更细地形",
+        "通用 IAU PCK 姿态，非导航级表面配准",
+        "独立数据再分发许可未明确，公开分发前需核对权利"
+      ],
+      "verifiedAt": "2026-11-01T07:59:48.697913+00:00"
+    },
+    {
+      "naifId": "501",
+      "displayNameZh": "木卫一",
+      "displayNameEn": "Io",
+      "parentPlanetId": "599",
+      "version": "3b-501-mosaic-v1",
+      "kind": "galileo-volcanic",
+      "shapeType": "pck-ellipsoid",
+      "meanRadiusKm": 1821.49,
+      "meshFrame": "sphere-y-up",
+      "geometry": {
+        "axesKm": [
+          1829.4,
+          1819.4,
+          1815.7
+        ],
+        "source": "NAIF pck00011.tpc BODY501_RADII; retained physical catalog radius"
+      },
+      "geometrySource": {
+        "provider": "NASA/NAIF",
+        "title": "IAU generic PCK triaxial radii",
+        "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      },
+      "albedo": {
+        "title": "Galileo SSI / Voyager 1 km colour merge",
+        "provider": "NASA Voyager / Galileo / USGS",
+        "uri": "https://astrogeology.usgs.gov/search/map/io_galileo_ssi_voyager_color_merged_global_mosaic_1km",
+        "downloadUrl": "https://planetarymaps.usgs.gov/mosaic/Io_GalileoSSI-Voyager_Global_Mosaic_ClrMerge_1km.tif",
+        "rawPath": "data/phase-3b/raw/io-color-1km.tif",
+        "rawSha256": "135f88cb645bfdb4e045b380971ab2ba14e230590c96c9c86cfe7310fda881ac",
+        "observationEpoch": "Voyager 1979 / Galileo 1995–2003 composite",
+        "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+        "colorProcessing": "红外/绿/紫波段颜色比与黑白影像合成；保留源增强色，不声称自然色或实时火山活动。",
+        "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+        "processingCategory": "OBSERVED_ENHANCED_COLOR_COMPOSITE",
+        "nativeDimensions": [
+          11445,
+          5723
+        ]
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/moons/501/albedo-1024.jpg",
+          "sha256": "f5fef9342fe26d63571a29ddc88b0f79e66af5898aac118f0a9506a7eaa8874b"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/moons/501/albedo-2048.jpg",
+          "sha256": "a5f9982b736dc464b31898741e887b3e95f3a793d773270a0bc1390a16ee35aa"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/moons/501/albedo-4096.jpg",
+          "sha256": "aa14ebb124045bd245fb2a87e5d0816bba054b9b90cbd29b7c3fe1782ccbf967"
+        }
+      ],
+      "coverage": {
+        "file": "/assets/moons/501/coverage.png",
+        "sha256": "2085f3d6c506a8c6d97b384d5d5eb3fa940ebd63451b6ded4598858c8b37b1de",
+        "missingSurfaceFraction": 0.0038201714043030748,
+        "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+      },
+      "georeferencing": {
+        "method": "GeoTIFF SimpleCylindrical affine inverse at output pixel centres",
+        "centralLongitudeEast": 0.0,
+        "radiusMeters": 1821460.0,
+        "pixelScale": [
+          1000.0,
+          1000.0,
+          0.0
+        ],
+        "tiePoint": [
+          0.0,
+          0.0,
+          0.0,
+          -5723000.0,
+          2862000.0,
+          0.0
+        ],
+        "sourceMetadataPage": "io-usgs.html"
+      },
+      "material": {
+        "roughness": 1,
+        "metalness": 0,
+        "tint": "#ffffff"
+      },
+      "orientationModel": "IAU_GENERIC_APPROX",
+      "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+      "reconstructionNotes": "火山地貌来自历史拼图；两次任务跨越二十余年，部分区域不同时。极区 ±85° 外标记为未测。 蓝灰色区域为未测，未加入虚构地貌。",
+      "visualEnhancements": [
+        "未测区蓝灰色分类标识",
+        "固定观察曝光；可选补光默认关闭"
+      ],
+      "limitations": [
+        "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+        "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+        "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+      ],
+      "verifiedAt": "2026-11-01T08:11:00.057662+00:00"
+    },
+    {
+      "naifId": "502",
+      "displayNameZh": "木卫二",
+      "displayNameEn": "Europa",
+      "parentPlanetId": "599",
+      "version": "3b-502-mosaic-v1",
+      "kind": "galileo-ice",
+      "shapeType": "pck-ellipsoid",
+      "meanRadiusKm": 1560.8,
+      "meshFrame": "sphere-y-up",
+      "geometry": {
+        "axesKm": [
+          1562.6,
+          1560.3,
+          1559.5
+        ],
+        "source": "NAIF pck00011.tpc BODY502_RADII; retained physical catalog radius"
+      },
+      "geometrySource": {
+        "provider": "NASA/NAIF",
+        "title": "IAU generic PCK triaxial radii",
+        "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      },
+      "albedo": {
+        "title": "Voyager / Galileo SSI 500 m monochrome mosaic",
+        "provider": "NASA Voyager / Galileo / USGS",
+        "uri": "https://astrogeology.usgs.gov/search/map/Europa/Voyager-Galileo/Europa_Voyager_GalileoSSI_global_mosaic_500m",
+        "downloadUrl": "https://planetarymaps.usgs.gov/mosaic/Europa_Voyager_GalileoSSI_global_mosaic_500m.tif",
+        "rawPath": "data/phase-3b/raw/europa-mosaic-500m.tif",
+        "rawSha256": "a323f0c9ccb47d5af9902ea8297fe81f9a9708795645b80801f103c3f7c9a624",
+        "observationEpoch": "Voyager 1979 / Galileo 1995–2003 composite",
+        "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+        "colorProcessing": "保留观测灰度；没有加入虚构的棕红裂纹或全球彩色重建。",
+        "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+        "processingCategory": "OBSERVED_MONOCHROME",
+        "nativeDimensions": [
+          19631,
+          9816
+        ]
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/moons/502/albedo-1024.jpg",
+          "sha256": "f350ea103b7b92f21bd6a3bceec9db8b0a787278f26551ef3c07676108ea3f69"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/moons/502/albedo-2048.jpg",
+          "sha256": "2fbefb9a3c9724d2db15a7c19103335f959170d7e8f0ff227be972de34e00f4e"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/moons/502/albedo-4096.jpg",
+          "sha256": "ef619a3ad874b917c05dd18d453a7d04592e701f8b774c677dd6ef87a0ada503"
+        }
+      ],
+      "coverage": {
+        "file": "/assets/moons/502/coverage.png",
+        "sha256": "0c98f8243a3b6ace7a0a6acd32a58ca8225e5a733fbefbeb4294b71290b1f11a",
+        "missingSurfaceFraction": 0.005094761148165354,
+        "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+      },
+      "georeferencing": {
+        "method": "GeoTIFF SimpleCylindrical affine inverse at output pixel centres",
+        "centralLongitudeEast": 180.0,
+        "radiusMeters": 1562089.9658,
+        "pixelScale": [
+          499.97456657942,
+          499.97456657942,
+          0.0
+        ],
+        "tiePoint": [
+          0.0,
+          0.0,
+          0.0,
+          -4907750.3455436,
+          2453875.1727718,
+          0.0
+        ],
+        "sourceMetadataPage": "europa-usgs.html"
+      },
+      "material": {
+        "roughness": 0.95,
+        "metalness": 0,
+        "tint": "#ffffff"
+      },
+      "orientationModel": "IAU_GENERIC_APPROX",
+      "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+      "reconstructionNotes": "南纬 83° 以南没有影像覆盖；两极分辨率较低。裂纹是影像纹理，不是高程测量。 蓝灰色区域为未测，未加入虚构地貌。",
+      "visualEnhancements": [
+        "未测区蓝灰色分类标识",
+        "固定观察曝光；可选补光默认关闭"
+      ],
+      "limitations": [
+        "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+        "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+        "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+      ],
+      "verifiedAt": "2026-11-01T08:13:34.700695+00:00"
+    },
+    {
+      "naifId": "503",
+      "displayNameZh": "木卫三",
+      "displayNameEn": "Ganymede",
+      "parentPlanetId": "599",
+      "version": "3b-503-mosaic-v1",
+      "kind": "galileo-ice",
+      "shapeType": "pck-ellipsoid",
+      "meanRadiusKm": 2631.2,
+      "meshFrame": "sphere-y-up",
+      "geometry": {
+        "axesKm": [
+          2631.2,
+          2631.2,
+          2631.2
+        ],
+        "source": "NAIF pck00011.tpc BODY503_RADII; retained physical catalog radius"
+      },
+      "geometrySource": {
+        "provider": "NASA/NAIF",
+        "title": "IAU generic PCK triaxial radii",
+        "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      },
+      "albedo": {
+        "title": "Voyager / Galileo SSI 1435 m colour mosaic",
+        "provider": "NASA Voyager / Galileo / USGS",
+        "uri": "https://astrogeology.usgs.gov/search/map/ganymede_voyager_galileo_ssi_color_global_mosaic_1_4km",
+        "downloadUrl": "https://planetarymaps.usgs.gov/mosaic/Ganymede_Voyager_GalileoSSI_Global_ClrMosaic_1435m.tif",
+        "rawPath": "data/phase-3b/raw/ganymede-global.tif",
+        "rawSha256": "da47087e75bc530456d8206d5100ad3c687706353700b0cb44a8400957005a33",
+        "observationEpoch": "Voyager 1979 / Galileo 1995–2003 composite",
+        "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+        "colorProcessing": "保留 USGS 拼图颜色；只进行投影重采样和显示 LOD 转码。",
+        "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+        "processingCategory": "OBSERVED_ENHANCED_COLOR_COMPOSITE",
+        "nativeDimensions": [
+          11520,
+          5760
+        ]
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/moons/503/albedo-1024.jpg",
+          "sha256": "232b32a7a604b4d2bc94652c8a5c0d8b3fb8a6db4c4c6462488f3dfce46294b0"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/moons/503/albedo-2048.jpg",
+          "sha256": "99e3401894e59ab91c592d52f6e4f8fa9a55e7231ca2c13d67841c9995e0c0ba"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/moons/503/albedo-4096.jpg",
+          "sha256": "1de348cc13c489a1e2ebe2800a434e0faf4dae7621e1e16655cd83d8213c875c"
+        }
+      ],
+      "coverage": {
+        "file": "/assets/moons/503/coverage.png",
+        "sha256": "661441fea1b6d20087f58c6185d9489209873af524a1bcfd856705c546e2e063",
+        "missingSurfaceFraction": 0.004056981452026837,
+        "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+      },
+      "georeferencing": {
+        "method": "GeoTIFF SimpleCylindrical affine inverse at output pixel centres",
+        "centralLongitudeEast": 180.0,
+        "radiusMeters": 2632345.0,
+        "pixelScale": [
+          1435.72146209,
+          1435.72146209,
+          0.0
+        ],
+        "tiePoint": [
+          0.0,
+          0.0,
+          0.0,
+          -8269755.621665,
+          4134877.810833,
+          0.0
+        ],
+        "sourceMetadataPage": "ganymede-verified.html"
+      },
+      "material": {
+        "roughness": 1,
+        "metalness": 0,
+        "tint": "#ffffff"
+      },
+      "orientationModel": "IAU_GENERIC_APPROX",
+      "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+      "reconstructionNotes": "明暗地质单元、沟槽和撞击坑取自观测拼图；区域分辨率约 400 m 至 20 km，不补造缺失地形。 蓝灰色区域为未测，未加入虚构地貌。",
+      "visualEnhancements": [
+        "未测区蓝灰色分类标识",
+        "固定观察曝光；可选补光默认关闭"
+      ],
+      "limitations": [
+        "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+        "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+        "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+      ],
+      "verifiedAt": "2026-11-01T08:16:17.963298+00:00"
+    },
+    {
+      "naifId": "504",
+      "displayNameZh": "木卫四",
+      "displayNameEn": "Callisto",
+      "parentPlanetId": "599",
+      "version": "3b-504-mosaic-v1",
+      "kind": "galileo-ice",
+      "shapeType": "pck-ellipsoid",
+      "meanRadiusKm": 2410.3,
+      "meshFrame": "sphere-y-up",
+      "geometry": {
+        "axesKm": [
+          2410.3,
+          2410.3,
+          2410.3
+        ],
+        "source": "NAIF pck00011.tpc BODY504_RADII; retained physical catalog radius"
+      },
+      "geometrySource": {
+        "provider": "NASA/NAIF",
+        "title": "IAU generic PCK triaxial radii",
+        "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      },
+      "albedo": {
+        "title": "Voyager / Galileo SSI 1 km monochrome mosaic",
+        "provider": "NASA Voyager / Galileo / USGS",
+        "uri": "https://astrogeology.usgs.gov/search/map/callisto_galileo_voyager_global_mosaic_1km",
+        "downloadUrl": "https://planetarymaps.usgs.gov/mosaic/Callisto_Voyager_GalileoSSI_global_mosaic_1km.tif",
+        "rawPath": "data/phase-3b/raw/callisto-global.tif",
+        "rawSha256": "e1f0bd2e0e05de605d067d6b5f5ededddaf31ca6c064562a1ca770f15a7dbaa3",
+        "observationEpoch": "Voyager 1979 / Galileo 1995–2003 composite",
+        "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+        "colorProcessing": "保留观测灰度，不把灰度亮度解释为高程。",
+        "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+        "processingCategory": "OBSERVED_MONOCHROME",
+        "nativeDimensions": [
+          15138,
+          7569
+        ]
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/moons/504/albedo-1024.jpg",
+          "sha256": "32fb51eb0c871d09bd7a2ed7e4602b5753f19f20bab62462f97eb02b1821a1b1"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/moons/504/albedo-2048.jpg",
+          "sha256": "bd4a86eeab131272f69a100e8eee94e13decce0f55681d370aae24d9d36031d5"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/moons/504/albedo-4096.jpg",
+          "sha256": "fbf80a76f2cbdfbcba8045d238a93351ef6641df9d53c8f3aa7317122cde08e0"
+        }
+      ],
+      "coverage": {
+        "file": "/assets/moons/504/coverage.png",
+        "sha256": "082f0c7f5596c3dbbbea31bd0f2383f2e03d63e6673b13cef8aecd1fc3044847",
+        "missingSurfaceFraction": 0.008551487034506196,
+        "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+      },
+      "georeferencing": {
+        "method": "GeoTIFF SimpleCylindrical affine inverse at output pixel centres",
+        "centralLongitudeEast": 180.0,
+        "radiusMeters": 2409300.0488,
+        "pixelScale": [
+          1000.0051966711,
+          1000.0051966711,
+          0.0
+        ],
+        "tiePoint": [
+          0.0,
+          0.0,
+          0.0,
+          -7569039.3336036,
+          3784519.6668018,
+          0.0
+        ],
+        "sourceMetadataPage": "callisto-verified.html"
+      },
+      "material": {
+        "roughness": 1,
+        "metalness": 0,
+        "tint": "#ffffff"
+      },
+      "orientationModel": "IAU_GENERIC_APPROX",
+      "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+      "reconstructionNotes": "多环撞击盆地和密集陨石坑来自历史影像；局部分辨率约 400 m 至 60 km。 蓝灰色区域为未测，未加入虚构地貌。",
+      "visualEnhancements": [
+        "未测区蓝灰色分类标识",
+        "固定观察曝光；可选补光默认关闭"
+      ],
+      "limitations": [
+        "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+        "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+        "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+      ],
+      "verifiedAt": "2026-11-01T08:17:22.065883+00:00"
+    },
+    {
+      "naifId": "601",
+      "displayNameZh": "土卫一",
+      "displayNameEn": "Mimas",
+      "parentPlanetId": "699",
+      "version": "3b-601-mosaic-v1",
+      "kind": "cassini-ice",
+      "shapeType": "pck-ellipsoid",
+      "meanRadiusKm": 198.2,
+      "meshFrame": "sphere-y-up",
+      "geometry": {
+        "axesKm": [
+          207.8,
+          196.7,
+          190.6
+        ],
+        "source": "NAIF pck00011.tpc BODY601_RADII; retained physical catalog radius"
+      },
+      "geometrySource": {
+        "provider": "NASA/NAIF",
+        "title": "IAU generic PCK triaxial radii",
+        "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      },
+      "albedo": {
+        "title": "Cassini ISS 2014 global mosaic / PIA18437",
+        "provider": "NASA/JPL-Caltech/SSI / Paul Schenk, LPI",
+        "uri": "https://science.nasa.gov/photojournal/color-maps-of-mimas-2014/",
+        "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18437/PIA18437.jpg",
+        "rawPath": "data/phase-3b/raw/mimas-global.jpg",
+        "rawSha256": "303d5653875d507e8859a26d0afdedd0173c7d4e691f27c3266ca63d1aa4f97f",
+        "observationEpoch": "Cassini 2004–2014 composite",
+        "rights": "NASA/JPL-Caltech/SSI/LPI credit; retain Paul Schenk and mission credits. NASA media guidelines.",
+        "colorProcessing": "保留源 IR-Green-UV 增强色；超出人眼波段，不声称自然色。",
+        "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+        "processingCategory": "OBSERVED_ENHANCED_COLOR_COMPOSITE",
+        "nativeDimensions": [
+          6356,
+          3178
+        ]
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/moons/601/albedo-1024.jpg",
+          "sha256": "37348bbe778eac4a23c0f9adfca5d65d831a4293ab3d663a8d48dd3eda806271"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/moons/601/albedo-2048.jpg",
+          "sha256": "5c72099e32283bd8226324f0cbd0f647320c55aea0cf675dcc16f83b8cdcccdd"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/moons/601/albedo-4096.jpg",
+          "sha256": "c84266c1072f971e2792554793b62ff9109ce274f59ba39d15017f51a631452c"
+        }
+      ],
+      "coverage": {
+        "file": "/assets/moons/601/coverage.png",
+        "sha256": "db18ad38f680bfc15635a67532fbd25b02a62497b7f6630faf7a89794315a0a3",
+        "missingSurfaceFraction": 0.00012229655549796507,
+        "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+      },
+      "georeferencing": {
+        "method": "audited equirectangular image grid",
+        "centralLongitudeEast": 180,
+        "sourceMetadataPage": "mimas-product.html",
+        "longitudeConvention": "east positive; zero centred on derived map",
+        "verification": "Cassini annotated map 360W to 0W"
+      },
+      "material": {
+        "roughness": 1,
+        "metalness": 0,
+        "tint": "#ffffff"
+      },
+      "orientationModel": "IAU_GENERIC_APPROX",
+      "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+      "reconstructionNotes": "Herschel 撞击坑来自 Cassini 拼图；采用 PCK 三轴外形，没有虚构陨石坑高程。 蓝灰色区域为未测，未加入虚构地貌。",
+      "visualEnhancements": [
+        "未测区蓝灰色分类标识",
+        "固定观察曝光；可选补光默认关闭"
+      ],
+      "limitations": [
+        "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+        "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+        "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+      ],
+      "verifiedAt": "2026-11-01T08:19:18.746313+00:00"
+    },
+    {
+      "naifId": "602",
+      "displayNameZh": "土卫二",
+      "displayNameEn": "Enceladus",
+      "parentPlanetId": "699",
+      "version": "3b-602-mosaic-v1",
+      "kind": "cassini-ice",
+      "shapeType": "pck-ellipsoid",
+      "meanRadiusKm": 252.1,
+      "meshFrame": "sphere-y-up",
+      "geometry": {
+        "axesKm": [
+          256.6,
+          251.4,
+          248.3
+        ],
+        "source": "NAIF pck00011.tpc BODY602_RADII; retained physical catalog radius"
+      },
+      "geometrySource": {
+        "provider": "NASA/NAIF",
+        "title": "IAU generic PCK triaxial radii",
+        "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      },
+      "albedo": {
+        "title": "Cassini ISS 2014 global mosaic / PIA18435",
+        "provider": "NASA/JPL-Caltech/SSI / Paul Schenk, LPI",
+        "uri": "https://science.nasa.gov/photojournal/color-maps-of-enceladus-2014/",
+        "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18435/PIA18435.jpg",
+        "rawPath": "data/phase-3b/raw/enceladus-global.jpg",
+        "rawSha256": "5b60d0161efd659f6d95281559ad4b30826fd02ee72944dbb3f8b7679f65ed4d",
+        "observationEpoch": "Cassini 2004–2014 composite",
+        "rights": "NASA/JPL-Caltech/SSI/LPI credit; retain Paul Schenk and mission credits. NASA media guidelines.",
+        "colorProcessing": "保留源 IR-Green-UV 增强色；蓝色冰纹是波段增强，不是人眼颜色。",
+        "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+        "processingCategory": "OBSERVED_ENHANCED_COLOR_COMPOSITE",
+        "nativeDimensions": [
+          15960,
+          7980
+        ]
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/moons/602/albedo-1024.jpg",
+          "sha256": "02b8d600d2400c841b0f253785b53f031cf269902cf3c1c862bbac4bf7516fee"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/moons/602/albedo-2048.jpg",
+          "sha256": "ef9231e1d04409102de267f734c8fe733ea5d30ba92e941d3ed76100ecb4bf37"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/moons/602/albedo-4096.jpg",
+          "sha256": "becd732d63459aaac19ee21abc6653a07a9a948d63c9ab2dab89193cbdae3daa"
+        }
+      ],
+      "coverage": {
+        "file": "/assets/moons/602/coverage.png",
+        "sha256": "2618f57fca20db094473139c4c22a5a27bac2fead6edb7bf4661017f501f54fa",
+        "missingSurfaceFraction": 0.0003221197053363624,
+        "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+      },
+      "georeferencing": {
+        "method": "audited equirectangular image grid",
+        "centralLongitudeEast": 180,
+        "sourceMetadataPage": "enceladus-product.html",
+        "longitudeConvention": "east positive; zero centred on derived map",
+        "verification": "Cassini annotated map 360W to 0W"
+      },
+      "material": {
+        "roughness": 1,
+        "metalness": 0,
+        "tint": "#ffffff"
+      },
+      "orientationModel": "IAU_GENERIC_APPROX",
+      "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+      "reconstructionNotes": "南极虎纹来自观测拼图；羽流仅为可开关的示意教学层（默认关闭，位置取南极虎纹区），不代表任一时刻的喷发观测。 蓝灰色区域为未测，未加入虚构地貌。",
+      "visualEnhancements": [
+        "未测区蓝灰色分类标识",
+        "固定观察曝光；可选补光默认关闭",
+        "南极羽流示意教学层（默认关闭，静态示意）"
+      ],
+      "limitations": [
+        "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+        "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+        "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+      ],
+      "verifiedAt": "2026-11-01T08:21:43.332162+00:00"
+    },
+    {
+      "naifId": "605",
+      "displayNameZh": "土卫五",
+      "displayNameEn": "Rhea",
+      "parentPlanetId": "699",
+      "version": "3b-605-mosaic-v1",
+      "kind": "cassini-ice",
+      "shapeType": "pck-ellipsoid",
+      "meanRadiusKm": 763.5,
+      "meshFrame": "sphere-y-up",
+      "geometry": {
+        "axesKm": [
+          765.0,
+          763.1,
+          762.4
+        ],
+        "source": "NAIF pck00011.tpc BODY605_RADII; retained physical catalog radius"
+      },
+      "geometrySource": {
+        "provider": "NASA/NAIF",
+        "title": "IAU generic PCK triaxial radii",
+        "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      },
+      "albedo": {
+        "title": "Cassini ISS 2014 global mosaic / PIA18438",
+        "provider": "NASA/JPL-Caltech/SSI / Paul Schenk, LPI",
+        "uri": "https://science.nasa.gov/photojournal/color-maps-of-rhea-2014/",
+        "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18438/PIA18438.jpg",
+        "rawPath": "data/phase-3b/raw/rhea-global.jpg",
+        "rawSha256": "4a3f4c5cca6ec558a6dcd664ee818dd700df527fc07fe623d1c56d4e2ae81bc4",
+        "observationEpoch": "Cassini 2004–2014 composite",
+        "rights": "NASA/JPL-Caltech/SSI/LPI credit; retain Paul Schenk and mission credits. NASA media guidelines.",
+        "colorProcessing": "保留源 IR-Green-UV 增强色；超出人眼波段。",
+        "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+        "processingCategory": "OBSERVED_ENHANCED_COLOR_COMPOSITE",
+        "nativeDimensions": [
+          12015,
+          6008
+        ]
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/moons/605/albedo-1024.jpg",
+          "sha256": "997274197047572cd0da9ef2e4e058c77e08a46b29e628c74a00b25e45997092"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/moons/605/albedo-2048.jpg",
+          "sha256": "8b621fac5ccc1373b7a775e37fde1335b3ee36f8ce211965025c5d7e3de4e3ff"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/moons/605/albedo-4096.jpg",
+          "sha256": "db18d1923ba08c1743f9ec1cf754adee8035f23b4a559d50e2263a360961046f"
+        }
+      ],
+      "coverage": {
+        "file": "/assets/moons/605/coverage.png",
+        "sha256": "c2ae8b609c5541f84255736b934e55a5c17b527a1d1774e701355146d3332aae",
+        "missingSurfaceFraction": 4.22064552603215e-05,
+        "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+      },
+      "georeferencing": {
+        "method": "audited equirectangular image grid",
+        "centralLongitudeEast": 180,
+        "sourceMetadataPage": "rhea-product.html",
+        "longitudeConvention": "east positive; zero centred on derived map",
+        "verification": "Cassini annotated map 360W to 0W"
+      },
+      "material": {
+        "roughness": 1,
+        "metalness": 0,
+        "tint": "#ffffff"
+      },
+      "orientationModel": "IAU_GENERIC_APPROX",
+      "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+      "reconstructionNotes": "古老撞击坑、高地及明亮射纹来自 Cassini 拼图；无实测全球 DEM，采用 PCK 外形。 蓝灰色区域为未测，未加入虚构地貌。",
+      "visualEnhancements": [
+        "未测区蓝灰色分类标识",
+        "固定观察曝光；可选补光默认关闭"
+      ],
+      "limitations": [
+        "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+        "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+        "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+      ],
+      "verifiedAt": "2026-11-01T08:23:41.043636+00:00"
+    },
+    {
+      "naifId": "606",
+      "displayNameZh": "土卫六",
+      "displayNameEn": "Titan",
+      "parentPlanetId": "699",
+      "version": "3b-titan-visible-haze-v1",
+      "kind": "titan-opaque-haze",
+      "shapeType": "opaque-haze-reconstruction",
+      "meanRadiusKm": 2574.76,
+      "meshFrame": "sphere-y-up",
+      "albedo": {
+        "title": "Cassini 可见光橙色不透明雾霾外观重建 / PIA06227",
+        "provider": "NASA/JPL/Space Science Institute",
+        "uri": "https://science.nasa.gov/resource/cassinis-views-of-titan/",
+        "observationEpoch": "Cassini ISS 2005-04-16 comparison; not real-time weather",
+        "rights": "NASA media guidelines; acknowledge NASA/JPL/Space Science Institute. No image pixels used as a planetary map.",
+        "colorProcessing": "依照自然色观测重建橙色不透明雾霾与弱蓝色边缘；颜色、透明度和厚度显示参数不是反演测量。没有地表光学贴图。",
+        "projection": "No surface or cloud texture; spherically symmetric display reconstruction",
+        "processingCategory": "OBSERVATION_INFORMED_ATMOSPHERE_RECONSTRUCTION",
+        "referencePagePath": "data/phase-3b/raw/titan-visible.html",
+        "referencePageSha256": "eb68998d6b6cbac74fe00ba858ca74f09faaade907e8529b17807ff6e3e143a8"
+      },
+      "lods": [],
+      "geometrySource": {
+        "title": "Independent haze layers; scientific surface radius retained",
+        "provider": "NASA Cassini / NTRS observational reference",
+        "uri": "https://ntrs.nasa.gov/citations/20050167753"
+      },
+      "material": {
+        "roughness": 1,
+        "metalness": 0,
+        "tint": "#c29a57"
+      },
+      "atmosphere": {
+        "opaqueProxyAltitudeKm": 200,
+        "outerReferenceAltitudeKm": 500,
+        "quality": "DISPLAY_RECONSTRUCTION_NOT_RETRIEVED_PROFILE",
+        "reference": "https://www.giss.nasa.gov/pubs/abs/po05100g.html",
+        "notes": "500 km detached haze was observed in the Cassini era; layer shape/opacity here are a static display reconstruction, not a current atmosphere model"
+      },
+      "orientationModel": "IAU_GENERIC_APPROX",
+      "surfaceRegistration": "NOT_APPLICABLE_NO_VISIBLE_SURFACE_MAP",
+      "reconstructionNotes": "可见光默认只显示不透明大气，地表不可见。橙色雾霾和弱蓝色边缘是依据 Cassini 观测的显示重建；没有借用近红外地表图冒充自然色。",
+      "visualEnhancements": [
+        "固定观察曝光",
+        "雾霾的颜色、层厚和透明度为显示重建；不是实时大气参数"
+      ],
+      "limitations": [
+        "不含实时极涡、云图或气候演化",
+        "不模拟多次散射或完整辐射传输",
+        "200 km 不透明代理层及外层透明度为静态展示选择",
+        "没有地表光学地图，因此不声明地表参考经线配准"
+      ],
+      "verifiedAt": "2026-11-01T08:26:12.795691+00:00"
+    },
+    {
+      "naifId": "608",
+      "displayNameZh": "土卫八",
+      "displayNameEn": "Iapetus",
+      "parentPlanetId": "699",
+      "version": "3b-608-mosaic-v1",
+      "kind": "cassini-ice",
+      "shapeType": "pck-ellipsoid",
+      "meanRadiusKm": 734.3,
+      "meshFrame": "sphere-y-up",
+      "geometry": {
+        "axesKm": [
+          745.7,
+          745.7,
+          712.1
+        ],
+        "source": "NAIF pck00011.tpc BODY608_RADII; retained physical catalog radius"
+      },
+      "geometrySource": {
+        "provider": "NASA/NAIF",
+        "title": "IAU generic PCK triaxial radii",
+        "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      },
+      "albedo": {
+        "title": "Cassini ISS 2014 global mosaic / PIA18436",
+        "provider": "NASA/JPL-Caltech/SSI / Paul Schenk, LPI",
+        "uri": "https://science.nasa.gov/photojournal/color-maps-of-iapetus-2014/",
+        "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia18/pia18436/PIA18436.jpg",
+        "rawPath": "data/phase-3b/raw/iapetus-global.jpg",
+        "rawSha256": "6e0e1d17a50343d9176912d047392c4f7cd67c48bdb30789918a4ff24d9f683b",
+        "observationEpoch": "Cassini 2004–2014 composite",
+        "rights": "NASA/JPL-Caltech/SSI/LPI credit; retain Paul Schenk and mission credits. NASA media guidelines.",
+        "colorProcessing": "保留源 IR-Green-UV 增强色及明暗反照率差异；不是人眼自然色。",
+        "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+        "processingCategory": "OBSERVED_ENHANCED_COLOR_COMPOSITE",
+        "nativeDimensions": [
+          11741,
+          5871
+        ]
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/moons/608/albedo-1024.jpg",
+          "sha256": "035f5341654f31b80d3ea3a03735048ecb5eb260cdef18cc3b5ee5ab5969f208"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/moons/608/albedo-2048.jpg",
+          "sha256": "192842fc695ed6d826a888225573c238859a7d32ef932f20d4f11941b5c9a8f1"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/moons/608/albedo-4096.jpg",
+          "sha256": "1eeed77aef82c031395b158327537c4a0cc3fa2d23476e5a4fa9ac37a2a63244"
+        }
+      ],
+      "coverage": {
+        "file": "/assets/moons/608/coverage.png",
+        "sha256": "adfa4a5cd61dec846de62db42633e7c685496ba0436bde2059d035bdd2dbd1b4",
+        "missingSurfaceFraction": 1.1497873019321557e-05,
+        "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+      },
+      "georeferencing": {
+        "method": "audited equirectangular image grid",
+        "centralLongitudeEast": 180,
+        "sourceMetadataPage": "iapetus-product.html",
+        "longitudeConvention": "east positive; zero centred on derived map",
+        "verification": "Cassini annotated map 360W to 0W"
+      },
+      "material": {
+        "roughness": 1,
+        "metalness": 0,
+        "tint": "#ffffff"
+      },
+      "orientationModel": "IAU_GENERIC_APPROX",
+      "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+      "reconstructionNotes": "Cassini Regio 两色区和赤道山脊来自影像；没有用程序山脉冒充实测高程。 蓝灰色区域为未测，未加入虚构地貌。",
+      "visualEnhancements": [
+        "未测区蓝灰色分类标识",
+        "固定观察曝光；可选补光默认关闭"
+      ],
+      "limitations": [
+        "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+        "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+        "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+      ],
+      "verifiedAt": "2026-11-01T08:27:35.513128+00:00"
+    },
+    {
+      "naifId": "705",
+      "displayNameZh": "天卫五",
+      "displayNameEn": "Miranda",
+      "parentPlanetId": "799",
+      "version": "3b-705-mosaic-v1",
+      "kind": "voyager-partial",
+      "shapeType": "pck-ellipsoid",
+      "meanRadiusKm": 235.8,
+      "meshFrame": "sphere-y-up",
+      "geometry": {
+        "axesKm": [
+          240.4,
+          234.2,
+          232.9
+        ],
+        "source": "NAIF pck00011.tpc BODY705_RADII; retained physical catalog radius"
+      },
+      "geometrySource": {
+        "provider": "NASA/NAIF",
+        "title": "IAU generic PCK triaxial radii",
+        "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      },
+      "albedo": {
+        "title": "Miranda Voyager 2 grayscale mosaic",
+        "provider": "NASA Voyager 2 / Caltech-JPL-USGS",
+        "uri": "https://space.jpl.nasa.gov/tmaps/uranus.html",
+        "downloadUrl": "https://space.jpl.nasa.gov/tmaps/pix/ura5vuu2.tif",
+        "rawPath": "data/phase-3b/raw/uranus-moon-5.tif",
+        "rawSha256": "3b0e3fdd7233511be7bb55537ce00641223a9f611ecd5b364bbac87de03ffb03",
+        "observationEpoch": "Voyager 2 January 1986",
+        "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+        "colorProcessing": "保留 Voyager 灰度；未测区使用独立蓝灰标识，不填充虚构坑纹。",
+        "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+        "processingCategory": "OBSERVED_MONOCHROME",
+        "nativeDimensions": [
+          1440,
+          720
+        ]
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/moons/705/albedo-1024.jpg",
+          "sha256": "c01a44d3b1116b3a8097fcf2296664c5dd495f64479daf4cf36d2852af5a94c1"
+        },
+        {
+          "width": 1440,
+          "height": 720,
+          "url": "/assets/moons/705/albedo-1440.jpg",
+          "sha256": "01fc9bf26bc22d87fd696623fddd55291d49baff36ef0c16ec966683740ae751"
+        }
+      ],
+      "coverage": {
+        "file": "/assets/moons/705/coverage.png",
+        "sha256": "2c24e2f3530f419d12d36651521b90e8de5a7fe32723f508a112c311ce8c4682",
+        "missingSurfaceFraction": 0.6014661379538379,
+        "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+      },
+      "georeferencing": {
+        "method": "audited equirectangular image grid",
+        "centralLongitudeEast": 0,
+        "sourceMetadataPage": "jpl-uranus.html",
+        "longitudeConvention": "east positive; zero centred on derived map",
+        "verification": "IAU Miranda coronae and Umbriel Wunda landmark comparison"
+      },
+      "material": {
+        "roughness": 1,
+        "metalness": 0,
+        "tint": "#ffffff"
+      },
+      "orientationModel": "IAU_GENERIC_APPROX",
+      "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+      "reconstructionNotes": "源图仅 1440×720，主要覆盖南半球；不放大文件冒充高分辨率。已保留原图缺测掩膜。 蓝灰色区域为未测，未加入虚构地貌。",
+      "visualEnhancements": [
+        "未测区蓝灰色分类标识",
+        "固定观察曝光；可选补光默认关闭"
+      ],
+      "limitations": [
+        "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+        "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+        "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标",
+        "仅 1440 像素源地图；近景细节受原始 Voyager 覆盖限制，北部未测"
+      ],
+      "verifiedAt": "2026-11-01T08:29:18.728703+00:00"
+    },
+    {
+      "naifId": "701",
+      "displayNameZh": "天卫一",
+      "displayNameEn": "Ariel",
+      "parentPlanetId": "799",
+      "version": "3b-701-mosaic-v1",
+      "kind": "voyager-partial",
+      "shapeType": "pck-ellipsoid",
+      "meanRadiusKm": 578.9,
+      "meshFrame": "sphere-y-up",
+      "geometry": {
+        "axesKm": [
+          581.1,
+          577.9,
+          577.7
+        ],
+        "source": "NAIF pck00011.tpc BODY701_RADII; retained physical catalog radius"
+      },
+      "geometrySource": {
+        "provider": "NASA/NAIF",
+        "title": "IAU generic PCK triaxial radii",
+        "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      },
+      "albedo": {
+        "title": "Ariel Voyager 2 grayscale mosaic",
+        "provider": "NASA Voyager 2 / Caltech-JPL-USGS",
+        "uri": "https://space.jpl.nasa.gov/tmaps/uranus.html",
+        "downloadUrl": "https://space.jpl.nasa.gov/tmaps/pix/ura1vuu2.tif",
+        "rawPath": "data/phase-3b/raw/uranus-moon-1.tif",
+        "rawSha256": "c0062ef9b87921ad6ae7f52e79802857955f9d981177441812b860b8ea3b3820",
+        "observationEpoch": "Voyager 2 January 1986",
+        "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+        "colorProcessing": "保留 Voyager 灰度；未测区使用独立蓝灰标识，不填充虚构坑纹。",
+        "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+        "processingCategory": "OBSERVED_MONOCHROME",
+        "nativeDimensions": [
+          1440,
+          720
+        ]
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/moons/701/albedo-1024.jpg",
+          "sha256": "91e38a2b77349299781ccf74ae99719e34134cd74920239aa8fa9d7ec90e2587"
+        },
+        {
+          "width": 1440,
+          "height": 720,
+          "url": "/assets/moons/701/albedo-1440.jpg",
+          "sha256": "a79cf9cee9aca00df6699f1c5e267a01b04b821b6f198b2a16a1042b7eca5abb"
+        }
+      ],
+      "coverage": {
+        "file": "/assets/moons/701/coverage.png",
+        "sha256": "c073954f7ae61c762ace092cada08bdf6296610287424a3ef7a09ba593f30ca5",
+        "missingSurfaceFraction": 0.6621546711532983,
+        "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+      },
+      "georeferencing": {
+        "method": "audited equirectangular image grid",
+        "centralLongitudeEast": 0,
+        "sourceMetadataPage": "jpl-uranus.html",
+        "longitudeConvention": "east positive; zero centred on derived map",
+        "verification": "IAU Miranda coronae and Umbriel Wunda landmark comparison"
+      },
+      "material": {
+        "roughness": 1,
+        "metalness": 0,
+        "tint": "#ffffff"
+      },
+      "orientationModel": "IAU_GENERIC_APPROX",
+      "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+      "reconstructionNotes": "源图仅 1440×720，主要覆盖南半球；不放大文件冒充高分辨率。已保留原图缺测掩膜。 蓝灰色区域为未测，未加入虚构地貌。",
+      "visualEnhancements": [
+        "未测区蓝灰色分类标识",
+        "固定观察曝光；可选补光默认关闭"
+      ],
+      "limitations": [
+        "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+        "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+        "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标",
+        "仅 1440 像素源地图；近景细节受原始 Voyager 覆盖限制，北部未测"
+      ],
+      "verifiedAt": "2026-11-01T08:31:28.827290+00:00"
+    },
+    {
+      "naifId": "702",
+      "displayNameZh": "天卫二",
+      "displayNameEn": "Umbriel",
+      "parentPlanetId": "799",
+      "version": "3b-702-mosaic-v1",
+      "kind": "voyager-partial",
+      "shapeType": "pck-ellipsoid",
+      "meanRadiusKm": 584.7,
+      "meshFrame": "sphere-y-up",
+      "geometry": {
+        "axesKm": [
+          584.7,
+          584.7,
+          584.7
+        ],
+        "source": "NAIF pck00011.tpc BODY702_RADII; retained physical catalog radius"
+      },
+      "geometrySource": {
+        "provider": "NASA/NAIF",
+        "title": "IAU generic PCK triaxial radii",
+        "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      },
+      "albedo": {
+        "title": "Umbriel Voyager 2 grayscale mosaic",
+        "provider": "NASA Voyager 2 / Caltech-JPL-USGS",
+        "uri": "https://space.jpl.nasa.gov/tmaps/uranus.html",
+        "downloadUrl": "https://space.jpl.nasa.gov/tmaps/pix/ura2vuu2.tif",
+        "rawPath": "data/phase-3b/raw/uranus-moon-2.tif",
+        "rawSha256": "b9818d0ae7cccc69801f86eae99ddaf8736ced39f2a875d0e36ddac9e7588de3",
+        "observationEpoch": "Voyager 2 January 1986",
+        "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+        "colorProcessing": "保留 Voyager 灰度；未测区使用独立蓝灰标识，不填充虚构坑纹。",
+        "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+        "processingCategory": "OBSERVED_MONOCHROME",
+        "nativeDimensions": [
+          1440,
+          720
+        ]
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/moons/702/albedo-1024.jpg",
+          "sha256": "1b9129a02900fb5c8a14e7134815ad836bddab471d280800a9f59d37b73063a8"
+        },
+        {
+          "width": 1440,
+          "height": 720,
+          "url": "/assets/moons/702/albedo-1440.jpg",
+          "sha256": "057c2df32160071fc2588a4c0ec9860155956702b29e2d3b7cb88a79343c558e"
+        }
+      ],
+      "coverage": {
+        "file": "/assets/moons/702/coverage.png",
+        "sha256": "cd52896247d6dd41a98a260a4f525dc7cc9c45f47228ce5e05c33e9bd8f779ff",
+        "missingSurfaceFraction": 0.6311251386659147,
+        "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+      },
+      "georeferencing": {
+        "method": "audited equirectangular image grid",
+        "centralLongitudeEast": 0,
+        "sourceMetadataPage": "jpl-uranus.html",
+        "longitudeConvention": "east positive; zero centred on derived map",
+        "verification": "IAU Miranda coronae and Umbriel Wunda landmark comparison"
+      },
+      "material": {
+        "roughness": 1,
+        "metalness": 0,
+        "tint": "#ffffff"
+      },
+      "orientationModel": "IAU_GENERIC_APPROX",
+      "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+      "reconstructionNotes": "源图仅 1440×720，主要覆盖南半球；不放大文件冒充高分辨率。已保留原图缺测掩膜。 蓝灰色区域为未测，未加入虚构地貌。",
+      "visualEnhancements": [
+        "未测区蓝灰色分类标识",
+        "固定观察曝光；可选补光默认关闭"
+      ],
+      "limitations": [
+        "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+        "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+        "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标",
+        "仅 1440 像素源地图；近景细节受原始 Voyager 覆盖限制，北部未测"
+      ],
+      "verifiedAt": "2026-11-01T08:34:28.718744+00:00"
+    },
+    {
+      "naifId": "703",
+      "displayNameZh": "天卫三",
+      "displayNameEn": "Titania",
+      "parentPlanetId": "799",
+      "version": "3b-703-mosaic-v1",
+      "kind": "voyager-partial",
+      "shapeType": "pck-ellipsoid",
+      "meanRadiusKm": 788.9,
+      "meshFrame": "sphere-y-up",
+      "geometry": {
+        "axesKm": [
+          788.9,
+          788.9,
+          788.9
+        ],
+        "source": "NAIF pck00011.tpc BODY703_RADII; retained physical catalog radius"
+      },
+      "geometrySource": {
+        "provider": "NASA/NAIF",
+        "title": "IAU generic PCK triaxial radii",
+        "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      },
+      "albedo": {
+        "title": "Titania Voyager 2 grayscale mosaic",
+        "provider": "NASA Voyager 2 / Caltech-JPL-USGS",
+        "uri": "https://space.jpl.nasa.gov/tmaps/uranus.html",
+        "downloadUrl": "https://space.jpl.nasa.gov/tmaps/pix/ura3vuu2.tif",
+        "rawPath": "data/phase-3b/raw/uranus-moon-3.tif",
+        "rawSha256": "7a99a4a12ecbf765ed3dc55d07fe62b795236d2a01bbd1171b4143cc9f8f922a",
+        "observationEpoch": "Voyager 2 January 1986",
+        "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+        "colorProcessing": "保留 Voyager 灰度；未测区使用独立蓝灰标识，不填充虚构坑纹。",
+        "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+        "processingCategory": "OBSERVED_MONOCHROME",
+        "nativeDimensions": [
+          1440,
+          720
+        ]
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/moons/703/albedo-1024.jpg",
+          "sha256": "d5e8c49ca10bcb46042a2fbf9550f390fe7843de6225a99b0f6fcc4628ebb672"
+        },
+        {
+          "width": 1440,
+          "height": 720,
+          "url": "/assets/moons/703/albedo-1440.jpg",
+          "sha256": "b08dc87caca92b01f2434b84bf89d14b10607ac54af715196ab10db5d27507ae"
+        }
+      ],
+      "coverage": {
+        "file": "/assets/moons/703/coverage.png",
+        "sha256": "585ed1a4f4748af52b5d4dc6e3259c6caf237a5a859f3c9e20902d4ae4ac6855",
+        "missingSurfaceFraction": 0.6816788587419973,
+        "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+      },
+      "georeferencing": {
+        "method": "audited equirectangular image grid",
+        "centralLongitudeEast": 0,
+        "sourceMetadataPage": "jpl-uranus.html",
+        "longitudeConvention": "east positive; zero centred on derived map",
+        "verification": "IAU Miranda coronae and Umbriel Wunda landmark comparison"
+      },
+      "material": {
+        "roughness": 1,
+        "metalness": 0,
+        "tint": "#ffffff"
+      },
+      "orientationModel": "IAU_GENERIC_APPROX",
+      "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+      "reconstructionNotes": "源图仅 1440×720，主要覆盖南半球；不放大文件冒充高分辨率。已保留原图缺测掩膜。 蓝灰色区域为未测，未加入虚构地貌。",
+      "visualEnhancements": [
+        "未测区蓝灰色分类标识",
+        "固定观察曝光；可选补光默认关闭"
+      ],
+      "limitations": [
+        "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+        "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+        "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标",
+        "仅 1440 像素源地图；近景细节受原始 Voyager 覆盖限制，北部未测"
+      ],
+      "verifiedAt": "2026-11-01T08:36:28.283934+00:00"
+    },
+    {
+      "naifId": "704",
+      "displayNameZh": "天卫四",
+      "displayNameEn": "Oberon",
+      "parentPlanetId": "799",
+      "version": "3b-704-mosaic-v1",
+      "kind": "voyager-partial",
+      "shapeType": "pck-ellipsoid",
+      "meanRadiusKm": 761.4,
+      "meshFrame": "sphere-y-up",
+      "geometry": {
+        "axesKm": [
+          761.4,
+          761.4,
+          761.4
+        ],
+        "source": "NAIF pck00011.tpc BODY704_RADII; retained physical catalog radius"
+      },
+      "geometrySource": {
+        "provider": "NASA/NAIF",
+        "title": "IAU generic PCK triaxial radii",
+        "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      },
+      "albedo": {
+        "title": "Oberon Voyager 2 grayscale mosaic",
+        "provider": "NASA Voyager 2 / Caltech-JPL-USGS",
+        "uri": "https://space.jpl.nasa.gov/tmaps/uranus.html",
+        "downloadUrl": "https://space.jpl.nasa.gov/tmaps/pix/ura4vuu2.tif",
+        "rawPath": "data/phase-3b/raw/uranus-moon-4.tif",
+        "rawSha256": "0d609cc834478c95be1078dff8527634b66bf58afaad8ea59a6c2d8bce64a4d0",
+        "observationEpoch": "Voyager 2 January 1986",
+        "rights": "Caltech/JPL/USGS source attribution; original mission and USGS credit. USGS public-domain product, where specified.",
+        "colorProcessing": "保留 Voyager 灰度；未测区使用独立蓝灰标识，不填充虚构坑纹。",
+        "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+        "processingCategory": "OBSERVED_MONOCHROME",
+        "nativeDimensions": [
+          1440,
+          720
+        ]
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/moons/704/albedo-1024.jpg",
+          "sha256": "93f39c895df1e3ab63cab4bdec0b05eb3180838430a0b69bf825be37a385b4f5"
+        },
+        {
+          "width": 1440,
+          "height": 720,
+          "url": "/assets/moons/704/albedo-1440.jpg",
+          "sha256": "85aeb1f5e5bcc107b60462195036394738a823859b1dfd5335363a4ab4dd9920"
+        }
+      ],
+      "coverage": {
+        "file": "/assets/moons/704/coverage.png",
+        "sha256": "008e7a516b1d0c870c32cd6ceae6f8621aae9f6a3aadd9b4511e7d9d2f8b4ddc",
+        "missingSurfaceFraction": 0.6591152327371606,
+        "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+      },
+      "georeferencing": {
+        "method": "audited equirectangular image grid",
+        "centralLongitudeEast": 0,
+        "sourceMetadataPage": "jpl-uranus.html",
+        "longitudeConvention": "east positive; zero centred on derived map",
+        "verification": "IAU Miranda coronae and Umbriel Wunda landmark comparison"
+      },
+      "material": {
+        "roughness": 1,
+        "metalness": 0,
+        "tint": "#ffffff"
+      },
+      "orientationModel": "IAU_GENERIC_APPROX",
+      "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+      "reconstructionNotes": "源图仅 1440×720，主要覆盖南半球；不放大文件冒充高分辨率。已保留原图缺测掩膜。 蓝灰色区域为未测，未加入虚构地貌。",
+      "visualEnhancements": [
+        "未测区蓝灰色分类标识",
+        "固定观察曝光；可选补光默认关闭"
+      ],
+      "limitations": [
+        "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+        "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+        "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标",
+        "仅 1440 像素源地图；近景细节受原始 Voyager 覆盖限制，北部未测"
+      ],
+      "verifiedAt": "2026-11-01T08:38:02.023787+00:00"
+    },
+    {
+      "naifId": "801",
+      "displayNameZh": "海卫一",
+      "displayNameEn": "Triton",
+      "parentPlanetId": "899",
+      "version": "3b-801-mosaic-v1",
+      "kind": "voyager-triton",
+      "shapeType": "pck-ellipsoid",
+      "meanRadiusKm": 1352.6,
+      "meshFrame": "sphere-y-up",
+      "geometry": {
+        "axesKm": [
+          1352.6,
+          1352.6,
+          1352.6
+        ],
+        "source": "NAIF pck00011.tpc BODY801_RADII; retained physical catalog radius"
+      },
+      "geometrySource": {
+        "provider": "NASA/NAIF",
+        "title": "IAU generic PCK triaxial radii",
+        "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+      },
+      "albedo": {
+        "title": "Voyager 2 1989 colour mosaic / PIA18668 / USGS 600 m",
+        "provider": "NASA/JPL-Caltech / Paul Schenk, LPI / USGS",
+        "uri": "https://astrogeology.usgs.gov/search/map/triton_voyager_2_global_color_mosaic_600m",
+        "downloadUrl": "https://planetarymaps.usgs.gov/mosaic/Triton_Voyager2_ClrMosaic_GlobalFill_600m.tif",
+        "rawPath": "data/phase-3b/raw/triton-global.tif",
+        "rawSha256": "f20ed332e85df469725629b81d3a73ad026897fe561ec59d6245d249a09507db",
+        "observationEpoch": "Voyager 2 August 1989",
+        "rights": "NASA/JPL-Caltech/SSI/LPI credit; retain Paul Schenk and mission credits. NASA media guidelines.",
+        "colorProcessing": "保留源近自然色拼图；USGS 用邻近像素填补经纬网线的处理已保留并记录，非实时表面。",
+        "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+        "processingCategory": "OBSERVED_ENHANCED_COLOR_COMPOSITE",
+        "nativeDimensions": [
+          14138,
+          7069
+        ]
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/moons/801/albedo-1024.jpg",
+          "sha256": "9bc7ab06be4087ad2d83d38295ebf84a86060fa3207830c1dbe178e33d0221ce"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/moons/801/albedo-2048.jpg",
+          "sha256": "a1fd27fe5956259b6accfecc3aa502a4e14cb1bca3738ae216ce3e6fb047d6d4"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/moons/801/albedo-4096.jpg",
+          "sha256": "b30b5d7b38bc2be11d640d366618b208e5894e02644aaa749c800921f5fc3b9c"
+        }
+      ],
+      "coverage": {
+        "file": "/assets/moons/801/coverage.png",
+        "sha256": "419636da0b7b6dd9bce4f0ea6a253ba2adc261430451fbd2894e656710675f33",
+        "missingSurfaceFraction": 0.33044522169466567,
+        "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+      },
+      "georeferencing": {
+        "method": "GeoTIFF SimpleCylindrical affine inverse at output pixel centres",
+        "centralLongitudeEast": 0.0,
+        "radiusMeters": 1350000.0,
+        "pixelScale": [
+          600.0,
+          600.0,
+          0.0
+        ],
+        "tiePoint": [
+          0.0,
+          0.0,
+          0.0,
+          -4241150.082346,
+          2120575.041173,
+          0.0
+        ],
+        "sourceMetadataPage": "triton-usgs.html"
+      },
+      "material": {
+        "roughness": 1,
+        "metalness": 0,
+        "tint": "#ffffff"
+      },
+      "orientationModel": "IAU_GENERIC_APPROX",
+      "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+      "reconstructionNotes": "Voyager 2 仅测绘部分表面；未观测北部明确标记，不补造全球地貌。 蓝灰色区域为未测，未加入虚构地貌。",
+      "visualEnhancements": [
+        "未测区蓝灰色分类标识",
+        "固定观察曝光；可选补光默认关闭"
+      ],
+      "limitations": [
+        "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+        "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+        "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+      ],
+      "verifiedAt": "2026-11-01T08:39:03.146680+00:00"
+    },
+    {
+      "naifId": "301",
+      "displayNameZh": "月球",
+      "displayNameEn": "Moon",
+      "parentPlanetId": "399",
+      "version": "3b-moon-v1",
+      "kind": "lro-terrain",
+      "shapeType": "displaced-sphere",
+      "meanRadiusKm": 1737.4,
+      "geometrySource": {
+        "title": "LRO LOLA gridded elevation, 2019 release",
+        "provider": "NASA/GSFC LOLA / SVS",
+        "uri": "https://svs.gsfc.nasa.gov/4720/",
+        "rights": "NASA media usage guidelines; retain credit NASA/GSFC/SVS, LROC and LOLA science teams"
+      },
+      "albedo": {
+        "title": "2025 CGI Moon Kit LROC Hapke-normalized WAC rendering adaptation",
+        "provider": "NASA/GSFC SVS / LROC ASU",
+        "uri": "https://svs.gsfc.nasa.gov/4720/",
+        "downloadUrl": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_16bit_srgb_4k.tif",
+        "rawPath": "data/phase-3b/raw/moon-lroc-2025-4k.tif",
+        "rawSha256": "9731fa8af425b6c2f88f277ecca82bf8c603f3743894f64ed7b25c5bfefa22ff",
+        "observationEpoch": "LRO historical composite; 2025 display adaptation",
+        "rights": "NASA media usage guidelines; no endorsement; credit NASA/SVS/Ernie Wright and LROC/LOLA teams",
+        "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "colorProcessing": "643/566/415 nm 波段显示合成；保留 NASA 的白平衡、曝光和缺口填补；16 位 sRGB 转为 RGB8 与 JPEG LOD，不声称辐射定标数据。",
+        "projection": "equirectangular, north up, zero longitude at centre, east-positive",
+        "processingCategory": "OBSERVED_COMPOSITE_RENDER_ADAPTED"
+      },
+      "lods": [
+        {
+          "width": 1024,
+          "height": 512,
+          "url": "/assets/moons/301/albedo-1024.jpg",
+          "sha256": "a52afa22597fd1f599d3dee4ae64d9030b0980187b5fe39f853853157c34ca72"
+        },
+        {
+          "width": 2048,
+          "height": 1024,
+          "url": "/assets/moons/301/albedo-2048.jpg",
+          "sha256": "b648ffcfff832529119c00bcd0a160f8ab7a4b9ec7d540812f21599b7a786b9d"
+        },
+        {
+          "width": 4096,
+          "height": 2048,
+          "url": "/assets/moons/301/albedo-4096.jpg",
+          "sha256": "aa3ff7bb7ca7a83005b64d1754d0c3d53e906a267ed80724f607374021e74954"
+        }
+      ],
+      "geometry": {
+        "file": "/assets/moons/301/height-grid.f32",
+        "sha256": "4f31e417678c52b74e5ac2ec47f862ddb3dc904971d83e042273f6e4a59f1e92",
+        "width": 513,
+        "height": 257,
+        "unit": "km above 1737.4 km reference sphere",
+        "rawPath": "data/phase-3b/raw/moon-ldem16-uint.tif",
+        "rawSha256": "45a2b32d56e81ed30db07fead8abc842b249b6511219d9ca2c53f81bc2dc5d62",
+        "minHeightKm": -8.981499671936035,
+        "maxHeightKm": 10.685501098632812
+      },
+      "relief": {
+        "file": "/assets/moons/301/relief-residual.png",
+        "sha256": "a941a3bfc325baa80bca6e2f488fe773ef3c41d11835af71b8bbc2c0fe0c0b63",
+        "residualHalfRangeKm": 3.74566650390625
+      },
+      "material": {
+        "roughness": 1.0,
+        "metalness": 0,
+        "tint": "#ffffff"
+      },
+      "meshFrame": "sphere-y-up",
+      "orientationModel": "IAU_GENERIC_APPROX",
+      "surfaceRegistration": "VERIFIED_GRID_CONVENTION_NOT_NAVIGATION",
+      "reconstructionNotes": "LROC 观测拼图与 LOLA 实测高程。NASA 源图将 ±70° 以外的部分颜色用单色反照率替代，约占表面 6%；保留并明确标注原始填补范围。",
+      "visualEnhancements": [
+        "保留 NASA 显示用曝光与白平衡",
+        "高程使用原始 km，不夸大地形",
+        "可选观察补光，默认关闭"
+      ],
+      "limitations": [
+        "通用 IAU 月球姿态；不是高精度月球二进制 PCK",
+        "NASA 显示适配影像，不用于辐射测量",
+        "网格下采样自 16 像素/度 LOLA；更细起伏使用高频残差凹凸映射"
+      ],
+      "verifiedAt": "2026-11-01T08:42:25.150504+00:00"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "bodyId": "699",
+  "utcMs": 1793232000000,
+  "physicsUnchanged": true,
+  "matchedCamera": [
+    113.3060776296065,
+    29.46352818366607,
+    -12.127657064522207
+  ],
+  "baselineCamera": [
+    113.3060776296065,
+    29.46352818366607,
+    -12.127657064522207
+  ],
+  "visual": {
+    "id": "699",
+    "status": "ready",
+    "error": null,
+    "loadedWidth": 4096,
+    "material": "cassini-clouds-voyager-optical-rings",
+    "layers": [
+      "IAU-pole",
+      "measured-ABC-rings",
+      "atmosphere"
+    ]
+  },
+  "performance": {
+    "meanMs": 3.635600000000006,
+    "p50": 3.600000000000364,
+    "p95": 3.7000000000007276,
+    "headlessRafFps": 275.05776213004685
+  },
+  "gpuMemory": {
+    "geometries": 13,
+    "textures": 18
+  },
+  "errors": [],
+  "gate": "accepted-with-declared-limitations",
+  "checkedAt": "2026-10-28T19:01:27.149303+00:00",
+  "visualInspection": "Standard / detail / terminator / backlight browser PNGs reviewed by agent; see screenshots",
+  "limitations": [
+    "2011 Saturn storm/cloud snapshot and 1981 ring occultation, not current weather",
+    "RECONSTRUCTED black-image gaps: 17.66% of map, latitude interpolation and constant polar extension",
+    "UVS tau is a proxy for visible optical opacity; opaque limits capped at 6, no particle-scale model",
+    "A/B/C main rings only, radial structures azimuthally averaged; no satellites or ring dynamics",
+    "Existing mean-radius sphere retained; Saturn oblateness and oblate shadow shape remain unresolved"
+  ],
+  "independentAcceptanceOrder": 7
+}

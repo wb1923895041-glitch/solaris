@@ -1,0 +1,55 @@
+FETCH 301 Moon validation-03-interior-edges-00
+FETCH 301 Moon validation-03-interior-edges-01
+READY Moon 10237 states DE441 mean period 27.321317 d
+FETCH 401 Phobos validation-03-interior-edges-00
+FETCH 401 Phobos validation-03-interior-edges-01
+READY Phobos 184249 states mar099 mean period 0.31891 d
+FETCH 402 Deimos validation-03-interior-edges-00
+FETCH 402 Deimos validation-03-interior-edges-01
+READY Deimos 61417 states mar099 mean period 1.262441 d
+FETCH 501 Io validation-03-interior-edges-00
+FETCH 501 Io validation-03-interior-edges-01
+READY Io 61417 states jup365_merged mean period 1.769138 d
+FETCH 502 Europa validation-03-interior-edges-00
+FETCH 502 Europa validation-03-interior-edges-01
+READY Europa 30709 states jup365_merged mean period 3.551181 d
+FETCH 503 Ganymede validation-03-interior-edges-00
+FETCH 503 Ganymede validation-03-interior-edges-01
+READY Ganymede 20473 states jup365_merged mean period 7.154552 d
+FETCH 504 Callisto validation-03-interior-edges-00
+FETCH 504 Callisto validation-03-interior-edges-01
+READY Callisto 10237 states jup365_merged mean period 16.688998 d
+FETCH 601 Mimas validation-03-interior-edges-00
+FETCH 601 Mimas validation-03-interior-edges-01
+READY Mimas 122833 states sat441l mean period 0.942418 d
+FETCH 602 Enceladus validation-03-interior-edges-00
+FETCH 602 Enceladus validation-03-interior-edges-01
+READY Enceladus 61417 states sat441l mean period 1.370219 d
+FETCH 605 Rhea validation-03-interior-edges-00
+FETCH 605 Rhea validation-03-interior-edges-01
+READY Rhea 30709 states sat441l mean period 4.517503 d
+FETCH 606 Titan validation-03-interior-edges-00
+FETCH 606 Titan validation-03-interior-edges-01
+READY Titan 10237 states sat441l mean period 15.945454 d
+FETCH 608 Iapetus validation-03-interior-edges-00
+FETCH 608 Iapetus validation-03-interior-edges-01
+READY Iapetus 5119 states sat441l mean period 79.331317 d
+FETCH 705 Miranda validation-03-interior-edges-00
+FETCH 705 Miranda validation-03-interior-edges-01
+READY Miranda 61417 states ura184_merged mean period 1.413471 d
+FETCH 701 Ariel validation-03-interior-edges-00
+FETCH 701 Ariel validation-03-interior-edges-01
+READY Ariel 30709 states ura184_merged mean period 2.520381 d
+FETCH 702 Umbriel validation-03-interior-edges-00
+FETCH 702 Umbriel validation-03-interior-edges-01
+READY Umbriel 20473 states ura184_merged mean period 4.144176 d
+FETCH 703 Titania validation-03-interior-edges-00
+FETCH 703 Titania validation-03-interior-edges-01
+READY Titania 10237 states ura184_merged mean period 8.705868 d
+FETCH 704 Oberon validation-03-interior-edges-00
+FETCH 704 Oberon validation-03-interior-edges-01
+READY Oberon 10237 states ura184_merged mean period 13.463234 d
+FETCH 801 Triton validation-03-interior-edges-00
+FETCH 801 Triton validation-03-interior-edges-01
+READY Triton 20473 states nep098_merged mean period 5.876843 d
+COMPLETE 18 satellites; runtime bytes 42705600

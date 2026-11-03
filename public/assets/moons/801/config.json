@@ -1,0 +1,104 @@
+{
+  "naifId": "801",
+  "displayNameZh": "海卫一",
+  "displayNameEn": "Triton",
+  "parentPlanetId": "899",
+  "version": "3b-801-mosaic-v1",
+  "kind": "voyager-triton",
+  "shapeType": "pck-ellipsoid",
+  "meanRadiusKm": 1352.6,
+  "meshFrame": "sphere-y-up",
+  "geometry": {
+    "axesKm": [
+      1352.6,
+      1352.6,
+      1352.6
+    ],
+    "source": "NAIF pck00011.tpc BODY801_RADII; retained physical catalog radius"
+  },
+  "geometrySource": {
+    "provider": "NASA/NAIF",
+    "title": "IAU generic PCK triaxial radii",
+    "uri": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc"
+  },
+  "albedo": {
+    "title": "Voyager 2 1989 colour mosaic / PIA18668 / USGS 600 m",
+    "provider": "NASA/JPL-Caltech / Paul Schenk, LPI / USGS",
+    "uri": "https://astrogeology.usgs.gov/search/map/triton_voyager_2_global_color_mosaic_600m",
+    "downloadUrl": "https://planetarymaps.usgs.gov/mosaic/Triton_Voyager2_ClrMosaic_GlobalFill_600m.tif",
+    "rawPath": "data/phase-3b/raw/triton-global.tif",
+    "rawSha256": "f20ed332e85df469725629b81d3a73ad026897fe561ec59d6245d249a09507db",
+    "observationEpoch": "Voyager 2 August 1989",
+    "rights": "NASA/JPL-Caltech/SSI/LPI credit; retain Paul Schenk and mission credits. NASA media guidelines.",
+    "colorProcessing": "保留源近自然色拼图；USGS 用邻近像素填补经纬网线的处理已保留并记录，非实时表面。",
+    "projection": "Equirectangular: +90 latitude at top; -180 to +180 east longitude; prime meridian in centre",
+    "processingCategory": "OBSERVED_ENHANCED_COLOR_COMPOSITE",
+    "nativeDimensions": [
+      14138,
+      7069
+    ]
+  },
+  "lods": [
+    {
+      "width": 1024,
+      "height": 512,
+      "url": "/assets/moons/801/albedo-1024.jpg",
+      "sha256": "9bc7ab06be4087ad2d83d38295ebf84a86060fa3207830c1dbe178e33d0221ce"
+    },
+    {
+      "width": 2048,
+      "height": 1024,
+      "url": "/assets/moons/801/albedo-2048.jpg",
+      "sha256": "a1fd27fe5956259b6accfecc3aa502a4e14cb1bca3738ae216ce3e6fb047d6d4"
+    },
+    {
+      "width": 4096,
+      "height": 2048,
+      "url": "/assets/moons/801/albedo-4096.jpg",
+      "sha256": "b30b5d7b38bc2be11d640d366618b208e5894e02644aaa749c800921f5fc3b9c"
+    }
+  ],
+  "coverage": {
+    "file": "/assets/moons/801/coverage.png",
+    "sha256": "419636da0b7b6dd9bce4f0ea6a253ba2adc261430451fbd2894e656710675f33",
+    "missingSurfaceFraction": 0.33044522169466567,
+    "display": "蓝灰色平整区域 = 未测 / 缺失影像；白色掩膜 = 已有影像，非地形精度保证"
+  },
+  "georeferencing": {
+    "method": "GeoTIFF SimpleCylindrical affine inverse at output pixel centres",
+    "centralLongitudeEast": 0.0,
+    "radiusMeters": 1350000.0,
+    "pixelScale": [
+      600.0,
+      600.0,
+      0.0
+    ],
+    "tiePoint": [
+      0.0,
+      0.0,
+      0.0,
+      -4241150.082346,
+      2120575.041173,
+      0.0
+    ],
+    "sourceMetadataPage": "triton-usgs.html"
+  },
+  "material": {
+    "roughness": 1,
+    "metalness": 0,
+    "tint": "#ffffff"
+  },
+  "orientationModel": "IAU_GENERIC_APPROX",
+  "surfaceRegistration": "GRID_CONVENTION_VERIFIED_NOT_NAVIGATION",
+  "reconstructionNotes": "Voyager 2 仅测绘部分表面；未观测北部明确标记，不补造全球地貌。 蓝灰色区域为未测，未加入虚构地貌。",
+  "visualEnhancements": [
+    "未测区蓝灰色分类标识",
+    "固定观察曝光；可选补光默认关闭"
+  ],
+  "limitations": [
+    "通用 IAU PCK 姿态；历史地图与当前参考经线存在控制网误差，非导航级配准",
+    "拼图含原始入射光阴影及接缝；没有从灰度臆造凹凸",
+    "固定观察曝光，未模拟完整 Hapke 光度或真实相机辐射定标"
+  ],
+  "verifiedAt": "2026-11-01T08:39:03.146680+00:00"
+}

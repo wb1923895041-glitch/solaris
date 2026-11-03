@@ -1,0 +1,78 @@
+{
+  "chrome": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "playing": true,
+      "rate": 86400,
+      "samples": 250,
+      "meanFrameMs": 3.636399999999907,
+      "averageLoopFPS": 274.99725002750677,
+      "p50Ms": 3.599999999976717,
+      "p95Ms": 3.700000000069849,
+      "method": "continuous-playback headless rAF intervals, last 250 frames; not GPU or monitor presentation timing"
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "playing": true,
+      "rate": 86400,
+      "samples": 250,
+      "meanFrameMs": 3.636,
+      "averageLoopFPS": 275.027502750275,
+      "p50Ms": 3.6000000000931323,
+      "p95Ms": 3.700000000069849,
+      "method": "continuous-playback headless rAF intervals, last 250 frames; not GPU or monitor presentation timing"
+    },
+    {
+      "width": 3840,
+      "height": 2160,
+      "playing": true,
+      "rate": 86400,
+      "samples": 250,
+      "meanFrameMs": 3.636399999999907,
+      "averageLoopFPS": 274.99725002750677,
+      "p50Ms": 3.599999999976717,
+      "p95Ms": 3.700000000069849,
+      "method": "continuous-playback headless rAF intervals, last 250 frames; not GPU or monitor presentation timing"
+    }
+  ],
+  "edge": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "playing": true,
+      "rate": 86400,
+      "samples": 250,
+      "meanFrameMs": 3.636,
+      "averageLoopFPS": 275.027502750275,
+      "p50Ms": 3.599999999976717,
+      "p95Ms": 3.799999999930151,
+      "method": "continuous-playback headless rAF intervals, last 250 frames; not GPU or monitor presentation timing"
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "playing": true,
+      "rate": 86400,
+      "samples": 250,
+      "meanFrameMs": 3.635600000000093,
+      "averageLoopFPS": 275.05776213004026,
+      "p50Ms": 3.599999999976717,
+      "p95Ms": 3.700000000069849,
+      "method": "continuous-playback headless rAF intervals, last 250 frames; not GPU or monitor presentation timing"
+    },
+    {
+      "width": 3840,
+      "height": 2160,
+      "playing": true,
+      "rate": 86400,
+      "samples": 250,
+      "meanFrameMs": 3.636399999999907,
+      "averageLoopFPS": 274.99725002750677,
+      "p50Ms": 3.599999999976717,
+      "p95Ms": 3.799999999930151,
+      "method": "continuous-playback headless rAF intervals, last 250 frames; not GPU or monitor presentation timing"
+    }
+  ]
+}

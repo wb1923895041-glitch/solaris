@@ -1,0 +1,7 @@
+chrome B PASS 24 {
+  duration: 41.56,
+  width: 1920,
+  height: 1080,
+  decodedSeconds: 1.342592
+}
+msedge B PASS 23 null

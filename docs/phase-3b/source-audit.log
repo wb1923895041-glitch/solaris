@@ -1,0 +1,21 @@
+FETCH sbmt-terms.html https://sbmt.jhuapl.edu/Terms-and-Conditions.php
+FETCH io-usgs.html https://astrogeology.usgs.gov/search/map/io_galileo_ssi_voyager_color_merged_global_mosaic_1km
+FETCH ganymede-usgs.html https://astrogeology.usgs.gov/search/map/ganymede_voyager_galileo_ssi_color_global_mosaic_1.4km
+FETCH callisto-usgs.html https://astrogeology.usgs.gov/search/map/callisto_voyager_galileo_ssi_global_mosaic_1km
+READY io-usgs.html 29824
+FETCH iapetus-map.html https://science.nasa.gov/resource/color-map-of-iapetus/
+READY ganymede-usgs.html 12188
+FETCH rhea-map.html https://science.nasa.gov/resource/color-map-of-rhea-2014/
+READY callisto-usgs.html 12188
+FETCH triton-map.html https://science.nasa.gov/resource/map-of-triton/
+FAILED HTTPError('404 Client Error: Not Found for url: https://science.nasa.gov/resource/color-map-of-iapetus/')
+FETCH lpi-saturn.html https://www.lpi.usra.edu/icy_moons/saturn/saturn_tour/
+READY rhea-map.html 251015
+READY triton-map.html 254726
+FAILED SSLError(MaxRetryError("HTTPSConnectionPool(host='sbmt.jhuapl.edu', port=443): Max retries exceeded with url: /Terms-and-Conditions.php (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"))
+FAILED SSLError(MaxRetryError("HTTPSConnectionPool(host='www.lpi.usra.edu', port=443): Max retries exceeded with url: /icy_moons/saturn/saturn_tour/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"))
+io-usgs.html DOWNLOADS [{"text": "Sample", "url": "https://astrogeology.usgs.gov/ckan/dataset/f6924861-ce9c-490d-8a4b-7812a20f2de5/resource/a9fab679-8081-4144-9f58-45848836c8f5/download/full.jpg"}, {"text": "Download", "url": "https://planetarymaps.usgs.gov/mosaic/Io_GalileoSSI-Voyager_Global_Mosaic_ClrMerge_1km.tif"}, {"text": "thumb image", "url": "https://astrogeology.usgs.gov/ckan/dataset/f6924861-ce9c-490d-8a4b-7812a20f2de5/resource/b2432b15-096c-46c0-a421-17cac4e330b8/download/thumb.png"}, {"text": "browse image", "url": "https://astrogeology.usgs.gov/ckan/dataset/f6924861-ce9c-490d-8a4b-7812a20f2de5/resource/1fa5f9e1-ee23-4cf6-944d-3aba9440f147/download/browse.jpg"}, {"text": "full image", "url": "https://astrogeology.usgs.gov/ckan/dataset/f6924861-ce9c-490d-8a4b-7812a20f2de5/resource/a9fab679-8081-4144-9f58-45848836c8f5/download/full.jpg"}]
+ganymede-usgs.html DOWNLOADS []
+callisto-usgs.html DOWNLOADS []
+rhea-map.html DOWNLOADS [{"text": "STEM Multimedia", "url": "https://www.nasa.gov/learning-resources/search/?terms=8058%2C8059%2C8061%2C8062%2C8068"}, {"text": "STEM Multimedia", "url": "https://www.nasa.gov/learning-resources/search/?terms=8058%2C8059%2C8061%2C8062%2C8068"}, {"text": "", "url": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/p/i/a/PIA18438.jpg"}]
+triton-map.html DOWNLOADS [{"text": "STEM Multimedia", "url": "https://www.nasa.gov/learning-resources/search/?terms=8058%2C8059%2C8061%2C8062%2C8068"}, {"text": "STEM Multimedia", "url": "https://www.nasa.gov/learning-resources/search/?terms=8058%2C8059%2C8061%2C8062%2C8068"}, {"text": "", "url": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/m/mapoftriton1200w.jpg"}, {"text": "", "url": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/2/238_PIA18668-2.jpg"}]
